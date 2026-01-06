@@ -7,7 +7,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 # Development
 pnpm dev              # Start dev server with Turbopack
-
 # Build
 pnpm build            # Production build
 pnpm build:fast       # Build with increased memory (4GB)
