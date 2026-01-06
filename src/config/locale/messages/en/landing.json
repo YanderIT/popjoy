@@ -1,0 +1,98 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PopJoyLab",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PopJoyLab",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Orders",
+          "url": "/shop/orders",
+          "icon": "Package"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": false,
+    "topbanner": {
+      "text": "This website is a demo site for the PopJoyLab template. To purchase the PopJoyLab template, please visit the <a href='https://PopJoyLab.ai/pricing' class='text-orange-300' target='_blank'>PopJoyLab website</a>"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PopJoyLab",
+      "description": "Your destination for unique designer toys, art figures, and limited edition collectibles. Curated for collectors worldwide.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PopJoyLab",
+        "width": 4608,
+        "height": 3072
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@popjoylab.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  }
+}
