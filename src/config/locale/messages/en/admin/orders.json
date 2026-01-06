@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Order No",
+    "user": "User",
+    "amount": "Amount",
+    "status": "Status",
+    "shipping_carrier": "Carrier",
+    "tracking_number": "Tracking No",
+    "created_at": "Created At",
+    "shipped_at": "Shipped At",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Orders",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Orders"
+    },
+    "tabs": {
+      "all": "All",
+      "pending_shipment": "Pending Shipment",
+      "shipped": "Shipped",
+      "delivered": "Delivered"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "All",
+          "pending_payment": "Pending Payment",
+          "pending_shipment": "Pending Shipment",
+          "shipped": "Shipped",
+          "delivered": "Delivered",
+          "completed": "Completed",
+          "canceled": "Canceled",
+          "refunded": "Refunded"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Order No",
+        "placeholder": "Search order number"
+      }
+    }
+  },
+  "ship": {
+    "title": "Ship Order",
+    "description": "Enter shipping information for this order",
+    "carrier": "Shipping Carrier",
+    "carrier_placeholder": "e.g. FedEx, UPS, DHL",
+    "tracking": "Tracking Number",
+    "tracking_placeholder": "Enter tracking number",
+    "submit": "Confirm Shipment",
+    "success": "Order shipped successfully",
+    "error": "Failed to ship order"
+  }
+}

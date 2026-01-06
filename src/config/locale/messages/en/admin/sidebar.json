@@ -57,6 +57,11 @@
           "icon": "DollarSign",
           "children": [
             {
+              "title": "Orders",
+              "url": "/admin/orders",
+              "icon": "Package"
+            },
+            {
               "title": "Payments",
               "url": "/admin/payments",
               "icon": "DollarSign"

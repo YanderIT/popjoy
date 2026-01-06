@@ -65,6 +65,7 @@ const nextConfig = {
 
 export default withBundleAnalyzer(withNextIntl(withMDX(nextConfig)));
 
-if (!process.env.VERCEL) {
+// Only run Cloudflare dev init in development mode (not during build)
+if (process.env.NODE_ENV === 'development' && !process.env.VERCEL) {
   initOpenNextCloudflareForDev();
 }

@@ -1,7 +1,7 @@
-import { and, desc, eq, isNull } from 'drizzle-orm';
+import { and, count, desc, eq, isNull, like } from 'drizzle-orm';
 
 import { db } from '@/core/db';
-import { shopOrder, shopOrderItem } from '@/config/db/schema';
+import { shopOrder, shopOrderItem, user } from '@/config/db/schema';
 import { getUuid } from '@/shared/lib/hash';
 
 // Types
@@ -150,4 +150,123 @@ export async function cancelShopOrder(
     canceledAt: new Date(),
     cancelReason: reason,
   });
+}
+
+// ============================================
+// Admin Operations
+// ============================================
+
+export type ShopOrderWithUser = ShopOrder & {
+  user?: {
+    id: string;
+    name: string | null;
+    email: string;
+    image: string | null;
+  } | null;
+};
+
+export async function getShopOrders(options?: {
+  page?: number;
+  limit?: number;
+  status?: ShopOrderStatus;
+  orderNo?: string;
+  getUser?: boolean;
+}): Promise<ShopOrderWithUser[]> {
+  const page = options?.page ?? 1;
+  const limit = options?.limit ?? 30;
+  const offset = (page - 1) * limit;
+
+  const conditions = [isNull(shopOrder.deletedAt)];
+
+  if (options?.status) {
+    conditions.push(eq(shopOrder.status, options.status));
+  }
+
+  if (options?.orderNo) {
+    conditions.push(like(shopOrder.orderNo, `%${options.orderNo}%`));
+  }
+
+  if (options?.getUser) {
+    const results = await db()
+      .select({
+        order: shopOrder,
+        user: {
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          image: user.image,
+        },
+      })
+      .from(shopOrder)
+      .leftJoin(user, eq(shopOrder.userId, user.id))
+      .where(and(...conditions))
+      .orderBy(desc(shopOrder.createdAt))
+      .limit(limit)
+      .offset(offset);
+
+    return results.map((r: { order: ShopOrder; user: ShopOrderWithUser['user'] }) => ({
+      ...r.order,
+      user: r.user,
+    }));
+  }
+
+  return db()
+    .select()
+    .from(shopOrder)
+    .where(and(...conditions))
+    .orderBy(desc(shopOrder.createdAt))
+    .limit(limit)
+    .offset(offset);
+}
+
+export async function getShopOrdersCount(options?: {
+  status?: ShopOrderStatus;
+  orderNo?: string;
+}): Promise<number> {
+  const conditions = [isNull(shopOrder.deletedAt)];
+
+  if (options?.status) {
+    conditions.push(eq(shopOrder.status, options.status));
+  }
+
+  if (options?.orderNo) {
+    conditions.push(like(shopOrder.orderNo, `%${options.orderNo}%`));
+  }
+
+  const [result] = await db()
+    .select({ count: count() })
+    .from(shopOrder)
+    .where(and(...conditions));
+
+  return result?.count ?? 0;
+}
+
+export async function shipOrder(
+  orderNo: string,
+  data: {
+    shippingCarrier: string;
+    trackingNumber: string;
+  }
+): Promise<ShopOrder> {
+  return updateShopOrderByOrderNo(orderNo, {
+    shippingCarrier: data.shippingCarrier,
+    trackingNumber: data.trackingNumber,
+    status: ShopOrderStatus.SHIPPED,
+    shippedAt: new Date(),
+  });
+}
+
+export async function getShopOrdersByUserIdWithItems(
+  userId: string
+): Promise<ShopOrderWithItems[]> {
+  const orders = await getShopOrdersByUserId(userId);
+
+  const ordersWithItems = await Promise.all(
+    orders.map(async (order) => {
+      const items = await getShopOrderItems(order.id);
+      return { ...order, items };
+    })
+  );
+
+  return ordersWithItems;
 }
