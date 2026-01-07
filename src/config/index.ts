@@ -52,4 +52,9 @@ export const envConfigs: ConfigMap = {
   version: packageJson.version,
   locale_detect_enabled:
     process.env.NEXT_PUBLIC_LOCALE_DETECT_ENABLED ?? 'false',
+  // AB站支付配置
+  site_mode: process.env.SITE_MODE ?? 'main', // 'main' | 'payment'
+  main_site_url: process.env.MAIN_SITE_URL ?? '',
+  payment_site_url: process.env.PAYMENT_SITE_URL ?? '',
+  payment_token_secret: process.env.PAYMENT_TOKEN_SECRET ?? '',
 };

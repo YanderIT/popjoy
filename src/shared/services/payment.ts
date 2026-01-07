@@ -45,8 +45,12 @@ export function getPaymentServiceWithConfigs(configs: Configs) {
 
   const defaultProvider = configs.default_payment_provider;
 
-  // add stripe provider
-  if (configs.stripe_enabled === 'true') {
+  // 获取站点模式：'main' (A站) 或 'payment' (B站)
+  // A站不加载 Stripe，只有 B站才加载
+  const siteMode = process.env.SITE_MODE || 'main';
+
+  // add stripe provider - 只在 payment 站点加载
+  if (configs.stripe_enabled === 'true' && siteMode === 'payment') {
     let allowedPaymentMethods = configs.stripe_payment_methods || [];
     if (typeof allowedPaymentMethods === 'string') {
       try {

@@ -1,4 +1,10 @@
-import { PaymentOrder, PaymentPrice, PaymentType } from '@/extensions/payment/types';
+import { envConfigs } from '@/config';
+import {
+  PaymentOrder,
+  PaymentPrice,
+  PaymentType,
+} from '@/extensions/payment/types';
+import { generatePaymentToken } from '@/shared/lib/payment-token';
 import { respData, respErr } from '@/shared/lib/resp';
 import { getAllConfigs } from '@/shared/models/config';
 import { getUserInfo } from '@/shared/models/user';
@@ -80,7 +86,28 @@ export async function POST(req: Request) {
       cancelUrl: `${callbackBaseUrl}/checkout?order_no=${shopOrder.orderNo}`,
     };
 
-    // Create Stripe checkout session
+    // AB站跳转逻辑：A站跳转到 B站处理 Stripe 支付
+    const siteMode = envConfigs.site_mode;
+    const paymentSiteUrl = envConfigs.payment_site_url;
+
+    if (siteMode === 'main' && paymentSiteUrl) {
+      // 生成 token 并返回 B站 URL
+      // B站会根据订单信息重新构建 checkoutOrder
+      const paymentToken = await generatePaymentToken(
+        shopOrder.id,
+        shopOrder.orderNo
+      );
+      const redirectUrl = `${paymentSiteUrl}/pay?token=${paymentToken}&type=shop`;
+
+      return respData({
+        checkoutUrl: redirectUrl,
+        orderNo: shopOrder.orderNo,
+        provider: 'stripe',
+        redirectToPaymentSite: true,
+      });
+    }
+
+    // Create Stripe checkout session (B站或非 AB 站模式)
     const result = await paymentProvider.createPayment({ order: checkoutOrder });
 
     // Update shop order with payment info

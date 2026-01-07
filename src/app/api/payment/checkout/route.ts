@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
+import { envConfigs } from '@/config';
 import {
   PaymentInterval,
   PaymentOrder,
@@ -7,6 +8,7 @@ import {
   PaymentType,
 } from '@/extensions/payment/types';
 import { getSnowId, getUuid } from '@/shared/lib/hash';
+import { generatePaymentToken } from '@/shared/lib/payment-token';
 import { respData, respErr } from '@/shared/lib/resp';
 import { getAllConfigs } from '@/shared/models/config';
 import {
@@ -273,8 +275,29 @@ export async function POST(req: Request) {
     // create order
     await createOrder(order);
 
+    // AB站跳转逻辑：A站选择 Stripe 时，跳转到 B站处理支付
+    const siteMode = envConfigs.site_mode;
+    const paymentSiteUrl = envConfigs.payment_site_url;
+
+    if (
+      siteMode === 'main' &&
+      paymentProviderName === 'stripe' &&
+      paymentSiteUrl
+    ) {
+      // A站：生成 token，返回 B站跳转 URL
+      const paymentToken = await generatePaymentToken(order.id, orderNo);
+      const redirectUrl = `${paymentSiteUrl}/pay?token=${paymentToken}`;
+
+      return respData({
+        checkoutUrl: redirectUrl,
+        orderNo: orderNo,
+        provider: 'stripe',
+        redirectToPaymentSite: true,
+      });
+    }
+
     try {
-      // create payment
+      // create payment (B站或非 Stripe 支付)
       const result = await paymentProvider.createPayment({
         order: checkoutOrder,
       });

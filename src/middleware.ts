@@ -6,8 +6,30 @@ import { routing } from '@/core/i18n/config';
 
 const intlMiddleware = createIntlMiddleware(routing);
 
+// AB站模式
+const siteMode = process.env.SITE_MODE || 'main';
+const mainSiteUrl = process.env.MAIN_SITE_URL || '';
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  // B站 (payment) 路由限制
+  // 只允许: /pay, /api/payment/*, /api/shop/callback
+  if (siteMode === 'payment') {
+    const isAllowedRoute =
+      pathname === '/pay' ||
+      pathname.startsWith('/api/payment/') ||
+      pathname.startsWith('/api/shop/callback');
+
+    if (!isAllowedRoute) {
+      // 重定向到 A站
+      if (mainSiteUrl) {
+        return NextResponse.redirect(new URL(pathname, mainSiteUrl));
+      }
+      // 如果没配置 A站 URL，返回 404
+      return new NextResponse('Not Found', { status: 404 });
+    }
+  }
 
   // Handle internationalization first
   const intlResponse = intlMiddleware(request);
