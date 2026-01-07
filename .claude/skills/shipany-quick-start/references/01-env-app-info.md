@@ -2,7 +2,7 @@
 
 ## Goal
 
-Make app URL/name/description/logo consistent via env files (PopJoyLab follows env → `src/config/index.ts` → `envConfigs`).
+Make app URL/name/description/logo consistent via env files (PoptoyStudio follows env → `src/config/index.ts` → `envConfigs`).
 
 ## Files
 

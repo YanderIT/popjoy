@@ -1,17 +1,17 @@
 {
-  "name": "PopJoyLab-template-two",
+  "name": "PoptoyStudio-template-two",
   "version": "1.8.0",
   "private": true,
-  "author": "PopJoyLab.ai",
-  "homepage": "https://PopJoyLab.ai",
+  "author": "PoptoyStudio.ai",
+  "homepage": "https://PoptoyStudio.ai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PopJoyLabai/PopJoyLab-template-two"
+    "url": "https://github.com/PoptoyStudioai/PoptoyStudio-template-two"
   },
   "keywords": [
-    "PopJoyLab",
-    "PopJoyLab-two",
-    "PopJoyLab-template-two",
+    "PoptoyStudio",
+    "PoptoyStudio-two",
+    "PoptoyStudio-template-two",
     "ai-saas-boilerplate",
     "ai-saas-template",
     "ai-saas-framework",

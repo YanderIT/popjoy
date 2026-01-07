@@ -14,8 +14,8 @@ Remove placeholders and make contact/domain consistent.
 ## Replacements
 
 - `YourAppName` → **projectName**
-- `popjoylab.com` → **domain**
-- `support@popjoylab.com` → **socialLinks.supportEmail** (or `support@{domain}`)
+- `poptoystudio.com` → **domain**
+- `support@poptoystudio.com` → **socialLinks.supportEmail** (or `support@{domain}`)
 
 ## Constraints
 

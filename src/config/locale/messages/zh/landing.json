@@ -2,10 +2,10 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "PopJoyLab",
+      "title": "PoptoyStudio",
       "logo": {
         "src": "/logo.png",
-        "alt": "PopJoyLab",
+        "alt": "PoptoyStudio",
         "width": 100,
         "height": 100
       },
@@ -102,17 +102,17 @@
     "show_theme": true,
     "show_locale": true,
     "topbanner": {
-      "text": "此网站是 PopJoyLab 模板的演示站点，购买 PopJoyLab 模板，请访问 <a href='https://PopJoyLab.ai/zh/pricing' class='text-orange-300' target='_blank'>PopJoyLab 官网</a>"
+      "text": "此网站是 PoptoyStudio 模板的演示站点，购买 PoptoyStudio 模板，请访问 <a href='https://PoptoyStudio.ai/zh/pricing' class='text-orange-300' target='_blank'>PoptoyStudio 官网</a>"
     }
   },
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "PopJoyLab",
-      "description": "PopJoyLab 是专为 AI SaaS 创业项目打造的 NextJS 模板。丰富模板与组件，极速交付你的产品。",
+      "title": "PoptoyStudio",
+      "description": "PoptoyStudio 是专为 AI SaaS 创业项目打造的 NextJS 模板。丰富模板与组件，极速交付你的产品。",
       "logo": {
         "src": "/logo.png",
-        "alt": "PopJoyLab",
+        "alt": "PoptoyStudio",
         "width": 100,
         "height": 100
       },
@@ -164,8 +164,8 @@
           "title": "合作伙伴",
           "children": [
             {
-              "title": "PopJoyLab",
-              "url": "https://PopJoyLab.ai",
+              "title": "PoptoyStudio",
+              "url": "https://PoptoyStudio.ai",
               "target": "_blank"
             },
             {
@@ -205,7 +205,7 @@
         {
           "title": "邮箱",
           "icon": "Mail",
-          "url": "mailto:support@popjoylab.com",
+          "url": "mailto:support@poptoystudio.com",
           "target": "_self"
         }
       ]

@@ -1,4 +1,4 @@
-# PopJoyLab Page Builder — Guide (v1)
+# PoptoyStudio Page Builder — Guide (v1)
 
 ## Goal
 
@@ -64,7 +64,7 @@ Each section chooses a block by `section.block || section.id || sectionKey`.
 
 Use the bundled script:
 
-- `.claude/skills/PopJoyLab-page-builder/scripts/create_dynamic_page.py`
+- `.claude/skills/PoptoyStudio-page-builder/scripts/create_dynamic_page.py`
 
 It will:
 

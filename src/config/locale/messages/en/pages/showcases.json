@@ -1,14 +1,14 @@
 {
   "metadata": {
     "title": "Showcases",
-    "description": "Awesome projects built with PopJoyLab"
+    "description": "Awesome projects built with PoptoyStudio"
   },
   "page": {
     "title": "Showcases",
     "sections": {
       "showcases": {
         "id": "showcases",
-        "title": "AI SaaS Startups built with PopJoyLab",
+        "title": "AI SaaS Startups built with PoptoyStudio",
         "description": "Easy to use and fast to ship.",
         "groups": [
           {

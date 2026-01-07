@@ -1,9 +1,9 @@
 ---
-name: PopJoyLab-quick-start
-description: Automate first-pass customization of a new PopJoyLab (PopJoyLab) project from a short project brief (app name, domain/app URL, product description/features, reference links, and branding preferences). Use when the user says they are starting a new project.
+name: PoptoyStudio-quick-start
+description: Automate first-pass customization of a new PoptoyStudio (PoptoyStudio) project from a short project brief (app name, domain/app URL, product description/features, reference links, and branding preferences). Use when the user says they are starting a new project.
 ---
 
-# PopJoyLab Quick Start (Project Bootstrap)
+# PoptoyStudio Quick Start (Project Bootstrap)
 
 This skill is intentionally split into small reference modules. Load only the module(s) you need.
 
@@ -29,7 +29,7 @@ Normalize the user’s request first:
 
 - `references/00-project-brief.md`
 
-## Execution order (PopJoyLab)
+## Execution order (PoptoyStudio)
 
 1. App basics (env-driven): `references/01-env-app-info.md`
 2. SEO metadata: `references/02-seo-metadata.md`

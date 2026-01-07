@@ -10,7 +10,7 @@ Ensure sitemap points to the correct domain and only includes real pages.
 
 ## Actions
 
-- Replace `https://popjoylab.com` with **appUrl**.
+- Replace `https://poptoystudio.com` with **appUrl**.
 - Ensure URLs match enabled pages (commonly `/`, `/blog`, `/showcases`).
 - Update `lastmod` to today for a first bootstrap.
 

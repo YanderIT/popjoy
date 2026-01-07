@@ -1,13 +1,13 @@
 ---
-name: PopJoyLab-page-builder
+name: PoptoyStudio-page-builder
 description: Create new dynamic pages from a short spec (keywords, route/path, reference content).
 ---
 
-# PopJoyLab Page Builder (Dynamic Pages)
+# PoptoyStudio Page Builder (Dynamic Pages)
 
-This skill creates **new pages** using PopJoyLab’s **dynamic page builder** approach: a page is rendered from a JSON file (per-locale), and activated by registering that JSON path in `localeMessagesPaths`.
+This skill creates **new pages** using PoptoyStudio’s **dynamic page builder** approach: a page is rendered from a JSON file (per-locale), and activated by registering that JSON path in `localeMessagesPaths`.
 
-This skill is intentionally **much simpler** than `PopJoyLab-quick-start`: it only creates new dynamic pages.
+This skill is intentionally **much simpler** than `PoptoyStudio-quick-start`: it only creates new dynamic pages.
 
 ## v1 edit scope (hard limit)
 

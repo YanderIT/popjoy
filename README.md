@@ -1,19 +1,19 @@
-# PopJoyLab Template Two
+# PoptoyStudio Template Two
 
 ## Getting Started
 
-read [PopJoyLab Document](https://PopJoyLab.ai/docs/quick-start) to start your AI SaaS project.
+read [PoptoyStudio Document](https://PoptoyStudio.ai/docs/quick-start) to start your AI SaaS project.
 
 ## Buy Templates
 
-check [PopJoyLab Templates](https://PopJoyLab.ai/templates) to buy Business Templates.
+check [PoptoyStudio Templates](https://PoptoyStudio.ai/templates) to buy Business Templates.
 
 ## Feedback
 
-submit your feedbacks on [Github Issues](https://github.com/PopJoyLabai/PopJoyLab-template-two/issues)
+submit your feedbacks on [Github Issues](https://github.com/PoptoyStudioai/PoptoyStudio-template-two/issues)
 
 ## LICENSE
 
-!!! Please do not publicly release PopJoyLab's Code. Illegal use will be prosecuted
+!!! Please do not publicly release PoptoyStudio's Code. Illegal use will be prosecuted
 
-[PopJoyLab LICENSE](./LICENSE)
+[PoptoyStudio LICENSE](./LICENSE)

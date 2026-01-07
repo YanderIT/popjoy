@@ -1,4 +1,4 @@
-# Minimal checklist (PopJoyLab)
+# Minimal checklist (PoptoyStudio)
 
 Use this as the default “v1 bootstrap” scope.
 

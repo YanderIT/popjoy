@@ -210,14 +210,14 @@ export async function getSettingGroups() {
       name: 'affonso',
       title: t('groups.affonso'),
       description:
-        'custom your <a href="https://affonso.io?atp=PopJoyLab" class="text-primary" target="_blank">Affonso</a> settings',
+        'custom your <a href="https://affonso.io?atp=PoptoyStudio" class="text-primary" target="_blank">Affonso</a> settings',
       tab: 'affiliate',
     },
     {
       name: 'promotekit',
       title: t('groups.promotekit'),
       description:
-        'custom your <a href="https://www.promotekit.com?via=PopJoyLab" class="text-primary" target="_blank">PromoteKit</a> settings',
+        'custom your <a href="https://www.promotekit.com?via=PoptoyStudio" class="text-primary" target="_blank">PromoteKit</a> settings',
       tab: 'affiliate',
     },
     {
@@ -243,7 +243,7 @@ export async function getSettings() {
     {
       name: 'app_name',
       title: 'App Name',
-      placeholder: 'PopJoyLab',
+      placeholder: 'PoptoyStudio',
       type: 'text',
       group: 'appinfo',
       tab: 'general',
@@ -252,7 +252,7 @@ export async function getSettings() {
       name: 'app_description',
       title: 'App Description',
       placeholder:
-        'PopJoyLab is a NextJS boilerplate for building AI SaaS startups. ',
+        'PoptoyStudio is a NextJS boilerplate for building AI SaaS startups. ',
       type: 'textarea',
       group: 'appinfo',
       tab: 'general',
@@ -618,7 +618,7 @@ export async function getSettings() {
       name: 'plausible_domain',
       title: 'Plausible Domain',
       type: 'text',
-      placeholder: 'PopJoyLab.site',
+      placeholder: 'PoptoyStudio.site',
       group: 'plausible',
       tab: 'analytics',
     },
@@ -658,7 +658,7 @@ export async function getSettings() {
       name: 'resend_sender_email',
       title: 'Resend Sender Email',
       type: 'text',
-      placeholder: 'PopJoyLab <no-reply@mail.PopJoyLab.site>',
+      placeholder: 'PoptoyStudio <no-reply@mail.PoptoyStudio.site>',
       group: 'resend',
       tab: 'email',
     },

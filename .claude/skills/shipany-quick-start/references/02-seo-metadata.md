@@ -25,4 +25,4 @@ Update:
 
 ## Quick check
 
-- Ensure there are no leftover `PopJoyLab` / template keywords.
+- Ensure there are no leftover `PoptoyStudio` / template keywords.

@@ -36,7 +36,7 @@ pnpm cf:preview       # Build and preview locally
 
 ## Architecture Overview
 
-This is a PopJoyLab Template Two project - an AI SaaS boilerplate built with Next.js 15 (App Router).
+This is a PoptoyStudio Template Two project - an AI SaaS boilerplate built with Next.js 15 (App Router).
 
 ### Directory Structure
 
@@ -108,5 +108,5 @@ Always test queries against your target `DATABASE_PROVIDER`.
 
 ### Skills Available
 
-- `/PopJoyLab-quick-start` - Bootstrap new project from brief
-- `/PopJoyLab-page-builder` - Create new dynamic pages from spec
+- `/PoptoyStudio-quick-start` - Bootstrap new project from brief
+- `/PoptoyStudio-page-builder` - Create new dynamic pages from spec

@@ -13,7 +13,7 @@ Update landing page content + navigation for the new product, while keeping the 
   - `src/config/locale/messages/en/landing.json`
   - `src/config/locale/messages/zh/landing.json`
 
-## Default scope (PopJoyLab Quick Start)
+## Default scope (PoptoyStudio Quick Start)
 
 For the first version, default to these landing sections (in this order):
 
@@ -71,8 +71,8 @@ In both locales’ `src/config/locale/messages/{locale}/landing.json`:
 Replace placeholders:
 
 - `your-app-name` → repo/org handle if known, otherwise remove the link.
-- `popjoylab.com` → **domain** / **appUrl**
-- `support@popjoylab.com` → **socialLinks.supportEmail**
+- `poptoystudio.com` → **domain** / **appUrl**
+- `support@poptoystudio.com` → **socialLinks.supportEmail**
 
 ## Chinese copy guidance
 

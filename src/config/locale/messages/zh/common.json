@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "PopJoyLab 模板二",
-    "description": "PopJoyLab 是用于构建 AI SaaS 创业项目的 NextJS 脚手架。提供丰富模板和组件，助您快速上线产品。",
-    "keywords": "PopJoyLab, PopJoyLab-boilerplate, PopJoyLab-template-two-demo"
+    "title": "PoptoyStudio 模板二",
+    "description": "PoptoyStudio 是用于构建 AI SaaS 创业项目的 NextJS 脚手架。提供丰富模板和组件，助您快速上线产品。",
+    "keywords": "PoptoyStudio, PoptoyStudio-boilerplate, PoptoyStudio-template-two-demo"
   },
   "sign": {
     "sign_in_title": "登录",
