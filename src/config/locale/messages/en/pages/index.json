@@ -27,16 +27,9 @@
           {
             "title": "Shop Now",
             "icon": "Zap",
-            "url": "/shop",
+            "url": "#products",
             "target": "_self",
             "variant": "default"
-          },
-          {
-            "title": "View Collection",
-            "icon": "BookOpenText",
-            "url": "/#products",
-            "target": "_self",
-            "variant": "outline"
           }
         ],
         "show_avatars": false,
@@ -377,16 +370,9 @@
         "buttons": [
           {
             "title": "Browse All",
-            "url": "/shop",
+            "url": "#products",
             "target": "_self",
             "icon": "Zap"
-          },
-          {
-            "title": "New Arrivals",
-            "url": "/shop?sort=newest",
-            "target": "_self",
-            "variant": "outline",
-            "icon": "BookOpenText"
           }
         ],
         "className": "bg-muted"
