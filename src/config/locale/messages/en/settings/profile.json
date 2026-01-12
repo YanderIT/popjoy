@@ -1,8 +1,7 @@
 {
   "fields": {
     "email": "Email",
-    "name": "Name",
-    "avatar": "Avatar"
+    "name": "Name"
   },
   "edit": {
     "title": "Profile",

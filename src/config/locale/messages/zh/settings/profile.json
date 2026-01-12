@@ -1,8 +1,7 @@
 {
   "fields": {
     "email": "邮箱",
-    "name": "名称",
-    "avatar": "头像"
+    "name": "名称"
   },
   "edit": {
     "title": "个人资料",

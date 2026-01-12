@@ -53,14 +53,14 @@
           ]
         },
         {
+          "title": "订单",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
           "title": "支付与积分",
           "icon": "DollarSign",
           "children": [
-            {
-              "title": "订单",
-              "url": "/admin/orders",
-              "icon": "Package"
-            },
             {
               "title": "支付",
               "url": "/admin/payments",
