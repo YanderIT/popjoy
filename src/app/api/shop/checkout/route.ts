@@ -48,7 +48,28 @@ export async function POST(req: Request) {
     // Get configs
     const configs = await getAllConfigs();
 
-    // Get payment service (Stripe)
+    // AB站跳转逻辑：A站跳转到 B站处理 Stripe 支付（必须在获取 provider 之前检查）
+    const siteMode = envConfigs.site_mode;
+    const paymentSiteUrl = envConfigs.payment_site_url;
+
+    if (siteMode === 'main' && paymentSiteUrl) {
+      // 生成 token 并返回 B站 URL
+      // B站会根据订单信息重新构建 checkoutOrder
+      const paymentToken = await generatePaymentToken(
+        shopOrder.id,
+        shopOrder.orderNo
+      );
+      const redirectUrl = `${paymentSiteUrl}/pay?token=${paymentToken}&type=shop`;
+
+      return respData({
+        checkoutUrl: redirectUrl,
+        orderNo: shopOrder.orderNo,
+        provider: 'stripe',
+        redirectToPaymentSite: true,
+      });
+    }
+
+    // Get payment service (Stripe) - 只在 payment 站点或非 AB 站模式下执行
     const paymentService = await getPaymentService();
     const paymentProvider = paymentService.getProvider('stripe');
     if (!paymentProvider) {
@@ -85,27 +106,6 @@ export async function POST(req: Request) {
       successUrl: `${callbackBaseUrl}/shop/order/${shopOrder.orderNo}?status=success`,
       cancelUrl: `${callbackBaseUrl}/checkout?order_no=${shopOrder.orderNo}`,
     };
-
-    // AB站跳转逻辑：A站跳转到 B站处理 Stripe 支付
-    const siteMode = envConfigs.site_mode;
-    const paymentSiteUrl = envConfigs.payment_site_url;
-
-    if (siteMode === 'main' && paymentSiteUrl) {
-      // 生成 token 并返回 B站 URL
-      // B站会根据订单信息重新构建 checkoutOrder
-      const paymentToken = await generatePaymentToken(
-        shopOrder.id,
-        shopOrder.orderNo
-      );
-      const redirectUrl = `${paymentSiteUrl}/pay?token=${paymentToken}&type=shop`;
-
-      return respData({
-        checkoutUrl: redirectUrl,
-        orderNo: shopOrder.orderNo,
-        provider: 'stripe',
-        redirectToPaymentSite: true,
-      });
-    }
 
     // Create Stripe checkout session (B站或非 AB 站模式)
     const result = await paymentProvider.createPayment({ order: checkoutOrder });
