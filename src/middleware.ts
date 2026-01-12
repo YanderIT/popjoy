@@ -29,6 +29,9 @@ export async function middleware(request: NextRequest) {
       // 如果没配置 A站 URL，返回 404
       return new NextResponse('Not Found', { status: 404 });
     }
+
+    // B站允许的路由直接放行，不经过 intlMiddleware
+    return NextResponse.next();
   }
 
   // Handle internationalization first
