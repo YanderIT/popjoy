@@ -223,6 +223,7 @@
       ]
     },
     "show_theme": true,
-    "show_locale": true
+    "show_locale": true,
+    "show_built_with": false
   }
 }

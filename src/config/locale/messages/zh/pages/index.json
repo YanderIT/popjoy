@@ -18,12 +18,7 @@
         "title": "一小时快速上线你的 AI 创业项目",
         "highlight_text": "一小时",
         "description": "PoptoyStudio 是用于构建 AI SaaS 创业项目的 NextJS 项目模板。<br/>集成常用功能，快速上线你的产品。",
-        "announcement": {
-          "badge": "全新",
-          "title": "🎉 PoptoyStudio 模板二已发布",
-          "url": "/pricing"
-        },
-        "tip": "🎁 前 1000 名用户特价优惠",
+                "tip": "🎁 前 1000 名用户特价优惠",
         "buttons": [
           {
             "title": "立即开始",

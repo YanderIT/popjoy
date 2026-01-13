@@ -17,12 +17,7 @@
         "title": "Discover Unique Designer Toys & Collectibles",
         "highlight_text": "Unique",
         "description": "Curated collection of limited edition art toys, designer figures, and exclusive collectibles.<br/>Find your next treasure.",
-        "announcement": {
-          "badge": "New",
-          "title": "New Arrivals",
-          "url": "/shop"
-        },
-        "tip": "Limited quantities - Once they're gone, they're gone",
+                "tip": "Limited quantities - Once they're gone, they're gone",
         "buttons": [
           {
             "title": "Shop Now",

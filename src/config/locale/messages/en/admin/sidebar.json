@@ -58,6 +58,11 @@
           "icon": "Package"
         },
         {
+          "title": "Products",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
           "title": "Payments & Credits",
           "icon": "DollarSign",
           "children": [
@@ -87,11 +92,6 @@
         "title": "Settings",
         "url": "/admin/settings/general",
         "icon": "Settings"
-      },
-      {
-        "title": "API Keys",
-        "url": "/admin/apikeys",
-        "icon": "Key"
       }
     ]
   },

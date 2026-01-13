@@ -93,6 +93,7 @@
       ]
     },
     "show_theme": true,
-    "show_locale": false
+    "show_locale": false,
+    "show_built_with": false
   }
 }

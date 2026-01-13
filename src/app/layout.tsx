@@ -43,9 +43,6 @@ export default async function RootLayout({
   const locale = await getLocale();
   setRequestLocale(locale);
 
-  const isProduction = process.env.NODE_ENV === 'production';
-  const isDebug = process.env.NEXT_PUBLIC_DEBUG === 'true';
-
   // app url
   const appUrl = envConfigs.app_url || '';
 
@@ -69,7 +66,8 @@ export default async function RootLayout({
   let customerServiceHeadScripts = null;
   let customerServiceBodyScripts = null;
 
-  if (isProduction || isDebug) {
+  // load customer service in all environments
+  {
     const configs = await getAllConfigs();
 
     const [adsService, analyticsService, affiliateService, customerService] =

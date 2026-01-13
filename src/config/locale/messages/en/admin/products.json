@@ -1,0 +1,97 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "description": "Description",
+    "image": "Image",
+    "status": "Status",
+    "sort": "Sort",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "sku": "SKU Code",
+    "attributes": "Attributes",
+    "price": "Price",
+    "original_price": "Original Price",
+    "cost_price": "Cost Price",
+    "stock": "Stock"
+  },
+  "status_options": {
+    "draft": "Draft",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "list": {
+    "title": "Products",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Products"
+    },
+    "buttons": {
+      "add": "Add Product",
+      "edit": "Edit",
+      "delete": "Delete",
+      "skus": "Manage SKUs"
+    }
+  },
+  "add": {
+    "title": "Add Product",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Products",
+      "add": "Add"
+    },
+    "buttons": {
+      "submit": "Add Product"
+    }
+  },
+  "edit": {
+    "title": "Edit Product",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Products",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Save Changes"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKUs",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Products",
+        "skus": "SKUs"
+      },
+      "buttons": {
+        "add": "Add SKU",
+        "edit": "Edit",
+        "delete": "Delete"
+      }
+    },
+    "add": {
+      "title": "Add SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Products",
+        "skus": "SKUs",
+        "add": "Add"
+      },
+      "buttons": {
+        "submit": "Add SKU"
+      }
+    },
+    "edit": {
+      "title": "Edit SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Products",
+        "skus": "SKUs",
+        "edit": "Edit"
+      },
+      "buttons": {
+        "submit": "Save Changes"
+      }
+    }
+  }
+}

@@ -57,6 +57,23 @@ export async function getProducts({
   return result;
 }
 
+export async function getProductsCount({
+  status,
+}: {
+  status?: ProductStatus;
+} = {}): Promise<number> {
+  const [result] = await db()
+    .select({ count: count() })
+    .from(product)
+    .where(
+      and(
+        status ? eq(product.status, status) : undefined,
+        isNull(product.deletedAt)
+      )
+    );
+  return result?.count || 0;
+}
+
 export async function getActiveProducts(limit = 30): Promise<Product[]> {
   const result = await db()
     .select()
@@ -130,6 +147,31 @@ export async function getProductSkus(productId: string): Promise<ProductSku[]> {
       )
     )
     .orderBy(desc(productSku.sort));
+  return result;
+}
+
+export async function getAllProductSkus(productId: string): Promise<ProductSku[]> {
+  const result = await db()
+    .select()
+    .from(productSku)
+    .where(eq(productSku.productId, productId))
+    .orderBy(desc(productSku.sort));
+  return result;
+}
+
+export async function getProductSkusCount(productId: string): Promise<number> {
+  const [result] = await db()
+    .select({ count: count() })
+    .from(productSku)
+    .where(eq(productSku.productId, productId));
+  return result?.count || 0;
+}
+
+export async function deleteProductSku(id: string) {
+  const [result] = await db()
+    .delete(productSku)
+    .where(eq(productSku.id, id))
+    .returning();
   return result;
 }
 

@@ -28,6 +28,11 @@ export const PERMISSIONS = {
   CATEGORIES_WRITE: 'admin.categories.write',
   CATEGORIES_DELETE: 'admin.categories.delete',
 
+  // Products
+  PRODUCTS_READ: 'admin.products.read',
+  PRODUCTS_WRITE: 'admin.products.write',
+  PRODUCTS_DELETE: 'admin.products.delete',
+
   // Payments
   PAYMENTS_READ: 'admin.payments.read',
 
@@ -37,11 +42,6 @@ export const PERMISSIONS = {
   // Credits
   CREDITS_READ: 'admin.credits.read',
   CREDITS_WRITE: 'admin.credits.write',
-
-  // API Keys
-  APIKEYS_READ: 'admin.apikeys.read',
-  APIKEYS_WRITE: 'admin.apikeys.write',
-  APIKEYS_DELETE: 'admin.apikeys.delete',
 
   // Settings
   SETTINGS_READ: 'admin.settings.read',

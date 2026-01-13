@@ -1,0 +1,97 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "商品名称",
+    "description": "商品描述",
+    "image": "商品图片",
+    "status": "状态",
+    "sort": "排序",
+    "created_at": "创建时间",
+    "updated_at": "更新时间",
+    "sku": "SKU编码",
+    "attributes": "属性",
+    "price": "售价",
+    "original_price": "原价",
+    "cost_price": "成本价",
+    "stock": "库存"
+  },
+  "status_options": {
+    "draft": "草稿",
+    "active": "上架",
+    "inactive": "下架"
+  },
+  "list": {
+    "title": "商品管理",
+    "crumbs": {
+      "admin": "管理后台",
+      "products": "商品管理"
+    },
+    "buttons": {
+      "add": "添加商品",
+      "edit": "编辑",
+      "delete": "删除",
+      "skus": "管理SKU"
+    }
+  },
+  "add": {
+    "title": "添加商品",
+    "crumbs": {
+      "admin": "管理后台",
+      "products": "商品管理",
+      "add": "添加"
+    },
+    "buttons": {
+      "submit": "添加商品"
+    }
+  },
+  "edit": {
+    "title": "编辑商品",
+    "crumbs": {
+      "admin": "管理后台",
+      "products": "商品管理",
+      "edit": "编辑"
+    },
+    "buttons": {
+      "submit": "保存修改"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU管理",
+      "crumbs": {
+        "admin": "管理后台",
+        "products": "商品管理",
+        "skus": "SKU管理"
+      },
+      "buttons": {
+        "add": "添加SKU",
+        "edit": "编辑",
+        "delete": "删除"
+      }
+    },
+    "add": {
+      "title": "添加SKU",
+      "crumbs": {
+        "admin": "管理后台",
+        "products": "商品管理",
+        "skus": "SKU管理",
+        "add": "添加"
+      },
+      "buttons": {
+        "submit": "添加SKU"
+      }
+    },
+    "edit": {
+      "title": "编辑SKU",
+      "crumbs": {
+        "admin": "管理后台",
+        "products": "商品管理",
+        "skus": "SKU管理",
+        "edit": "编辑"
+      },
+      "buttons": {
+        "submit": "保存修改"
+      }
+    }
+  }
+}

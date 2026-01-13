@@ -58,6 +58,11 @@
           "icon": "Package"
         },
         {
+          "title": "商品管理",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
           "title": "支付与积分",
           "icon": "DollarSign",
           "children": [
@@ -87,11 +92,6 @@
         "title": "设置",
         "url": "/admin/settings/general",
         "icon": "Settings"
-      },
-      {
-        "title": "API密钥",
-        "url": "/admin/apikeys",
-        "icon": "Key"
       }
     ]
   },
