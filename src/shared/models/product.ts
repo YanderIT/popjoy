@@ -34,10 +34,12 @@ export async function createProduct(newProduct: NewProduct) {
 
 export async function getProducts({
   status,
+  categoryId,
   page = 1,
   limit = 30,
 }: {
   status?: ProductStatus;
+  categoryId?: string;
   page?: number;
   limit?: number;
 } = {}): Promise<Product[]> {
@@ -47,6 +49,7 @@ export async function getProducts({
     .where(
       and(
         status ? eq(product.status, status) : undefined,
+        categoryId ? eq(product.categoryId, categoryId) : undefined,
         isNull(product.deletedAt)
       )
     )
@@ -59,8 +62,10 @@ export async function getProducts({
 
 export async function getProductsCount({
   status,
+  categoryId,
 }: {
   status?: ProductStatus;
+  categoryId?: string;
 } = {}): Promise<number> {
   const [result] = await db()
     .select({ count: count() })
@@ -68,6 +73,7 @@ export async function getProductsCount({
     .where(
       and(
         status ? eq(product.status, status) : undefined,
+        categoryId ? eq(product.categoryId, categoryId) : undefined,
         isNull(product.deletedAt)
       )
     );
@@ -101,6 +107,38 @@ export async function getActiveProductsWithSkus(limit = 30): Promise<ProductWith
   );
 
   return productsWithSkus;
+}
+
+export async function getProductsWithSkus({
+  status = ProductStatus.ACTIVE,
+  categoryId,
+  page = 1,
+  limit = 30,
+}: {
+  status?: ProductStatus;
+  categoryId?: string;
+  page?: number;
+  limit?: number;
+} = {}): Promise<{ products: ProductWithSkus[]; total: number }> {
+  const [products, total] = await Promise.all([
+    getProducts({ status, categoryId, page, limit }),
+    getProductsCount({ status, categoryId }),
+  ]);
+
+  const productsWithSkus: ProductWithSkus[] = await Promise.all(
+    products.map(async (p) => {
+      const skus = await getProductSkus(p.id);
+      const prices = skus.map((s) => s.price).filter(Boolean);
+      return {
+        ...p,
+        skus,
+        minPrice: prices.length > 0 ? Math.min(...prices) : undefined,
+        maxPrice: prices.length > 0 ? Math.max(...prices) : undefined,
+      };
+    })
+  );
+
+  return { products: productsWithSkus, total };
 }
 
 export async function findProductById(id: string): Promise<Product | undefined> {

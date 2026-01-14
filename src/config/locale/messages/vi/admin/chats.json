@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Tiêu đề",
+    "user": "Người dùng",
+    "status": "Trạng thái",
+    "model": "Mô hình",
+    "provider": "Nhà cung cấp",
+    "created_at": "Ngày tạo",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Chat AI",
+    "crumbs": {
+      "admin": "Quản trị",
+      "chats": "Chat AI"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "pending": "Đang chờ",
+      "completed": "Hoàn thành",
+      "failed": "Thất bại"
+    },
+    "buttons": {
+      "view": "Xem chat",
+      "new": "Chat mới"
+    },
+    "empty_message": "Không tìm thấy chat"
+  }
+}

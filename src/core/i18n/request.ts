@@ -38,8 +38,41 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  if (['zh-CN'].includes(locale)) {
-    locale = 'zh';
+  // 处理语言变体，映射到支持的语言代码
+  const localeMapping: Record<string, string> = {
+    'zh-CN': 'zh',
+    'zh-TW': 'zh',
+    'zh-HK': 'zh',
+    'ja-JP': 'ja',
+    'ko-KR': 'ko',
+    'de-DE': 'de',
+    'de-AT': 'de',
+    'de-CH': 'de',
+    'fr-FR': 'fr',
+    'fr-CA': 'fr',
+    'fr-BE': 'fr',
+    'es-ES': 'es',
+    'es-MX': 'es',
+    'es-AR': 'es',
+    'pt-BR': 'pt',
+    'pt-PT': 'pt',
+    'it-IT': 'it',
+    'ru-RU': 'ru',
+    'ar-SA': 'ar',
+    'ar-AE': 'ar',
+    'ar-EG': 'ar',
+    'hi-IN': 'hi',
+    'th-TH': 'th',
+    'vi-VN': 'vi',
+    'id-ID': 'id',
+    'tr-TR': 'tr',
+    'pl-PL': 'pl',
+    'nl-NL': 'nl',
+    'nl-BE': 'nl',
+  };
+
+  if (localeMapping[locale]) {
+    locale = localeMapping[locale];
   }
 
   try {

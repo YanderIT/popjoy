@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Temukan mainan desainer unik, figur seni, dan koleksi edisi terbatas. Koleksi yang dikurasi untuk kolektor di seluruh dunia.",
+    "keywords": "mainan desainer, art toys, koleksi, edisi terbatas, figur, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Masuk",
+    "sign_in_description": "Masuk ke akun Anda",
+    "sign_up_title": "Daftar",
+    "sign_up_description": "Buat akun",
+    "email_title": "Email",
+    "email_placeholder": "Masukkan email Anda",
+    "password_title": "Kata Sandi",
+    "password_placeholder": "Masukkan kata sandi Anda",
+    "forgot_password": "Lupa kata sandi?",
+    "or": "Atau",
+    "continue": "Lanjutkan",
+    "no_account": "Belum punya akun?",
+    "already_have_account": "Sudah punya akun?",
+    "email_sign_in": "Masuk dengan email",
+    "google_sign_in_title": "Masuk dengan Google",
+    "github_sign_in_title": "Masuk dengan GitHub",
+    "close_title": "Tutup",
+    "cancel_title": "Batal",
+    "sign_out_title": "Keluar",
+    "billing_title": "Penagihan",
+    "name_title": "Nama",
+    "name_placeholder": "Masukkan nama Anda",
+    "email_verification_hint": "Gunakan alamat email yang dapat Anda akses. Anda harus memverifikasi email setelah mendaftar.",
+    "admin_title": "Sistem Admin",
+    "credits_title": "Kredit: {credits}",
+    "verify_email_sent": "Email verifikasi terkirim. Silakan periksa kotak masuk Anda.",
+    "verify_email_required": "Silakan verifikasi alamat email Anda sebelum masuk.",
+    "resend_verification": "Kirim ulang email verifikasi",
+    "resend_verification_sent": "Email verifikasi dikirim ulang. Silakan periksa kotak masuk Anda.",
+    "verify_email_page_title": "Periksa email Anda",
+    "verify_email_page_description": "Untuk melanjutkan, klik tautan yang dikirim ke",
+    "verify_email_continue": "Lanjutkan",
+    "verify_email_tip": "Setelah verifikasi, klik \"Lanjutkan\".",
+    "verify_email_not_verified_yet": "Belum diverifikasi. Silakan klik tautan di email Anda terlebih dahulu.",
+    "verify_email_account_mismatch": "Masuk sebagai {current}. Halaman ini menunggu {expected}.",
+    "resend_verification_countdown": "Kirim ulang email verifikasi ({seconds}d)",
+    "resend_verification_wait": "Silakan tunggu {seconds}d sebelum mengirim ulang.",
+    "back_to_sign_in": "Kembali ke masuk",
+    "promo_title": "Dapatkan penawaran terbatas kami",
+    "promo_subtitle": "Bestseller diskon!",
+    "promo_description": "Dan jangan lewatkan diskon $5 Anda!"
+  },
+  "payment": {
+    "choose_payment_method": "Pilih Metode Pembayaran",
+    "choose_payment_method_description": "",
+    "cancel_title": "Batal"
+  },
+  "locale_detector": {
+    "title": "Kami mendeteksi bahasa browser Anda adalah {locale}. Ganti?",
+    "switch_to": "Ganti ke {locale}"
+  }
+}

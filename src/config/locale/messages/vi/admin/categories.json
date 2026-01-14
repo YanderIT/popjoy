@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "status": "Trạng thái",
+    "created_at": "Ngày tạo",
+    "updated_at": "Ngày cập nhật"
+  },
+  "list": {
+    "title": "Danh mục",
+    "crumbs": {
+      "admin": "Quản trị",
+      "categories": "Danh mục"
+    },
+    "buttons": {
+      "add": "Thêm danh mục",
+      "edit": "Sửa danh mục",
+      "view": "Xem danh mục",
+      "delete": "Xóa danh mục"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "published": "Đã xuất bản",
+      "pending": "Đang chờ",
+      "draft": "Bản nháp",
+      "archived": "Đã lưu trữ"
+    }
+  },
+  "add": {
+    "title": "Thêm danh mục",
+    "crumbs": {
+      "admin": "Quản trị",
+      "categories": "Danh mục",
+      "add": "Thêm danh mục"
+    },
+    "buttons": {
+      "submit": "Thêm danh mục"
+    }
+  },
+  "edit": {
+    "title": "Sửa danh mục",
+    "crumbs": {
+      "admin": "Quản trị",
+      "categories": "Danh mục",
+      "edit": "Sửa danh mục"
+    },
+    "buttons": {
+      "submit": "Sửa danh mục"
+    }
+  }
+}

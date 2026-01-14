@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Judul",
+    "description": "Deskripsi",
+    "image": "Gambar",
+    "content": "Konten",
+    "categories": "Kategori",
+    "tags": "Tag",
+    "author_name": "Nama Penulis",
+    "author_role": "Peran Penulis",
+    "author_image": "Foto Penulis",
+    "status": "Status",
+    "created_at": "Dibuat Pada",
+    "updated_at": "Diperbarui Pada",
+    "deleted_at": "Dihapus Pada"
+  },
+  "list": {
+    "title": "Postingan",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Postingan"
+    },
+    "buttons": {
+      "add": "Tambah Postingan",
+      "edit": "Edit Postingan",
+      "view": "Lihat Postingan",
+      "delete": "Hapus Postingan"
+    },
+    "tabs": {
+      "all": "Semua",
+      "published": "Dipublikasikan",
+      "pending": "Tertunda",
+      "draft": "Draf",
+      "archived": "Diarsipkan"
+    }
+  },
+  "add": {
+    "title": "Tambah Postingan",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Postingan",
+      "add": "Tambah Postingan"
+    },
+    "buttons": {
+      "submit": "Tambah Postingan"
+    }
+  },
+  "edit": {
+    "title": "Edit Postingan",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Postingan",
+      "edit": "Edit Postingan"
+    },
+    "buttons": {
+      "submit": "Edit Postingan"
+    }
+  }
+}

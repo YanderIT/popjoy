@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "शीर्षक",
+    "status": "स्थिति",
+    "model": "मॉडल",
+    "provider": "प्रदाता",
+    "created_at": "निर्माण तिथि",
+    "action": "कार्रवाई"
+  },
+  "list": {
+    "title": "AI चैट",
+    "tabs": {
+      "all": "सभी",
+      "pending": "लंबित",
+      "completed": "पूर्ण",
+      "failed": "विफल"
+    },
+    "buttons": {
+      "view": "चैट देखें",
+      "new": "नई चैट"
+    },
+    "empty_message": "कोई चैट नहीं मिली"
+  }
+}

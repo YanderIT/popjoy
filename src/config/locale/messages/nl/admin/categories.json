@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Titel",
+    "description": "Beschrijving",
+    "status": "Status",
+    "created_at": "Gemaakt op",
+    "updated_at": "Bijgewerkt op"
+  },
+  "list": {
+    "title": "Categorieën",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorieën"
+    },
+    "buttons": {
+      "add": "Categorie toevoegen",
+      "edit": "Categorie bewerken",
+      "view": "Categorie bekijken",
+      "delete": "Categorie verwijderen"
+    },
+    "tabs": {
+      "all": "Alle",
+      "published": "Gepubliceerd",
+      "pending": "In afwachting",
+      "draft": "Concept",
+      "archived": "Gearchiveerd"
+    }
+  },
+  "add": {
+    "title": "Categorie toevoegen",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorieën",
+      "add": "Categorie toevoegen"
+    },
+    "buttons": {
+      "submit": "Categorie toevoegen"
+    }
+  },
+  "edit": {
+    "title": "Categorie bewerken",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorieën",
+      "edit": "Categorie bewerken"
+    },
+    "buttons": {
+      "submit": "Categorie bewerken"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Showcase",
+    "description": "Các dự án tuyệt vời được xây dựng với PoptoyStudio"
+  },
+  "page": {
+    "title": "Showcase",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "Startup AI SaaS được xây dựng với PoptoyStudio",
+        "description": "Dễ sử dụng và nhanh chóng ra mắt.",
+        "groups": [
+          {"name": "all", "title": "Tất cả"},
+          {"name": "ai-chatbot", "title": "AI Chatbot"},
+          {"name": "ai-image", "title": "AI Hình ảnh"},
+          {"name": "ai-video", "title": "AI Video"},
+          {"name": "ai-audio", "title": "AI Âm thanh"},
+          {"name": "ai-music", "title": "AI Âm nhạc"},
+          {"name": "ai-coding", "title": "AI Lập trình"},
+          {"name": "other", "title": "Khác"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "Công cụ tìm kiếm AI", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "AI Thử đồ ảo", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "Trình tạo hình nền AI", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "Trình tạo ảnh bìa AI", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "Thư mục GPTs", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "Trình phát nhạc AI", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "Trình tạo landing page AI", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "Trình tạo video AI", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "Trình tạo podcast AI", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

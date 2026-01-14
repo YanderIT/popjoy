@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Uwierzytelnianie e-mail",
+    "google_auth": "Uwierzytelnianie Google",
+    "github_auth": "Uwierzytelnianie Github",
+    "basic_payment": "Podstawowa płatność",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Kredyty",
+    "appinfo": "Info o aplikacji",
+    "user_role": "Rola użytkownika"
+  },
+  "edit": {
+    "title": "Ustawienia",
+    "crumbs": {
+      "admin": "Admin",
+      "settings": "Ustawienia"
+    },
+    "tabs": {
+      "general": "Ogólne",
+      "auth": "Uwierzytelnianie",
+      "payment": "Płatność",
+      "credit": "Kredyty",
+      "email": "E-mail",
+      "storage": "Przechowywanie",
+      "ai": "AI",
+      "analytics": "Analityka",
+      "ads": "Reklamy",
+      "affiliate": "Partnerzy",
+      "customer_service": "Obsługa klienta"
+    },
+    "buttons": {
+      "submit": "Zapisz"
+    }
+  }
+}

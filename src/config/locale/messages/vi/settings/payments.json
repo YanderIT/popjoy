@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Số đơn hàng",
+    "user": "Người dùng",
+    "amount": "Số tiền",
+    "product_name": "Tên sản phẩm",
+    "price": "Giá",
+    "paid_amount": "Đã thanh toán",
+    "discount_amount": "Giảm giá",
+    "description": "Mô tả",
+    "type": "Loại",
+    "provider": "Nhà cung cấp",
+    "created_at": "Ngày tạo",
+    "status": "Trạng thái",
+    "action": "Hành động",
+    "actions": {
+      "view_invoice": "Xem hóa đơn"
+    }
+  },
+  "list": {
+    "title": "Thanh toán",
+    "description": "Xem thanh toán của bạn",
+    "tabs": {
+      "all": "Tất cả",
+      "one-time": "Một lần",
+      "subscription": "Đăng ký",
+      "renew": "Gia hạn"
+    }
+  }
+}

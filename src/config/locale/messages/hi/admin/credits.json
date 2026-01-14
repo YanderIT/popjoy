@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "लेनदेन नंबर",
+    "user": "उपयोगकर्ता",
+    "amount": "राशि",
+    "remaining": "शेष",
+    "type": "प्रकार",
+    "scene": "दृश्य",
+    "description": "विवरण",
+    "created_at": "बनाया गया",
+    "expires_at": "समाप्ति",
+    "metadata": "मेटाडेटा",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "क्रेडिट",
+    "crumbs": {
+      "admin": "एडमिन",
+      "credits": "क्रेडिट"
+    },
+    "tabs": {
+      "all": "सभी",
+      "grant": "प्रदान",
+      "consume": "उपभोग"
+    }
+  }
+}

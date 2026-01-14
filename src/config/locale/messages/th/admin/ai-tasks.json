@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "รหัสงาน",
+    "media_type": "ประเภทสื่อ",
+    "provider": "ผู้ให้บริการ",
+    "model": "โมเดล",
+    "prompt": "พรอมต์",
+    "options": "ตัวเลือก",
+    "user": "ผู้ใช้",
+    "status": "สถานะ",
+    "cost_credits": "เครดิตที่ใช้",
+    "result": "ผลลัพธ์",
+    "created_at": "สร้างเมื่อ",
+    "action": "การดำเนินการ",
+    "scene": "ฉาก"
+  },
+  "list": {
+    "title": "งาน AI",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "ai-tasks": "งาน AI"
+    },
+    "tabs": {
+      "all": "ทั้งหมด",
+      "music": "เพลง",
+      "image": "ภาพ",
+      "video": "วิดีโอ",
+      "audio": "เสียง",
+      "text": "ข้อความ"
+    },
+    "buttons": {
+      "view": "ดูงาน",
+      "refresh": "รีเฟรชงาน"
+    },
+    "empty_message": "ไม่พบงาน"
+  }
+}

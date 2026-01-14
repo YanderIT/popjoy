@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Benzersiz tasarımcı oyuncaklar, sanat figürleri ve sınırlı sayıda koleksiyonluk ürünler keşfedin. Dünya çapındaki koleksiyoncular için özenle seçilmiş koleksiyon.",
+    "keywords": "tasarımcı oyuncaklar, art toys, koleksiyonluk, sınırlı sayıda, figürler, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Giriş Yap",
+    "sign_in_description": "Hesabınıza giriş yapın",
+    "sign_up_title": "Kayıt Ol",
+    "sign_up_description": "Hesap oluştur",
+    "email_title": "E-posta",
+    "email_placeholder": "E-postanızı girin",
+    "password_title": "Şifre",
+    "password_placeholder": "Şifrenizi girin",
+    "forgot_password": "Şifremi unuttum?",
+    "or": "Veya",
+    "continue": "Devam",
+    "no_account": "Hesabınız yok mu?",
+    "already_have_account": "Zaten hesabınız var mı?",
+    "email_sign_in": "E-posta ile giriş yap",
+    "google_sign_in_title": "Google ile giriş yap",
+    "github_sign_in_title": "GitHub ile giriş yap",
+    "close_title": "Kapat",
+    "cancel_title": "İptal",
+    "sign_out_title": "Çıkış Yap",
+    "billing_title": "Faturalama",
+    "name_title": "Ad",
+    "name_placeholder": "Adınızı girin",
+    "email_verification_hint": "Erişebileceğiniz bir e-posta adresi kullanın. Kayıt olduktan sonra e-postanızı doğrulamanız gerekir.",
+    "admin_title": "Yönetici Sistemi",
+    "credits_title": "Krediler: {credits}",
+    "verify_email_sent": "Doğrulama e-postası gönderildi. Lütfen gelen kutunuzu kontrol edin.",
+    "verify_email_required": "Giriş yapmadan önce lütfen e-posta adresinizi doğrulayın.",
+    "resend_verification": "Doğrulama e-postasını yeniden gönder",
+    "resend_verification_sent": "Doğrulama e-postası yeniden gönderildi. Lütfen gelen kutunuzu kontrol edin.",
+    "verify_email_page_title": "E-postanızı kontrol edin",
+    "verify_email_page_description": "Devam etmek için gönderilen bağlantıya tıklayın",
+    "verify_email_continue": "Devam",
+    "verify_email_tip": "Doğruladıktan sonra \"Devam\"a tıklayın.",
+    "verify_email_not_verified_yet": "Henüz doğrulanmadı. Lütfen önce e-postanızdaki bağlantıya tıklayın.",
+    "verify_email_account_mismatch": "{current} olarak giriş yapıldı. Bu sayfa {expected} bekliyor.",
+    "resend_verification_countdown": "Doğrulama e-postasını yeniden gönder ({seconds}sn)",
+    "resend_verification_wait": "Lütfen yeniden göndermeden önce {seconds}sn bekleyin.",
+    "back_to_sign_in": "Girişe dön",
+    "promo_title": "Sınırlı tekliflerimizi alın",
+    "promo_subtitle": "Çok satanlar indirimde!",
+    "promo_description": "Ve $5 indiriminizi kaçırmayın!"
+  },
+  "payment": {
+    "choose_payment_method": "Ödeme Yöntemi Seçin",
+    "choose_payment_method_description": "",
+    "cancel_title": "İptal"
+  },
+  "locale_detector": {
+    "title": "Tarayıcı dilinizin {locale} olduğunu tespit ettik. Değiştirmek ister misiniz?",
+    "switch_to": "{locale} diline geç"
+  }
+}

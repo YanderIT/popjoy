@@ -1,0 +1,14 @@
+{
+  "title": "Einstellungen",
+  "nav": {
+    "items": [
+      {"title": "Profil", "url": "/settings/profile", "icon": "User"},
+      {"title": "Bestellungen", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "Einstellungen", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

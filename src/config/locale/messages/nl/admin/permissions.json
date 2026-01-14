@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "ID",
+    "code": "Code",
+    "title": "Titel",
+    "resource": "Bron",
+    "action": "Actie",
+    "description": "Beschrijving",
+    "created_at": "Gemaakt op",
+    "updated_at": "Bijgewerkt op"
+  },
+  "list": {
+    "title": "Rechten",
+    "crumbs": {
+      "admin": "Admin",
+      "permissions": "Rechten"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Başlık",
+    "media_type": "Medya Türü",
+    "provider": "Sağlayıcı",
+    "model": "Model",
+    "prompt": "İstem",
+    "options": "Seçenekler",
+    "status": "Durum",
+    "result": "Sonuç",
+    "cost_credits": "Harcanan Krediler",
+    "created_at": "Oluşturulma",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "AI Görevleri",
+    "tabs": {
+      "all": "Tümü",
+      "music": "Müzik",
+      "image": "Görsel",
+      "video": "Video",
+      "audio": "Ses",
+      "text": "Metin"
+    },
+    "buttons": {
+      "view": "Görevi Görüntüle",
+      "refresh": "Görevi Yenile"
+    },
+    "empty_message": "Görev bulunamadı"
+  }
+}

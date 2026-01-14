@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "Tiêu đề",
+    "key": "Khóa",
+    "created_at": "Ngày tạo",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Khóa API",
+    "empty_message": "Không có khóa API",
+    "buttons": {
+      "add": "Tạo khóa API",
+      "edit": "Sửa",
+      "delete": "Xóa"
+    }
+  },
+  "add": {
+    "title": "Tạo khóa API",
+    "crumbs": {
+      "apikeys": "Khóa API",
+      "add": "Tạo khóa API"
+    },
+    "buttons": {
+      "submit": "Tạo"
+    }
+  },
+  "edit": {
+    "title": "Sửa khóa API",
+    "crumbs": {
+      "apikeys": "Khóa API",
+      "edit": "Sửa khóa API"
+    },
+    "buttons": {
+      "submit": "Cập nhật"
+    }
+  },
+  "delete": {
+    "title": "Xóa khóa API",
+    "crumbs": {
+      "apikeys": "Khóa API",
+      "delete": "Xóa khóa API"
+    },
+    "buttons": {
+      "submit": "Xác nhận xóa"
+    }
+  }
+}

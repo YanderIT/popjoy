@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "ยืนยันอีเมล",
+    "google_auth": "ยืนยัน Google",
+    "github_auth": "ยืนยัน Github",
+    "basic_payment": "การชำระเงินพื้นฐาน",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "เครดิต",
+    "appinfo": "ข้อมูลแอป",
+    "user_role": "บทบาทผู้ใช้"
+  },
+  "edit": {
+    "title": "การตั้งค่า",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "settings": "การตั้งค่า"
+    },
+    "tabs": {
+      "general": "ทั่วไป",
+      "auth": "การยืนยันตัวตน",
+      "payment": "การชำระเงิน",
+      "credit": "เครดิต",
+      "email": "อีเมล",
+      "storage": "พื้นที่เก็บข้อมูล",
+      "ai": "AI",
+      "analytics": "การวิเคราะห์",
+      "ads": "โฆษณา",
+      "affiliate": "พันธมิตร",
+      "customer_service": "บริการลูกค้า"
+    },
+    "buttons": {
+      "submit": "บันทึก"
+    }
+  }
+}

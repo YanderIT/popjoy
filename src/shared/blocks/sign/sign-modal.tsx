@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
@@ -33,12 +34,35 @@ export function SignModal({ callbackUrl = '/' }: { callbackUrl?: string }) {
   if (isDesktop) {
     return (
       <Dialog open={isShowSignModal} onOpenChange={setIsShowSignModal}>
-        <DialogContent className="sm:max-w-[425px]">
-          <DialogHeader>
-            <DialogTitle>{t('sign_in_title')}</DialogTitle>
-            <DialogDescription>{t('sign_in_description')}</DialogDescription>
-          </DialogHeader>
-          <SignInForm callbackUrl={callbackUrl} />
+        <DialogContent className="overflow-hidden p-0 sm:max-w-[720px]">
+          <div className="grid md:grid-cols-2">
+            {/* Left - Product Image */}
+            <div className="relative hidden min-h-[520px] md:block bg-gray-50">
+              <Image
+                src="/imgs/productList/Labubu Preserved Bouquet/109.9Love-Large Labubu Preserved Bouquet.jpg"
+                alt="Promotion"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+
+            {/* Right - Form */}
+            <div className="flex flex-col justify-center px-6 py-12">
+              <DialogHeader className="mb-8">
+                <DialogTitle className="text-3xl font-normal leading-tight">
+                  {t('promo_title')}
+                </DialogTitle>
+                <DialogDescription className="mt-4 space-y-2 text-base">
+                  <span className="block font-medium text-foreground">
+                    {t('promo_subtitle')}
+                  </span>
+                  <span className="block">{t('promo_description')}</span>
+                </DialogDescription>
+              </DialogHeader>
+              <SignInForm callbackUrl={callbackUrl} />
+            </div>
+          </div>
         </DialogContent>
       </Dialog>
     );
@@ -48,10 +72,17 @@ export function SignModal({ callbackUrl = '/' }: { callbackUrl?: string }) {
     <Drawer open={isShowSignModal} onOpenChange={setIsShowSignModal}>
       <DrawerContent>
         <DrawerHeader className="text-left">
-          <DrawerTitle>{t('sign_in_title')}</DrawerTitle>
-          <DrawerDescription>{t('sign_in_description')}</DrawerDescription>
+          <DrawerTitle className="text-2xl font-normal">
+            {t('promo_title')}
+          </DrawerTitle>
+          <DrawerDescription className="mt-2 space-y-1">
+            <span className="block font-medium text-foreground">
+              {t('promo_subtitle')}
+            </span>
+            <span className="block">{t('promo_description')}</span>
+          </DrawerDescription>
         </DrawerHeader>
-        <SignInForm callbackUrl={callbackUrl} className="mt-8 px-4" />
+        <SignInForm callbackUrl={callbackUrl} className="mt-4 px-4" />
         <DrawerFooter className="pt-4">
           <DrawerClose asChild>
             <Button variant="outline">{t('cancel_title')}</Button>

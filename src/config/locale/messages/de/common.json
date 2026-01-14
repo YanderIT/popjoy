@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Entdecken Sie einzigartige Designer-Spielzeuge, Kunstfiguren und limitierte Sammlerstücke. Kuratierte Kollektion für Sammler weltweit.",
+    "keywords": "Designer-Spielzeug, Art Toys, Sammlerstücke, limitierte Auflage, Figuren, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Anmelden",
+    "sign_in_description": "Bei Ihrem Konto anmelden",
+    "sign_up_title": "Registrieren",
+    "sign_up_description": "Ein Konto erstellen",
+    "email_title": "E-Mail",
+    "email_placeholder": "Geben Sie Ihre E-Mail ein",
+    "password_title": "Passwort",
+    "password_placeholder": "Geben Sie Ihr Passwort ein",
+    "forgot_password": "Passwort vergessen?",
+    "or": "Oder",
+    "continue": "Weiter",
+    "no_account": "Noch kein Konto?",
+    "already_have_account": "Bereits ein Konto?",
+    "email_sign_in": "Mit E-Mail anmelden",
+    "google_sign_in_title": "Mit Google anmelden",
+    "github_sign_in_title": "Mit GitHub anmelden",
+    "close_title": "Schließen",
+    "cancel_title": "Abbrechen",
+    "sign_out_title": "Abmelden",
+    "billing_title": "Abrechnung",
+    "name_title": "Name",
+    "name_placeholder": "Geben Sie Ihren Namen ein",
+    "email_verification_hint": "Verwenden Sie eine E-Mail-Adresse, auf die Sie zugreifen können. Sie müssen Ihre E-Mail nach der Registrierung bestätigen.",
+    "admin_title": "Admin-System",
+    "credits_title": "Guthaben: {credits}",
+    "verify_email_sent": "Bestätigungs-E-Mail gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "verify_email_required": "Bitte bestätigen Sie Ihre E-Mail-Adresse vor der Anmeldung.",
+    "resend_verification": "Bestätigungs-E-Mail erneut senden",
+    "resend_verification_sent": "Bestätigungs-E-Mail wurde erneut gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "verify_email_page_title": "Überprüfen Sie Ihre E-Mail",
+    "verify_email_page_description": "Um fortzufahren, klicken Sie auf den gesendeten Link an",
+    "verify_email_continue": "Weiter",
+    "verify_email_tip": "Klicken Sie nach der Bestätigung auf 'Weiter'.",
+    "verify_email_not_verified_yet": "Noch nicht bestätigt. Bitte klicken Sie zuerst auf den Link in Ihrer E-Mail.",
+    "verify_email_account_mismatch": "Angemeldet als {current}. Diese Seite wartet auf {expected}.",
+    "resend_verification_countdown": "Bestätigungs-E-Mail erneut senden ({seconds}s)",
+    "resend_verification_wait": "Bitte warten Sie {seconds}s vor dem erneuten Senden.",
+    "back_to_sign_in": "Zurück zur Anmeldung",
+    "promo_title": "Sichern Sie sich unsere limitierten Angebote",
+    "promo_subtitle": "Bestseller reduziert!",
+    "promo_description": "Und verpassen Sie nicht Ihren $5-Rabatt!"
+  },
+  "payment": {
+    "choose_payment_method": "Zahlungsmethode wählen",
+    "choose_payment_method_description": "",
+    "cancel_title": "Abbrechen"
+  },
+  "locale_detector": {
+    "title": "Wir haben erkannt, dass Ihre Browsersprache {locale} ist. Wechseln?",
+    "switch_to": "Zu {locale} wechseln"
+  }
+}

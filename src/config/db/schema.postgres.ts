@@ -38,6 +38,8 @@ export const user = table(
     utmSource: text('utm_source').notNull().default(''),
     ip: text('ip').notNull().default(''),
     locale: text('locale').notNull().default(''),
+    // User's preferred currency for price display
+    currency: text('currency').notNull().default('USD'),
   },
   (table) => [
     // Search users by name in admin dashboard
@@ -567,6 +569,9 @@ export const product = table(
   'product',
   {
     id: text('id').primaryKey(),
+    categoryId: text('category_id').references(() => taxonomy.id, {
+      onDelete: 'set null',
+    }),
     name: text('name').notNull(), // Product name
     description: text('description'), // Description
     image: text('image'), // Main image

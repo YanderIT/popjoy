@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "รหัส",
+    "name": "ชื่อ",
+    "title": "หัวข้อ",
+    "description": "คำอธิบาย",
+    "status": "สถานะ",
+    "sort": "ลำดับ",
+    "created_at": "สร้างเมื่อ",
+    "updated_at": "อัปเดตเมื่อ",
+    "permissions": "สิทธิ์",
+    "actions": "การดำเนินการ"
+  },
+  "list": {
+    "title": "บทบาท",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "roles": "บทบาท"
+    },
+    "buttons": {
+      "create": "สร้างบทบาท",
+      "edit": "แก้ไขบทบาท",
+      "edit_permissions": "แก้ไขสิทธิ์",
+      "delete": "ลบบทบาท"
+    }
+  },
+  "edit": {
+    "title": "แก้ไขบทบาท",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "roles": "บทบาท",
+      "edit": "แก้ไขบทบาท"
+    },
+    "buttons": {
+      "submit": "อัปเดต"
+    }
+  },
+  "edit_permissions": {
+    "title": "แก้ไขสิทธิ์",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "roles": "บทบาท",
+      "edit_permissions": "แก้ไขสิทธิ์"
+    },
+    "buttons": {
+      "submit": "อัปเดต"
+    }
+  }
+}

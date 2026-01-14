@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "رقم المعاملة",
+    "description": "الوصف",
+    "type": "النوع",
+    "scene": "المشهد",
+    "credits": "الأرصدة",
+    "expires_at": "ينتهي في",
+    "created_at": "تاريخ الإنشاء",
+    "action": "الإجراء"
+  },
+  "list": {
+    "title": "سجل الأرصدة",
+    "tabs": {
+      "all": "الكل",
+      "grant": "ممنوح",
+      "consume": "مستهلك"
+    }
+  },
+  "view": {
+    "title": "رصيد الأرصدة",
+    "buttons": {
+      "purchase": "شراء أرصدة"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Nhật ký cập nhật",
+    "description": "Xem nhật ký cập nhật sản phẩm, bao gồm các tính năng và cải tiến mới nhất."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Nhật ký cập nhật",
+        "description": "Xem nhật ký cập nhật sản phẩm, bao gồm các tính năng và cải tiến mới nhất."
+      }
+    }
+  }
+}

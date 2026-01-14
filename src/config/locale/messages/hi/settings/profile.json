@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "email": "ईमेल",
+    "name": "नाम"
+  },
+  "edit": {
+    "title": "प्रोफ़ाइल",
+    "description": "अपनी प्रोफ़ाइल अपडेट करें",
+    "crumbs": {
+      "settings": "सेटिंग्स",
+      "profile": "प्रोफ़ाइल"
+    },
+    "buttons": {
+      "submit": "सहेजें"
+    }
+  }
+}

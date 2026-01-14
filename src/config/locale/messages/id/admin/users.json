@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nama",
+    "avatar": "Avatar",
+    "email": "Email",
+    "email_verified": "Email Terverifikasi",
+    "remaining_credits": "Kredit Tersisa",
+    "created_at": "Dibuat Pada",
+    "actions": "Tindakan",
+    "roles": "Peran",
+    "ip": "IP",
+    "locale": "Bahasa",
+    "utm_source": "Sumber UTM"
+  },
+  "list": {
+    "title": "Pengguna",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Pengguna"
+    },
+    "buttons": {
+      "add": "Tambah Pengguna",
+      "edit": "Edit Pengguna",
+      "view": "Lihat Pengguna",
+      "delete": "Hapus Pengguna",
+      "edit_roles": "Edit Peran",
+      "grant_credits": "Berikan Kredit"
+    },
+    "search": {
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit Pengguna",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Pengguna",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Perbarui"
+    }
+  },
+  "edit_roles": {
+    "title": "Edit Peran",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Pengguna",
+      "edit_roles": "Edit Peran"
+    },
+    "buttons": {
+      "submit": "Perbarui"
+    }
+  },
+  "grant_credits": {
+    "title": "Berikan Kredit",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Pengguna",
+      "grant_credits": "Berikan Kredit"
+    },
+    "buttons": {
+      "submit": "Berikan"
+    },
+    "fields": {
+      "credits": "Jumlah Kredit",
+      "valid_days": "Hari Validitas Kredit",
+      "valid_days_tip": "0 berarti tidak ada kedaluwarsa",
+      "description": "Deskripsi Pemberian Kredit",
+      "description_placeholder": "Pemberian kredit oleh admin"
+    }
+  }
+}

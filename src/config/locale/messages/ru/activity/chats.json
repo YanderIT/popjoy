@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "Название",
+    "status": "Статус",
+    "model": "Модель",
+    "provider": "Провайдер",
+    "created_at": "Создано",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "ИИ-чаты",
+    "tabs": {
+      "all": "Все",
+      "pending": "Ожидает",
+      "completed": "Завершено",
+      "failed": "Ошибка"
+    },
+    "buttons": {
+      "view": "Просмотр чата",
+      "new": "Новый чат"
+    },
+    "empty_message": "Чаты не найдены"
+  }
+}

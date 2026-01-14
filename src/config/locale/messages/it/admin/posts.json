@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Titolo",
+    "description": "Descrizione",
+    "image": "Immagine",
+    "content": "Contenuto",
+    "categories": "Categorie",
+    "tags": "Tag",
+    "author_name": "Nome autore",
+    "author_role": "Ruolo autore",
+    "author_image": "Immagine autore",
+    "status": "Stato",
+    "created_at": "Creato il",
+    "updated_at": "Aggiornato il",
+    "deleted_at": "Eliminato il"
+  },
+  "list": {
+    "title": "Articoli",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Articoli"
+    },
+    "buttons": {
+      "add": "Aggiungi articolo",
+      "edit": "Modifica articolo",
+      "view": "Visualizza articolo",
+      "delete": "Elimina articolo"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "published": "Pubblicato",
+      "pending": "In attesa",
+      "draft": "Bozza",
+      "archived": "Archiviato"
+    }
+  },
+  "add": {
+    "title": "Aggiungi articolo",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Articoli",
+      "add": "Aggiungi articolo"
+    },
+    "buttons": {
+      "submit": "Aggiungi articolo"
+    }
+  },
+  "edit": {
+    "title": "Modifica articolo",
+    "crumbs": {
+      "admin": "Admin",
+      "posts": "Articoli",
+      "edit": "Modifica articolo"
+    },
+    "buttons": {
+      "submit": "Modifica articolo"
+    }
+  }
+}

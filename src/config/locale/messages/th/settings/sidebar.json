@@ -1,0 +1,14 @@
+{
+  "title": "การตั้งค่า",
+  "nav": {
+    "items": [
+      {"title": "โปรไฟล์", "url": "/settings/profile", "icon": "User"},
+      {"title": "คำสั่งซื้อ", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "การตั้งค่า", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

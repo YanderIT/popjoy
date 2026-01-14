@@ -18,6 +18,7 @@ import {
 } from '@/shared/components/ui/select';
 import { useCart } from '@/shared/contexts/cart';
 import { useAppContext } from '@/shared/contexts/app';
+import { usePrice } from '@/shared/hooks/use-price';
 
 interface ShippingAddress {
   recipientName: string;
@@ -46,6 +47,7 @@ export function CheckoutForm() {
   const router = useRouter();
   const { user, setIsShowSignModal } = useAppContext();
   const { items, getSubtotal, getCurrency, clearCart, isLoading: cartLoading } = useCart();
+  const { formatPrice } = usePrice();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [address, setAddress] = useState<ShippingAddress>({
     recipientName: '',
@@ -56,13 +58,6 @@ export function CheckoutForm() {
     street: '',
     postalCode: '',
   });
-
-  const formatPrice = (cents: number, currency: string = 'USD') => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency,
-    }).format(cents / 100);
-  };
 
   const subtotal = getSubtotal();
   const shipping = 0; // Free shipping for now

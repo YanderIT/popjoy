@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "ID tác vụ",
+    "media_type": "Loại phương tiện",
+    "provider": "Nhà cung cấp",
+    "model": "Mô hình",
+    "prompt": "Lệnh",
+    "options": "Tùy chọn",
+    "user": "Người dùng",
+    "status": "Trạng thái",
+    "cost_credits": "Tín dụng tiêu thụ",
+    "result": "Kết quả",
+    "created_at": "Ngày tạo",
+    "action": "Hành động",
+    "scene": "Cảnh"
+  },
+  "list": {
+    "title": "Tác vụ AI",
+    "crumbs": {
+      "admin": "Quản trị",
+      "ai-tasks": "Tác vụ AI"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "music": "Nhạc",
+      "image": "Hình ảnh",
+      "video": "Video",
+      "audio": "Âm thanh",
+      "text": "Văn bản"
+    },
+    "buttons": {
+      "view": "Xem tác vụ",
+      "refresh": "Làm mới tác vụ"
+    },
+    "empty_message": "Không tìm thấy tác vụ"
+  }
+}

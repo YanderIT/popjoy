@@ -9,6 +9,11 @@ import {
   NewProduct,
   ProductStatus,
 } from '@/shared/models/product';
+import {
+  getTaxonomies,
+  TaxonomyStatus,
+  TaxonomyType,
+} from '@/shared/models/taxonomy';
 import { Crumb } from '@/shared/types/blocks/common';
 import { Form } from '@/shared/types/blocks/form';
 
@@ -28,6 +33,18 @@ export default async function ProductAddPage({
 
   const t = await getTranslations('admin.products');
 
+  // Fetch categories for dropdown
+  const categories = await getTaxonomies({
+    type: TaxonomyType.CATEGORY,
+    status: TaxonomyStatus.PUBLISHED,
+    limit: 100,
+  });
+
+  const categoryOptions = [
+    { title: t('fields.no_category'), value: '__none__' },
+    ...categories.map((c) => ({ title: c.title, value: c.id })),
+  ];
+
   const crumbs: Crumb[] = [
     { title: t('add.crumbs.admin'), url: '/admin' },
     { title: t('add.crumbs.products'), url: '/admin/products' },
@@ -41,6 +58,13 @@ export default async function ProductAddPage({
         type: 'text',
         title: t('fields.name'),
         validation: { required: true },
+      },
+      {
+        name: 'categoryId',
+        type: 'select',
+        title: t('fields.category'),
+        options: categoryOptions,
+        value: '__none__',
       },
       {
         name: 'description',
@@ -80,6 +104,7 @@ export default async function ProductAddPage({
         'use server';
 
         const name = data.get('name') as string;
+        const categoryId = data.get('categoryId') as string;
         const description = data.get('description') as string;
         const image = data.get('image') as string;
         const status = data.get('status') as string;
@@ -91,6 +116,7 @@ export default async function ProductAddPage({
 
         const newProduct: NewProduct = {
           id: getUuid(),
+          categoryId: categoryId && categoryId !== '__none__' ? categoryId : null,
           name: name.trim(),
           description: description?.trim() || null,
           image: image || null,

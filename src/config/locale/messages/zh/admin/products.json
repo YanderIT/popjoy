@@ -2,6 +2,8 @@
   "fields": {
     "id": "ID",
     "name": "商品名称",
+    "category": "分类",
+    "no_category": "无分类",
     "description": "商品描述",
     "image": "商品图片",
     "status": "状态",

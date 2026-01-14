@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "الرابط المختصر",
+    "title": "العنوان",
+    "description": "الوصف",
+    "image": "الصورة",
+    "content": "المحتوى",
+    "categories": "التصنيفات",
+    "tags": "الوسوم",
+    "author_name": "اسم الكاتب",
+    "author_role": "دور الكاتب",
+    "author_image": "صورة الكاتب",
+    "status": "الحالة",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "deleted_at": "تاريخ الحذف"
+  },
+  "list": {
+    "title": "المقالات",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المقالات"
+    },
+    "buttons": {
+      "add": "إضافة مقال",
+      "edit": "تعديل المقال",
+      "view": "عرض المقال",
+      "delete": "حذف المقال"
+    },
+    "tabs": {
+      "all": "الكل",
+      "published": "منشور",
+      "pending": "قيد الانتظار",
+      "draft": "مسودة",
+      "archived": "مؤرشف"
+    }
+  },
+  "add": {
+    "title": "إضافة مقال",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المقالات",
+      "add": "إضافة مقال"
+    },
+    "buttons": {
+      "submit": "إضافة مقال"
+    }
+  },
+  "edit": {
+    "title": "تعديل المقال",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المقالات",
+      "edit": "تعديل المقال"
+    },
+    "buttons": {
+      "submit": "تعديل المقال"
+    }
+  }
+}

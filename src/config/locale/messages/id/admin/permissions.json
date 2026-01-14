@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "ID",
+    "code": "Kode",
+    "title": "Judul",
+    "resource": "Sumber Daya",
+    "action": "Tindakan",
+    "description": "Deskripsi",
+    "created_at": "Dibuat Pada",
+    "updated_at": "Diperbarui Pada"
+  },
+  "list": {
+    "title": "Izin",
+    "crumbs": {
+      "admin": "Admin",
+      "permissions": "Izin"
+    }
+  }
+}

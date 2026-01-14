@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Auth. e-mail",
+    "google_auth": "Auth. Google",
+    "github_auth": "Auth. Github",
+    "basic_payment": "Pagamento base",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Crediti",
+    "appinfo": "Info App",
+    "user_role": "Ruolo utente"
+  },
+  "edit": {
+    "title": "Impostazioni",
+    "crumbs": {
+      "admin": "Admin",
+      "settings": "Impostazioni"
+    },
+    "tabs": {
+      "general": "Generale",
+      "auth": "Autenticazione",
+      "payment": "Pagamento",
+      "credit": "Crediti",
+      "email": "Email",
+      "storage": "Archiviazione",
+      "ai": "IA",
+      "analytics": "Analisi",
+      "ads": "Annunci",
+      "affiliate": "Affiliati",
+      "customer_service": "Servizio clienti"
+    },
+    "buttons": {
+      "submit": "Salva"
+    }
+  }
+}

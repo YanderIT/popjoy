@@ -9,6 +9,7 @@ import { ShoppingCart } from 'lucide-react';
 import { Button } from '@/shared/components/ui/button';
 import { Card, CardContent } from '@/shared/components/ui/card';
 import { Skeleton } from '@/shared/components/ui/skeleton';
+import { usePrice } from '@/shared/hooks/use-price';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
 
@@ -42,11 +43,12 @@ export function Products({
 }) {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+  const { formatPrice } = usePrice();
 
   useEffect(() => {
     async function fetchProducts() {
       try {
-        const res = await fetch('/api/product/list?limit=6');
+        const res = await fetch('/api/product/list?limit=12');
         const data = await res.json();
         if (data.data?.products) {
           setProducts(data.data.products);
@@ -59,13 +61,6 @@ export function Products({
     }
     fetchProducts();
   }, []);
-
-  const formatPrice = (cents: number, currency: string = 'USD') => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency,
-    }).format(cents / 100);
-  };
 
   const renderPrice = (product: Product) => {
     if (!product.minPrice) return null;

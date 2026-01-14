@@ -1,0 +1,97 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": false,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Ordini",
+          "url": "/shop/orders",
+          "icon": "Package"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "Questo sito è un sito demo per il template PoptoyStudio. Per acquistare il template PoptoyStudio, visita il <a href='https://PoptoyStudio.ai/pricing' class='text-orange-300' target='_blank'>sito PoptoyStudio</a>"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PoptoyStudio",
+      "description": "La tua destinazione per giocattoli di design unici, figure artistiche e oggetti da collezione in edizione limitata. Curati per collezionisti di tutto il mondo.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 82,
+        "height": 82
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@poptoystudio.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Informativa sulla privacy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Termini di servizio",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}

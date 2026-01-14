@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Mã đơn hàng",
+    "user": "Người dùng",
+    "amount": "Số tiền",
+    "status": "Trạng thái",
+    "shipping_carrier": "Đơn vị vận chuyển",
+    "tracking_number": "Mã vận đơn",
+    "created_at": "Ngày tạo",
+    "shipped_at": "Ngày gửi",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Đơn hàng",
+    "crumbs": {
+      "admin": "Quản trị",
+      "orders": "Đơn hàng"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "pending_shipment": "Chờ gửi hàng",
+      "shipped": "Đã gửi",
+      "delivered": "Đã giao"
+    },
+    "filters": {
+      "status": {
+        "title": "Trạng thái",
+        "options": {
+          "all": "Tất cả",
+          "pending_payment": "Chờ thanh toán",
+          "pending_shipment": "Chờ gửi hàng",
+          "shipped": "Đã gửi",
+          "delivered": "Đã giao",
+          "completed": "Hoàn thành",
+          "canceled": "Đã hủy",
+          "refunded": "Đã hoàn tiền"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Mã đơn hàng",
+        "placeholder": "Tìm mã đơn hàng"
+      }
+    }
+  },
+  "ship": {
+    "title": "Gửi đơn hàng",
+    "description": "Nhập thông tin vận chuyển cho đơn hàng này",
+    "carrier": "Đơn vị vận chuyển",
+    "carrier_placeholder": "VD: Giao hàng nhanh, Viettel Post, J&T",
+    "tracking": "Mã vận đơn",
+    "tracking_placeholder": "Nhập mã vận đơn",
+    "submit": "Xác nhận gửi hàng",
+    "success": "Đã gửi đơn hàng thành công",
+    "error": "Không thể gửi đơn hàng"
+  }
+}

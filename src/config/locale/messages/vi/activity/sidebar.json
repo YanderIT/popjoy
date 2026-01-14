@@ -1,0 +1,31 @@
+{
+  "title": "Hoạt động",
+  "nav": {
+    "items": [
+      {
+        "title": "Tác vụ AI",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "Trò chuyện AI",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Hoạt động",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Cài đặt",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

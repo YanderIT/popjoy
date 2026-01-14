@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "เลขที่ออเดอร์",
+    "user": "ผู้ใช้",
+    "amount": "จำนวนเงิน",
+    "status": "สถานะ",
+    "shipping_carrier": "บริษัทขนส่ง",
+    "tracking_number": "เลขติดตาม",
+    "created_at": "สร้างเมื่อ",
+    "shipped_at": "จัดส่งเมื่อ",
+    "action": "การดำเนินการ"
+  },
+  "list": {
+    "title": "ออเดอร์",
+    "crumbs": {
+      "admin": "ผู้ดูแล",
+      "orders": "ออเดอร์"
+    },
+    "tabs": {
+      "all": "ทั้งหมด",
+      "pending_shipment": "รอจัดส่ง",
+      "shipped": "จัดส่งแล้ว",
+      "delivered": "ส่งถึงแล้ว"
+    },
+    "filters": {
+      "status": {
+        "title": "สถานะ",
+        "options": {
+          "all": "ทั้งหมด",
+          "pending_payment": "รอชำระเงิน",
+          "pending_shipment": "รอจัดส่ง",
+          "shipped": "จัดส่งแล้ว",
+          "delivered": "ส่งถึงแล้ว",
+          "completed": "เสร็จสิ้น",
+          "canceled": "ยกเลิก",
+          "refunded": "คืนเงินแล้ว"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "เลขที่ออเดอร์",
+        "placeholder": "ค้นหาเลขที่ออเดอร์"
+      }
+    }
+  },
+  "ship": {
+    "title": "จัดส่งออเดอร์",
+    "description": "กรอกข้อมูลการจัดส่งสำหรับออเดอร์นี้",
+    "carrier": "บริษัทขนส่ง",
+    "carrier_placeholder": "เช่น Kerry, Flash, J&T",
+    "tracking": "เลขติดตาม",
+    "tracking_placeholder": "กรอกเลขติดตาม",
+    "submit": "ยืนยันการจัดส่ง",
+    "success": "จัดส่งออเดอร์สำเร็จ",
+    "error": "ไม่สามารถจัดส่งออเดอร์ได้"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "رقم الاشتراك",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "interval": "الفترة",
+    "provider": "المزود",
+    "created_at": "تاريخ الإنشاء",
+    "current_period_start": "بداية الفترة الحالية",
+    "current_period_end": "نهاية الفترة الحالية",
+    "status": "الحالة",
+    "description": "الوصف",
+    "action": "الإجراء"
+  },
+  "list": {
+    "title": "الاشتراكات",
+    "crumbs": {
+      "admin": "المدير",
+      "subscriptions": "الاشتراكات"
+    },
+    "tabs": {
+      "all": "الكل",
+      "month": "شهري",
+      "year": "سنوي"
+    }
+  }
+}

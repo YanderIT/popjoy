@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "ชื่อ",
+    "description": "คำอธิบาย",
+    "image": "รูปภาพ",
+    "content": "เนื้อหา",
+    "categories": "หมวดหมู่",
+    "tags": "แท็ก",
+    "author_name": "ชื่อผู้เขียน",
+    "author_role": "บทบาทผู้เขียน",
+    "author_image": "รูปผู้เขียน",
+    "status": "สถานะ",
+    "created_at": "สร้างเมื่อ",
+    "updated_at": "อัปเดตเมื่อ",
+    "deleted_at": "ลบเมื่อ"
+  },
+  "list": {
+    "title": "โพสต์",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "posts": "โพสต์"
+    },
+    "buttons": {
+      "add": "เพิ่มโพสต์",
+      "edit": "แก้ไขโพสต์",
+      "view": "ดูโพสต์",
+      "delete": "ลบโพสต์"
+    },
+    "tabs": {
+      "all": "ทั้งหมด",
+      "published": "เผยแพร่แล้ว",
+      "pending": "รอดำเนินการ",
+      "draft": "ฉบับร่าง",
+      "archived": "เก็บถาวร"
+    }
+  },
+  "add": {
+    "title": "เพิ่มโพสต์",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "posts": "โพสต์",
+      "add": "เพิ่มโพสต์"
+    },
+    "buttons": {
+      "submit": "เพิ่มโพสต์"
+    }
+  },
+  "edit": {
+    "title": "แก้ไขโพสต์",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "posts": "โพสต์",
+      "edit": "แก้ไขโพสต์"
+    },
+    "buttons": {
+      "submit": "แก้ไขโพสต์"
+    }
+  }
+}

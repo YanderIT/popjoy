@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Autentikasi Email",
+    "google_auth": "Autentikasi Google",
+    "github_auth": "Autentikasi Github",
+    "basic_payment": "Pembayaran Dasar",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Kredit",
+    "appinfo": "Info Aplikasi",
+    "user_role": "Peran Pengguna"
+  },
+  "edit": {
+    "title": "Pengaturan",
+    "crumbs": {
+      "admin": "Admin",
+      "settings": "Pengaturan"
+    },
+    "tabs": {
+      "general": "Umum",
+      "auth": "Autentikasi",
+      "payment": "Pembayaran",
+      "credit": "Kredit",
+      "email": "Email",
+      "storage": "Penyimpanan",
+      "ai": "AI",
+      "analytics": "Analitik",
+      "ads": "Iklan",
+      "affiliate": "Afiliasi",
+      "customer_service": "Layanan Pelanggan"
+    },
+    "buttons": {
+      "submit": "Simpan"
+    }
+  }
+}

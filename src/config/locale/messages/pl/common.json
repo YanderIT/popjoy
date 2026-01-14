@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Odkryj wyjątkowe designerskie zabawki, figurki artystyczne i kolekcjonerskie przedmioty w limitowanych edycjach. Starannie dobrana kolekcja dla kolekcjonerów z całego świata.",
+    "keywords": "designerskie zabawki, art toys, przedmioty kolekcjonerskie, limitowana edycja, figurki, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Zaloguj się",
+    "sign_in_description": "Zaloguj się na swoje konto",
+    "sign_up_title": "Zarejestruj się",
+    "sign_up_description": "Utwórz konto",
+    "email_title": "E-mail",
+    "email_placeholder": "Wpisz swój e-mail",
+    "password_title": "Hasło",
+    "password_placeholder": "Wpisz swoje hasło",
+    "forgot_password": "Zapomniałeś hasła?",
+    "or": "Lub",
+    "continue": "Kontynuuj",
+    "no_account": "Nie masz konta?",
+    "already_have_account": "Masz już konto?",
+    "email_sign_in": "Zaloguj się przez e-mail",
+    "google_sign_in_title": "Zaloguj się przez Google",
+    "github_sign_in_title": "Zaloguj się przez GitHub",
+    "close_title": "Zamknij",
+    "cancel_title": "Anuluj",
+    "sign_out_title": "Wyloguj się",
+    "billing_title": "Rozliczenia",
+    "name_title": "Imię",
+    "name_placeholder": "Wpisz swoje imię",
+    "email_verification_hint": "Użyj adresu e-mail, do którego masz dostęp. Po rejestracji musisz zweryfikować swój e-mail.",
+    "admin_title": "System administracyjny",
+    "credits_title": "Kredyty: {credits}",
+    "verify_email_sent": "E-mail weryfikacyjny wysłany. Sprawdź swoją skrzynkę odbiorczą.",
+    "verify_email_required": "Przed zalogowaniem zweryfikuj swój adres e-mail.",
+    "resend_verification": "Wyślij ponownie e-mail weryfikacyjny",
+    "resend_verification_sent": "E-mail weryfikacyjny wysłany ponownie. Sprawdź swoją skrzynkę odbiorczą.",
+    "verify_email_page_title": "Sprawdź swój e-mail",
+    "verify_email_page_description": "Aby kontynuować, kliknij link wysłany na",
+    "verify_email_continue": "Kontynuuj",
+    "verify_email_tip": "Po weryfikacji kliknij \"Kontynuuj\".",
+    "verify_email_not_verified_yet": "Jeszcze nie zweryfikowano. Najpierw kliknij link w e-mailu.",
+    "verify_email_account_mismatch": "Zalogowano jako {current}. Ta strona czeka na {expected}.",
+    "resend_verification_countdown": "Wyślij ponownie e-mail weryfikacyjny ({seconds}s)",
+    "resend_verification_wait": "Poczekaj {seconds}s przed ponownym wysłaniem.",
+    "back_to_sign_in": "Wróć do logowania",
+    "promo_title": "Skorzystaj z naszych limitowanych ofert",
+    "promo_subtitle": "Bestsellery w promocji!",
+    "promo_description": "I nie przegap swojej zniżki $5!"
+  },
+  "payment": {
+    "choose_payment_method": "Wybierz metodę płatności",
+    "choose_payment_method_description": "",
+    "cancel_title": "Anuluj"
+  },
+  "locale_detector": {
+    "title": "Wykryliśmy, że język Twojej przeglądarki to {locale}. Zmienić?",
+    "switch_to": "Przełącz na {locale}"
+  }
+}

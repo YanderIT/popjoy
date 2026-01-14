@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "avatar": "Avatar",
+    "email": "E-Mail",
+    "email_verified": "E-Mail bestätigt",
+    "remaining_credits": "Verbleibende Credits",
+    "created_at": "Erstellt am",
+    "actions": "Aktionen",
+    "roles": "Rollen",
+    "ip": "IP",
+    "locale": "Sprache",
+    "utm_source": "UTM-Quelle"
+  },
+  "list": {
+    "title": "Benutzer",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer"
+    },
+    "buttons": {
+      "add": "Benutzer hinzufügen",
+      "edit": "Benutzer bearbeiten",
+      "view": "Benutzer anzeigen",
+      "delete": "Benutzer löschen",
+      "edit_roles": "Rollen bearbeiten",
+      "grant_credits": "Credits gewähren"
+    },
+    "search": {
+      "email": {
+        "title": "E-Mail",
+        "placeholder": "E-Mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Benutzer bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "edit": "Bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  },
+  "edit_roles": {
+    "title": "Rollen bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "edit_roles": "Rollen bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  },
+  "grant_credits": {
+    "title": "Credits gewähren",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "grant_credits": "Credits gewähren"
+    },
+    "buttons": {
+      "submit": "Gewähren"
+    },
+    "fields": {
+      "credits": "Credit-Betrag",
+      "valid_days": "Gültigkeitstage der Credits",
+      "valid_days_tip": "0 bedeutet kein Ablaufdatum",
+      "description": "Beschreibung der Credit-Gewährung",
+      "description_placeholder": "Admin-Credit-Gewährung"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nome",
+    "avatar": "Avatar",
+    "email": "E-mail",
+    "email_verified": "E-mail verificado",
+    "remaining_credits": "Créditos restantes",
+    "created_at": "Criado em",
+    "actions": "Ações",
+    "roles": "Funções",
+    "ip": "IP",
+    "locale": "Idioma",
+    "utm_source": "Fonte UTM"
+  },
+  "list": {
+    "title": "Usuários",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuários"
+    },
+    "buttons": {
+      "add": "Adicionar usuário",
+      "edit": "Editar usuário",
+      "view": "Ver usuário",
+      "delete": "Excluir usuário",
+      "edit_roles": "Editar funções",
+      "grant_credits": "Conceder créditos"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail",
+        "placeholder": "E-mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Editar usuário",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuários",
+      "edit": "Editar"
+    },
+    "buttons": {
+      "submit": "Atualizar"
+    }
+  },
+  "edit_roles": {
+    "title": "Editar funções",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuários",
+      "edit_roles": "Editar funções"
+    },
+    "buttons": {
+      "submit": "Atualizar"
+    }
+  },
+  "grant_credits": {
+    "title": "Conceder créditos",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuários",
+      "grant_credits": "Conceder créditos"
+    },
+    "buttons": {
+      "submit": "Conceder"
+    },
+    "fields": {
+      "credits": "Quantidade de créditos",
+      "valid_days": "Dias de validade dos créditos",
+      "valid_days_tip": "0 significa sem expiração",
+      "description": "Descrição da concessão de créditos",
+      "description_placeholder": "Concessão de créditos pelo admin"
+    }
+  }
+}

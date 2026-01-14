@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Naam",
+    "title": "Titel",
+    "description": "Beschrijving",
+    "status": "Status",
+    "sort": "Volgorde",
+    "created_at": "Gemaakt op",
+    "updated_at": "Bijgewerkt op",
+    "permissions": "Rechten",
+    "actions": "Acties"
+  },
+  "list": {
+    "title": "Rollen",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen"
+    },
+    "buttons": {
+      "create": "Rol aanmaken",
+      "edit": "Rol bewerken",
+      "edit_permissions": "Rechten bewerken",
+      "delete": "Rol verwijderen"
+    }
+  },
+  "edit": {
+    "title": "Rol bewerken",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen",
+      "edit": "Rol bewerken"
+    },
+    "buttons": {
+      "submit": "Bijwerken"
+    }
+  },
+  "edit_permissions": {
+    "title": "Rechten bewerken",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen",
+      "edit_permissions": "Rechten bewerken"
+    },
+    "buttons": {
+      "submit": "Bijwerken"
+    }
+  }
+}

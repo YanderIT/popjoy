@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "Mã đơn hàng",
+    "user": "Người dùng",
+    "amount": "Số tiền",
+    "product": "Sản phẩm",
+    "description": "Mô tả",
+    "type": "Loại",
+    "provider": "Nhà cung cấp",
+    "created_at": "Ngày tạo",
+    "status": "Trạng thái",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Thanh toán",
+    "crumbs": {
+      "admin": "Quản trị",
+      "payments": "Thanh toán"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "subscription": "Đăng ký",
+      "one-time": "Một lần"
+    },
+    "filters": {
+      "status": {
+        "title": "Trạng thái",
+        "options": {
+          "all": "Tất cả",
+          "paid": "Đã thanh toán",
+          "created": "Đã tạo",
+          "failed": "Thất bại"
+        }
+      },
+      "provider": {
+        "title": "Nhà cung cấp",
+        "options": {
+          "all": "Tất cả",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Mã đơn hàng",
+        "placeholder": "Mã đơn hàng"
+      }
+    }
+  }
+}

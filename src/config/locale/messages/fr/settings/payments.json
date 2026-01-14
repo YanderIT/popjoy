@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "N° de commande",
+    "user": "Utilisateur",
+    "amount": "Montant",
+    "product_name": "Nom du produit",
+    "price": "Prix",
+    "paid_amount": "Montant payé",
+    "discount_amount": "Montant de la remise",
+    "description": "Description",
+    "type": "Type",
+    "provider": "Fournisseur",
+    "created_at": "Créé le",
+    "status": "Statut",
+    "action": "Action",
+    "actions": {
+      "view_invoice": "Voir la facture"
+    }
+  },
+  "list": {
+    "title": "Paiements",
+    "description": "Voir vos paiements",
+    "tabs": {
+      "all": "Tout",
+      "one-time": "Unique",
+      "subscription": "Abonnement",
+      "renew": "Renouvellement"
+    }
+  }
+}

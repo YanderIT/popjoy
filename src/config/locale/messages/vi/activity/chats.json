@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "Tiêu đề",
+    "status": "Trạng thái",
+    "model": "Mô hình",
+    "provider": "Nhà cung cấp",
+    "created_at": "Ngày tạo",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Trò chuyện AI",
+    "tabs": {
+      "all": "Tất cả",
+      "pending": "Đang chờ",
+      "completed": "Hoàn thành",
+      "failed": "Thất bại"
+    },
+    "buttons": {
+      "view": "Xem cuộc trò chuyện",
+      "new": "Trò chuyện mới"
+    },
+    "empty_message": "Không tìm thấy cuộc trò chuyện"
+  }
+}

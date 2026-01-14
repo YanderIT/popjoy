@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "No. Pesanan",
+    "user": "Pengguna",
+    "amount": "Jumlah",
+    "product_name": "Nama Produk",
+    "price": "Harga",
+    "paid_amount": "Jumlah Dibayar",
+    "discount_amount": "Jumlah Diskon",
+    "description": "Deskripsi",
+    "type": "Tipe",
+    "provider": "Penyedia",
+    "created_at": "Dibuat pada",
+    "status": "Status",
+    "action": "Aksi",
+    "actions": {
+      "view_invoice": "Lihat Faktur"
+    }
+  },
+  "list": {
+    "title": "Pembayaran",
+    "description": "Lihat pembayaran Anda",
+    "tabs": {
+      "all": "Semua",
+      "one-time": "Sekali",
+      "subscription": "Langganan",
+      "renew": "Perpanjangan"
+    }
+  }
+}

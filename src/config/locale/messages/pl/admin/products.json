@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nazwa",
+    "category": "Kategoria",
+    "no_category": "Brak kategorii",
+    "description": "Opis",
+    "image": "Obraz",
+    "status": "Status",
+    "sort": "Kolejność",
+    "created_at": "Utworzono",
+    "updated_at": "Zaktualizowano",
+    "sku": "Kod SKU",
+    "attributes": "Atrybuty",
+    "price": "Cena",
+    "original_price": "Cena oryginalna",
+    "cost_price": "Cena zakupu",
+    "stock": "Stan"
+  },
+  "status_options": {
+    "draft": "Szkic",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny"
+  },
+  "list": {
+    "title": "Produkty",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkty"
+    },
+    "buttons": {
+      "add": "Dodaj produkt",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "skus": "Zarządzaj SKU"
+    }
+  },
+  "add": {
+    "title": "Dodaj produkt",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkty",
+      "add": "Dodaj"
+    },
+    "buttons": {
+      "submit": "Dodaj produkt"
+    }
+  },
+  "edit": {
+    "title": "Edytuj produkt",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkty",
+      "edit": "Edytuj"
+    },
+    "buttons": {
+      "submit": "Zapisz zmiany"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkty",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "Dodaj SKU",
+        "edit": "Edytuj",
+        "delete": "Usuń"
+      }
+    },
+    "add": {
+      "title": "Dodaj SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkty",
+        "skus": "SKU",
+        "add": "Dodaj"
+      },
+      "buttons": {
+        "submit": "Dodaj SKU"
+      }
+    },
+    "edit": {
+      "title": "Edytuj SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkty",
+        "skus": "SKU",
+        "edit": "Edytuj"
+      },
+      "buttons": {
+        "submit": "Zapisz zmiany"
+      }
+    }
+  }
+}

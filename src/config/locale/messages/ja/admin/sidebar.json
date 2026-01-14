@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "システム",
+      "items": [
+        {
+          "title": "ユーザーと権限",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "ユーザー",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "ロール",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "権限",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "ページとコンテンツ",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "カテゴリー",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "投稿",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "注文",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "商品",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "支払いとクレジット",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "支払い",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "サブスクリプション",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "クレジット",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "設定",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "プロフィール",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "ホーム",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "メール",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

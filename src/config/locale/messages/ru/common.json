@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Откройте для себя уникальные дизайнерские игрушки, арт-фигурки и коллекционные предметы ограниченного выпуска. Подобранная коллекция для коллекционеров со всего мира.",
+    "keywords": "дизайнерские игрушки, арт-игрушки, коллекционные предметы, ограниченный выпуск, фигурки, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Войти",
+    "sign_in_description": "Войдите в свой аккаунт",
+    "sign_up_title": "Регистрация",
+    "sign_up_description": "Создать аккаунт",
+    "email_title": "Email",
+    "email_placeholder": "Введите ваш email",
+    "password_title": "Пароль",
+    "password_placeholder": "Введите ваш пароль",
+    "forgot_password": "Забыли пароль?",
+    "or": "Или",
+    "continue": "Продолжить",
+    "no_account": "Нет аккаунта?",
+    "already_have_account": "Уже есть аккаунт?",
+    "email_sign_in": "Войти через email",
+    "google_sign_in_title": "Войти через Google",
+    "github_sign_in_title": "Войти через GitHub",
+    "close_title": "Закрыть",
+    "cancel_title": "Отмена",
+    "sign_out_title": "Выйти",
+    "billing_title": "Оплата",
+    "name_title": "Имя",
+    "name_placeholder": "Введите ваше имя",
+    "email_verification_hint": "Используйте email, к которому у вас есть доступ. После регистрации необходимо подтвердить email.",
+    "admin_title": "Система администрирования",
+    "credits_title": "Кредиты: {credits}",
+    "verify_email_sent": "Письмо для подтверждения отправлено. Проверьте входящие.",
+    "verify_email_required": "Пожалуйста, подтвердите ваш email перед входом.",
+    "resend_verification": "Отправить письмо повторно",
+    "resend_verification_sent": "Письмо для подтверждения отправлено повторно. Проверьте входящие.",
+    "verify_email_page_title": "Проверьте вашу почту",
+    "verify_email_page_description": "Чтобы продолжить, нажмите на ссылку, отправленную на",
+    "verify_email_continue": "Продолжить",
+    "verify_email_tip": "После подтверждения нажмите «Продолжить».",
+    "verify_email_not_verified_yet": "Ещё не подтверждено. Сначала нажмите на ссылку в письме.",
+    "verify_email_account_mismatch": "Вы вошли как {current}. Эта страница ожидает {expected}.",
+    "resend_verification_countdown": "Отправить письмо повторно ({seconds}с)",
+    "resend_verification_wait": "Подождите {seconds}с перед повторной отправкой.",
+    "back_to_sign_in": "Вернуться к входу",
+    "promo_title": "Получите наши ограниченные предложения",
+    "promo_subtitle": "Бестселлеры со скидкой!",
+    "promo_description": "И не упустите скидку $5!"
+  },
+  "payment": {
+    "choose_payment_method": "Выберите способ оплаты",
+    "choose_payment_method_description": "",
+    "cancel_title": "Отмена"
+  },
+  "locale_detector": {
+    "title": "Мы определили, что язык вашего браузера — {locale}. Переключить?",
+    "switch_to": "Переключить на {locale}"
+  }
+}

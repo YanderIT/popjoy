@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nama",
+    "title": "Judul",
+    "description": "Deskripsi",
+    "status": "Status",
+    "sort": "Urutan",
+    "created_at": "Dibuat Pada",
+    "updated_at": "Diperbarui Pada",
+    "permissions": "Izin",
+    "actions": "Tindakan"
+  },
+  "list": {
+    "title": "Peran",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Peran"
+    },
+    "buttons": {
+      "create": "Buat Peran",
+      "edit": "Edit Peran",
+      "edit_permissions": "Edit Izin",
+      "delete": "Hapus Peran"
+    }
+  },
+  "edit": {
+    "title": "Edit Peran",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Peran",
+      "edit": "Edit Peran"
+    },
+    "buttons": {
+      "submit": "Perbarui"
+    }
+  },
+  "edit_permissions": {
+    "title": "Edit Izin",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Peran",
+      "edit_permissions": "Edit Izin"
+    },
+    "buttons": {
+      "submit": "Perbarui"
+    }
+  }
+}

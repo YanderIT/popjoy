@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "अद्वितीय डिज़ाइनर खिलौने, आर्ट फिगर और सीमित संस्करण संग्रहणीय खोजें। दुनिया भर के कलेक्टरों के लिए क्यूरेटेड संग्रह।",
+    "keywords": "डिज़ाइनर खिलौने, आर्ट टॉयज, संग्रहणीय, सीमित संस्करण, फिगर, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "साइन इन करें",
+    "sign_in_description": "अपने अकाउंट में साइन इन करें",
+    "sign_up_title": "साइन अप करें",
+    "sign_up_description": "अकाउंट बनाएं",
+    "email_title": "ईमेल",
+    "email_placeholder": "अपना ईमेल दर्ज करें",
+    "password_title": "पासवर्ड",
+    "password_placeholder": "अपना पासवर्ड दर्ज करें",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "or": "या",
+    "continue": "जारी रखें",
+    "no_account": "अकाउंट नहीं है?",
+    "already_have_account": "पहले से अकाउंट है?",
+    "email_sign_in": "ईमेल से साइन इन करें",
+    "google_sign_in_title": "Google से साइन इन करें",
+    "github_sign_in_title": "GitHub से साइन इन करें",
+    "close_title": "बंद करें",
+    "cancel_title": "रद्द करें",
+    "sign_out_title": "साइन आउट करें",
+    "billing_title": "बिलिंग",
+    "name_title": "नाम",
+    "name_placeholder": "अपना नाम दर्ज करें",
+    "email_verification_hint": "ऐसे ईमेल पते का उपयोग करें जिसे आप एक्सेस कर सकते हैं। साइन अप के बाद आपको अपना ईमेल सत्यापित करना होगा।",
+    "admin_title": "एडमिन सिस्टम",
+    "credits_title": "क्रेडिट: {credits}",
+    "verify_email_sent": "सत्यापन ईमेल भेजा गया। कृपया अपना इनबॉक्स देखें।",
+    "verify_email_required": "साइन इन करने से पहले कृपया अपना ईमेल पता सत्यापित करें।",
+    "resend_verification": "सत्यापन ईमेल पुनः भेजें",
+    "resend_verification_sent": "सत्यापन ईमेल पुनः भेजा गया। कृपया अपना इनबॉक्स देखें।",
+    "verify_email_page_title": "अपना ईमेल जांचें",
+    "verify_email_page_description": "जारी रखने के लिए, भेजे गए लिंक पर क्लिक करें",
+    "verify_email_continue": "जारी रखें",
+    "verify_email_tip": "सत्यापित करने के बाद, \"जारी रखें\" पर क्लिक करें।",
+    "verify_email_not_verified_yet": "अभी तक सत्यापित नहीं। कृपया पहले अपने ईमेल में लिंक पर क्लिक करें।",
+    "verify_email_account_mismatch": "{current} के रूप में साइन इन किया है। यह पेज {expected} की प्रतीक्षा कर रहा है।",
+    "resend_verification_countdown": "सत्यापन ईमेल पुनः भेजें ({seconds}s)",
+    "resend_verification_wait": "कृपया पुनः भेजने से पहले {seconds}s प्रतीक्षा करें।",
+    "back_to_sign_in": "साइन इन पर वापस जाएं",
+    "promo_title": "हमारे सीमित ऑफर पाएं",
+    "promo_subtitle": "बेस्टसेलर पर छूट!",
+    "promo_description": "और अपना $5 डिस्काउंट मिस न करें!"
+  },
+  "payment": {
+    "choose_payment_method": "भुगतान विधि चुनें",
+    "choose_payment_method_description": "",
+    "cancel_title": "रद्द करें"
+  },
+  "locale_detector": {
+    "title": "हमने पाया कि आपके ब्राउज़र की भाषा {locale} है। बदलें?",
+    "switch_to": "{locale} पर स्विच करें"
+  }
+}

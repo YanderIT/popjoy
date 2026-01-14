@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Ad",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "status": "Durum",
+    "sort": "Sıralama",
+    "created_at": "Oluşturulma",
+    "updated_at": "Güncellenme",
+    "permissions": "İzinler",
+    "actions": "İşlemler"
+  },
+  "list": {
+    "title": "Roller",
+    "crumbs": {
+      "admin": "Yönetici",
+      "roles": "Roller"
+    },
+    "buttons": {
+      "create": "Rol Oluştur",
+      "edit": "Rol Düzenle",
+      "edit_permissions": "İzinleri Düzenle",
+      "delete": "Rol Sil"
+    }
+  },
+  "edit": {
+    "title": "Rol Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "roles": "Roller",
+      "edit": "Rol Düzenle"
+    },
+    "buttons": {
+      "submit": "Güncelle"
+    }
+  },
+  "edit_permissions": {
+    "title": "İzinleri Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "roles": "Roller",
+      "edit_permissions": "İzinleri Düzenle"
+    },
+    "buttons": {
+      "submit": "Güncelle"
+    }
+  }
+}

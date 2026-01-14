@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "ค้นพบของเล่นดีไซเนอร์สุดพิเศษ ฟิกเกอร์ศิลปะ และของสะสมลิมิเต็ดอิดิชั่น คอลเลกชันคัดสรรสำหรับนักสะสมทั่วโลก",
+    "keywords": "ของเล่นดีไซเนอร์, อาร์ตทอย, ของสะสม, ลิมิเต็ดอิดิชั่น, ฟิกเกอร์, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "เข้าสู่ระบบ",
+    "sign_in_description": "เข้าสู่ระบบบัญชีของคุณ",
+    "sign_up_title": "สมัครสมาชิก",
+    "sign_up_description": "สร้างบัญชี",
+    "email_title": "อีเมล",
+    "email_placeholder": "กรอกอีเมลของคุณ",
+    "password_title": "รหัสผ่าน",
+    "password_placeholder": "กรอกรหัสผ่านของคุณ",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "or": "หรือ",
+    "continue": "ดำเนินการต่อ",
+    "no_account": "ยังไม่มีบัญชี?",
+    "already_have_account": "มีบัญชีแล้ว?",
+    "email_sign_in": "เข้าสู่ระบบด้วยอีเมล",
+    "google_sign_in_title": "เข้าสู่ระบบด้วย Google",
+    "github_sign_in_title": "เข้าสู่ระบบด้วย GitHub",
+    "close_title": "ปิด",
+    "cancel_title": "ยกเลิก",
+    "sign_out_title": "ออกจากระบบ",
+    "billing_title": "การเรียกเก็บเงิน",
+    "name_title": "ชื่อ",
+    "name_placeholder": "กรอกชื่อของคุณ",
+    "email_verification_hint": "ใช้ที่อยู่อีเมลที่คุณสามารถเข้าถึงได้ คุณต้องยืนยันอีเมลหลังจากสมัครสมาชิก",
+    "admin_title": "ระบบผู้ดูแล",
+    "credits_title": "เครดิต: {credits}",
+    "verify_email_sent": "ส่งอีเมลยืนยันแล้ว กรุณาตรวจสอบกล่องจดหมาย",
+    "verify_email_required": "กรุณายืนยันที่อยู่อีเมลก่อนเข้าสู่ระบบ",
+    "resend_verification": "ส่งอีเมลยืนยันอีกครั้ง",
+    "resend_verification_sent": "ส่งอีเมลยืนยันอีกครั้งแล้ว กรุณาตรวจสอบกล่องจดหมาย",
+    "verify_email_page_title": "ตรวจสอบอีเมลของคุณ",
+    "verify_email_page_description": "เพื่อดำเนินการต่อ คลิกลิงก์ที่ส่งไปยัง",
+    "verify_email_continue": "ดำเนินการต่อ",
+    "verify_email_tip": "หลังจากยืนยันแล้ว คลิก \"ดำเนินการต่อ\"",
+    "verify_email_not_verified_yet": "ยังไม่ได้ยืนยัน กรุณาคลิกลิงก์ในอีเมลก่อน",
+    "verify_email_account_mismatch": "เข้าสู่ระบบเป็น {current} หน้านี้กำลังรอ {expected}",
+    "resend_verification_countdown": "ส่งอีเมลยืนยันอีกครั้ง ({seconds}วินาที)",
+    "resend_verification_wait": "กรุณารอ {seconds}วินาที ก่อนส่งอีกครั้ง",
+    "back_to_sign_in": "กลับไปเข้าสู่ระบบ",
+    "promo_title": "รับข้อเสนอจำกัดของเรา",
+    "promo_subtitle": "สินค้าขายดีลดราคา!",
+    "promo_description": "และอย่าพลาดส่วนลด $5 ของคุณ!"
+  },
+  "payment": {
+    "choose_payment_method": "เลือกวิธีการชำระเงิน",
+    "choose_payment_method_description": "",
+    "cancel_title": "ยกเลิก"
+  },
+  "locale_detector": {
+    "title": "เราตรวจพบว่าภาษาเบราว์เซอร์ของคุณคือ {locale} ต้องการเปลี่ยนหรือไม่?",
+    "switch_to": "เปลี่ยนเป็น {locale}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Bestellnr.",
+    "user": "Benutzer",
+    "amount": "Betrag",
+    "status": "Status",
+    "shipping_carrier": "Spediteur",
+    "tracking_number": "Sendungsnr.",
+    "created_at": "Erstellt am",
+    "shipped_at": "Versendet am",
+    "action": "Aktion"
+  },
+  "list": {
+    "title": "Bestellungen",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Bestellungen"
+    },
+    "tabs": {
+      "all": "Alle",
+      "pending_shipment": "Versand ausstehend",
+      "shipped": "Versendet",
+      "delivered": "Geliefert"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Alle",
+          "pending_payment": "Zahlung ausstehend",
+          "pending_shipment": "Versand ausstehend",
+          "shipped": "Versendet",
+          "delivered": "Geliefert",
+          "completed": "Abgeschlossen",
+          "canceled": "Storniert",
+          "refunded": "Erstattet"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Bestellnr.",
+        "placeholder": "Bestellnummer suchen"
+      }
+    }
+  },
+  "ship": {
+    "title": "Bestellung versenden",
+    "description": "Geben Sie die Versandinformationen für diese Bestellung ein",
+    "carrier": "Spediteur",
+    "carrier_placeholder": "z.B. DHL, Hermes, UPS",
+    "tracking": "Sendungsnummer",
+    "tracking_placeholder": "Sendungsnummer eingeben",
+    "submit": "Versand bestätigen",
+    "success": "Bestellung erfolgreich versendet",
+    "error": "Versand der Bestellung fehlgeschlagen"
+  }
+}

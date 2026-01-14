@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Transactienr.",
+    "description": "Beschrijving",
+    "type": "Type",
+    "scene": "Scene",
+    "credits": "Credits",
+    "expires_at": "Verloopt op",
+    "created_at": "Aangemaakt op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "Creditgeschiedenis",
+    "tabs": {
+      "all": "Alles",
+      "grant": "Toegekend",
+      "consume": "Verbruikt"
+    }
+  },
+  "view": {
+    "title": "Creditsaldo",
+    "buttons": {
+      "purchase": "Credits kopen"
+    }
+  }
+}

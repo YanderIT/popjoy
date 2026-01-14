@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "email": "Email",
+    "password": "Kata sandi",
+    "new_password": "Kata sandi baru",
+    "confirm_password": "Konfirmasi kata sandi"
+  },
+  "reset_password": {
+    "title": "Reset Kata Sandi",
+    "description": "Reset kata sandi Anda",
+    "tip": "Kami akan mengirim email untuk mereset kata sandi Anda.",
+    "crumbs": {
+      "settings": "Pengaturan",
+      "security": "Keamanan"
+    },
+    "buttons": {
+      "submit": "Simpan"
+    }
+  },
+  "delete_account": {
+    "title": "Hapus Akun",
+    "description": "Hapus akun Anda",
+    "tip": "Apakah Anda yakin ingin menghapus akun Anda? Tindakan ini tidak dapat dibatalkan.",
+    "crumbs": {
+      "settings": "Pengaturan",
+      "security": "Keamanan"
+    },
+    "buttons": {
+      "submit": "Hapus"
+    }
+  }
+}

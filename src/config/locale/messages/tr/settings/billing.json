@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Abonelik No",
+    "interval": "Aralık",
+    "provider": "Sağlayıcı",
+    "current_period": "Mevcut Dönem",
+    "plan": "Plan",
+    "status": "Durum",
+    "amount": "Tutar",
+    "created_at": "Oluşturulma Tarihi",
+    "end_time": "Bitiş Zamanı",
+    "action": "İşlem"
+  },
+  "view": {
+    "title": "Mevcut Plan",
+    "tip": "Aboneliğiniz {date} tarihinde otomatik olarak yenilenecek",
+    "end_tip": "Aboneliğiniz {date} tarihinde otomatik olarak iptal edilecek",
+    "no_subscription": "Plan yok",
+    "buttons": {
+      "adjust": "Planı Ayarla",
+      "subscribe": "Abone Ol",
+      "manage": "Aboneliği Yönet",
+      "cancel": "Aboneliği İptal Et"
+    }
+  },
+  "list": {
+    "title": "Abonelik Geçmişi",
+    "tabs": {
+      "all": "Tümü",
+      "active": "Aktif",
+      "pending_cancel": "İptal Bekliyor",
+      "canceled": "İptal Edildi",
+      "trialing": "Deneme",
+      "paused": "Duraklatıldı",
+      "expired": "Süresi Doldu"
+    }
+  },
+  "cancel": {
+    "title": "Aboneliği İptal Et",
+    "description": "Aboneliğinizi iptal etmek istediğinizden emin misiniz?",
+    "fields": {
+      "subscription_no": "Abonelik No",
+      "subscription_amount": "Abonelik Tutarı",
+      "interval_cycle": "Aralık Döngüsü",
+      "subscription_created_at": "Abonelik Oluşturulma Tarihi",
+      "current_period": "Mevcut Dönem",
+      "start_at": "Başlangıç",
+      "end_at": "Bitiş"
+    },
+    "crumbs": {
+      "settings": "Ayarlar",
+      "billing": "Faturalama",
+      "cancel": "Aboneliği İptal Et"
+    },
+    "buttons": {
+      "confirm_cancel": "İptali Onayla"
+    }
+  }
+}

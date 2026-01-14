@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "المعرف",
+    "code": "الكود",
+    "title": "العنوان",
+    "resource": "المورد",
+    "action": "الإجراء",
+    "description": "الوصف",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث"
+  },
+  "list": {
+    "title": "الصلاحيات",
+    "crumbs": {
+      "admin": "المدير",
+      "permissions": "الصلاحيات"
+    }
+  }
+}

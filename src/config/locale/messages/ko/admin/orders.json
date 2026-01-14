@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "주문 번호",
+    "user": "사용자",
+    "amount": "금액",
+    "status": "상태",
+    "shipping_carrier": "배송업체",
+    "tracking_number": "운송장 번호",
+    "created_at": "생성일",
+    "shipped_at": "발송일",
+    "action": "작업"
+  },
+  "list": {
+    "title": "주문",
+    "crumbs": {
+      "admin": "관리자",
+      "orders": "주문"
+    },
+    "tabs": {
+      "all": "전체",
+      "pending_shipment": "배송 대기",
+      "shipped": "발송됨",
+      "delivered": "배송 완료"
+    },
+    "filters": {
+      "status": {
+        "title": "상태",
+        "options": {
+          "all": "전체",
+          "pending_payment": "결제 대기",
+          "pending_shipment": "배송 대기",
+          "shipped": "발송됨",
+          "delivered": "배송 완료",
+          "completed": "완료",
+          "canceled": "취소됨",
+          "refunded": "환불됨"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "주문 번호",
+        "placeholder": "주문 번호 검색"
+      }
+    }
+  },
+  "ship": {
+    "title": "주문 발송",
+    "description": "이 주문의 배송 정보를 입력하세요",
+    "carrier": "배송업체",
+    "carrier_placeholder": "예: 대한통운, 우체국택배, 로젠택배",
+    "tracking": "운송장 번호",
+    "tracking_placeholder": "운송장 번호 입력",
+    "submit": "발송 확인",
+    "success": "주문이 성공적으로 발송되었습니다",
+    "error": "주문 발송에 실패했습니다"
+  }
+}

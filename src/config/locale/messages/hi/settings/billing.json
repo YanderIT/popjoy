@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "सदस्यता संख्या",
+    "interval": "अंतराल",
+    "provider": "प्रदाता",
+    "current_period": "वर्तमान अवधि",
+    "plan": "प्लान",
+    "status": "स्थिति",
+    "amount": "राशि",
+    "created_at": "बनाया गया",
+    "end_time": "समाप्ति समय",
+    "action": "क्रिया"
+  },
+  "view": {
+    "title": "वर्तमान प्लान",
+    "tip": "आपकी सदस्यता {date} को स्वचालित रूप से नवीनीकृत होगी",
+    "end_tip": "आपकी सदस्यता {date} को स्वचालित रूप से रद्द हो जाएगी",
+    "no_subscription": "कोई प्लान नहीं",
+    "buttons": {
+      "adjust": "प्लान बदलें",
+      "subscribe": "सदस्यता लें",
+      "manage": "सदस्यता प्रबंधित करें",
+      "cancel": "सदस्यता रद्द करें"
+    }
+  },
+  "list": {
+    "title": "सदस्यता इतिहास",
+    "tabs": {
+      "all": "सभी",
+      "active": "सक्रिय",
+      "pending_cancel": "रद्द होने की प्रतीक्षा",
+      "canceled": "रद्द",
+      "trialing": "ट्रायल",
+      "paused": "रुका हुआ",
+      "expired": "समाप्त"
+    }
+  },
+  "cancel": {
+    "title": "सदस्यता रद्द करें",
+    "description": "क्या आप वाकई अपनी सदस्यता रद्द करना चाहते हैं?",
+    "fields": {
+      "subscription_no": "सदस्यता संख्या",
+      "subscription_amount": "सदस्यता राशि",
+      "interval_cycle": "अंतराल चक्र",
+      "subscription_created_at": "सदस्यता बनाई गई",
+      "current_period": "वर्तमान अवधि",
+      "start_at": "शुरू",
+      "end_at": "समाप्त"
+    },
+    "crumbs": {
+      "settings": "सेटिंग्स",
+      "billing": "बिलिंग",
+      "cancel": "सदस्यता रद्द करें"
+    },
+    "buttons": {
+      "confirm_cancel": "रद्द करने की पुष्टि करें"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "ID",
+    "code": "Mã",
+    "title": "Tiêu đề",
+    "resource": "Tài nguyên",
+    "action": "Hành động",
+    "description": "Mô tả",
+    "created_at": "Ngày tạo",
+    "updated_at": "Ngày cập nhật"
+  },
+  "list": {
+    "title": "Quyền",
+    "crumbs": {
+      "admin": "Quản trị",
+      "permissions": "Quyền"
+    }
+  }
+}

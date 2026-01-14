@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "ชื่อ",
+    "key": "คีย์",
+    "created_at": "สร้างเมื่อ",
+    "action": "การดำเนินการ"
+  },
+  "list": {
+    "title": "API คีย์",
+    "empty_message": "ไม่มี API คีย์",
+    "buttons": {
+      "add": "สร้าง API คีย์",
+      "edit": "แก้ไข",
+      "delete": "ลบ"
+    }
+  },
+  "add": {
+    "title": "สร้าง API คีย์",
+    "crumbs": {
+      "apikeys": "API คีย์",
+      "add": "สร้าง API คีย์"
+    },
+    "buttons": {
+      "submit": "สร้าง"
+    }
+  },
+  "edit": {
+    "title": "แก้ไข API คีย์",
+    "crumbs": {
+      "apikeys": "API คีย์",
+      "edit": "แก้ไข API คีย์"
+    },
+    "buttons": {
+      "submit": "อัปเดต"
+    }
+  },
+  "delete": {
+    "title": "ลบ API คีย์",
+    "crumbs": {
+      "apikeys": "API คีย์",
+      "delete": "ลบ API คีย์"
+    },
+    "buttons": {
+      "submit": "ยืนยันการลบ"
+    }
+  }
+}

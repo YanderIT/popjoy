@@ -1,0 +1,31 @@
+{
+  "title": "Aktivitas",
+  "nav": {
+    "items": [
+      {
+        "title": "Tugas AI",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "Obrolan AI",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Aktivitas",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Pengaturan",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

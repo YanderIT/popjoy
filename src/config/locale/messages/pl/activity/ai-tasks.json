@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Tytuł",
+    "media_type": "Typ mediów",
+    "provider": "Dostawca",
+    "model": "Model",
+    "prompt": "Polecenie",
+    "options": "Opcje",
+    "status": "Status",
+    "result": "Wynik",
+    "cost_credits": "Zużyte kredyty",
+    "created_at": "Utworzono",
+    "action": "Akcja"
+  },
+  "list": {
+    "title": "Zadania AI",
+    "tabs": {
+      "all": "Wszystkie",
+      "music": "Muzyka",
+      "image": "Obraz",
+      "video": "Wideo",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Zobacz zadanie",
+      "refresh": "Odśwież zadanie"
+    },
+    "empty_message": "Nie znaleziono zadań"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "Sipariş No",
+    "user": "Kullanıcı",
+    "amount": "Tutar",
+    "product": "Ürün",
+    "description": "Açıklama",
+    "type": "Tür",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma",
+    "status": "Durum",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "Ödemeler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "payments": "Ödemeler"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "subscription": "Abonelik",
+      "one-time": "Tek Seferlik"
+    },
+    "filters": {
+      "status": {
+        "title": "Durum",
+        "options": {
+          "all": "Tümü",
+          "paid": "Ödendi",
+          "created": "Oluşturuldu",
+          "failed": "Başarısız"
+        }
+      },
+      "provider": {
+        "title": "Sağlayıcı",
+        "options": {
+          "all": "Tümü",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Sipariş No",
+        "placeholder": "Sipariş No"
+      }
+    }
+  }
+}

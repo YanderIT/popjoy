@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "Aufgaben-ID",
+    "media_type": "Medientyp",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "prompt": "Prompt",
+    "options": "Optionen",
+    "user": "Benutzer",
+    "status": "Status",
+    "cost_credits": "Verbrauchte Credits",
+    "result": "Ergebnis",
+    "created_at": "Erstellt am",
+    "action": "Aktion",
+    "scene": "Szene"
+  },
+  "list": {
+    "title": "KI-Aufgaben",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "KI-Aufgaben"
+    },
+    "tabs": {
+      "all": "Alle",
+      "music": "Musik",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "buttons": {
+      "view": "Aufgabe anzeigen",
+      "refresh": "Aufgabe aktualisieren"
+    },
+    "empty_message": "Keine Aufgaben gefunden"
+  }
+}

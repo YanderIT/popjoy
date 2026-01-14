@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Sistem",
+      "items": [
+        {
+          "title": "Pengguna & Izin",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Pengguna",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Peran",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Izin",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Halaman & Konten",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Kategori",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "Postingan",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "Pesanan",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "Produk",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "Pembayaran & Kredit",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Pembayaran",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Langganan",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Kredit",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Pengaturan",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profil",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Beranda",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

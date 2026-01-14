@@ -1,0 +1,14 @@
+{
+  "title": "Ayarlar",
+  "nav": {
+    "items": [
+      {"title": "Profil", "url": "/settings/profile", "icon": "User"},
+      {"title": "Siparişler", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "Ayarlar", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

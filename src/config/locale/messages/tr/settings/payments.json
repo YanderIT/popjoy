@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Sipariş No",
+    "user": "Kullanıcı",
+    "amount": "Tutar",
+    "product_name": "Ürün Adı",
+    "price": "Fiyat",
+    "paid_amount": "Ödenen Tutar",
+    "discount_amount": "İndirim Tutarı",
+    "description": "Açıklama",
+    "type": "Tür",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma Tarihi",
+    "status": "Durum",
+    "action": "İşlem",
+    "actions": {
+      "view_invoice": "Faturayı Görüntüle"
+    }
+  },
+  "list": {
+    "title": "Ödemeler",
+    "description": "Ödemelerinizi görüntüleyin",
+    "tabs": {
+      "all": "Tümü",
+      "one-time": "Tek Seferlik",
+      "subscription": "Abonelik",
+      "renew": "Yenileme"
+    }
+  }
+}

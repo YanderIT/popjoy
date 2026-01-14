@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Başlık",
+    "user": "Kullanıcı",
+    "status": "Durum",
+    "model": "Model",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "Yapay Zeka Sohbetleri",
+    "crumbs": {
+      "admin": "Yönetici",
+      "chats": "Yapay Zeka Sohbetleri"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "pending": "Beklemede",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız"
+    },
+    "buttons": {
+      "view": "Sohbeti Görüntüle",
+      "new": "Yeni Sohbet"
+    },
+    "empty_message": "Sohbet bulunamadı"
+  }
+}

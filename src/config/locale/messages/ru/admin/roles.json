@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Название",
+    "title": "Заголовок",
+    "description": "Описание",
+    "status": "Статус",
+    "sort": "Сортировка",
+    "created_at": "Создано",
+    "updated_at": "Обновлено",
+    "permissions": "Права",
+    "actions": "Действия"
+  },
+  "list": {
+    "title": "Роли",
+    "crumbs": {
+      "admin": "Админ",
+      "roles": "Роли"
+    },
+    "buttons": {
+      "create": "Создать роль",
+      "edit": "Редактировать роль",
+      "edit_permissions": "Редактировать права",
+      "delete": "Удалить роль"
+    }
+  },
+  "edit": {
+    "title": "Редактировать роль",
+    "crumbs": {
+      "admin": "Админ",
+      "roles": "Роли",
+      "edit": "Редактировать роль"
+    },
+    "buttons": {
+      "submit": "Обновить"
+    }
+  },
+  "edit_permissions": {
+    "title": "Редактировать права",
+    "crumbs": {
+      "admin": "Админ",
+      "roles": "Роли",
+      "edit_permissions": "Редактировать права"
+    },
+    "buttons": {
+      "submit": "Обновить"
+    }
+  }
+}

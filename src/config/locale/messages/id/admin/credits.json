@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "No. Transaksi",
+    "user": "Pengguna",
+    "amount": "Jumlah",
+    "remaining": "Sisa",
+    "type": "Tipe",
+    "scene": "Adegan",
+    "description": "Deskripsi",
+    "created_at": "Dibuat Pada",
+    "expires_at": "Kedaluwarsa",
+    "metadata": "Metadata",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Kredit",
+    "crumbs": {
+      "admin": "Admin",
+      "credits": "Kredit"
+    },
+    "tabs": {
+      "all": "Semua",
+      "grant": "Pemberian",
+      "consume": "Penggunaan"
+    }
+  }
+}

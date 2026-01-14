@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "№ заказа",
+    "user": "Пользователь",
+    "amount": "Сумма",
+    "status": "Статус",
+    "shipping_carrier": "Перевозчик",
+    "tracking_number": "№ отслеживания",
+    "created_at": "Создан",
+    "shipped_at": "Отправлен",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "Заказы",
+    "crumbs": {
+      "admin": "Админ",
+      "orders": "Заказы"
+    },
+    "tabs": {
+      "all": "Все",
+      "pending_shipment": "Ожидает отправки",
+      "shipped": "Отправлен",
+      "delivered": "Доставлен"
+    },
+    "filters": {
+      "status": {
+        "title": "Статус",
+        "options": {
+          "all": "Все",
+          "pending_payment": "Ожидает оплаты",
+          "pending_shipment": "Ожидает отправки",
+          "shipped": "Отправлен",
+          "delivered": "Доставлен",
+          "completed": "Завершён",
+          "canceled": "Отменён",
+          "refunded": "Возврат"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "№ заказа",
+        "placeholder": "Поиск номера заказа"
+      }
+    }
+  },
+  "ship": {
+    "title": "Отправить заказ",
+    "description": "Введите информацию о доставке для этого заказа",
+    "carrier": "Перевозчик",
+    "carrier_placeholder": "напр. СДЭК, Почта России, DPD",
+    "tracking": "Номер отслеживания",
+    "tracking_placeholder": "Введите номер отслеживания",
+    "submit": "Подтвердить отправку",
+    "success": "Заказ успешно отправлен",
+    "error": "Ошибка при отправке заказа"
+  }
+}

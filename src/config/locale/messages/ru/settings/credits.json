@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "№ транзакции",
+    "description": "Описание",
+    "type": "Тип",
+    "scene": "Сцена",
+    "credits": "Кредиты",
+    "expires_at": "Истекает",
+    "created_at": "Создано",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "История кредитов",
+    "tabs": {
+      "all": "Все",
+      "grant": "Начислено",
+      "consume": "Потрачено"
+    }
+  },
+  "view": {
+    "title": "Баланс кредитов",
+    "buttons": {
+      "purchase": "Купить кредиты"
+    }
+  }
+}

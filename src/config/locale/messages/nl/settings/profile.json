@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "email": "E-mail",
+    "name": "Naam"
+  },
+  "edit": {
+    "title": "Profiel",
+    "description": "Werk je profiel bij",
+    "crumbs": {
+      "settings": "Instellingen",
+      "profile": "Profiel"
+    },
+    "buttons": {
+      "submit": "Opslaan"
+    }
+  }
+}

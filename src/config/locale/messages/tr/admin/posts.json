@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "image": "Görsel",
+    "content": "İçerik",
+    "categories": "Kategoriler",
+    "tags": "Etiketler",
+    "author_name": "Yazar Adı",
+    "author_role": "Yazar Rolü",
+    "author_image": "Yazar Görseli",
+    "status": "Durum",
+    "created_at": "Oluşturulma",
+    "updated_at": "Güncellenme",
+    "deleted_at": "Silinme"
+  },
+  "list": {
+    "title": "Yazılar",
+    "crumbs": {
+      "admin": "Yönetici",
+      "posts": "Yazılar"
+    },
+    "buttons": {
+      "add": "Yazı Ekle",
+      "edit": "Yazı Düzenle",
+      "view": "Yazı Görüntüle",
+      "delete": "Yazı Sil"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "published": "Yayınlandı",
+      "pending": "Beklemede",
+      "draft": "Taslak",
+      "archived": "Arşivlendi"
+    }
+  },
+  "add": {
+    "title": "Yazı Ekle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "posts": "Yazılar",
+      "add": "Yazı Ekle"
+    },
+    "buttons": {
+      "submit": "Yazı Ekle"
+    }
+  },
+  "edit": {
+    "title": "Yazı Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "posts": "Yazılar",
+      "edit": "Yazı Düzenle"
+    },
+    "buttons": {
+      "submit": "Yazı Düzenle"
+    }
+  }
+}

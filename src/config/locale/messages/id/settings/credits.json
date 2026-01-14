@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "No. Transaksi",
+    "description": "Deskripsi",
+    "type": "Tipe",
+    "scene": "Scene",
+    "credits": "Kredit",
+    "expires_at": "Kedaluwarsa",
+    "created_at": "Dibuat pada",
+    "action": "Aksi"
+  },
+  "list": {
+    "title": "Riwayat Kredit",
+    "tabs": {
+      "all": "Semua",
+      "grant": "Diberikan",
+      "consume": "Digunakan"
+    }
+  },
+  "view": {
+    "title": "Saldo Kredit",
+    "buttons": {
+      "purchase": "Beli Kredit"
+    }
+  }
+}

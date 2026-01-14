@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "email": "Email",
+    "name": "Tên"
+  },
+  "edit": {
+    "title": "Hồ sơ",
+    "description": "Cập nhật hồ sơ của bạn",
+    "crumbs": {
+      "settings": "Cài đặt",
+      "profile": "Hồ sơ"
+    },
+    "buttons": {
+      "submit": "Lưu"
+    }
+  }
+}

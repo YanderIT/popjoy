@@ -1,0 +1,14 @@
+{
+  "title": "設定",
+  "nav": {
+    "items": [
+      {"title": "プロフィール", "url": "/settings/profile", "icon": "User"},
+      {"title": "注文", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "設定", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

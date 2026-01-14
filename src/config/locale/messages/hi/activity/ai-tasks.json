@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "शीर्षक",
+    "media_type": "मीडिया प्रकार",
+    "provider": "प्रदाता",
+    "model": "मॉडल",
+    "prompt": "प्रॉम्प्ट",
+    "options": "विकल्प",
+    "status": "स्थिति",
+    "result": "परिणाम",
+    "cost_credits": "खर्च किए गए क्रेडिट",
+    "created_at": "निर्माण तिथि",
+    "action": "कार्रवाई"
+  },
+  "list": {
+    "title": "AI कार्य",
+    "tabs": {
+      "all": "सभी",
+      "music": "संगीत",
+      "image": "छवि",
+      "video": "वीडियो",
+      "audio": "ऑडियो",
+      "text": "टेक्स्ट"
+    },
+    "buttons": {
+      "view": "कार्य देखें",
+      "refresh": "कार्य रिफ्रेश करें"
+    },
+    "empty_message": "कोई कार्य नहीं मिला"
+  }
+}

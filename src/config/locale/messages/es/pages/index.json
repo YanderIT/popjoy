@@ -1,0 +1,32 @@
+{
+  "page": {
+    "show_sections": ["hero", "products", "cta"],
+    "sections": {
+      "products": {
+        "id": "products",
+        "block": "products",
+        "title": "Colección destacada",
+        "description": "Descubre juguetes de diseñador exclusivos y coleccionables de edición limitada."
+      },
+      "hero": {
+        "id": "hero",
+        "title": "Descubre juguetes de diseñador únicos y coleccionables",
+        "highlight_text": "únicos",
+        "description": "Una colección curada de juguetes de arte de edición limitada, figuras de diseñador y coleccionables exclusivos.<br/>Encuentra tu próximo tesoro.",
+        "tip": "Cantidad limitada - Una vez agotado, se acabó",
+        "buttons": [{"title": "Comprar ahora", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "show_avatars": false,
+        "avatars_tip": "Únete a más de 999 coleccionistas en todo el mundo",
+        "show_award": false,
+        "image": {"src": "https://picsum.photos/1920/800", "alt": "Banner hero", "width": 1920, "height": 800}
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Comienza tu colección hoy",
+        "description": "Descubre artículos raros y ediciones limitadas antes de que se agoten.",
+        "buttons": [{"title": "Ver todo", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "email": "E-mail",
+    "name": "Nom"
+  },
+  "edit": {
+    "title": "Profil",
+    "description": "Mettre à jour votre profil",
+    "crumbs": {
+      "settings": "Paramètres",
+      "profile": "Profil"
+    },
+    "buttons": {
+      "submit": "Enregistrer"
+    }
+  }
+}

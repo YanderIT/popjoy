@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "Mã đăng ký",
+    "user": "Người dùng",
+    "amount": "Số tiền",
+    "interval": "Chu kỳ",
+    "provider": "Nhà cung cấp",
+    "created_at": "Ngày tạo",
+    "current_period_start": "Bắt đầu kỳ hiện tại",
+    "current_period_end": "Kết thúc kỳ hiện tại",
+    "status": "Trạng thái",
+    "description": "Mô tả",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Đăng ký",
+    "crumbs": {
+      "admin": "Quản trị",
+      "subscriptions": "Đăng ký"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "month": "Hàng tháng",
+      "year": "Hàng năm"
+    }
+  }
+}

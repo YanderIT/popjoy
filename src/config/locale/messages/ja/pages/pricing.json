@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "料金プラン",
+    "description": "プランを選んで始めましょう"
+  },
+  "page": {
+    "title": "PoptoyStudio 料金プラン",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "料金プラン",
+        "description": "PoptoyStudioのすべての機能を手に入れて、AI SaaSスタートアップを素早くリリースしましょう。",
+        "groups": [
+          {"name": "one-time", "title": "一回払い"},
+          {"name": "monthly", "title": "月額", "is_featured": true, "label": "15%オフ"},
+          {"name": "yearly", "title": "年額"}
+        ],
+        "items": [
+          {
+            "title": "スターター",
+            "description": "最初のSaaSスタートアップを始めましょう。",
+            "features_title": "含まれるもの",
+            "features": ["100クレジット、1ヶ月有効", "NextJSボイラープレート", "SEOフレンドリーな構造", "Stripe決済", "Supabaseでデータ保存", "Google OAuth & ワンタップログイン", "i18nサポート"],
+            "interval": "one-time", "amount": 9900, "currency": "USD", "price": "$99", "original_price": "$199", "unit": "",
+            "is_featured": false, "tip": "一回払いで無制限のプロジェクト構築！",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter", "product_name": "PoptoyStudio Boilerplate Starter", "credits": 100, "valid_days": 30, "group": "one-time"
+          },
+          {
+            "title": "スタンダード",
+            "description": "SaaSスタートアップを素早くリリース。",
+            "label": "人気",
+            "features_title": "スターターのすべて、さらに",
+            "features": ["200クレジット、3ヶ月有効", "VercelまたはCloudflareでデプロイ", "プライバシー&利用規約の生成", "Google Analytics統合", "Google Search Console統合", "Discordコミュニティ", "初回リリースの技術サポート", "永久アップデート"],
+            "interval": "one-time", "amount": 19900, "currency": "USD", "price": "$199", "original_price": "$299", "unit": "",
+            "is_featured": true, "tip": "一回払いで無制限のプロジェクト構築！",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard", "product_name": "PoptoyStudio Boilerplate Standard", "credits": 200, "valid_days": 90, "group": "one-time"
+          },
+          {
+            "title": "プレミアム",
+            "description": "あらゆるAI SaaSスタートアップをリリース。",
+            "features_title": "スタンダードのすべて、さらに",
+            "features": ["300クレジット、1年有効", "AI搭載ビジネス機能", "ユーザーセンター", "クレジットシステム", "SaaS向けAPI販売", "管理システム", "優先技術サポート"],
+            "interval": "one-time", "amount": 29900, "currency": "USD", "price": "$299", "original_price": "$399", "unit": "",
+            "is_featured": false, "tip": "一回払いで無制限のプロジェクト構築！",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium", "product_name": "PoptoyStudio Boilerplate Premium", "credits": 300, "valid_days": 365, "group": "one-time"
+          },
+          {
+            "title": "スターター",
+            "description": "最初のSaaSスタートアップを始めましょう。",
+            "features_title": "含まれるもの",
+            "features": ["100クレジット、1ヶ月有効", "NextJSボイラープレート", "SEOフレンドリーな構造", "Stripe決済", "Supabaseでデータ保存", "Google OAuth & ワンタップログイン", "i18nサポート"],
+            "interval": "month", "amount": 8900, "currency": "USD", "price": "$89", "original_price": "$99", "unit": "/ 月",
+            "is_featured": false, "tip": "月額払いで無制限のプロジェクト構築！",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-monthly", "product_name": "PoptoyStudio Boilerplate Starter Monthly", "credits": 100, "valid_days": 30, "group": "monthly", "plan_name": "Starter"
+          },
+          {
+            "title": "スタンダード",
+            "description": "SaaSスタートアップを素早くリリース。",
+            "label": "人気",
+            "features_title": "スターターのすべて、さらに",
+            "features": ["200クレジット、1ヶ月有効", "VercelまたはCloudflareでデプロイ", "プライバシー&利用規約の生成", "Google Analytics統合", "Google Search Console統合", "Discordコミュニティ", "初回リリースの技術サポート", "永久アップデート"],
+            "interval": "month", "amount": 16900, "currency": "USD", "price": "$169", "original_price": "$199", "unit": "/ 月",
+            "is_featured": true, "tip": "月額払い。SaaSスタートアップを素早くリリース。",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-monthly", "product_name": "PoptoyStudio Boilerplate Standard Monthly", "credits": 200, "valid_days": 30, "group": "monthly", "plan_name": "Standard"
+          },
+          {
+            "title": "プレミアム",
+            "description": "あらゆるAI SaaSスタートアップをリリース。",
+            "features_title": "スタンダードのすべて、さらに",
+            "features": ["300クレジット、1ヶ月有効", "AI搭載ビジネス機能", "ユーザーセンター", "クレジットシステム", "SaaS向けAPI販売", "管理システム", "優先技術サポート"],
+            "interval": "month", "amount": 24900, "currency": "USD", "price": "$249", "original_price": "$299", "unit": "/ 月",
+            "is_featured": false, "tip": "月額払い。あらゆるAI SaaSスタートアップをリリース。",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-monthly", "product_name": "PoptoyStudio Boilerplate Premium Monthly", "credits": 300, "valid_days": 30, "group": "monthly", "plan_name": "Premium"
+          },
+          {
+            "title": "スターター",
+            "description": "最初のSaaSスタートアップを始めましょう。",
+            "features_title": "含まれるもの",
+            "features": ["100クレジット、1年有効", "NextJSボイラープレート", "SEOフレンドリーな構造", "Stripe決済", "Supabaseでデータ保存", "Google OAuth & ワンタップログイン", "i18nサポート"],
+            "interval": "year", "amount": 82800, "currency": "USD", "price": "$69", "original_price": "$89", "unit": "/ 月",
+            "is_featured": false, "tip": "年額払いで無制限のプロジェクト構築！",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-yearly", "product_name": "PoptoyStudio Boilerplate Starter Annually", "credits": 1200, "valid_days": 365, "group": "yearly", "plan_name": "Starter"
+          },
+          {
+            "title": "スタンダード",
+            "description": "SaaSスタートアップを素早くリリース。",
+            "label": "人気",
+            "features_title": "スターターのすべて、さらに",
+            "features": ["200クレジット、1年有効", "VercelまたはCloudflareでデプロイ", "プライバシー&利用規約の生成", "Google Analytics統合", "Google Search Console統合", "Discordコミュニティ", "初回リリースの技術サポート", "永久アップデート"],
+            "interval": "year", "amount": 154800, "currency": "USD", "price": "$129", "original_price": "$169", "unit": "/ 月",
+            "is_featured": true, "tip": "年額払い。SaaSスタートアップを素早くリリース。",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-yearly", "product_name": "PoptoyStudio Boilerplate Standard Annually", "credits": 2400, "valid_days": 365, "group": "yearly", "plan_name": "Standard"
+          },
+          {
+            "title": "プレミアム",
+            "description": "あらゆるAI SaaSスタートアップをリリース。",
+            "features_title": "スタンダードのすべて、さらに",
+            "features": ["300クレジット、1年有効", "AI搭載ビジネス機能", "ユーザーセンター", "クレジットシステム", "SaaS向けAPI販売", "管理システム", "優先技術サポート"],
+            "interval": "year", "amount": 226800, "currency": "USD", "price": "$189", "original_price": "$249", "unit": "/ 月",
+            "is_featured": false, "tip": "年額払い。あらゆるAI SaaSスタートアップをリリース。",
+            "button": {"title": "PoptoyStudioを入手", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-yearly", "product_name": "PoptoyStudio Boilerplate Premium Annually", "credits": 3600, "valid_days": 365, "group": "yearly", "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "現在のプラン",
+    "processing": "処理中"
+  }
+}

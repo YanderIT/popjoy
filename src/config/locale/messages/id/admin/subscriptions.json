@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "No. Langganan",
+    "user": "Pengguna",
+    "amount": "Jumlah",
+    "interval": "Interval",
+    "provider": "Penyedia",
+    "created_at": "Dibuat Pada",
+    "current_period_start": "Awal Periode Saat Ini",
+    "current_period_end": "Akhir Periode Saat Ini",
+    "status": "Status",
+    "description": "Deskripsi",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Langganan",
+    "crumbs": {
+      "admin": "Admin",
+      "subscriptions": "Langganan"
+    },
+    "tabs": {
+      "all": "Semua",
+      "month": "Bulanan",
+      "year": "Tahunan"
+    }
+  }
+}

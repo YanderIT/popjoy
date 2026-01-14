@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Descubra brinquedos de designer únicos, figuras de arte e colecionáveis de edição limitada. Coleção curada para colecionadores de todo o mundo.",
+    "keywords": "brinquedos de designer, art toys, colecionáveis, edição limitada, figuras, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Entrar",
+    "sign_in_description": "Entre na sua conta",
+    "sign_up_title": "Cadastrar",
+    "sign_up_description": "Criar uma conta",
+    "email_title": "E-mail",
+    "email_placeholder": "Digite seu e-mail",
+    "password_title": "Senha",
+    "password_placeholder": "Digite sua senha",
+    "forgot_password": "Esqueceu a senha?",
+    "or": "Ou",
+    "continue": "Continuar",
+    "no_account": "Não tem uma conta?",
+    "already_have_account": "Já tem uma conta?",
+    "email_sign_in": "Entrar com e-mail",
+    "google_sign_in_title": "Entrar com Google",
+    "github_sign_in_title": "Entrar com GitHub",
+    "close_title": "Fechar",
+    "cancel_title": "Cancelar",
+    "sign_out_title": "Sair",
+    "billing_title": "Faturamento",
+    "name_title": "Nome",
+    "name_placeholder": "Digite seu nome",
+    "email_verification_hint": "Use um endereço de e-mail que você possa acessar. Você deve verificar seu e-mail após o cadastro.",
+    "admin_title": "Sistema de administração",
+    "credits_title": "Créditos: {credits}",
+    "verify_email_sent": "E-mail de verificação enviado. Por favor, verifique sua caixa de entrada.",
+    "verify_email_required": "Por favor, verifique seu endereço de e-mail antes de entrar.",
+    "resend_verification": "Reenviar e-mail de verificação",
+    "resend_verification_sent": "E-mail de verificação reenviado. Por favor, verifique sua caixa de entrada.",
+    "verify_email_page_title": "Verifique seu e-mail",
+    "verify_email_page_description": "Para continuar, clique no link enviado para",
+    "verify_email_continue": "Continuar",
+    "verify_email_tip": "Após verificar, clique em \"Continuar\".",
+    "verify_email_not_verified_yet": "Ainda não verificado. Por favor, clique primeiro no link do seu e-mail.",
+    "verify_email_account_mismatch": "Conectado como {current}. Esta página aguarda {expected}.",
+    "resend_verification_countdown": "Reenviar e-mail de verificação ({seconds}s)",
+    "resend_verification_wait": "Por favor, aguarde {seconds}s antes de reenviar.",
+    "back_to_sign_in": "Voltar para entrar",
+    "promo_title": "Aproveite nossas ofertas limitadas",
+    "promo_subtitle": "Best sellers com desconto!",
+    "promo_description": "E não perca seu desconto de $5!"
+  },
+  "payment": {
+    "choose_payment_method": "Escolher método de pagamento",
+    "choose_payment_method_description": "",
+    "cancel_title": "Cancelar"
+  },
+  "locale_detector": {
+    "title": "Detectamos que o idioma do seu navegador é {locale}. Mudar?",
+    "switch_to": "Mudar para {locale}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "설정",
+  "nav": {
+    "items": [
+      {"title": "프로필", "url": "/settings/profile", "icon": "User"},
+      {"title": "주문", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "설정", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

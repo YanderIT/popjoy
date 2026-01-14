@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "N° pedido",
+    "user": "Usuário",
+    "amount": "Valor",
+    "status": "Status",
+    "shipping_carrier": "Transportadora",
+    "tracking_number": "N° rastreio",
+    "created_at": "Criado em",
+    "shipped_at": "Enviado em",
+    "action": "Ação"
+  },
+  "list": {
+    "title": "Pedidos",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Pedidos"
+    },
+    "tabs": {
+      "all": "Todos",
+      "pending_shipment": "Aguardando envio",
+      "shipped": "Enviados",
+      "delivered": "Entregues"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Todos",
+          "pending_payment": "Aguardando pagamento",
+          "pending_shipment": "Aguardando envio",
+          "shipped": "Enviado",
+          "delivered": "Entregue",
+          "completed": "Concluído",
+          "canceled": "Cancelado",
+          "refunded": "Reembolsado"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "N° pedido",
+        "placeholder": "Pesquisar número do pedido"
+      }
+    }
+  },
+  "ship": {
+    "title": "Enviar pedido",
+    "description": "Digite as informações de envio para este pedido",
+    "carrier": "Transportadora",
+    "carrier_placeholder": "ex. Correios, Jadlog, Total Express",
+    "tracking": "Número de rastreio",
+    "tracking_placeholder": "Digite o número de rastreio",
+    "submit": "Confirmar envio",
+    "success": "Pedido enviado com sucesso",
+    "error": "Falha ao enviar o pedido"
+  }
+}

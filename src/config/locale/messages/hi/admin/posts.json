@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "स्लग",
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "image": "छवि",
+    "content": "सामग्री",
+    "categories": "श्रेणियाँ",
+    "tags": "टैग",
+    "author_name": "लेखक का नाम",
+    "author_role": "लेखक की भूमिका",
+    "author_image": "लेखक की छवि",
+    "status": "स्थिति",
+    "created_at": "बनाया गया",
+    "updated_at": "अपडेट किया गया",
+    "deleted_at": "हटाया गया"
+  },
+  "list": {
+    "title": "पोस्ट",
+    "crumbs": {
+      "admin": "एडमिन",
+      "posts": "पोस्ट"
+    },
+    "buttons": {
+      "add": "पोस्ट जोड़ें",
+      "edit": "पोस्ट संपादित करें",
+      "view": "पोस्ट देखें",
+      "delete": "पोस्ट हटाएं"
+    },
+    "tabs": {
+      "all": "सभी",
+      "published": "प्रकाशित",
+      "pending": "लंबित",
+      "draft": "ड्राफ्ट",
+      "archived": "संग्रहीत"
+    }
+  },
+  "add": {
+    "title": "पोस्ट जोड़ें",
+    "crumbs": {
+      "admin": "एडमिन",
+      "posts": "पोस्ट",
+      "add": "पोस्ट जोड़ें"
+    },
+    "buttons": {
+      "submit": "पोस्ट जोड़ें"
+    }
+  },
+  "edit": {
+    "title": "पोस्ट संपादित करें",
+    "crumbs": {
+      "admin": "एडमिन",
+      "posts": "पोस्ट",
+      "edit": "पोस्ट संपादित करें"
+    },
+    "buttons": {
+      "submit": "पोस्ट संपादित करें"
+    }
+  }
+}

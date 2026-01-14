@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "Baca fitur produk, solusi, dan pembaruan terbaru."
+  },
+  "page": {
+    "title": "Blog PoptoyStudio",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Blog",
+        "description": "Baca fitur produk, solusi, dan pembaruan terbaru."
+      }
+    }
+  },
+  "messages": {
+    "all": "Semua",
+    "no_content": "Tidak ada konten",
+    "crumb": "Blog",
+    "toc": "Daftar Isi"
+  }
+}

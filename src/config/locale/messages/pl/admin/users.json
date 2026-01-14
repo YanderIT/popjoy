@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nazwa",
+    "avatar": "Awatar",
+    "email": "E-mail",
+    "email_verified": "E-mail zweryfikowany",
+    "remaining_credits": "Pozostałe kredyty",
+    "created_at": "Utworzono",
+    "actions": "Akcje",
+    "roles": "Role",
+    "ip": "IP",
+    "locale": "Język",
+    "utm_source": "Źródło UTM"
+  },
+  "list": {
+    "title": "Użytkownicy",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Użytkownicy"
+    },
+    "buttons": {
+      "add": "Dodaj użytkownika",
+      "edit": "Edytuj użytkownika",
+      "view": "Zobacz użytkownika",
+      "delete": "Usuń użytkownika",
+      "edit_roles": "Edytuj role",
+      "grant_credits": "Przyznaj kredyty"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail",
+        "placeholder": "E-mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edytuj użytkownika",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Użytkownicy",
+      "edit": "Edytuj"
+    },
+    "buttons": {
+      "submit": "Aktualizuj"
+    }
+  },
+  "edit_roles": {
+    "title": "Edytuj role",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Użytkownicy",
+      "edit_roles": "Edytuj role"
+    },
+    "buttons": {
+      "submit": "Aktualizuj"
+    }
+  },
+  "grant_credits": {
+    "title": "Przyznaj kredyty",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Użytkownicy",
+      "grant_credits": "Przyznaj kredyty"
+    },
+    "buttons": {
+      "submit": "Przyznaj"
+    },
+    "fields": {
+      "credits": "Ilość kredytów",
+      "valid_days": "Dni ważności kredytów",
+      "valid_days_tip": "0 oznacza brak wygaśnięcia",
+      "description": "Opis przyznania kredytów",
+      "description_placeholder": "Przyznanie kredytów przez admina"
+    }
+  }
+}

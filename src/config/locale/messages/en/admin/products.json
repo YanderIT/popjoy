@@ -2,6 +2,8 @@
   "fields": {
     "id": "ID",
     "name": "Name",
+    "category": "Category",
+    "no_category": "No Category",
     "description": "Description",
     "image": "Image",
     "status": "Status",

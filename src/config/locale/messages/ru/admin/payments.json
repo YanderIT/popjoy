@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "№ заказа",
+    "user": "Пользователь",
+    "amount": "Сумма",
+    "product": "Продукт",
+    "description": "Описание",
+    "type": "Тип",
+    "provider": "Провайдер",
+    "created_at": "Создано",
+    "status": "Статус",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "Платежи",
+    "crumbs": {
+      "admin": "Админ",
+      "payments": "Платежи"
+    },
+    "tabs": {
+      "all": "Все",
+      "subscription": "Подписка",
+      "one-time": "Разовый"
+    },
+    "filters": {
+      "status": {
+        "title": "Статус",
+        "options": {
+          "all": "Все",
+          "paid": "Оплачено",
+          "created": "Создано",
+          "failed": "Ошибка"
+        }
+      },
+      "provider": {
+        "title": "Провайдер",
+        "options": {
+          "all": "Все",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "№ заказа",
+        "placeholder": "№ заказа"
+      }
+    }
+  }
+}

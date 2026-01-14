@@ -1,0 +1,97 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": false,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Bestellingen",
+          "url": "/shop/orders",
+          "icon": "Package"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "Deze website is een demo-site voor het PoptoyStudio-template. Om het PoptoyStudio-template te kopen, bezoek de <a href='https://PoptoyStudio.ai/pricing' class='text-orange-300' target='_blank'>PoptoyStudio-website</a>"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PoptoyStudio",
+      "description": "Jouw bestemming voor uniek designerspeelgoed, kunstfiguren en limited edition verzamelobjecten. Zorgvuldig samengesteld voor verzamelaars wereldwijd.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 82,
+        "height": 82
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "E-mail",
+          "icon": "Mail",
+          "url": "mailto:support@poptoystudio.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacybeleid",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Servicevoorwaarden",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Tên",
+    "avatar": "Ảnh đại diện",
+    "email": "Email",
+    "email_verified": "Email đã xác minh",
+    "remaining_credits": "Tín dụng còn lại",
+    "created_at": "Ngày tạo",
+    "actions": "Hành động",
+    "roles": "Vai trò",
+    "ip": "IP",
+    "locale": "Ngôn ngữ",
+    "utm_source": "Nguồn UTM"
+  },
+  "list": {
+    "title": "Người dùng",
+    "crumbs": {
+      "admin": "Quản trị",
+      "users": "Người dùng"
+    },
+    "buttons": {
+      "add": "Thêm người dùng",
+      "edit": "Sửa người dùng",
+      "view": "Xem người dùng",
+      "delete": "Xóa người dùng",
+      "edit_roles": "Sửa vai trò",
+      "grant_credits": "Cấp tín dụng"
+    },
+    "search": {
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "edit": {
+    "title": "Sửa người dùng",
+    "crumbs": {
+      "admin": "Quản trị",
+      "users": "Người dùng",
+      "edit": "Sửa"
+    },
+    "buttons": {
+      "submit": "Cập nhật"
+    }
+  },
+  "edit_roles": {
+    "title": "Sửa vai trò",
+    "crumbs": {
+      "admin": "Quản trị",
+      "users": "Người dùng",
+      "edit_roles": "Sửa vai trò"
+    },
+    "buttons": {
+      "submit": "Cập nhật"
+    }
+  },
+  "grant_credits": {
+    "title": "Cấp tín dụng",
+    "crumbs": {
+      "admin": "Quản trị",
+      "users": "Người dùng",
+      "grant_credits": "Cấp tín dụng"
+    },
+    "buttons": {
+      "submit": "Cấp"
+    },
+    "fields": {
+      "credits": "Số lượng tín dụng",
+      "valid_days": "Số ngày hiệu lực",
+      "valid_days_tip": "0 nghĩa là không hết hạn",
+      "description": "Mô tả cấp tín dụng",
+      "description_placeholder": "Quản trị viên cấp tín dụng"
+    }
+  }
+}

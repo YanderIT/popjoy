@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "النظام",
+      "items": [
+        {
+          "title": "المستخدمون والصلاحيات",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "المستخدمون",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "الأدوار",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "الصلاحيات",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "الصفحات والمحتوى",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "التصنيفات",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "المقالات",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "الطلبات",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "المنتجات",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "المدفوعات والرصيد",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "المدفوعات",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "الاشتراكات",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "الرصيد",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "الإعدادات",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "الرئيسية",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "البريد",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

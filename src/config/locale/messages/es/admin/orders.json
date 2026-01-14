@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "N° pedido",
+    "user": "Usuario",
+    "amount": "Importe",
+    "status": "Estado",
+    "shipping_carrier": "Transportista",
+    "tracking_number": "N° seguimiento",
+    "created_at": "Creado el",
+    "shipped_at": "Enviado el",
+    "action": "Acción"
+  },
+  "list": {
+    "title": "Pedidos",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Pedidos"
+    },
+    "tabs": {
+      "all": "Todos",
+      "pending_shipment": "Pendiente de envío",
+      "shipped": "Enviados",
+      "delivered": "Entregados"
+    },
+    "filters": {
+      "status": {
+        "title": "Estado",
+        "options": {
+          "all": "Todos",
+          "pending_payment": "Pendiente de pago",
+          "pending_shipment": "Pendiente de envío",
+          "shipped": "Enviado",
+          "delivered": "Entregado",
+          "completed": "Completado",
+          "canceled": "Cancelado",
+          "refunded": "Reembolsado"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "N° pedido",
+        "placeholder": "Buscar número de pedido"
+      }
+    }
+  },
+  "ship": {
+    "title": "Enviar pedido",
+    "description": "Ingrese la información de envío para este pedido",
+    "carrier": "Transportista",
+    "carrier_placeholder": "ej. Correos, SEUR, MRW",
+    "tracking": "Número de seguimiento",
+    "tracking_placeholder": "Ingresar número de seguimiento",
+    "submit": "Confirmar envío",
+    "success": "Pedido enviado exitosamente",
+    "error": "Error al enviar el pedido"
+  }
+}

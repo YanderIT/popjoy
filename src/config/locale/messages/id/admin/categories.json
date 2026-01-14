@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Judul",
+    "description": "Deskripsi",
+    "status": "Status",
+    "created_at": "Dibuat Pada",
+    "updated_at": "Diperbarui Pada"
+  },
+  "list": {
+    "title": "Kategori",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Kategori"
+    },
+    "buttons": {
+      "add": "Tambah Kategori",
+      "edit": "Edit Kategori",
+      "view": "Lihat Kategori",
+      "delete": "Hapus Kategori"
+    },
+    "tabs": {
+      "all": "Semua",
+      "published": "Dipublikasikan",
+      "pending": "Tertunda",
+      "draft": "Draf",
+      "archived": "Diarsipkan"
+    }
+  },
+  "add": {
+    "title": "Tambah Kategori",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Kategori",
+      "add": "Tambah Kategori"
+    },
+    "buttons": {
+      "submit": "Tambah Kategori"
+    }
+  },
+  "edit": {
+    "title": "Edit Kategori",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Kategori",
+      "edit": "Edit Kategori"
+    },
+    "buttons": {
+      "submit": "Edit Kategori"
+    }
+  }
+}

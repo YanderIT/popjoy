@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "№ подписки",
+    "user": "Пользователь",
+    "amount": "Сумма",
+    "interval": "Интервал",
+    "provider": "Провайдер",
+    "created_at": "Создано",
+    "current_period_start": "Начало текущего периода",
+    "current_period_end": "Конец текущего периода",
+    "status": "Статус",
+    "description": "Описание",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "Подписки",
+    "crumbs": {
+      "admin": "Админ",
+      "subscriptions": "Подписки"
+    },
+    "tabs": {
+      "all": "Все",
+      "month": "Месяц",
+      "year": "Год"
+    }
+  }
+}

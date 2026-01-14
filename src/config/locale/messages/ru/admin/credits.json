@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "№ транзакции",
+    "user": "Пользователь",
+    "amount": "Сумма",
+    "remaining": "Остаток",
+    "type": "Тип",
+    "scene": "Сцена",
+    "description": "Описание",
+    "created_at": "Создано",
+    "expires_at": "Истекает",
+    "metadata": "Метаданные",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "Кредиты",
+    "crumbs": {
+      "admin": "Админ",
+      "credits": "Кредиты"
+    },
+    "tabs": {
+      "all": "Все",
+      "grant": "Начисление",
+      "consume": "Расход"
+    }
+  }
+}

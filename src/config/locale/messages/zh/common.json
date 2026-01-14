@@ -42,7 +42,10 @@
     "verify_email_account_mismatch": "当前已登录 {current}，本页面等待 {expected} 的验证结果。",
     "resend_verification_countdown": "重新发送验证邮件（{seconds}秒）",
     "resend_verification_wait": "请等待 {seconds} 秒后再重新发送。",
-    "back_to_sign_in": "返回登录"
+    "back_to_sign_in": "返回登录",
+    "promo_title": "获取限时优惠",
+    "promo_subtitle": "畅销品特价！",
+    "promo_description": "不要错过您的$5折扣！"
   },
   "payment": {
     "choose_payment_method": "选择支付方式",

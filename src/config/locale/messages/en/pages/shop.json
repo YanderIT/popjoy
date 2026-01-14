@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "title": "Shop",
+    "description": "Browse our collection of designer toys and limited edition collectibles."
+  },
+  "page": {
+    "title": "Shop",
+    "sections": {
+      "products": {
+        "id": "products",
+        "title": "All Products",
+        "description": "Discover our exclusive designer toys and limited edition collectibles."
+      }
+    }
+  },
+  "messages": {
+    "all": "All",
+    "no_products": "No products found in this category.",
+    "products_count": "{count} products",
+    "add_to_cart": "Add to Cart",
+    "view_all": "View All Products"
+  }
+}

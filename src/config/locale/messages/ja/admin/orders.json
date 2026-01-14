@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "注文番号",
+    "user": "ユーザー",
+    "amount": "金額",
+    "status": "ステータス",
+    "shipping_carrier": "配送業者",
+    "tracking_number": "追跡番号",
+    "created_at": "作成日時",
+    "shipped_at": "発送日時",
+    "action": "アクション"
+  },
+  "list": {
+    "title": "注文",
+    "crumbs": {
+      "admin": "管理者",
+      "orders": "注文"
+    },
+    "tabs": {
+      "all": "すべて",
+      "pending_shipment": "発送待ち",
+      "shipped": "発送済み",
+      "delivered": "配達完了"
+    },
+    "filters": {
+      "status": {
+        "title": "ステータス",
+        "options": {
+          "all": "すべて",
+          "pending_payment": "支払い待ち",
+          "pending_shipment": "発送待ち",
+          "shipped": "発送済み",
+          "delivered": "配達完了",
+          "completed": "完了",
+          "canceled": "キャンセル",
+          "refunded": "返金済み"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "注文番号",
+        "placeholder": "注文番号を検索"
+      }
+    }
+  },
+  "ship": {
+    "title": "注文発送",
+    "description": "この注文の配送情報を入力してください",
+    "carrier": "配送業者",
+    "carrier_placeholder": "例: ヤマト運輸、佐川急便、日本郵便",
+    "tracking": "追跡番号",
+    "tracking_placeholder": "追跡番号を入力",
+    "submit": "発送を確認",
+    "success": "注文の発送が完了しました",
+    "error": "注文の発送に失敗しました"
+  }
+}

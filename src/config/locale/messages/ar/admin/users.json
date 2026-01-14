@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "avatar": "الصورة الرمزية",
+    "email": "البريد الإلكتروني",
+    "email_verified": "البريد الإلكتروني مُحقق",
+    "remaining_credits": "الرصيد المتبقي",
+    "created_at": "تاريخ الإنشاء",
+    "actions": "الإجراءات",
+    "roles": "الأدوار",
+    "ip": "عنوان IP",
+    "locale": "اللغة",
+    "utm_source": "مصدر UTM"
+  },
+  "list": {
+    "title": "المستخدمون",
+    "crumbs": {
+      "admin": "المدير",
+      "users": "المستخدمون"
+    },
+    "buttons": {
+      "add": "إضافة مستخدم",
+      "edit": "تعديل المستخدم",
+      "view": "عرض المستخدم",
+      "delete": "حذف المستخدم",
+      "edit_roles": "تعديل الأدوار",
+      "grant_credits": "منح الرصيد"
+    },
+    "search": {
+      "email": {
+        "title": "البريد الإلكتروني",
+        "placeholder": "البريد الإلكتروني"
+      }
+    }
+  },
+  "edit": {
+    "title": "تعديل المستخدم",
+    "crumbs": {
+      "admin": "المدير",
+      "users": "المستخدمون",
+      "edit": "تعديل"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  },
+  "edit_roles": {
+    "title": "تعديل الأدوار",
+    "crumbs": {
+      "admin": "المدير",
+      "users": "المستخدمون",
+      "edit_roles": "تعديل الأدوار"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  },
+  "grant_credits": {
+    "title": "منح الرصيد",
+    "crumbs": {
+      "admin": "المدير",
+      "users": "المستخدمون",
+      "grant_credits": "منح الرصيد"
+    },
+    "buttons": {
+      "submit": "منح"
+    },
+    "fields": {
+      "credits": "كمية الرصيد",
+      "valid_days": "أيام صلاحية الرصيد",
+      "valid_days_tip": "0 يعني بدون انتهاء صلاحية",
+      "description": "وصف منح الرصيد",
+      "description_placeholder": "منح رصيد من المدير"
+    }
+  }
+}

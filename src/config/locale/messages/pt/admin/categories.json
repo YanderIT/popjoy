@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Título",
+    "description": "Descrição",
+    "status": "Status",
+    "created_at": "Criado em",
+    "updated_at": "Atualizado em"
+  },
+  "list": {
+    "title": "Categorias",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorias"
+    },
+    "buttons": {
+      "add": "Adicionar categoria",
+      "edit": "Editar categoria",
+      "view": "Ver categoria",
+      "delete": "Excluir categoria"
+    },
+    "tabs": {
+      "all": "Tudo",
+      "published": "Publicado",
+      "pending": "Pendente",
+      "draft": "Rascunho",
+      "archived": "Arquivado"
+    }
+  },
+  "add": {
+    "title": "Adicionar categoria",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorias",
+      "add": "Adicionar categoria"
+    },
+    "buttons": {
+      "submit": "Adicionar categoria"
+    }
+  },
+  "edit": {
+    "title": "Editar categoria",
+    "crumbs": {
+      "admin": "Admin",
+      "categories": "Categorias",
+      "edit": "Editar categoria"
+    },
+    "buttons": {
+      "submit": "Editar categoria"
+    }
+  }
+}

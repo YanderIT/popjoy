@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Название",
+    "category": "Категория",
+    "no_category": "Без категории",
+    "description": "Описание",
+    "image": "Изображение",
+    "status": "Статус",
+    "sort": "Сортировка",
+    "created_at": "Создан",
+    "updated_at": "Обновлён",
+    "sku": "Код SKU",
+    "attributes": "Атрибуты",
+    "price": "Цена",
+    "original_price": "Исходная цена",
+    "cost_price": "Себестоимость",
+    "stock": "Остаток"
+  },
+  "status_options": {
+    "draft": "Черновик",
+    "active": "Активный",
+    "inactive": "Неактивный"
+  },
+  "list": {
+    "title": "Товары",
+    "crumbs": {
+      "admin": "Админ",
+      "products": "Товары"
+    },
+    "buttons": {
+      "add": "Добавить товар",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "skus": "Управление SKU"
+    }
+  },
+  "add": {
+    "title": "Добавить товар",
+    "crumbs": {
+      "admin": "Админ",
+      "products": "Товары",
+      "add": "Добавить"
+    },
+    "buttons": {
+      "submit": "Добавить товар"
+    }
+  },
+  "edit": {
+    "title": "Редактировать товар",
+    "crumbs": {
+      "admin": "Админ",
+      "products": "Товары",
+      "edit": "Редактировать"
+    },
+    "buttons": {
+      "submit": "Сохранить изменения"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Админ",
+        "products": "Товары",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "Добавить SKU",
+        "edit": "Редактировать",
+        "delete": "Удалить"
+      }
+    },
+    "add": {
+      "title": "Добавить SKU",
+      "crumbs": {
+        "admin": "Админ",
+        "products": "Товары",
+        "skus": "SKU",
+        "add": "Добавить"
+      },
+      "buttons": {
+        "submit": "Добавить SKU"
+      }
+    },
+    "edit": {
+      "title": "Редактировать SKU",
+      "crumbs": {
+        "admin": "Админ",
+        "products": "Товары",
+        "skus": "SKU",
+        "edit": "Редактировать"
+      },
+      "buttons": {
+        "submit": "Сохранить изменения"
+      }
+    }
+  }
+}

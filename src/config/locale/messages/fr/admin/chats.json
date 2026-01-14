@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Titre",
+    "user": "Utilisateur",
+    "status": "Statut",
+    "model": "Modèle",
+    "provider": "Fournisseur",
+    "created_at": "Créé le",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Chats IA",
+    "crumbs": {
+      "admin": "Admin",
+      "chats": "Chats IA"
+    },
+    "tabs": {
+      "all": "Tout",
+      "pending": "En attente",
+      "completed": "Terminé",
+      "failed": "Échoué"
+    },
+    "buttons": {
+      "view": "Voir le chat",
+      "new": "Nouveau chat"
+    },
+    "empty_message": "Aucun chat trouvé"
+  }
+}

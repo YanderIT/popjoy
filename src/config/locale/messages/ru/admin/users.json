@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Имя",
+    "avatar": "Аватар",
+    "email": "Email",
+    "email_verified": "Email подтверждён",
+    "remaining_credits": "Оставшиеся кредиты",
+    "created_at": "Создан",
+    "actions": "Действия",
+    "roles": "Роли",
+    "ip": "IP",
+    "locale": "Язык",
+    "utm_source": "UTM-источник"
+  },
+  "list": {
+    "title": "Пользователи",
+    "crumbs": {
+      "admin": "Админ",
+      "users": "Пользователи"
+    },
+    "buttons": {
+      "add": "Добавить пользователя",
+      "edit": "Редактировать пользователя",
+      "view": "Просмотреть пользователя",
+      "delete": "Удалить пользователя",
+      "edit_roles": "Редактировать роли",
+      "grant_credits": "Начислить кредиты"
+    },
+    "search": {
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "edit": {
+    "title": "Редактировать пользователя",
+    "crumbs": {
+      "admin": "Админ",
+      "users": "Пользователи",
+      "edit": "Редактировать"
+    },
+    "buttons": {
+      "submit": "Обновить"
+    }
+  },
+  "edit_roles": {
+    "title": "Редактировать роли",
+    "crumbs": {
+      "admin": "Админ",
+      "users": "Пользователи",
+      "edit_roles": "Редактировать роли"
+    },
+    "buttons": {
+      "submit": "Обновить"
+    }
+  },
+  "grant_credits": {
+    "title": "Начислить кредиты",
+    "crumbs": {
+      "admin": "Админ",
+      "users": "Пользователи",
+      "grant_credits": "Начислить кредиты"
+    },
+    "buttons": {
+      "submit": "Начислить"
+    },
+    "fields": {
+      "credits": "Количество кредитов",
+      "valid_days": "Срок действия кредитов (дней)",
+      "valid_days_tip": "0 означает без срока действия",
+      "description": "Описание начисления кредитов",
+      "description_placeholder": "Начисление кредитов админом"
+    }
+  }
+}

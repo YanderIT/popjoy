@@ -1,0 +1,32 @@
+{
+  "page": {
+    "show_sections": ["hero", "products", "cta"],
+    "sections": {
+      "products": {
+        "id": "products",
+        "block": "products",
+        "title": "Öne Çıkan Koleksiyon",
+        "description": "Özel tasarımcı oyuncakları ve sınırlı sayıda koleksiyonlukları keşfedin."
+      },
+      "hero": {
+        "id": "hero",
+        "title": "Benzersiz Tasarımcı Oyuncakları ve Koleksiyonlukları Keşfedin",
+        "highlight_text": "Benzersiz",
+        "description": "Sınırlı sayıda sanat oyuncakları, tasarımcı figürleri ve özel koleksiyonlukların özenle seçilmiş koleksiyonu.<br/>Bir sonraki hazinenizi bulun.",
+        "tip": "Sınırlı Miktar - Bittiğinde Bitti",
+        "buttons": [{"title": "Şimdi Alışveriş Yap", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "show_avatars": false,
+        "avatars_tip": "Dünya genelinde 999+ koleksiyonere katılın",
+        "show_award": false,
+        "image": {"src": "https://picsum.photos/1920/800", "alt": "Hero Banner", "width": 1920, "height": 800}
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Koleksiyonunuza bugün başlayın",
+        "description": "Nadir ürünleri ve sınırlı sayıda baskıları tükenmeden keşfedin.",
+        "buttons": [{"title": "Tümünü gör", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

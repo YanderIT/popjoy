@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "ऑर्डर नं.",
+    "user": "उपयोगकर्ता",
+    "amount": "राशि",
+    "status": "स्थिति",
+    "shipping_carrier": "शिपिंग वाहक",
+    "tracking_number": "ट्रैकिंग नं.",
+    "created_at": "निर्माण तिथि",
+    "shipped_at": "शिप तिथि",
+    "action": "कार्रवाई"
+  },
+  "list": {
+    "title": "ऑर्डर",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "orders": "ऑर्डर"
+    },
+    "tabs": {
+      "all": "सभी",
+      "pending_shipment": "शिपमेंट लंबित",
+      "shipped": "शिप किया गया",
+      "delivered": "डिलीवर किया गया"
+    },
+    "filters": {
+      "status": {
+        "title": "स्थिति",
+        "options": {
+          "all": "सभी",
+          "pending_payment": "भुगतान लंबित",
+          "pending_shipment": "शिपमेंट लंबित",
+          "shipped": "शिप किया गया",
+          "delivered": "डिलीवर किया गया",
+          "completed": "पूर्ण",
+          "canceled": "रद्द",
+          "refunded": "रिफंड किया गया"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "ऑर्डर नं.",
+        "placeholder": "ऑर्डर नंबर खोजें"
+      }
+    }
+  },
+  "ship": {
+    "title": "ऑर्डर शिप करें",
+    "description": "इस ऑर्डर के लिए शिपिंग जानकारी दर्ज करें",
+    "carrier": "शिपिंग वाहक",
+    "carrier_placeholder": "उदा. BlueDart, Delhivery, DTDC",
+    "tracking": "ट्रैकिंग नंबर",
+    "tracking_placeholder": "ट्रैकिंग नंबर दर्ज करें",
+    "submit": "शिपमेंट की पुष्टि करें",
+    "success": "ऑर्डर सफलतापूर्वक शिप किया गया",
+    "error": "ऑर्डर शिप करने में विफल"
+  }
+}

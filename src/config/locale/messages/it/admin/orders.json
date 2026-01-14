@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "N° ordine",
+    "user": "Utente",
+    "amount": "Importo",
+    "status": "Stato",
+    "shipping_carrier": "Corriere",
+    "tracking_number": "N° tracking",
+    "created_at": "Creato il",
+    "shipped_at": "Spedito il",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Ordini",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Ordini"
+    },
+    "tabs": {
+      "all": "Tutti",
+      "pending_shipment": "In attesa di spedizione",
+      "shipped": "Spediti",
+      "delivered": "Consegnati"
+    },
+    "filters": {
+      "status": {
+        "title": "Stato",
+        "options": {
+          "all": "Tutti",
+          "pending_payment": "In attesa di pagamento",
+          "pending_shipment": "In attesa di spedizione",
+          "shipped": "Spedito",
+          "delivered": "Consegnato",
+          "completed": "Completato",
+          "canceled": "Annullato",
+          "refunded": "Rimborsato"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "N° ordine",
+        "placeholder": "Cerca numero ordine"
+      }
+    }
+  },
+  "ship": {
+    "title": "Spedisci ordine",
+    "description": "Inserisci le informazioni di spedizione per questo ordine",
+    "carrier": "Corriere",
+    "carrier_placeholder": "es. Poste Italiane, BRT, GLS",
+    "tracking": "Numero di tracking",
+    "tracking_placeholder": "Inserisci numero di tracking",
+    "submit": "Conferma spedizione",
+    "success": "Ordine spedito con successo",
+    "error": "Errore nella spedizione dell'ordine"
+  }
+}

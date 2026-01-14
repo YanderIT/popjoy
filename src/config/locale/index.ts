@@ -1,11 +1,28 @@
 import { envConfigs } from '..';
 
-export const localeNames: any = {
+// 支持的语言列表 (18种全球主要语言)
+export const localeNames: Record<string, string> = {
   en: 'English',
   zh: '中文',
+  ja: '日本語',
+  ko: '한국어',
+  de: 'Deutsch',
+  fr: 'Français',
+  es: 'Español',
+  pt: 'Português',
+  it: 'Italiano',
+  ru: 'Русский',
+  ar: 'العربية',
+  hi: 'हिन्दी',
+  th: 'ไทย',
+  vi: 'Tiếng Việt',
+  id: 'Bahasa Indonesia',
+  tr: 'Türkçe',
+  pl: 'Polski',
+  nl: 'Nederlands',
 };
 
-export const locales = ['en', 'zh'];
+export const locales = Object.keys(localeNames);
 
 export const defaultLocale = envConfigs.locale;
 
@@ -47,4 +64,5 @@ export const localeMessagesPaths = [
   'pages/showcases',
   'pages/blog',
   'pages/updates',
+  'pages/shop',
 ];

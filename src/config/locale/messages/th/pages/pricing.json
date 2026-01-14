@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "ราคา",
+    "description": "เริ่มต้นด้วยแพลน"
+  },
+  "page": {
+    "title": "ราคา PoptoyStudio",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "ราคา",
+        "description": "รับฟีเจอร์ทั้งหมดของ PoptoyStudio เปิดตัวสตาร์ทอัพ AI SaaS ของคุณอย่างรวดเร็ว",
+        "groups": [
+          {"name": "one-time", "title": "จ่ายครั้งเดียว"},
+          {"name": "monthly", "title": "รายเดือน", "is_featured": true, "label": "ประหยัด 15%"},
+          {"name": "yearly", "title": "รายปี"}
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "description": "เริ่มต้นกับสตาร์ทอัพ SaaS แรกของคุณ",
+            "features_title": "รวม",
+            "features": ["100 เครดิต ใช้ได้ 1 เดือน", "NextJS Boilerplate", "โครงสร้างที่เป็นมิตรกับ SEO", "ชำระเงินด้วย Stripe", "เก็บข้อมูลด้วย Supabase", "Google OAuth & One-Tap Login", "รองรับ i18n"],
+            "interval": "one-time", "amount": 9900, "currency": "USD", "price": "$99", "original_price": "$199", "unit": "",
+            "is_featured": false, "tip": "จ่ายครั้งเดียว สร้างโปรเจกต์ไม่จำกัด!",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter", "product_name": "PoptoyStudio Boilerplate Starter", "credits": 100, "valid_days": 30, "group": "one-time"
+          },
+          {
+            "title": "Standard",
+            "description": "เปิดตัวสตาร์ทอัพ SaaS ของคุณอย่างรวดเร็ว",
+            "label": "ยอดนิยม",
+            "features_title": "ทุกอย่างใน Starter รวมถึง",
+            "features": ["200 เครดิต ใช้ได้ 3 เดือน", "ดีพลอยด้วย Vercel หรือ Cloudflare", "สร้างนโยบายความเป็นส่วนตัวและข้อกำหนด", "การรวม Google Analytics", "การรวม Google Search Console", "ชุมชน Discord", "การสนับสนุนทางเทคนิคสำหรับการเปิดตัวครั้งแรก", "อัปเดตตลอดชีวิต"],
+            "interval": "one-time", "amount": 19900, "currency": "USD", "price": "$199", "original_price": "$299", "unit": "",
+            "is_featured": true, "tip": "จ่ายครั้งเดียว สร้างโปรเจกต์ไม่จำกัด!",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard", "product_name": "PoptoyStudio Boilerplate Standard", "credits": 200, "valid_days": 90, "group": "one-time"
+          },
+          {
+            "title": "Premium",
+            "description": "เปิดตัวสตาร์ทอัพ AI SaaS ใดก็ได้",
+            "features_title": "ทุกอย่างใน Standard รวมถึง",
+            "features": ["300 เครดิต ใช้ได้ 1 ปี", "ฟังก์ชันธุรกิจด้วย AI", "ศูนย์ผู้ใช้", "ระบบเครดิต", "ขาย API สำหรับ SaaS ของคุณ", "ระบบแอดมิน", "การสนับสนุนทางเทคนิคแบบพิเศษ"],
+            "interval": "one-time", "amount": 29900, "currency": "USD", "price": "$299", "original_price": "$399", "unit": "",
+            "is_featured": false, "tip": "จ่ายครั้งเดียว สร้างโปรเจกต์ไม่จำกัด!",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium", "product_name": "PoptoyStudio Boilerplate Premium", "credits": 300, "valid_days": 365, "group": "one-time"
+          },
+          {
+            "title": "Starter",
+            "description": "เริ่มต้นกับสตาร์ทอัพ SaaS แรกของคุณ",
+            "features_title": "รวม",
+            "features": ["100 เครดิต ใช้ได้ 1 เดือน", "NextJS Boilerplate", "โครงสร้างที่เป็นมิตรกับ SEO", "ชำระเงินด้วย Stripe", "เก็บข้อมูลด้วย Supabase", "Google OAuth & One-Tap Login", "รองรับ i18n"],
+            "interval": "month", "amount": 8900, "currency": "USD", "price": "$89", "original_price": "$99", "unit": "/ เดือน",
+            "is_featured": false, "tip": "จ่ายรายเดือน สร้างโปรเจกต์ไม่จำกัด!",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-monthly", "product_name": "PoptoyStudio Boilerplate Starter Monthly", "credits": 100, "valid_days": 30, "group": "monthly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "เปิดตัวสตาร์ทอัพ SaaS ของคุณอย่างรวดเร็ว",
+            "label": "ยอดนิยม",
+            "features_title": "ทุกอย่างใน Starter รวมถึง",
+            "features": ["200 เครดิต ใช้ได้ 1 เดือน", "ดีพลอยด้วย Vercel หรือ Cloudflare", "สร้างนโยบายความเป็นส่วนตัวและข้อกำหนด", "การรวม Google Analytics", "การรวม Google Search Console", "ชุมชน Discord", "การสนับสนุนทางเทคนิคสำหรับการเปิดตัวครั้งแรก", "อัปเดตตลอดชีวิต"],
+            "interval": "month", "amount": 16900, "currency": "USD", "price": "$169", "original_price": "$199", "unit": "/ เดือน",
+            "is_featured": true, "tip": "จ่ายรายเดือน เปิดตัวสตาร์ทอัพ SaaS ของคุณอย่างรวดเร็ว",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-monthly", "product_name": "PoptoyStudio Boilerplate Standard Monthly", "credits": 200, "valid_days": 30, "group": "monthly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "เปิดตัวสตาร์ทอัพ AI SaaS ใดก็ได้",
+            "features_title": "ทุกอย่างใน Standard รวมถึง",
+            "features": ["300 เครดิต ใช้ได้ 1 เดือน", "ฟังก์ชันธุรกิจด้วย AI", "ศูนย์ผู้ใช้", "ระบบเครดิต", "ขาย API สำหรับ SaaS ของคุณ", "ระบบแอดมิน", "การสนับสนุนทางเทคนิคแบบพิเศษ"],
+            "interval": "month", "amount": 24900, "currency": "USD", "price": "$249", "original_price": "$299", "unit": "/ เดือน",
+            "is_featured": false, "tip": "จ่ายรายเดือน เปิดตัวสตาร์ทอัพ AI SaaS ใดก็ได้",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-monthly", "product_name": "PoptoyStudio Boilerplate Premium Monthly", "credits": 300, "valid_days": 30, "group": "monthly", "plan_name": "Premium"
+          },
+          {
+            "title": "Starter",
+            "description": "เริ่มต้นกับสตาร์ทอัพ SaaS แรกของคุณ",
+            "features_title": "รวม",
+            "features": ["100 เครดิต ใช้ได้ 1 ปี", "NextJS Boilerplate", "โครงสร้างที่เป็นมิตรกับ SEO", "ชำระเงินด้วย Stripe", "เก็บข้อมูลด้วย Supabase", "Google OAuth & One-Tap Login", "รองรับ i18n"],
+            "interval": "year", "amount": 82800, "currency": "USD", "price": "$69", "original_price": "$89", "unit": "/ เดือน",
+            "is_featured": false, "tip": "จ่ายรายปี สร้างโปรเจกต์ไม่จำกัด!",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-yearly", "product_name": "PoptoyStudio Boilerplate Starter Annually", "credits": 1200, "valid_days": 365, "group": "yearly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "เปิดตัวสตาร์ทอัพ SaaS ของคุณอย่างรวดเร็ว",
+            "label": "ยอดนิยม",
+            "features_title": "ทุกอย่างใน Starter รวมถึง",
+            "features": ["200 เครดิต ใช้ได้ 1 ปี", "ดีพลอยด้วย Vercel หรือ Cloudflare", "สร้างนโยบายความเป็นส่วนตัวและข้อกำหนด", "การรวม Google Analytics", "การรวม Google Search Console", "ชุมชน Discord", "การสนับสนุนทางเทคนิคสำหรับการเปิดตัวครั้งแรก", "อัปเดตตลอดชีวิต"],
+            "interval": "year", "amount": 154800, "currency": "USD", "price": "$129", "original_price": "$169", "unit": "/ เดือน",
+            "is_featured": true, "tip": "จ่ายรายปี เปิดตัวสตาร์ทอัพ SaaS ของคุณอย่างรวดเร็ว",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-yearly", "product_name": "PoptoyStudio Boilerplate Standard Annually", "credits": 2400, "valid_days": 365, "group": "yearly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "เปิดตัวสตาร์ทอัพ AI SaaS ใดก็ได้",
+            "features_title": "ทุกอย่างใน Standard รวมถึง",
+            "features": ["300 เครดิต ใช้ได้ 1 ปี", "ฟังก์ชันธุรกิจด้วย AI", "ศูนย์ผู้ใช้", "ระบบเครดิต", "ขาย API สำหรับ SaaS ของคุณ", "ระบบแอดมิน", "การสนับสนุนทางเทคนิคแบบพิเศษ"],
+            "interval": "year", "amount": 226800, "currency": "USD", "price": "$189", "original_price": "$249", "unit": "/ เดือน",
+            "is_featured": false, "tip": "จ่ายรายปี เปิดตัวสตาร์ทอัพ AI SaaS ใดก็ได้",
+            "button": {"title": "รับ PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-yearly", "product_name": "PoptoyStudio Boilerplate Premium Annually", "credits": 3600, "valid_days": 365, "group": "yearly", "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "แพลนปัจจุบัน",
+    "processing": "กำลังประมวลผล"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Xác thực Email",
+    "google_auth": "Xác thực Google",
+    "github_auth": "Xác thực Github",
+    "basic_payment": "Thanh toán cơ bản",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Tín dụng",
+    "appinfo": "Thông tin ứng dụng",
+    "user_role": "Vai trò người dùng"
+  },
+  "edit": {
+    "title": "Cài đặt",
+    "crumbs": {
+      "admin": "Quản trị",
+      "settings": "Cài đặt"
+    },
+    "tabs": {
+      "general": "Chung",
+      "auth": "Xác thực",
+      "payment": "Thanh toán",
+      "credit": "Tín dụng",
+      "email": "Email",
+      "storage": "Lưu trữ",
+      "ai": "AI",
+      "analytics": "Phân tích",
+      "ads": "Quảng cáo",
+      "affiliate": "Liên kết",
+      "customer_service": "Dịch vụ khách hàng"
+    },
+    "buttons": {
+      "submit": "Lưu"
+    }
+  }
+}

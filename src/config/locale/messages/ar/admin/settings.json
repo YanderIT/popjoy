@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "مصادقة البريد",
+    "google_auth": "مصادقة Google",
+    "github_auth": "مصادقة Github",
+    "basic_payment": "الدفع الأساسي",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "الرصيد",
+    "appinfo": "معلومات التطبيق",
+    "user_role": "دور المستخدم"
+  },
+  "edit": {
+    "title": "الإعدادات",
+    "crumbs": {
+      "admin": "المدير",
+      "settings": "الإعدادات"
+    },
+    "tabs": {
+      "general": "عام",
+      "auth": "المصادقة",
+      "payment": "الدفع",
+      "credit": "الرصيد",
+      "email": "البريد",
+      "storage": "التخزين",
+      "ai": "الذكاء الاصطناعي",
+      "analytics": "التحليلات",
+      "ads": "الإعلانات",
+      "affiliate": "التسويق بالعمولة",
+      "customer_service": "خدمة العملاء"
+    },
+    "buttons": {
+      "submit": "حفظ"
+    }
+  }
+}

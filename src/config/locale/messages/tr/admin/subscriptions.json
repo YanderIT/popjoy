@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "Abonelik No",
+    "user": "Kullanıcı",
+    "amount": "Tutar",
+    "interval": "Aralık",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma",
+    "current_period_start": "Mevcut Dönem Başlangıcı",
+    "current_period_end": "Mevcut Dönem Sonu",
+    "status": "Durum",
+    "description": "Açıklama",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "Abonelikler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "subscriptions": "Abonelikler"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "month": "Aylık",
+      "year": "Yıllık"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "Transaktionsnr.",
+    "user": "Benutzer",
+    "amount": "Betrag",
+    "remaining": "Verbleibend",
+    "type": "Typ",
+    "scene": "Szene",
+    "description": "Beschreibung",
+    "created_at": "Erstellt am",
+    "expires_at": "Läuft ab am",
+    "metadata": "Metadaten",
+    "action": "Aktion"
+  },
+  "list": {
+    "title": "Guthaben",
+    "crumbs": {
+      "admin": "Admin",
+      "credits": "Guthaben"
+    },
+    "tabs": {
+      "all": "Alle",
+      "grant": "Gutschrift",
+      "consume": "Verbrauch"
+    }
+  }
+}

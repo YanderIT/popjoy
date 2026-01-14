@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "ID Tugas",
+    "media_type": "Jenis Media",
+    "provider": "Penyedia",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opsi",
+    "user": "Pengguna",
+    "status": "Status",
+    "cost_credits": "Kredit Terpakai",
+    "result": "Hasil",
+    "created_at": "Dibuat Pada",
+    "action": "Tindakan",
+    "scene": "Adegan"
+  },
+  "list": {
+    "title": "Tugas AI",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "Tugas AI"
+    },
+    "tabs": {
+      "all": "Semua",
+      "music": "Musik",
+      "image": "Gambar",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Teks"
+    },
+    "buttons": {
+      "view": "Lihat Tugas",
+      "refresh": "Segarkan Tugas"
+    },
+    "empty_message": "Tidak ada tugas ditemukan"
+  }
+}

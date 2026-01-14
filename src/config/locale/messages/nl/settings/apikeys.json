@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "Titel",
+    "key": "Sleutel",
+    "created_at": "Aangemaakt op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "API-sleutels",
+    "empty_message": "Geen API-sleutels",
+    "buttons": {
+      "add": "API-sleutel aanmaken",
+      "edit": "Bewerken",
+      "delete": "Verwijderen"
+    }
+  },
+  "add": {
+    "title": "API-sleutel aanmaken",
+    "crumbs": {
+      "apikeys": "API-sleutels",
+      "add": "API-sleutel aanmaken"
+    },
+    "buttons": {
+      "submit": "Aanmaken"
+    }
+  },
+  "edit": {
+    "title": "API-sleutel bewerken",
+    "crumbs": {
+      "apikeys": "API-sleutels",
+      "edit": "API-sleutel bewerken"
+    },
+    "buttons": {
+      "submit": "Bijwerken"
+    }
+  },
+  "delete": {
+    "title": "API-sleutel verwijderen",
+    "crumbs": {
+      "apikeys": "API-sleutels",
+      "delete": "API-sleutel verwijderen"
+    },
+    "buttons": {
+      "submit": "Bevestig verwijderen"
+    }
+  }
+}

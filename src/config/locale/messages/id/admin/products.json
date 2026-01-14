@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nama",
+    "category": "Kategori",
+    "no_category": "Tanpa Kategori",
+    "description": "Deskripsi",
+    "image": "Gambar",
+    "status": "Status",
+    "sort": "Urutan",
+    "created_at": "Dibuat Pada",
+    "updated_at": "Diperbarui Pada",
+    "sku": "Kode SKU",
+    "attributes": "Atribut",
+    "price": "Harga",
+    "original_price": "Harga Asli",
+    "cost_price": "Harga Modal",
+    "stock": "Stok"
+  },
+  "status_options": {
+    "draft": "Draf",
+    "active": "Aktif",
+    "inactive": "Tidak Aktif"
+  },
+  "list": {
+    "title": "Produk",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produk"
+    },
+    "buttons": {
+      "add": "Tambah Produk",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "skus": "Kelola SKU"
+    }
+  },
+  "add": {
+    "title": "Tambah Produk",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produk",
+      "add": "Tambah"
+    },
+    "buttons": {
+      "submit": "Tambah Produk"
+    }
+  },
+  "edit": {
+    "title": "Edit Produk",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produk",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Simpan Perubahan"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produk",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "Tambah SKU",
+        "edit": "Edit",
+        "delete": "Hapus"
+      }
+    },
+    "add": {
+      "title": "Tambah SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produk",
+        "skus": "SKU",
+        "add": "Tambah"
+      },
+      "buttons": {
+        "submit": "Tambah SKU"
+      }
+    },
+    "edit": {
+      "title": "Edit SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produk",
+        "skus": "SKU",
+        "edit": "Edit"
+      },
+      "buttons": {
+        "submit": "Simpan Perubahan"
+      }
+    }
+  }
+}

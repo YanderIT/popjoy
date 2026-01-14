@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "เลขที่สมาชิก",
+    "interval": "ช่วงเวลา",
+    "provider": "ผู้ให้บริการ",
+    "current_period": "ช่วงเวลาปัจจุบัน",
+    "plan": "แพลน",
+    "status": "สถานะ",
+    "amount": "จำนวนเงิน",
+    "created_at": "สร้างเมื่อ",
+    "end_time": "เวลาสิ้นสุด",
+    "action": "การดำเนินการ"
+  },
+  "view": {
+    "title": "แพลนปัจจุบัน",
+    "tip": "การสมัครสมาชิกของคุณจะต่ออายุอัตโนมัติในวันที่ {date}",
+    "end_tip": "การสมัครสมาชิกของคุณจะถูกยกเลิกอัตโนมัติในวันที่ {date}",
+    "no_subscription": "ไม่มีแพลน",
+    "buttons": {
+      "adjust": "ปรับแพลน",
+      "subscribe": "สมัครสมาชิก",
+      "manage": "จัดการสมาชิก",
+      "cancel": "ยกเลิกสมาชิก"
+    }
+  },
+  "list": {
+    "title": "ประวัติสมาชิก",
+    "tabs": {
+      "all": "ทั้งหมด",
+      "active": "ใช้งาน",
+      "pending_cancel": "รอยกเลิก",
+      "canceled": "ยกเลิกแล้ว",
+      "trialing": "ทดลองใช้",
+      "paused": "หยุดชั่วคราว",
+      "expired": "หมดอายุ"
+    }
+  },
+  "cancel": {
+    "title": "ยกเลิกสมาชิก",
+    "description": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการสมัครสมาชิก?",
+    "fields": {
+      "subscription_no": "เลขที่สมาชิก",
+      "subscription_amount": "จำนวนเงินสมาชิก",
+      "interval_cycle": "รอบช่วงเวลา",
+      "subscription_created_at": "สร้างสมาชิกเมื่อ",
+      "current_period": "ช่วงเวลาปัจจุบัน",
+      "start_at": "เริ่มต้น",
+      "end_at": "สิ้นสุด"
+    },
+    "crumbs": {
+      "settings": "การตั้งค่า",
+      "billing": "การเรียกเก็บเงิน",
+      "cancel": "ยกเลิกสมาชิก"
+    },
+    "buttons": {
+      "confirm_cancel": "ยืนยันการยกเลิก"
+    }
+  }
+}

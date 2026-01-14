@@ -1,0 +1,14 @@
+{
+  "title": "Cài đặt",
+  "nav": {
+    "items": [
+      {"title": "Hồ sơ", "url": "/settings/profile", "icon": "User"},
+      {"title": "Đơn hàng", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "Cài đặt", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

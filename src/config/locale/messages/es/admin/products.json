@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nombre",
+    "category": "Categoría",
+    "no_category": "Sin categoría",
+    "description": "Descripción",
+    "image": "Imagen",
+    "status": "Estado",
+    "sort": "Orden",
+    "created_at": "Creado el",
+    "updated_at": "Actualizado el",
+    "sku": "Código SKU",
+    "attributes": "Atributos",
+    "price": "Precio",
+    "original_price": "Precio original",
+    "cost_price": "Precio de costo",
+    "stock": "Stock"
+  },
+  "status_options": {
+    "draft": "Borrador",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "list": {
+    "title": "Productos",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Productos"
+    },
+    "buttons": {
+      "add": "Agregar producto",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "skus": "Gestionar SKUs"
+    }
+  },
+  "add": {
+    "title": "Agregar producto",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Productos",
+      "add": "Agregar"
+    },
+    "buttons": {
+      "submit": "Agregar producto"
+    }
+  },
+  "edit": {
+    "title": "Editar producto",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Productos",
+      "edit": "Editar"
+    },
+    "buttons": {
+      "submit": "Guardar cambios"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKUs",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Productos",
+        "skus": "SKUs"
+      },
+      "buttons": {
+        "add": "Agregar SKU",
+        "edit": "Editar",
+        "delete": "Eliminar"
+      }
+    },
+    "add": {
+      "title": "Agregar SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Productos",
+        "skus": "SKUs",
+        "add": "Agregar"
+      },
+      "buttons": {
+        "submit": "Agregar SKU"
+      }
+    },
+    "edit": {
+      "title": "Editar SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Productos",
+        "skus": "SKUs",
+        "edit": "Editar"
+      },
+      "buttons": {
+        "submit": "Guardar cambios"
+      }
+    }
+  }
+}

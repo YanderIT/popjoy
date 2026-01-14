@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "Titel",
+    "status": "Status",
+    "model": "Model",
+    "provider": "Aanbieder",
+    "created_at": "Aangemaakt op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "AI-chats",
+    "tabs": {
+      "all": "Alle",
+      "pending": "In behandeling",
+      "completed": "Voltooid",
+      "failed": "Mislukt"
+    },
+    "buttons": {
+      "view": "Chat bekijken",
+      "new": "Nieuwe chat"
+    },
+    "empty_message": "Geen chats gevonden"
+  }
+}

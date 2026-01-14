@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "आईडी",
+    "name": "नाम",
+    "avatar": "अवतार",
+    "email": "ईमेल",
+    "email_verified": "ईमेल सत्यापित",
+    "remaining_credits": "शेष क्रेडिट",
+    "created_at": "निर्माण तिथि",
+    "actions": "कार्रवाई",
+    "roles": "भूमिकाएं",
+    "ip": "आईपी",
+    "locale": "भाषा",
+    "utm_source": "UTM स्रोत"
+  },
+  "list": {
+    "title": "उपयोगकर्ता",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "users": "उपयोगकर्ता"
+    },
+    "buttons": {
+      "add": "उपयोगकर्ता जोड़ें",
+      "edit": "उपयोगकर्ता संपादित करें",
+      "view": "उपयोगकर्ता देखें",
+      "delete": "उपयोगकर्ता हटाएं",
+      "edit_roles": "भूमिकाएं संपादित करें",
+      "grant_credits": "क्रेडिट प्रदान करें"
+    },
+    "search": {
+      "email": {
+        "title": "ईमेल",
+        "placeholder": "ईमेल"
+      }
+    }
+  },
+  "edit": {
+    "title": "उपयोगकर्ता संपादित करें",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "users": "उपयोगकर्ता",
+      "edit": "संपादित करें"
+    },
+    "buttons": {
+      "submit": "अपडेट करें"
+    }
+  },
+  "edit_roles": {
+    "title": "भूमिकाएं संपादित करें",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "users": "उपयोगकर्ता",
+      "edit_roles": "भूमिकाएं संपादित करें"
+    },
+    "buttons": {
+      "submit": "अपडेट करें"
+    }
+  },
+  "grant_credits": {
+    "title": "क्रेडिट प्रदान करें",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "users": "उपयोगकर्ता",
+      "grant_credits": "क्रेडिट प्रदान करें"
+    },
+    "buttons": {
+      "submit": "प्रदान करें"
+    },
+    "fields": {
+      "credits": "क्रेडिट राशि",
+      "valid_days": "क्रेडिट वैधता दिन",
+      "valid_days_tip": "0 का अर्थ है कोई समाप्ति नहीं",
+      "description": "क्रेडिट प्रदान विवरण",
+      "description_placeholder": "व्यवस्थापक द्वारा क्रेडिट प्रदान"
+    }
+  }
+}

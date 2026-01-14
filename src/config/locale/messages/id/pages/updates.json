@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Log Pembaruan",
+    "description": "Lihat log pembaruan produk, termasuk fitur dan perbaikan terbaru."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Log Pembaruan",
+        "description": "Lihat log pembaruan produk, termasuk fitur dan perbaikan terbaru."
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "email": "E-posta",
+    "name": "Ad"
+  },
+  "edit": {
+    "title": "Profil",
+    "description": "Profilinizi güncelleyin",
+    "crumbs": {
+      "settings": "Ayarlar",
+      "profile": "Profil"
+    },
+    "buttons": {
+      "submit": "Kaydet"
+    }
+  }
+}

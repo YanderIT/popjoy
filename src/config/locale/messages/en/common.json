@@ -42,7 +42,10 @@
     "verify_email_account_mismatch": "Signed in as {current}. This page is waiting for {expected}.",
     "resend_verification_countdown": "Resend verification email ({seconds}s)",
     "resend_verification_wait": "Please wait {seconds}s before resending.",
-    "back_to_sign_in": "Back to Sign In"
+    "back_to_sign_in": "Back to Sign In",
+    "promo_title": "Get our limited deals",
+    "promo_subtitle": "Bestsellers discounted!",
+    "promo_description": "And don't miss your $5 discount!"
   },
   "payment": {
     "choose_payment_method": "Choose Payment Method",

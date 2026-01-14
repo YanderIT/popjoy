@@ -58,6 +58,11 @@
           "icon": "Package"
         },
         {
+          "title": "分类管理",
+          "url": "/admin/categories",
+          "icon": "Folder"
+        },
+        {
           "title": "商品管理",
           "url": "/admin/products",
           "icon": "ShoppingBag"

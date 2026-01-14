@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Titel",
+    "media_type": "Mediatype",
+    "provider": "Aanbieder",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opties",
+    "status": "Status",
+    "result": "Resultaat",
+    "cost_credits": "Verbruikte credits",
+    "created_at": "Aangemaakt op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "AI-taken",
+    "tabs": {
+      "all": "Alle",
+      "music": "Muziek",
+      "image": "Afbeelding",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Taak bekijken",
+      "refresh": "Taak vernieuwen"
+    },
+    "empty_message": "Geen taken gevonden"
+  }
+}

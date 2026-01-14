@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Abonnementsnr.",
+    "interval": "Interval",
+    "provider": "Provider",
+    "current_period": "Huidige periode",
+    "plan": "Plan",
+    "status": "Status",
+    "amount": "Bedrag",
+    "created_at": "Aangemaakt op",
+    "end_time": "Eindtijd",
+    "action": "Actie"
+  },
+  "view": {
+    "title": "Huidig plan",
+    "tip": "Je abonnement wordt automatisch verlengd op {date}",
+    "end_tip": "Je abonnement wordt automatisch geannuleerd op {date}",
+    "no_subscription": "Geen plan",
+    "buttons": {
+      "adjust": "Plan aanpassen",
+      "subscribe": "Abonneren",
+      "manage": "Abonnement beheren",
+      "cancel": "Abonnement opzeggen"
+    }
+  },
+  "list": {
+    "title": "Abonnementsgeschiedenis",
+    "tabs": {
+      "all": "Alles",
+      "active": "Actief",
+      "pending_cancel": "Opzegging in behandeling",
+      "canceled": "Geannuleerd",
+      "trialing": "Proefperiode",
+      "paused": "Gepauzeerd",
+      "expired": "Verlopen"
+    }
+  },
+  "cancel": {
+    "title": "Abonnement opzeggen",
+    "description": "Weet je zeker dat je je abonnement wilt opzeggen?",
+    "fields": {
+      "subscription_no": "Abonnementsnr.",
+      "subscription_amount": "Abonnementsbedrag",
+      "interval_cycle": "Intervalcyclus",
+      "subscription_created_at": "Abonnement aangemaakt op",
+      "current_period": "Huidige periode",
+      "start_at": "Start",
+      "end_at": "Einde"
+    },
+    "crumbs": {
+      "settings": "Instellingen",
+      "billing": "Facturering",
+      "cancel": "Abonnement opzeggen"
+    },
+    "buttons": {
+      "confirm_cancel": "Opzegging bevestigen"
+    }
+  }
+}

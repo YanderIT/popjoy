@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Découvrez des jouets design uniques, des figurines d'art et des objets de collection en édition limitée. Collection soigneusement sélectionnée pour les collectionneurs du monde entier.",
+    "keywords": "jouets design, art toys, objets de collection, édition limitée, figurines, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Se connecter",
+    "sign_in_description": "Connectez-vous à votre compte",
+    "sign_up_title": "S'inscrire",
+    "sign_up_description": "Créer un compte",
+    "email_title": "E-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "forgot_password": "Mot de passe oublié ?",
+    "or": "Ou",
+    "continue": "Continuer",
+    "no_account": "Pas encore de compte ?",
+    "already_have_account": "Déjà un compte ?",
+    "email_sign_in": "Se connecter avec e-mail",
+    "google_sign_in_title": "Se connecter avec Google",
+    "github_sign_in_title": "Se connecter avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler",
+    "sign_out_title": "Se déconnecter",
+    "billing_title": "Facturation",
+    "name_title": "Nom",
+    "name_placeholder": "Entrez votre nom",
+    "email_verification_hint": "Utilisez une adresse e-mail à laquelle vous avez accès. Vous devez vérifier votre e-mail après l'inscription.",
+    "admin_title": "Système d'administration",
+    "credits_title": "Crédits : {credits}",
+    "verify_email_sent": "E-mail de vérification envoyé. Veuillez vérifier votre boîte de réception.",
+    "verify_email_required": "Veuillez vérifier votre adresse e-mail avant de vous connecter.",
+    "resend_verification": "Renvoyer l'e-mail de vérification",
+    "resend_verification_sent": "E-mail de vérification renvoyé. Veuillez vérifier votre boîte de réception.",
+    "verify_email_page_title": "Vérifiez votre e-mail",
+    "verify_email_page_description": "Pour continuer, cliquez sur le lien envoyé à",
+    "verify_email_continue": "Continuer",
+    "verify_email_tip": "Après vérification, cliquez sur « Continuer ».",
+    "verify_email_not_verified_yet": "Pas encore vérifié. Veuillez d'abord cliquer sur le lien dans votre e-mail.",
+    "verify_email_account_mismatch": "Connecté en tant que {current}. Cette page attend {expected}.",
+    "resend_verification_countdown": "Renvoyer l'e-mail de vérification ({seconds}s)",
+    "resend_verification_wait": "Veuillez attendre {seconds}s avant de renvoyer.",
+    "back_to_sign_in": "Retour à la connexion",
+    "promo_title": "Profitez de nos offres limitées",
+    "promo_subtitle": "Best-sellers en promotion !",
+    "promo_description": "Et ne manquez pas votre réduction de 5$ !"
+  },
+  "payment": {
+    "choose_payment_method": "Choisir le mode de paiement",
+    "choose_payment_method_description": "",
+    "cancel_title": "Annuler"
+  },
+  "locale_detector": {
+    "title": "Nous avons détecté que la langue de votre navigateur est {locale}. Changer ?",
+    "switch_to": "Passer à {locale}"
+  }
+}

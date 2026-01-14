@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Titel",
+    "user": "Gebruiker",
+    "status": "Status",
+    "model": "Model",
+    "provider": "Aanbieder",
+    "created_at": "Gemaakt op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "AI-chats",
+    "crumbs": {
+      "admin": "Admin",
+      "chats": "AI-chats"
+    },
+    "tabs": {
+      "all": "Alle",
+      "pending": "In afwachting",
+      "completed": "Voltooid",
+      "failed": "Mislukt"
+    },
+    "buttons": {
+      "view": "Chat bekijken",
+      "new": "Nieuwe chat"
+    },
+    "empty_message": "Geen chats gevonden"
+  }
+}

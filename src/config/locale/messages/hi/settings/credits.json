@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "लेनदेन संख्या",
+    "description": "विवरण",
+    "type": "प्रकार",
+    "scene": "दृश्य",
+    "credits": "क्रेडिट",
+    "expires_at": "समाप्ति तिथि",
+    "created_at": "बनाया गया",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "क्रेडिट रिकॉर्ड",
+    "tabs": {
+      "all": "सभी",
+      "grant": "प्राप्त",
+      "consume": "खर्च"
+    }
+  },
+  "view": {
+    "title": "क्रेडिट शेष",
+    "buttons": {
+      "purchase": "क्रेडिट खरीदें"
+    }
+  }
+}

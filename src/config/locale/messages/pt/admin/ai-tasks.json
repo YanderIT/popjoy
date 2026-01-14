@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "ID da tarefa",
+    "media_type": "Tipo de mídia",
+    "provider": "Provedor",
+    "model": "Modelo",
+    "prompt": "Prompt",
+    "options": "Opções",
+    "user": "Usuário",
+    "status": "Status",
+    "cost_credits": "Créditos consumidos",
+    "result": "Resultado",
+    "created_at": "Criado em",
+    "action": "Ação",
+    "scene": "Cena"
+  },
+  "list": {
+    "title": "Tarefas de IA",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "Tarefas de IA"
+    },
+    "tabs": {
+      "all": "Tudo",
+      "music": "Música",
+      "image": "Imagem",
+      "video": "Vídeo",
+      "audio": "Áudio",
+      "text": "Texto"
+    },
+    "buttons": {
+      "view": "Ver tarefa",
+      "refresh": "Atualizar tarefa"
+    },
+    "empty_message": "Nenhuma tarefa encontrada"
+  }
+}

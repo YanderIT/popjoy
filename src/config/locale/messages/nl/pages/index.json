@@ -1,0 +1,32 @@
+{
+  "page": {
+    "show_sections": ["hero", "products", "cta"],
+    "sections": {
+      "products": {
+        "id": "products",
+        "block": "products",
+        "title": "Uitgelichte collectie",
+        "description": "Ontdek exclusieve designerspeelgoed en limited edition verzamelobjecten."
+      },
+      "hero": {
+        "id": "hero",
+        "title": "Ontdek unieke designerspeelgoed & verzamelobjecten",
+        "highlight_text": "unieke",
+        "description": "Een zorgvuldig samengestelde collectie van limited edition kunstspeelgoed, designer figuren en exclusieve verzamelobjecten.<br/>Vind je volgende schat.",
+        "tip": "Beperkte oplage - Op is op",
+        "buttons": [{"title": "Nu winkelen", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "show_avatars": false,
+        "avatars_tip": "Sluit je aan bij 999+ verzamelaars wereldwijd",
+        "show_award": false,
+        "image": {"src": "https://picsum.photos/1920/800", "alt": "Hero banner", "width": 1920, "height": 800}
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Start je collectie vandaag",
+        "description": "Ontdek zeldzame items en limited editions voordat ze op zijn.",
+        "buttons": [{"title": "Bekijk alles", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

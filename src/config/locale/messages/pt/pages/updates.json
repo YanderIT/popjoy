@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Registro de atualizações",
+    "description": "Veja os registros de atualização do produto, incluindo os recursos e melhorias mais recentes."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Registro de atualizações",
+        "description": "Veja os registros de atualização do produto, incluindo os recursos e melhorias mais recentes."
+      }
+    }
+  }
+}

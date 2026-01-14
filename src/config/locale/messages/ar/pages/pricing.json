@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "الأسعار",
+    "description": "ابدأ مع خطة"
+  },
+  "page": {
+    "title": "أسعار PoptoyStudio",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "الأسعار",
+        "description": "احصل على جميع ميزات PoptoyStudio. أطلق شركاتك الناشئة AI SaaS بسرعة.",
+        "groups": [
+          {"name": "one-time", "title": "دفعة واحدة"},
+          {"name": "monthly", "title": "شهري", "is_featured": true, "label": "وفر 15%"},
+          {"name": "yearly", "title": "سنوي"}
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "description": "ابدأ مع أول شركة SaaS ناشئة.",
+            "features_title": "يشمل",
+            "features": ["100 رصيد، صالح لمدة شهر", "قالب NextJS", "هيكل صديق لـ SEO", "الدفع عبر Stripe", "تخزين البيانات مع Supabase", "Google OAuth & تسجيل الدخول بنقرة واحدة", "دعم i18n"],
+            "interval": "one-time", "amount": 9900, "currency": "USD", "price": "$99", "original_price": "$199", "unit": "",
+            "is_featured": false, "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter", "product_name": "PoptoyStudio Boilerplate Starter", "credits": 100, "valid_days": 30, "group": "one-time"
+          },
+          {
+            "title": "Standard",
+            "description": "أطلق شركاتك الناشئة SaaS بسرعة.",
+            "label": "شائع",
+            "features_title": "كل شيء في Starter، بالإضافة إلى",
+            "features": ["200 رصيد، صالح لمدة 3 أشهر", "النشر عبر Vercel أو Cloudflare", "إنشاء سياسة الخصوصية والشروط", "تكامل Google Analytics", "تكامل Google Search Console", "مجتمع Discord", "الدعم الفني لأول إطلاق", "تحديثات مدى الحياة"],
+            "interval": "one-time", "amount": 19900, "currency": "USD", "price": "$199", "original_price": "$299", "unit": "",
+            "is_featured": true, "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard", "product_name": "PoptoyStudio Boilerplate Standard", "credits": 200, "valid_days": 90, "group": "one-time"
+          },
+          {
+            "title": "Premium",
+            "description": "أطلق أي شركة AI SaaS ناشئة.",
+            "features_title": "كل شيء في Standard، بالإضافة إلى",
+            "features": ["300 رصيد، صالح لمدة سنة", "وظائف الأعمال مع AI", "مركز المستخدم", "نظام الأرصدة", "بيع API لـ SaaS الخاص بك", "نظام الإدارة", "دعم فني ذو أولوية"],
+            "interval": "one-time", "amount": 29900, "currency": "USD", "price": "$299", "original_price": "$399", "unit": "",
+            "is_featured": false, "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium", "product_name": "PoptoyStudio Boilerplate Premium", "credits": 300, "valid_days": 365, "group": "one-time"
+          },
+          {
+            "title": "Starter",
+            "description": "ابدأ مع أول شركة SaaS ناشئة.",
+            "features_title": "يشمل",
+            "features": ["100 رصيد، صالح لمدة شهر", "قالب NextJS", "هيكل صديق لـ SEO", "الدفع عبر Stripe", "تخزين البيانات مع Supabase", "Google OAuth & تسجيل الدخول بنقرة واحدة", "دعم i18n"],
+            "interval": "month", "amount": 8900, "currency": "USD", "price": "$89", "original_price": "$99", "unit": "/ شهر",
+            "is_featured": false, "tip": "ادفع شهرياً. أنشئ مشاريع غير محدودة!",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-monthly", "product_name": "PoptoyStudio Boilerplate Starter Monthly", "credits": 100, "valid_days": 30, "group": "monthly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "أطلق شركاتك الناشئة SaaS بسرعة.",
+            "label": "شائع",
+            "features_title": "كل شيء في Starter، بالإضافة إلى",
+            "features": ["200 رصيد، صالح لمدة شهر", "النشر عبر Vercel أو Cloudflare", "إنشاء سياسة الخصوصية والشروط", "تكامل Google Analytics", "تكامل Google Search Console", "مجتمع Discord", "الدعم الفني لأول إطلاق", "تحديثات مدى الحياة"],
+            "interval": "month", "amount": 16900, "currency": "USD", "price": "$169", "original_price": "$199", "unit": "/ شهر",
+            "is_featured": true, "tip": "ادفع شهرياً. أطلق شركاتك الناشئة SaaS بسرعة.",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-monthly", "product_name": "PoptoyStudio Boilerplate Standard Monthly", "credits": 200, "valid_days": 30, "group": "monthly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "أطلق أي شركة AI SaaS ناشئة.",
+            "features_title": "كل شيء في Standard، بالإضافة إلى",
+            "features": ["300 رصيد، صالح لمدة شهر", "وظائف الأعمال مع AI", "مركز المستخدم", "نظام الأرصدة", "بيع API لـ SaaS الخاص بك", "نظام الإدارة", "دعم فني ذو أولوية"],
+            "interval": "month", "amount": 24900, "currency": "USD", "price": "$249", "original_price": "$299", "unit": "/ شهر",
+            "is_featured": false, "tip": "ادفع شهرياً. أطلق أي شركة AI SaaS ناشئة.",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-monthly", "product_name": "PoptoyStudio Boilerplate Premium Monthly", "credits": 300, "valid_days": 30, "group": "monthly", "plan_name": "Premium"
+          },
+          {
+            "title": "Starter",
+            "description": "ابدأ مع أول شركة SaaS ناشئة.",
+            "features_title": "يشمل",
+            "features": ["100 رصيد، صالح لمدة سنة", "قالب NextJS", "هيكل صديق لـ SEO", "الدفع عبر Stripe", "تخزين البيانات مع Supabase", "Google OAuth & تسجيل الدخول بنقرة واحدة", "دعم i18n"],
+            "interval": "year", "amount": 82800, "currency": "USD", "price": "$69", "original_price": "$89", "unit": "/ شهر",
+            "is_featured": false, "tip": "ادفع سنوياً. أنشئ مشاريع غير محدودة!",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-yearly", "product_name": "PoptoyStudio Boilerplate Starter Annually", "credits": 1200, "valid_days": 365, "group": "yearly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "أطلق شركاتك الناشئة SaaS بسرعة.",
+            "label": "شائع",
+            "features_title": "كل شيء في Starter، بالإضافة إلى",
+            "features": ["200 رصيد، صالح لمدة سنة", "النشر عبر Vercel أو Cloudflare", "إنشاء سياسة الخصوصية والشروط", "تكامل Google Analytics", "تكامل Google Search Console", "مجتمع Discord", "الدعم الفني لأول إطلاق", "تحديثات مدى الحياة"],
+            "interval": "year", "amount": 154800, "currency": "USD", "price": "$129", "original_price": "$169", "unit": "/ شهر",
+            "is_featured": true, "tip": "ادفع سنوياً. أطلق شركاتك الناشئة SaaS بسرعة.",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-yearly", "product_name": "PoptoyStudio Boilerplate Standard Annually", "credits": 2400, "valid_days": 365, "group": "yearly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "أطلق أي شركة AI SaaS ناشئة.",
+            "features_title": "كل شيء في Standard، بالإضافة إلى",
+            "features": ["300 رصيد، صالح لمدة سنة", "وظائف الأعمال مع AI", "مركز المستخدم", "نظام الأرصدة", "بيع API لـ SaaS الخاص بك", "نظام الإدارة", "دعم فني ذو أولوية"],
+            "interval": "year", "amount": 226800, "currency": "USD", "price": "$189", "original_price": "$249", "unit": "/ شهر",
+            "is_featured": false, "tip": "ادفع سنوياً. أطلق أي شركة AI SaaS ناشئة.",
+            "button": {"title": "احصل على PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-yearly", "product_name": "PoptoyStudio Boilerplate Premium Annually", "credits": 3600, "valid_days": 365, "group": "yearly", "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "الخطة الحالية",
+    "processing": "جاري المعالجة"
+  }
+}

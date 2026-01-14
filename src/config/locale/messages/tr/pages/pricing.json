@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "Fiyatlandırma",
+    "description": "Bir planla başlayın"
+  },
+  "page": {
+    "title": "PoptoyStudio Fiyatlandırma",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "Fiyatlandırma",
+        "description": "PoptoyStudio'nun tüm özelliklerini edinin. AI SaaS girişimlerinizi hızla başlatın.",
+        "groups": [
+          {"name": "one-time", "title": "Tek Seferlik"},
+          {"name": "monthly", "title": "Aylık", "is_featured": true, "label": "%15 tasarruf"},
+          {"name": "yearly", "title": "Yıllık"}
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "description": "İlk SaaS girişiminizle başlayın.",
+            "features_title": "Dahil",
+            "features": ["100 kredi, 1 ay geçerli", "NextJS şablonu", "SEO dostu yapı", "Stripe ile ödeme", "Supabase ile veri depolama", "Google OAuth & Tek Tıkla Giriş", "i18n desteği"],
+            "interval": "one-time", "amount": 9900, "currency": "USD", "price": "$99", "original_price": "$199", "unit": "",
+            "is_featured": false, "tip": "Bir kez ödeyin. Sınırsız proje oluşturun!",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter", "product_name": "PoptoyStudio Boilerplate Starter", "credits": 100, "valid_days": 30, "group": "one-time"
+          },
+          {
+            "title": "Standard",
+            "description": "SaaS girişimlerinizi hızla başlatın.",
+            "label": "Popüler",
+            "features_title": "Starter'daki her şey, artı",
+            "features": ["200 kredi, 3 ay geçerli", "Vercel veya Cloudflare ile dağıtım", "Gizlilik Politikası & Şartlar oluşturma", "Google Analytics entegrasyonu", "Google Search Console entegrasyonu", "Discord topluluğu", "İlk lansman için teknik destek", "Ömür boyu güncellemeler"],
+            "interval": "one-time", "amount": 19900, "currency": "USD", "price": "$199", "original_price": "$299", "unit": "",
+            "is_featured": true, "tip": "Bir kez ödeyin. Sınırsız proje oluşturun!",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard", "product_name": "PoptoyStudio Boilerplate Standard", "credits": 200, "valid_days": 90, "group": "one-time"
+          },
+          {
+            "title": "Premium",
+            "description": "Herhangi bir AI SaaS girişimi başlatın.",
+            "features_title": "Standard'daki her şey, artı",
+            "features": ["300 kredi, 1 yıl geçerli", "AI ile iş fonksiyonları", "Kullanıcı merkezi", "Kredi sistemi", "SaaS'ınız için API satışı", "Yönetici sistemi", "Öncelikli teknik destek"],
+            "interval": "one-time", "amount": 29900, "currency": "USD", "price": "$299", "original_price": "$399", "unit": "",
+            "is_featured": false, "tip": "Bir kez ödeyin. Sınırsız proje oluşturun!",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium", "product_name": "PoptoyStudio Boilerplate Premium", "credits": 300, "valid_days": 365, "group": "one-time"
+          },
+          {
+            "title": "Starter",
+            "description": "İlk SaaS girişiminizle başlayın.",
+            "features_title": "Dahil",
+            "features": ["100 kredi, 1 ay geçerli", "NextJS şablonu", "SEO dostu yapı", "Stripe ile ödeme", "Supabase ile veri depolama", "Google OAuth & Tek Tıkla Giriş", "i18n desteği"],
+            "interval": "month", "amount": 8900, "currency": "USD", "price": "$89", "original_price": "$99", "unit": "/ ay",
+            "is_featured": false, "tip": "Aylık ödeyin. Sınırsız proje oluşturun!",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-monthly", "product_name": "PoptoyStudio Boilerplate Starter Monthly", "credits": 100, "valid_days": 30, "group": "monthly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "SaaS girişimlerinizi hızla başlatın.",
+            "label": "Popüler",
+            "features_title": "Starter'daki her şey, artı",
+            "features": ["200 kredi, 1 ay geçerli", "Vercel veya Cloudflare ile dağıtım", "Gizlilik Politikası & Şartlar oluşturma", "Google Analytics entegrasyonu", "Google Search Console entegrasyonu", "Discord topluluğu", "İlk lansman için teknik destek", "Ömür boyu güncellemeler"],
+            "interval": "month", "amount": 16900, "currency": "USD", "price": "$169", "original_price": "$199", "unit": "/ ay",
+            "is_featured": true, "tip": "Aylık ödeyin. SaaS girişimlerinizi hızla başlatın.",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-monthly", "product_name": "PoptoyStudio Boilerplate Standard Monthly", "credits": 200, "valid_days": 30, "group": "monthly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "Herhangi bir AI SaaS girişimi başlatın.",
+            "features_title": "Standard'daki her şey, artı",
+            "features": ["300 kredi, 1 ay geçerli", "AI ile iş fonksiyonları", "Kullanıcı merkezi", "Kredi sistemi", "SaaS'ınız için API satışı", "Yönetici sistemi", "Öncelikli teknik destek"],
+            "interval": "month", "amount": 24900, "currency": "USD", "price": "$249", "original_price": "$299", "unit": "/ ay",
+            "is_featured": false, "tip": "Aylık ödeyin. Herhangi bir AI SaaS girişimi başlatın.",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-monthly", "product_name": "PoptoyStudio Boilerplate Premium Monthly", "credits": 300, "valid_days": 30, "group": "monthly", "plan_name": "Premium"
+          },
+          {
+            "title": "Starter",
+            "description": "İlk SaaS girişiminizle başlayın.",
+            "features_title": "Dahil",
+            "features": ["100 kredi, 1 yıl geçerli", "NextJS şablonu", "SEO dostu yapı", "Stripe ile ödeme", "Supabase ile veri depolama", "Google OAuth & Tek Tıkla Giriş", "i18n desteği"],
+            "interval": "year", "amount": 82800, "currency": "USD", "price": "$69", "original_price": "$89", "unit": "/ ay",
+            "is_featured": false, "tip": "Yıllık ödeyin. Sınırsız proje oluşturun!",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-yearly", "product_name": "PoptoyStudio Boilerplate Starter Annually", "credits": 1200, "valid_days": 365, "group": "yearly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "SaaS girişimlerinizi hızla başlatın.",
+            "label": "Popüler",
+            "features_title": "Starter'daki her şey, artı",
+            "features": ["200 kredi, 1 yıl geçerli", "Vercel veya Cloudflare ile dağıtım", "Gizlilik Politikası & Şartlar oluşturma", "Google Analytics entegrasyonu", "Google Search Console entegrasyonu", "Discord topluluğu", "İlk lansman için teknik destek", "Ömür boyu güncellemeler"],
+            "interval": "year", "amount": 154800, "currency": "USD", "price": "$129", "original_price": "$169", "unit": "/ ay",
+            "is_featured": true, "tip": "Yıllık ödeyin. SaaS girişimlerinizi hızla başlatın.",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-yearly", "product_name": "PoptoyStudio Boilerplate Standard Annually", "credits": 2400, "valid_days": 365, "group": "yearly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "Herhangi bir AI SaaS girişimi başlatın.",
+            "features_title": "Standard'daki her şey, artı",
+            "features": ["300 kredi, 1 yıl geçerli", "AI ile iş fonksiyonları", "Kullanıcı merkezi", "Kredi sistemi", "SaaS'ınız için API satışı", "Yönetici sistemi", "Öncelikli teknik destek"],
+            "interval": "year", "amount": 226800, "currency": "USD", "price": "$189", "original_price": "$249", "unit": "/ ay",
+            "is_featured": false, "tip": "Yıllık ödeyin. Herhangi bir AI SaaS girişimi başlatın.",
+            "button": {"title": "PoptoyStudio Edinin", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-yearly", "product_name": "PoptoyStudio Boilerplate Premium Annually", "credits": 3600, "valid_days": 365, "group": "yearly", "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Mevcut plan",
+    "processing": "İşleniyor"
+  }
+}

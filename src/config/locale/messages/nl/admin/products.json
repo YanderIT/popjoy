@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Naam",
+    "category": "Categorie",
+    "no_category": "Geen categorie",
+    "description": "Beschrijving",
+    "image": "Afbeelding",
+    "status": "Status",
+    "sort": "Volgorde",
+    "created_at": "Aangemaakt op",
+    "updated_at": "Bijgewerkt op",
+    "sku": "SKU-code",
+    "attributes": "Attributen",
+    "price": "Prijs",
+    "original_price": "Originele prijs",
+    "cost_price": "Kostprijs",
+    "stock": "Voorraad"
+  },
+  "status_options": {
+    "draft": "Concept",
+    "active": "Actief",
+    "inactive": "Inactief"
+  },
+  "list": {
+    "title": "Producten",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Producten"
+    },
+    "buttons": {
+      "add": "Product toevoegen",
+      "edit": "Bewerken",
+      "delete": "Verwijderen",
+      "skus": "SKU's beheren"
+    }
+  },
+  "add": {
+    "title": "Product toevoegen",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Producten",
+      "add": "Toevoegen"
+    },
+    "buttons": {
+      "submit": "Product toevoegen"
+    }
+  },
+  "edit": {
+    "title": "Product bewerken",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Producten",
+      "edit": "Bewerken"
+    },
+    "buttons": {
+      "submit": "Wijzigingen opslaan"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU's",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Producten",
+        "skus": "SKU's"
+      },
+      "buttons": {
+        "add": "SKU toevoegen",
+        "edit": "Bewerken",
+        "delete": "Verwijderen"
+      }
+    },
+    "add": {
+      "title": "SKU toevoegen",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Producten",
+        "skus": "SKU's",
+        "add": "Toevoegen"
+      },
+      "buttons": {
+        "submit": "SKU toevoegen"
+      }
+    },
+    "edit": {
+      "title": "SKU bewerken",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Producten",
+        "skus": "SKU's",
+        "edit": "Bewerken"
+      },
+      "buttons": {
+        "submit": "Wijzigingen opslaan"
+      }
+    }
+  }
+}

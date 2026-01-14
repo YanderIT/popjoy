@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Bestelnr.",
+    "user": "Gebruiker",
+    "amount": "Bedrag",
+    "status": "Status",
+    "shipping_carrier": "Vervoerder",
+    "tracking_number": "Trackingnr.",
+    "created_at": "Aangemaakt op",
+    "shipped_at": "Verzonden op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "Bestellingen",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Bestellingen"
+    },
+    "tabs": {
+      "all": "Alle",
+      "pending_shipment": "Wacht op verzending",
+      "shipped": "Verzonden",
+      "delivered": "Bezorgd"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Alle",
+          "pending_payment": "Wacht op betaling",
+          "pending_shipment": "Wacht op verzending",
+          "shipped": "Verzonden",
+          "delivered": "Bezorgd",
+          "completed": "Voltooid",
+          "canceled": "Geannuleerd",
+          "refunded": "Terugbetaald"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Bestelnr.",
+        "placeholder": "Zoek bestelnummer"
+      }
+    }
+  },
+  "ship": {
+    "title": "Bestelling verzenden",
+    "description": "Voer de verzendgegevens in voor deze bestelling",
+    "carrier": "Vervoerder",
+    "carrier_placeholder": "bijv. PostNL, DHL, DPD",
+    "tracking": "Trackingnummer",
+    "tracking_placeholder": "Voer trackingnummer in",
+    "submit": "Verzending bevestigen",
+    "success": "Bestelling succesvol verzonden",
+    "error": "Verzending van bestelling mislukt"
+  }
+}

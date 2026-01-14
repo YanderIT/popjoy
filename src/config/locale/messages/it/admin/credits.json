@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "N° transazione",
+    "user": "Utente",
+    "amount": "Importo",
+    "remaining": "Rimanente",
+    "type": "Tipo",
+    "scene": "Scena",
+    "description": "Descrizione",
+    "created_at": "Creato il",
+    "expires_at": "Scade il",
+    "metadata": "Metadati",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Crediti",
+    "crumbs": {
+      "admin": "Admin",
+      "credits": "Crediti"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "grant": "Concessione",
+      "consume": "Consumo"
+    }
+  }
+}

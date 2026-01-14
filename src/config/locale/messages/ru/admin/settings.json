@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Email аутентификация",
+    "google_auth": "Google аутентификация",
+    "github_auth": "Github аутентификация",
+    "basic_payment": "Базовый платёж",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Кредиты",
+    "appinfo": "Инфо о приложении",
+    "user_role": "Роль пользователя"
+  },
+  "edit": {
+    "title": "Настройки",
+    "crumbs": {
+      "admin": "Админ",
+      "settings": "Настройки"
+    },
+    "tabs": {
+      "general": "Общие",
+      "auth": "Аутентификация",
+      "payment": "Платёж",
+      "credit": "Кредиты",
+      "email": "Email",
+      "storage": "Хранилище",
+      "ai": "ИИ",
+      "analytics": "Аналитика",
+      "ads": "Реклама",
+      "affiliate": "Партнёрка",
+      "customer_service": "Поддержка"
+    },
+    "buttons": {
+      "submit": "Сохранить"
+    }
+  }
+}

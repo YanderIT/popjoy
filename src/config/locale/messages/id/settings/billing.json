@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "No. Langganan",
+    "interval": "Interval",
+    "provider": "Penyedia",
+    "current_period": "Periode Saat Ini",
+    "plan": "Paket",
+    "status": "Status",
+    "amount": "Jumlah",
+    "created_at": "Dibuat pada",
+    "end_time": "Waktu Berakhir",
+    "action": "Aksi"
+  },
+  "view": {
+    "title": "Paket Saat Ini",
+    "tip": "Langganan Anda akan diperpanjang otomatis pada {date}",
+    "end_tip": "Langganan Anda akan dibatalkan otomatis pada {date}",
+    "no_subscription": "Tidak ada paket",
+    "buttons": {
+      "adjust": "Sesuaikan Paket",
+      "subscribe": "Berlangganan",
+      "manage": "Kelola Langganan",
+      "cancel": "Batalkan Langganan"
+    }
+  },
+  "list": {
+    "title": "Riwayat Langganan",
+    "tabs": {
+      "all": "Semua",
+      "active": "Aktif",
+      "pending_cancel": "Menunggu Pembatalan",
+      "canceled": "Dibatalkan",
+      "trialing": "Uji Coba",
+      "paused": "Dijeda",
+      "expired": "Kedaluwarsa"
+    }
+  },
+  "cancel": {
+    "title": "Batalkan Langganan",
+    "description": "Apakah Anda yakin ingin membatalkan langganan?",
+    "fields": {
+      "subscription_no": "No. Langganan",
+      "subscription_amount": "Jumlah Langganan",
+      "interval_cycle": "Siklus Interval",
+      "subscription_created_at": "Langganan Dibuat pada",
+      "current_period": "Periode Saat Ini",
+      "start_at": "Mulai",
+      "end_at": "Berakhir"
+    },
+    "crumbs": {
+      "settings": "Pengaturan",
+      "billing": "Penagihan",
+      "cancel": "Batalkan Langganan"
+    },
+    "buttons": {
+      "confirm_cancel": "Konfirmasi Pembatalan"
+    }
+  }
+}

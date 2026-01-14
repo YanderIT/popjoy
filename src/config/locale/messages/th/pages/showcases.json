@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "โชว์เคส",
+    "description": "โปรเจกต์ยอดเยี่ยมที่สร้างด้วย PoptoyStudio"
+  },
+  "page": {
+    "title": "โชว์เคส",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "AI SaaS สตาร์ทอัพที่สร้างด้วย PoptoyStudio",
+        "description": "ใช้งานง่ายและเปิดตัวเร็ว",
+        "groups": [
+          {"name": "all", "title": "ทั้งหมด"},
+          {"name": "ai-chatbot", "title": "AI แชทบอท"},
+          {"name": "ai-image", "title": "AI รูปภาพ"},
+          {"name": "ai-video", "title": "AI วิดีโอ"},
+          {"name": "ai-audio", "title": "AI เสียง"},
+          {"name": "ai-music", "title": "AI เพลง"},
+          {"name": "ai-coding", "title": "AI โค้ดดิ้ง"},
+          {"name": "other", "title": "อื่นๆ"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "เครื่องมือค้นหา AI", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "AI ลองเสื้อผ้าเสมือน", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "AI สร้างวอลเปเปอร์", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "AI สร้างปก", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "ไดเรกทอรี GPTs", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "AI เครื่องเล่นเพลง", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "AI สร้างแลนดิ้งเพจ", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "AI สร้างวิดีโอ", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "AI สร้างพอดแคสต์", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

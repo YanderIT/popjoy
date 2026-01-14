@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "名前",
+    "avatar": "アバター",
+    "email": "メールアドレス",
+    "email_verified": "メール認証済み",
+    "remaining_credits": "残りクレジット",
+    "created_at": "作成日時",
+    "actions": "アクション",
+    "roles": "ロール",
+    "ip": "IP",
+    "locale": "言語",
+    "utm_source": "UTMソース"
+  },
+  "list": {
+    "title": "ユーザー",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー"
+    },
+    "buttons": {
+      "add": "ユーザー追加",
+      "edit": "ユーザー編集",
+      "view": "ユーザー表示",
+      "delete": "ユーザー削除",
+      "edit_roles": "ロール編集",
+      "grant_credits": "クレジット付与"
+    },
+    "search": {
+      "email": {
+        "title": "メールアドレス",
+        "placeholder": "メールアドレス"
+      }
+    }
+  },
+  "edit": {
+    "title": "ユーザー編集",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "edit": "編集"
+    },
+    "buttons": {
+      "submit": "更新"
+    }
+  },
+  "edit_roles": {
+    "title": "ロール編集",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "edit_roles": "ロール編集"
+    },
+    "buttons": {
+      "submit": "更新"
+    }
+  },
+  "grant_credits": {
+    "title": "クレジット付与",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "grant_credits": "クレジット付与"
+    },
+    "buttons": {
+      "submit": "付与"
+    },
+    "fields": {
+      "credits": "クレジット数",
+      "valid_days": "クレジット有効日数",
+      "valid_days_tip": "0は無期限を意味します",
+      "description": "クレジット付与の説明",
+      "description_placeholder": "管理者によるクレジット付与"
+    }
+  }
+}

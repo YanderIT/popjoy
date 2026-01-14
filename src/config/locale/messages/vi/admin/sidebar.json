@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Hệ thống",
+      "items": [
+        {
+          "title": "Người dùng & Quyền",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Người dùng",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Vai trò",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Quyền",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Trang & Nội dung",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Danh mục",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "Bài viết",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "Đơn hàng",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "Sản phẩm",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "Thanh toán & Tín dụng",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Thanh toán",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Đăng ký",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Tín dụng",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Cài đặt",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Hồ sơ",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Trang chủ",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

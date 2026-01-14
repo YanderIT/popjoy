@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "Başlık",
+    "key": "Anahtar",
+    "created_at": "Oluşturulma Tarihi",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "API Anahtarları",
+    "empty_message": "API anahtarı yok",
+    "buttons": {
+      "add": "API Anahtarı Oluştur",
+      "edit": "Düzenle",
+      "delete": "Sil"
+    }
+  },
+  "add": {
+    "title": "API Anahtarı Oluştur",
+    "crumbs": {
+      "apikeys": "API Anahtarları",
+      "add": "API Anahtarı Oluştur"
+    },
+    "buttons": {
+      "submit": "Oluştur"
+    }
+  },
+  "edit": {
+    "title": "API Anahtarını Düzenle",
+    "crumbs": {
+      "apikeys": "API Anahtarları",
+      "edit": "API Anahtarını Düzenle"
+    },
+    "buttons": {
+      "submit": "Güncelle"
+    }
+  },
+  "delete": {
+    "title": "API Anahtarını Sil",
+    "crumbs": {
+      "apikeys": "API Anahtarları",
+      "delete": "API Anahtarını Sil"
+    },
+    "buttons": {
+      "submit": "Silmeyi Onayla"
+    }
+  }
+}

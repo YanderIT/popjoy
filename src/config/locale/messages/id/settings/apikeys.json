@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "Judul",
+    "key": "Kunci",
+    "created_at": "Dibuat pada",
+    "action": "Aksi"
+  },
+  "list": {
+    "title": "Kunci API",
+    "empty_message": "Tidak ada kunci API",
+    "buttons": {
+      "add": "Buat kunci API",
+      "edit": "Edit",
+      "delete": "Hapus"
+    }
+  },
+  "add": {
+    "title": "Buat kunci API",
+    "crumbs": {
+      "apikeys": "Kunci API",
+      "add": "Buat kunci API"
+    },
+    "buttons": {
+      "submit": "Buat"
+    }
+  },
+  "edit": {
+    "title": "Edit kunci API",
+    "crumbs": {
+      "apikeys": "Kunci API",
+      "edit": "Edit kunci API"
+    },
+    "buttons": {
+      "submit": "Perbarui"
+    }
+  },
+  "delete": {
+    "title": "Hapus kunci API",
+    "crumbs": {
+      "apikeys": "Kunci API",
+      "delete": "Hapus kunci API"
+    },
+    "buttons": {
+      "submit": "Konfirmasi hapus"
+    }
+  }
+}

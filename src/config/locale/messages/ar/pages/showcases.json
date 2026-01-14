@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "العروض",
+    "description": "مشاريع رائعة تم بناؤها مع PoptoyStudio"
+  },
+  "page": {
+    "title": "العروض",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "شركات AI SaaS الناشئة المبنية مع PoptoyStudio",
+        "description": "سهل الاستخدام وسريع الإطلاق.",
+        "groups": [
+          {"name": "all", "title": "الكل"},
+          {"name": "ai-chatbot", "title": "روبوت محادثة AI"},
+          {"name": "ai-image", "title": "صورة AI"},
+          {"name": "ai-video", "title": "فيديو AI"},
+          {"name": "ai-audio", "title": "صوت AI"},
+          {"name": "ai-music", "title": "موسيقى AI"},
+          {"name": "ai-coding", "title": "برمجة AI"},
+          {"name": "other", "title": "أخرى"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "محرك بحث AI", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "تجربة افتراضية AI", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "مولد خلفيات AI", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "مولد أغلفة AI", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "دليل GPTs", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "مشغل موسيقى AI", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "مولد صفحات الهبوط AI", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "مولد فيديو AI", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "مولد بودكاست AI", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

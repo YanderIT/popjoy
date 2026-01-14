@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "رقم المعاملة",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "remaining": "المتبقي",
+    "type": "النوع",
+    "scene": "المشهد",
+    "description": "الوصف",
+    "created_at": "تاريخ الإنشاء",
+    "expires_at": "تاريخ الانتهاء",
+    "metadata": "البيانات الوصفية",
+    "action": "الإجراء"
+  },
+  "list": {
+    "title": "الرصيد",
+    "crumbs": {
+      "admin": "المدير",
+      "credits": "الرصيد"
+    },
+    "tabs": {
+      "all": "الكل",
+      "grant": "منح",
+      "consume": "استهلاك"
+    }
+  }
+}

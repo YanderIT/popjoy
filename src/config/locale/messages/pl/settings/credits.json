@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Nr transakcji",
+    "description": "Opis",
+    "type": "Typ",
+    "scene": "Scena",
+    "credits": "Kredyty",
+    "expires_at": "Wygasa",
+    "created_at": "Utworzono",
+    "action": "Akcja"
+  },
+  "list": {
+    "title": "Historia kredytów",
+    "tabs": {
+      "all": "Wszystkie",
+      "grant": "Przyznane",
+      "consume": "Zużyte"
+    }
+  },
+  "view": {
+    "title": "Saldo kredytów",
+    "buttons": {
+      "purchase": "Kup kredyty"
+    }
+  }
+}

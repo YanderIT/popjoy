@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "N° do pedido",
+    "user": "Usuário",
+    "amount": "Valor",
+    "product": "Produto",
+    "description": "Descrição",
+    "type": "Tipo",
+    "provider": "Provedor",
+    "created_at": "Criado em",
+    "status": "Status",
+    "action": "Ação"
+  },
+  "list": {
+    "title": "Pagamentos",
+    "crumbs": {
+      "admin": "Admin",
+      "payments": "Pagamentos"
+    },
+    "tabs": {
+      "all": "Tudo",
+      "subscription": "Assinatura",
+      "one-time": "Único"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Tudo",
+          "paid": "Pago",
+          "created": "Criado",
+          "failed": "Falhou"
+        }
+      },
+      "provider": {
+        "title": "Provedor",
+        "options": {
+          "all": "Tudo",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "N° do pedido",
+        "placeholder": "N° do pedido"
+      }
+    }
+  }
+}

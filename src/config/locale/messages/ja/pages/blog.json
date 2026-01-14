@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "ブログ",
+    "description": "最新の製品機能、ソリューション、アップデートをお読みください。"
+  },
+  "page": {
+    "title": "PoptoyStudio ブログ",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "ブログ",
+        "description": "最新の製品機能、ソリューション、アップデートをお読みください。"
+      }
+    }
+  },
+  "messages": {
+    "all": "すべて",
+    "no_content": "コンテンツがありません",
+    "crumb": "ブログ",
+    "toc": "目次"
+  }
+}

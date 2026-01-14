@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Số đăng ký",
+    "interval": "Khoảng thời gian",
+    "provider": "Nhà cung cấp",
+    "current_period": "Kỳ hiện tại",
+    "plan": "Gói",
+    "status": "Trạng thái",
+    "amount": "Số tiền",
+    "created_at": "Ngày tạo",
+    "end_time": "Thời gian kết thúc",
+    "action": "Hành động"
+  },
+  "view": {
+    "title": "Gói hiện tại",
+    "tip": "Đăng ký của bạn sẽ tự động gia hạn vào {date}",
+    "end_tip": "Đăng ký của bạn sẽ tự động hủy vào {date}",
+    "no_subscription": "Không có gói",
+    "buttons": {
+      "adjust": "Điều chỉnh gói",
+      "subscribe": "Đăng ký",
+      "manage": "Quản lý đăng ký",
+      "cancel": "Hủy đăng ký"
+    }
+  },
+  "list": {
+    "title": "Lịch sử đăng ký",
+    "tabs": {
+      "all": "Tất cả",
+      "active": "Đang hoạt động",
+      "pending_cancel": "Chờ hủy",
+      "canceled": "Đã hủy",
+      "trialing": "Dùng thử",
+      "paused": "Tạm dừng",
+      "expired": "Hết hạn"
+    }
+  },
+  "cancel": {
+    "title": "Hủy đăng ký",
+    "description": "Bạn có chắc chắn muốn hủy đăng ký không?",
+    "fields": {
+      "subscription_no": "Số đăng ký",
+      "subscription_amount": "Số tiền đăng ký",
+      "interval_cycle": "Chu kỳ khoảng thời gian",
+      "subscription_created_at": "Ngày tạo đăng ký",
+      "current_period": "Kỳ hiện tại",
+      "start_at": "Bắt đầu",
+      "end_at": "Kết thúc"
+    },
+    "crumbs": {
+      "settings": "Cài đặt",
+      "billing": "Thanh toán",
+      "cancel": "Hủy đăng ký"
+    },
+    "buttons": {
+      "confirm_cancel": "Xác nhận hủy"
+    }
+  }
+}

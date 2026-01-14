@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Khám phá đồ chơi thiết kế độc đáo, mô hình nghệ thuật và đồ sưu tầm phiên bản giới hạn. Bộ sưu tập được tuyển chọn cho các nhà sưu tầm trên toàn thế giới.",
+    "keywords": "đồ chơi thiết kế, art toys, đồ sưu tầm, phiên bản giới hạn, mô hình, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Đăng nhập",
+    "sign_in_description": "Đăng nhập vào tài khoản của bạn",
+    "sign_up_title": "Đăng ký",
+    "sign_up_description": "Tạo tài khoản",
+    "email_title": "Email",
+    "email_placeholder": "Nhập email của bạn",
+    "password_title": "Mật khẩu",
+    "password_placeholder": "Nhập mật khẩu của bạn",
+    "forgot_password": "Quên mật khẩu?",
+    "or": "Hoặc",
+    "continue": "Tiếp tục",
+    "no_account": "Chưa có tài khoản?",
+    "already_have_account": "Đã có tài khoản?",
+    "email_sign_in": "Đăng nhập bằng email",
+    "google_sign_in_title": "Đăng nhập bằng Google",
+    "github_sign_in_title": "Đăng nhập bằng GitHub",
+    "close_title": "Đóng",
+    "cancel_title": "Hủy",
+    "sign_out_title": "Đăng xuất",
+    "billing_title": "Thanh toán",
+    "name_title": "Tên",
+    "name_placeholder": "Nhập tên của bạn",
+    "email_verification_hint": "Sử dụng địa chỉ email mà bạn có thể truy cập. Bạn phải xác minh email sau khi đăng ký.",
+    "admin_title": "Hệ thống quản trị",
+    "credits_title": "Tín dụng: {credits}",
+    "verify_email_sent": "Đã gửi email xác minh. Vui lòng kiểm tra hộp thư đến.",
+    "verify_email_required": "Vui lòng xác minh địa chỉ email trước khi đăng nhập.",
+    "resend_verification": "Gửi lại email xác minh",
+    "resend_verification_sent": "Đã gửi lại email xác minh. Vui lòng kiểm tra hộp thư đến.",
+    "verify_email_page_title": "Kiểm tra email của bạn",
+    "verify_email_page_description": "Để tiếp tục, nhấp vào liên kết đã gửi đến",
+    "verify_email_continue": "Tiếp tục",
+    "verify_email_tip": "Sau khi xác minh, nhấp \"Tiếp tục\".",
+    "verify_email_not_verified_yet": "Chưa được xác minh. Vui lòng nhấp vào liên kết trong email trước.",
+    "verify_email_account_mismatch": "Đã đăng nhập với {current}. Trang này đang chờ {expected}.",
+    "resend_verification_countdown": "Gửi lại email xác minh ({seconds}s)",
+    "resend_verification_wait": "Vui lòng đợi {seconds}s trước khi gửi lại.",
+    "back_to_sign_in": "Quay lại đăng nhập",
+    "promo_title": "Nhận ưu đãi giới hạn của chúng tôi",
+    "promo_subtitle": "Sản phẩm bán chạy đang giảm giá!",
+    "promo_description": "Và đừng bỏ lỡ giảm giá $5 của bạn!"
+  },
+  "payment": {
+    "choose_payment_method": "Chọn phương thức thanh toán",
+    "choose_payment_method_description": "",
+    "cancel_title": "Hủy"
+  },
+  "locale_detector": {
+    "title": "Chúng tôi phát hiện ngôn ngữ trình duyệt của bạn là {locale}. Chuyển đổi?",
+    "switch_to": "Chuyển sang {locale}"
+  }
+}

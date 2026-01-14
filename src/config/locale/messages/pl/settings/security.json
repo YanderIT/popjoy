@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "email": "Email",
+    "password": "Hasło",
+    "new_password": "Nowe hasło",
+    "confirm_password": "Potwierdź hasło"
+  },
+  "reset_password": {
+    "title": "Resetuj hasło",
+    "description": "Zresetuj swoje hasło",
+    "tip": "Wyślemy Ci e-mail, aby zresetować hasło.",
+    "crumbs": {
+      "settings": "Ustawienia",
+      "security": "Bezpieczeństwo"
+    },
+    "buttons": {
+      "submit": "Zapisz"
+    }
+  },
+  "delete_account": {
+    "title": "Usuń konto",
+    "description": "Usuń swoje konto",
+    "tip": "Czy na pewno chcesz usunąć konto? Tej czynności nie można cofnąć.",
+    "crumbs": {
+      "settings": "Ustawienia",
+      "security": "Bezpieczeństwo"
+    },
+    "buttons": {
+      "submit": "Usuń"
+    }
+  }
+}

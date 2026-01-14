@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Systeem",
+      "items": [
+        {
+          "title": "Gebruikers en Rechten",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Gebruikers",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Rollen",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Rechten",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Pagina's en Inhoud",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Categorieën",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "Berichten",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "Bestellingen",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "Producten",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "Betalingen en Tegoeden",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Betalingen",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Abonnementen",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Tegoeden",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Instellingen",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profiel",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Home",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "E-mail",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

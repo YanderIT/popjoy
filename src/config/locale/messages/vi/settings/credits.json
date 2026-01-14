@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Số giao dịch",
+    "description": "Mô tả",
+    "type": "Loại",
+    "scene": "Cảnh",
+    "credits": "Tín dụng",
+    "expires_at": "Hết hạn",
+    "created_at": "Ngày tạo",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Lịch sử tín dụng",
+    "tabs": {
+      "all": "Tất cả",
+      "grant": "Nhận",
+      "consume": "Tiêu dùng"
+    }
+  },
+  "view": {
+    "title": "Số dư tín dụng",
+    "buttons": {
+      "purchase": "Mua tín dụng"
+    }
+  }
+}

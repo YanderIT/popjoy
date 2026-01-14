@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "N° abbonamento",
+    "user": "Utente",
+    "amount": "Importo",
+    "interval": "Intervallo",
+    "provider": "Provider",
+    "created_at": "Creato il",
+    "current_period_start": "Inizio periodo attuale",
+    "current_period_end": "Fine periodo attuale",
+    "status": "Stato",
+    "description": "Descrizione",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Abbonamenti",
+    "crumbs": {
+      "admin": "Admin",
+      "subscriptions": "Abbonamenti"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "month": "Mensile",
+      "year": "Annuale"
+    }
+  }
+}

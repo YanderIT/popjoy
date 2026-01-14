@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Витрина",
+    "description": "Потрясающие проекты, созданные с PoptoyStudio"
+  },
+  "page": {
+    "title": "Витрина",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "AI SaaS стартапы, созданные с PoptoyStudio",
+        "description": "Простой в использовании и быстрый в запуске.",
+        "groups": [
+          {"name": "all", "title": "Все"},
+          {"name": "ai-chatbot", "title": "AI Чатбот"},
+          {"name": "ai-image", "title": "AI Изображение"},
+          {"name": "ai-video", "title": "AI Видео"},
+          {"name": "ai-audio", "title": "AI Аудио"},
+          {"name": "ai-music", "title": "AI Музыка"},
+          {"name": "ai-coding", "title": "AI Кодирование"},
+          {"name": "other", "title": "Другое"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "AI Поисковик", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "AI Виртуальная примерка", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "AI Генератор обоев", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "AI Генератор обложек", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "Каталог GPTs", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "AI Музыкальный плеер", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "AI Генератор лендингов", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "AI Генератор видео", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "AI Генератор подкастов", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

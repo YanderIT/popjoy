@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Sipariş No",
+    "user": "Kullanıcı",
+    "amount": "Tutar",
+    "status": "Durum",
+    "shipping_carrier": "Kargo Firması",
+    "tracking_number": "Takip No",
+    "created_at": "Oluşturulma",
+    "shipped_at": "Gönderilme",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "Siparişler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "orders": "Siparişler"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "pending_shipment": "Gönderim Bekliyor",
+      "shipped": "Gönderildi",
+      "delivered": "Teslim Edildi"
+    },
+    "filters": {
+      "status": {
+        "title": "Durum",
+        "options": {
+          "all": "Tümü",
+          "pending_payment": "Ödeme Bekliyor",
+          "pending_shipment": "Gönderim Bekliyor",
+          "shipped": "Gönderildi",
+          "delivered": "Teslim Edildi",
+          "completed": "Tamamlandı",
+          "canceled": "İptal Edildi",
+          "refunded": "İade Edildi"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Sipariş No",
+        "placeholder": "Sipariş numarası ara"
+      }
+    }
+  },
+  "ship": {
+    "title": "Sipariş Gönder",
+    "description": "Bu sipariş için gönderim bilgilerini girin",
+    "carrier": "Kargo Firması",
+    "carrier_placeholder": "örn. Yurtiçi, Aras, MNG",
+    "tracking": "Takip Numarası",
+    "tracking_placeholder": "Takip numarasını girin",
+    "submit": "Gönderimi Onayla",
+    "success": "Sipariş başarıyla gönderildi",
+    "error": "Sipariş gönderilemedi"
+  }
+}

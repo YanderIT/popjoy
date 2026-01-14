@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "image": "Hình ảnh",
+    "content": "Nội dung",
+    "categories": "Danh mục",
+    "tags": "Thẻ",
+    "author_name": "Tên tác giả",
+    "author_role": "Vai trò tác giả",
+    "author_image": "Ảnh tác giả",
+    "status": "Trạng thái",
+    "created_at": "Ngày tạo",
+    "updated_at": "Ngày cập nhật",
+    "deleted_at": "Ngày xóa"
+  },
+  "list": {
+    "title": "Bài viết",
+    "crumbs": {
+      "admin": "Quản trị",
+      "posts": "Bài viết"
+    },
+    "buttons": {
+      "add": "Thêm bài viết",
+      "edit": "Sửa bài viết",
+      "view": "Xem bài viết",
+      "delete": "Xóa bài viết"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "published": "Đã xuất bản",
+      "pending": "Đang chờ",
+      "draft": "Bản nháp",
+      "archived": "Đã lưu trữ"
+    }
+  },
+  "add": {
+    "title": "Thêm bài viết",
+    "crumbs": {
+      "admin": "Quản trị",
+      "posts": "Bài viết",
+      "add": "Thêm bài viết"
+    },
+    "buttons": {
+      "submit": "Thêm bài viết"
+    }
+  },
+  "edit": {
+    "title": "Sửa bài viết",
+    "crumbs": {
+      "admin": "Quản trị",
+      "posts": "Bài viết",
+      "edit": "Sửa bài viết"
+    },
+    "buttons": {
+      "submit": "Sửa bài viết"
+    }
+  }
+}

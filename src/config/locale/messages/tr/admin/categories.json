@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "status": "Durum",
+    "created_at": "Oluşturulma",
+    "updated_at": "Güncellenme"
+  },
+  "list": {
+    "title": "Kategoriler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "categories": "Kategoriler"
+    },
+    "buttons": {
+      "add": "Kategori Ekle",
+      "edit": "Kategori Düzenle",
+      "view": "Kategori Görüntüle",
+      "delete": "Kategori Sil"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "published": "Yayınlandı",
+      "pending": "Beklemede",
+      "draft": "Taslak",
+      "archived": "Arşivlendi"
+    }
+  },
+  "add": {
+    "title": "Kategori Ekle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "categories": "Kategoriler",
+      "add": "Kategori Ekle"
+    },
+    "buttons": {
+      "submit": "Kategori Ekle"
+    }
+  },
+  "edit": {
+    "title": "Kategori Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "categories": "Kategoriler",
+      "edit": "Kategori Düzenle"
+    },
+    "buttons": {
+      "submit": "Kategori Düzenle"
+    }
+  }
+}

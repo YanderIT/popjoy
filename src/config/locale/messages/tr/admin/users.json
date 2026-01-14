@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Ad",
+    "avatar": "Avatar",
+    "email": "E-posta",
+    "email_verified": "E-posta Doğrulandı",
+    "remaining_credits": "Kalan Krediler",
+    "created_at": "Oluşturulma",
+    "actions": "İşlemler",
+    "roles": "Roller",
+    "ip": "IP",
+    "locale": "Dil",
+    "utm_source": "UTM Kaynağı"
+  },
+  "list": {
+    "title": "Kullanıcılar",
+    "crumbs": {
+      "admin": "Yönetici",
+      "users": "Kullanıcılar"
+    },
+    "buttons": {
+      "add": "Kullanıcı Ekle",
+      "edit": "Kullanıcıyı Düzenle",
+      "view": "Kullanıcıyı Görüntüle",
+      "delete": "Kullanıcıyı Sil",
+      "edit_roles": "Rolleri Düzenle",
+      "grant_credits": "Kredi Ver"
+    },
+    "search": {
+      "email": {
+        "title": "E-posta",
+        "placeholder": "E-posta"
+      }
+    }
+  },
+  "edit": {
+    "title": "Kullanıcıyı Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "edit": "Düzenle"
+    },
+    "buttons": {
+      "submit": "Güncelle"
+    }
+  },
+  "edit_roles": {
+    "title": "Rolleri Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "edit_roles": "Rolleri Düzenle"
+    },
+    "buttons": {
+      "submit": "Güncelle"
+    }
+  },
+  "grant_credits": {
+    "title": "Kredi Ver",
+    "crumbs": {
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "grant_credits": "Kredi Ver"
+    },
+    "buttons": {
+      "submit": "Ver"
+    },
+    "fields": {
+      "credits": "Kredi Miktarı",
+      "valid_days": "Kredi Geçerlilik Günü",
+      "valid_days_tip": "0, süresiz anlamına gelir",
+      "description": "Kredi Verme Açıklaması",
+      "description_placeholder": "Yönetici kredi verdi"
+    }
+  }
+}

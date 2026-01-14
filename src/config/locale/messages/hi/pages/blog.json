@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "ब्लॉग",
+    "description": "नवीनतम उत्पाद सुविधाएं, समाधान और अपडेट पढ़ें।"
+  },
+  "page": {
+    "title": "PoptoyStudio ब्लॉग",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "ब्लॉग",
+        "description": "नवीनतम उत्पाद सुविधाएं, समाधान और अपडेट पढ़ें।"
+      }
+    }
+  },
+  "messages": {
+    "all": "सभी",
+    "no_content": "कोई सामग्री नहीं",
+    "crumb": "ब्लॉग",
+    "toc": "विषय सूची"
+  }
+}

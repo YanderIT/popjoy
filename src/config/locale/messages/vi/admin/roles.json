@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Tên",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "status": "Trạng thái",
+    "sort": "Thứ tự",
+    "created_at": "Ngày tạo",
+    "updated_at": "Ngày cập nhật",
+    "permissions": "Quyền",
+    "actions": "Hành động"
+  },
+  "list": {
+    "title": "Vai trò",
+    "crumbs": {
+      "admin": "Quản trị",
+      "roles": "Vai trò"
+    },
+    "buttons": {
+      "create": "Tạo vai trò",
+      "edit": "Sửa vai trò",
+      "edit_permissions": "Sửa quyền",
+      "delete": "Xóa vai trò"
+    }
+  },
+  "edit": {
+    "title": "Sửa vai trò",
+    "crumbs": {
+      "admin": "Quản trị",
+      "roles": "Vai trò",
+      "edit": "Sửa vai trò"
+    },
+    "buttons": {
+      "submit": "Cập nhật"
+    }
+  },
+  "edit_permissions": {
+    "title": "Sửa quyền",
+    "crumbs": {
+      "admin": "Quản trị",
+      "roles": "Vai trò",
+      "edit_permissions": "Sửa quyền"
+    },
+    "buttons": {
+      "submit": "Cập nhật"
+    }
+  }
+}

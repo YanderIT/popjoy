@@ -1,0 +1,152 @@
+{
+  "header": {
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Sistem",
+      "items": [
+        {
+          "title": "Kullanıcılar ve İzinler",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Kullanıcılar",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Roller",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "İzinler",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Sayfalar ve İçerik",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Kategoriler",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "Yazılar",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "Siparişler",
+          "url": "/admin/orders",
+          "icon": "Package"
+        },
+        {
+          "title": "Ürünler",
+          "url": "/admin/products",
+          "icon": "ShoppingBag"
+        },
+        {
+          "title": "Ödemeler ve Krediler",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Ödemeler",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Abonelikler",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Krediler",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Ayarlar",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profil",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Ana Sayfa",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "E-posta",
+          "url": "mailto:support@poptoystudio.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

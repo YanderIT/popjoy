@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Ad",
+    "category": "Kategori",
+    "no_category": "Kategori Yok",
+    "description": "Açıklama",
+    "image": "Görsel",
+    "status": "Durum",
+    "sort": "Sıralama",
+    "created_at": "Oluşturulma",
+    "updated_at": "Güncellenme",
+    "sku": "SKU Kodu",
+    "attributes": "Özellikler",
+    "price": "Fiyat",
+    "original_price": "Orijinal Fiyat",
+    "cost_price": "Maliyet Fiyatı",
+    "stock": "Stok"
+  },
+  "status_options": {
+    "draft": "Taslak",
+    "active": "Aktif",
+    "inactive": "Pasif"
+  },
+  "list": {
+    "title": "Ürünler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "products": "Ürünler"
+    },
+    "buttons": {
+      "add": "Ürün Ekle",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "skus": "SKU Yönet"
+    }
+  },
+  "add": {
+    "title": "Ürün Ekle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "products": "Ürünler",
+      "add": "Ekle"
+    },
+    "buttons": {
+      "submit": "Ürün Ekle"
+    }
+  },
+  "edit": {
+    "title": "Ürün Düzenle",
+    "crumbs": {
+      "admin": "Yönetici",
+      "products": "Ürünler",
+      "edit": "Düzenle"
+    },
+    "buttons": {
+      "submit": "Değişiklikleri Kaydet"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Yönetici",
+        "products": "Ürünler",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "SKU Ekle",
+        "edit": "Düzenle",
+        "delete": "Sil"
+      }
+    },
+    "add": {
+      "title": "SKU Ekle",
+      "crumbs": {
+        "admin": "Yönetici",
+        "products": "Ürünler",
+        "skus": "SKU",
+        "add": "Ekle"
+      },
+      "buttons": {
+        "submit": "SKU Ekle"
+      }
+    },
+    "edit": {
+      "title": "SKU Düzenle",
+      "crumbs": {
+        "admin": "Yönetici",
+        "products": "Ürünler",
+        "skus": "SKU",
+        "edit": "Düzenle"
+      },
+      "buttons": {
+        "submit": "Değişiklikleri Kaydet"
+      }
+    }
+  }
+}

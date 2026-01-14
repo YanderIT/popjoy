@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "Nr zamówienia",
+    "user": "Użytkownik",
+    "amount": "Kwota",
+    "status": "Status",
+    "shipping_carrier": "Przewoźnik",
+    "tracking_number": "Nr przesyłki",
+    "created_at": "Utworzono",
+    "shipped_at": "Wysłano",
+    "action": "Akcja"
+  },
+  "list": {
+    "title": "Zamówienia",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Zamówienia"
+    },
+    "tabs": {
+      "all": "Wszystkie",
+      "pending_shipment": "Oczekuje na wysyłkę",
+      "shipped": "Wysłane",
+      "delivered": "Dostarczone"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Wszystkie",
+          "pending_payment": "Oczekuje na płatność",
+          "pending_shipment": "Oczekuje na wysyłkę",
+          "shipped": "Wysłane",
+          "delivered": "Dostarczone",
+          "completed": "Zakończone",
+          "canceled": "Anulowane",
+          "refunded": "Zwrócone"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Nr zamówienia",
+        "placeholder": "Szukaj numeru zamówienia"
+      }
+    }
+  },
+  "ship": {
+    "title": "Wyślij zamówienie",
+    "description": "Wprowadź informacje o wysyłce dla tego zamówienia",
+    "carrier": "Przewoźnik",
+    "carrier_placeholder": "np. InPost, DPD, Poczta Polska",
+    "tracking": "Numer przesyłki",
+    "tracking_placeholder": "Wprowadź numer przesyłki",
+    "submit": "Potwierdź wysyłkę",
+    "success": "Zamówienie zostało wysłane pomyślnie",
+    "error": "Nie udało się wysłać zamówienia"
+  }
+}

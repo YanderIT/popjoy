@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "اكتشف ألعاب المصممين الفريدة والتماثيل الفنية والمقتنيات ذات الإصدار المحدود. مجموعة منتقاة لهواة الجمع حول العالم.",
+    "keywords": "ألعاب المصممين, ألعاب فنية, مقتنيات, إصدار محدود, تماثيل, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "تسجيل الدخول",
+    "sign_in_description": "سجل الدخول إلى حسابك",
+    "sign_up_title": "إنشاء حساب",
+    "sign_up_description": "إنشاء حساب جديد",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل بريدك الإلكتروني",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "متابعة",
+    "no_account": "ليس لديك حساب؟",
+    "already_have_account": "لديك حساب بالفعل؟",
+    "email_sign_in": "تسجيل الدخول بالبريد الإلكتروني",
+    "google_sign_in_title": "تسجيل الدخول بـ Google",
+    "github_sign_in_title": "تسجيل الدخول بـ GitHub",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء",
+    "sign_out_title": "تسجيل الخروج",
+    "billing_title": "الفواتير",
+    "name_title": "الاسم",
+    "name_placeholder": "أدخل اسمك",
+    "email_verification_hint": "استخدم بريد إلكتروني يمكنك الوصول إليه. يجب التحقق من بريدك الإلكتروني بعد التسجيل.",
+    "admin_title": "نظام الإدارة",
+    "credits_title": "الرصيد: {credits}",
+    "verify_email_sent": "تم إرسال بريد التحقق. يرجى التحقق من صندوق الوارد.",
+    "verify_email_required": "يرجى التحقق من بريدك الإلكتروني قبل تسجيل الدخول.",
+    "resend_verification": "إعادة إرسال بريد التحقق",
+    "resend_verification_sent": "تم إعادة إرسال بريد التحقق. يرجى التحقق من صندوق الوارد.",
+    "verify_email_page_title": "تحقق من بريدك الإلكتروني",
+    "verify_email_page_description": "للمتابعة، انقر على الرابط المرسل إلى",
+    "verify_email_continue": "متابعة",
+    "verify_email_tip": "بعد التحقق، انقر على \"متابعة\".",
+    "verify_email_not_verified_yet": "لم يتم التحقق بعد. يرجى النقر على الرابط في بريدك الإلكتروني أولاً.",
+    "verify_email_account_mismatch": "مسجل الدخول كـ {current}. هذه الصفحة تنتظر {expected}.",
+    "resend_verification_countdown": "إعادة إرسال بريد التحقق ({seconds}ث)",
+    "resend_verification_wait": "يرجى الانتظار {seconds}ث قبل إعادة الإرسال.",
+    "back_to_sign_in": "العودة لتسجيل الدخول",
+    "promo_title": "احصل على عروضنا المحدودة",
+    "promo_subtitle": "الأكثر مبيعاً بأسعار مخفضة!",
+    "promo_description": "ولا تفوت خصمك بقيمة 5$!"
+  },
+  "payment": {
+    "choose_payment_method": "اختر طريقة الدفع",
+    "choose_payment_method_description": "",
+    "cancel_title": "إلغاء"
+  },
+  "locale_detector": {
+    "title": "اكتشفنا أن لغة متصفحك هي {locale}. هل تريد التبديل؟",
+    "switch_to": "التبديل إلى {locale}"
+  }
+}

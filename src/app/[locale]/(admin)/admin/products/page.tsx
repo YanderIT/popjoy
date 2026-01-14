@@ -8,6 +8,11 @@ import {
   getProductsCount,
   type Product,
 } from '@/shared/models/product';
+import {
+  getTaxonomies,
+  TaxonomyStatus,
+  TaxonomyType,
+} from '@/shared/models/taxonomy';
 import { Button, Crumb } from '@/shared/types/blocks/common';
 import { type Table } from '@/shared/types/blocks/table';
 
@@ -39,7 +44,23 @@ export default async function ProductsPage({
   ];
 
   const total = await getProductsCount();
-  const data = await getProducts({ page, limit });
+  const products = await getProducts({ page, limit });
+
+  // Get all categories for mapping
+  const categories = await getTaxonomies({
+    type: TaxonomyType.CATEGORY,
+    status: TaxonomyStatus.PUBLISHED,
+    limit: 100,
+  });
+
+  // Create category ID to name map
+  const categoryMap = new Map(categories.map((c) => [c.id, c.title]));
+
+  // Add category name to products
+  const data = products.map((p) => ({
+    ...p,
+    categoryName: p.categoryId ? categoryMap.get(p.categoryId) || '-' : '-',
+  }));
 
   const table: Table = {
     columns: [
@@ -55,6 +76,7 @@ export default async function ProductsPage({
         type: 'image',
       },
       { name: 'name', title: t('fields.name') },
+      { name: 'categoryName', title: t('fields.category') },
       {
         name: 'status',
         title: t('fields.status'),

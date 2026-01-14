@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Tên",
+    "category": "Danh mục",
+    "no_category": "Không có danh mục",
+    "description": "Mô tả",
+    "image": "Hình ảnh",
+    "status": "Trạng thái",
+    "sort": "Thứ tự",
+    "created_at": "Ngày tạo",
+    "updated_at": "Ngày cập nhật",
+    "sku": "Mã SKU",
+    "attributes": "Thuộc tính",
+    "price": "Giá",
+    "original_price": "Giá gốc",
+    "cost_price": "Giá vốn",
+    "stock": "Tồn kho"
+  },
+  "status_options": {
+    "draft": "Bản nháp",
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động"
+  },
+  "list": {
+    "title": "Sản phẩm",
+    "crumbs": {
+      "admin": "Quản trị",
+      "products": "Sản phẩm"
+    },
+    "buttons": {
+      "add": "Thêm sản phẩm",
+      "edit": "Sửa",
+      "delete": "Xóa",
+      "skus": "Quản lý SKU"
+    }
+  },
+  "add": {
+    "title": "Thêm sản phẩm",
+    "crumbs": {
+      "admin": "Quản trị",
+      "products": "Sản phẩm",
+      "add": "Thêm"
+    },
+    "buttons": {
+      "submit": "Thêm sản phẩm"
+    }
+  },
+  "edit": {
+    "title": "Sửa sản phẩm",
+    "crumbs": {
+      "admin": "Quản trị",
+      "products": "Sản phẩm",
+      "edit": "Sửa"
+    },
+    "buttons": {
+      "submit": "Lưu thay đổi"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Quản trị",
+        "products": "Sản phẩm",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "Thêm SKU",
+        "edit": "Sửa",
+        "delete": "Xóa"
+      }
+    },
+    "add": {
+      "title": "Thêm SKU",
+      "crumbs": {
+        "admin": "Quản trị",
+        "products": "Sản phẩm",
+        "skus": "SKU",
+        "add": "Thêm"
+      },
+      "buttons": {
+        "submit": "Thêm SKU"
+      }
+    },
+    "edit": {
+      "title": "Sửa SKU",
+      "crumbs": {
+        "admin": "Quản trị",
+        "products": "Sản phẩm",
+        "skus": "SKU",
+        "edit": "Sửa"
+      },
+      "buttons": {
+        "submit": "Lưu thay đổi"
+      }
+    }
+  }
+}

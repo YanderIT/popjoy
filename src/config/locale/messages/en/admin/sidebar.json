@@ -58,6 +58,11 @@
           "icon": "Package"
         },
         {
+          "title": "Categories",
+          "url": "/admin/categories",
+          "icon": "Folder"
+        },
+        {
           "title": "Products",
           "url": "/admin/products",
           "icon": "ShoppingBag"

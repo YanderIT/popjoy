@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "更新ログ",
+    "description": "最新機能や改善点を含む製品の更新ログをご覧ください。"
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "更新ログ",
+        "description": "最新機能や改善点を含む製品の更新ログをご覧ください。"
+      }
+    }
+  }
+}

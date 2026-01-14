@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Dziennik aktualizacji",
+    "description": "Zobacz dzienniki aktualizacji produktu, w tym najnowsze funkcje i ulepszenia."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Dziennik aktualizacji",
+        "description": "Zobacz dzienniki aktualizacji produktu, w tym najnowsze funkcje i ulepszenia."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "ชื่อ",
+    "user": "ผู้ใช้",
+    "status": "สถานะ",
+    "model": "โมเดล",
+    "provider": "ผู้ให้บริการ",
+    "created_at": "สร้างเมื่อ",
+    "action": "การดำเนินการ"
+  },
+  "list": {
+    "title": "แชท AI",
+    "crumbs": {
+      "admin": "แอดมิน",
+      "chats": "แชท AI"
+    },
+    "tabs": {
+      "all": "ทั้งหมด",
+      "pending": "รอดำเนินการ",
+      "completed": "เสร็จสิ้น",
+      "failed": "ล้มเหลว"
+    },
+    "buttons": {
+      "view": "ดูแชท",
+      "new": "แชทใหม่"
+    },
+    "empty_message": "ไม่พบแชท"
+  }
+}

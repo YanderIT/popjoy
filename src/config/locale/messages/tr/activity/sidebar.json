@@ -1,0 +1,31 @@
+{
+  "title": "Etkinlik",
+  "nav": {
+    "items": [
+      {
+        "title": "AI Görevleri",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "AI Sohbetleri",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Etkinlik",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Ayarlar",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

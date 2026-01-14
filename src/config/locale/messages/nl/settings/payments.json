@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Bestelnr.",
+    "user": "Gebruiker",
+    "amount": "Bedrag",
+    "product_name": "Productnaam",
+    "price": "Prijs",
+    "paid_amount": "Betaald bedrag",
+    "discount_amount": "Kortingsbedrag",
+    "description": "Beschrijving",
+    "type": "Type",
+    "provider": "Provider",
+    "created_at": "Aangemaakt op",
+    "status": "Status",
+    "action": "Actie",
+    "actions": {
+      "view_invoice": "Factuur bekijken"
+    }
+  },
+  "list": {
+    "title": "Betalingen",
+    "description": "Bekijk je betalingen",
+    "tabs": {
+      "all": "Alles",
+      "one-time": "Eenmalig",
+      "subscription": "Abonnement",
+      "renew": "Verlenging"
+    }
+  }
+}

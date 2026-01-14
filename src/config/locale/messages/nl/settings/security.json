@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "new_password": "Nieuw wachtwoord",
+    "confirm_password": "Wachtwoord bevestigen"
+  },
+  "reset_password": {
+    "title": "Wachtwoord resetten",
+    "description": "Reset je wachtwoord",
+    "tip": "We sturen je een e-mail om je wachtwoord te resetten.",
+    "crumbs": {
+      "settings": "Instellingen",
+      "security": "Beveiliging"
+    },
+    "buttons": {
+      "submit": "Opslaan"
+    }
+  },
+  "delete_account": {
+    "title": "Account verwijderen",
+    "description": "Verwijder je account",
+    "tip": "Weet je zeker dat je je account wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "crumbs": {
+      "settings": "Instellingen",
+      "security": "Beveiliging"
+    },
+    "buttons": {
+      "submit": "Verwijderen"
+    }
+  }
+}

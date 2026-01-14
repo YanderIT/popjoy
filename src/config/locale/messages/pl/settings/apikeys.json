@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "Tytuł",
+    "key": "Klucz",
+    "created_at": "Utworzono",
+    "action": "Akcja"
+  },
+  "list": {
+    "title": "Klucze API",
+    "empty_message": "Brak kluczy API",
+    "buttons": {
+      "add": "Utwórz klucz API",
+      "edit": "Edytuj",
+      "delete": "Usuń"
+    }
+  },
+  "add": {
+    "title": "Utwórz klucz API",
+    "crumbs": {
+      "apikeys": "Klucze API",
+      "add": "Utwórz klucz API"
+    },
+    "buttons": {
+      "submit": "Utwórz"
+    }
+  },
+  "edit": {
+    "title": "Edytuj klucz API",
+    "crumbs": {
+      "apikeys": "Klucze API",
+      "edit": "Edytuj klucz API"
+    },
+    "buttons": {
+      "submit": "Aktualizuj"
+    }
+  },
+  "delete": {
+    "title": "Usuń klucz API",
+    "crumbs": {
+      "apikeys": "Klucze API",
+      "delete": "Usuń klucz API"
+    },
+    "buttons": {
+      "submit": "Potwierdź usunięcie"
+    }
+  }
+}

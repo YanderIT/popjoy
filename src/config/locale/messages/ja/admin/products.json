@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "名前",
+    "category": "カテゴリ",
+    "no_category": "カテゴリなし",
+    "description": "説明",
+    "image": "画像",
+    "status": "ステータス",
+    "sort": "並び順",
+    "created_at": "作成日時",
+    "updated_at": "更新日時",
+    "sku": "SKUコード",
+    "attributes": "属性",
+    "price": "価格",
+    "original_price": "元の価格",
+    "cost_price": "原価",
+    "stock": "在庫"
+  },
+  "status_options": {
+    "draft": "下書き",
+    "active": "公開",
+    "inactive": "非公開"
+  },
+  "list": {
+    "title": "商品",
+    "crumbs": {
+      "admin": "管理者",
+      "products": "商品"
+    },
+    "buttons": {
+      "add": "商品追加",
+      "edit": "編集",
+      "delete": "削除",
+      "skus": "SKU管理"
+    }
+  },
+  "add": {
+    "title": "商品追加",
+    "crumbs": {
+      "admin": "管理者",
+      "products": "商品",
+      "add": "追加"
+    },
+    "buttons": {
+      "submit": "商品を追加"
+    }
+  },
+  "edit": {
+    "title": "商品編集",
+    "crumbs": {
+      "admin": "管理者",
+      "products": "商品",
+      "edit": "編集"
+    },
+    "buttons": {
+      "submit": "変更を保存"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "管理者",
+        "products": "商品",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "SKU追加",
+        "edit": "編集",
+        "delete": "削除"
+      }
+    },
+    "add": {
+      "title": "SKU追加",
+      "crumbs": {
+        "admin": "管理者",
+        "products": "商品",
+        "skus": "SKU",
+        "add": "追加"
+      },
+      "buttons": {
+        "submit": "SKUを追加"
+      }
+    },
+    "edit": {
+      "title": "SKU編集",
+      "crumbs": {
+        "admin": "管理者",
+        "products": "商品",
+        "skus": "SKU",
+        "edit": "編集"
+      },
+      "buttons": {
+        "submit": "変更を保存"
+      }
+    }
+  }
+}

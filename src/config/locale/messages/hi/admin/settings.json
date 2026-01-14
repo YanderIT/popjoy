@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "ईमेल प्रमाणीकरण",
+    "google_auth": "Google प्रमाणीकरण",
+    "github_auth": "Github प्रमाणीकरण",
+    "basic_payment": "बुनियादी भुगतान",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "क्रेडिट",
+    "appinfo": "ऐप जानकारी",
+    "user_role": "उपयोगकर्ता भूमिका"
+  },
+  "edit": {
+    "title": "सेटिंग्स",
+    "crumbs": {
+      "admin": "एडमिन",
+      "settings": "सेटिंग्स"
+    },
+    "tabs": {
+      "general": "सामान्य",
+      "auth": "प्रमाणीकरण",
+      "payment": "भुगतान",
+      "credit": "क्रेडिट",
+      "email": "ईमेल",
+      "storage": "स्टोरेज",
+      "ai": "AI",
+      "analytics": "विश्लेषण",
+      "ads": "विज्ञापन",
+      "affiliate": "सहयोगी",
+      "customer_service": "ग्राहक सेवा"
+    },
+    "buttons": {
+      "submit": "सहेजें"
+    }
+  }
+}

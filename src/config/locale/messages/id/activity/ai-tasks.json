@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Judul",
+    "media_type": "Jenis Media",
+    "provider": "Penyedia",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opsi",
+    "status": "Status",
+    "result": "Hasil",
+    "cost_credits": "Kredit Terpakai",
+    "created_at": "Dibuat Pada",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Tugas AI",
+    "tabs": {
+      "all": "Semua",
+      "music": "Musik",
+      "image": "Gambar",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Teks"
+    },
+    "buttons": {
+      "view": "Lihat Tugas",
+      "refresh": "Segarkan Tugas"
+    },
+    "empty_message": "Tidak ada tugas ditemukan"
+  }
+}

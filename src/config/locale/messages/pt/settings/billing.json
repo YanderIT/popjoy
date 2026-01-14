@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "N° da assinatura",
+    "interval": "Intervalo",
+    "provider": "Provedor",
+    "current_period": "Período atual",
+    "plan": "Plano",
+    "status": "Status",
+    "amount": "Valor",
+    "created_at": "Criado em",
+    "end_time": "Hora de término",
+    "action": "Ação"
+  },
+  "view": {
+    "title": "Plano atual",
+    "tip": "Sua assinatura será renovada automaticamente em {date}",
+    "end_tip": "Sua assinatura será cancelada automaticamente em {date}",
+    "no_subscription": "Sem plano",
+    "buttons": {
+      "adjust": "Ajustar plano",
+      "subscribe": "Assinar",
+      "manage": "Gerenciar assinatura",
+      "cancel": "Cancelar assinatura"
+    }
+  },
+  "list": {
+    "title": "Histórico de assinaturas",
+    "tabs": {
+      "all": "Todos",
+      "active": "Ativo",
+      "pending_cancel": "Cancelamento pendente",
+      "canceled": "Cancelado",
+      "trialing": "Teste",
+      "paused": "Pausado",
+      "expired": "Expirado"
+    }
+  },
+  "cancel": {
+    "title": "Cancelar assinatura",
+    "description": "Tem certeza de que deseja cancelar sua assinatura?",
+    "fields": {
+      "subscription_no": "N° da assinatura",
+      "subscription_amount": "Valor da assinatura",
+      "interval_cycle": "Ciclo de intervalo",
+      "subscription_created_at": "Assinatura criada em",
+      "current_period": "Período atual",
+      "start_at": "Início",
+      "end_at": "Fim"
+    },
+    "crumbs": {
+      "settings": "Configurações",
+      "billing": "Faturamento",
+      "cancel": "Cancelar assinatura"
+    },
+    "buttons": {
+      "confirm_cancel": "Confirmar cancelamento"
+    }
+  }
+}

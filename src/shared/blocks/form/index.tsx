@@ -276,6 +276,9 @@ export function Form({
 
     if (!submit?.handler) return;
 
+    // Set loading immediately for instant feedback
+    setLoading(true);
+
     try {
       const formData = new FormData();
 
@@ -294,7 +297,6 @@ export function Form({
         }
       });
 
-      setLoading(true);
       const res = await submit.handler(formData, passby);
 
       if (!res) {

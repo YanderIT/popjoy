@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "رقم الطلب",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "product": "المنتج",
+    "description": "الوصف",
+    "type": "النوع",
+    "provider": "المزود",
+    "created_at": "تاريخ الإنشاء",
+    "status": "الحالة",
+    "action": "الإجراء"
+  },
+  "list": {
+    "title": "المدفوعات",
+    "crumbs": {
+      "admin": "المدير",
+      "payments": "المدفوعات"
+    },
+    "tabs": {
+      "all": "الكل",
+      "subscription": "اشتراك",
+      "one-time": "مرة واحدة"
+    },
+    "filters": {
+      "status": {
+        "title": "الحالة",
+        "options": {
+          "all": "الكل",
+          "paid": "مدفوع",
+          "created": "تم الإنشاء",
+          "failed": "فشل"
+        }
+      },
+      "provider": {
+        "title": "المزود",
+        "options": {
+          "all": "الكل",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "رقم الطلب",
+        "placeholder": "رقم الطلب"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "Taak-ID",
+    "media_type": "Mediatype",
+    "provider": "Aanbieder",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opties",
+    "user": "Gebruiker",
+    "status": "Status",
+    "cost_credits": "Verbruikte tegoeden",
+    "result": "Resultaat",
+    "created_at": "Gemaakt op",
+    "action": "Actie",
+    "scene": "Scène"
+  },
+  "list": {
+    "title": "AI-taken",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "AI-taken"
+    },
+    "tabs": {
+      "all": "Alle",
+      "music": "Muziek",
+      "image": "Afbeelding",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Taak bekijken",
+      "refresh": "Taak vernieuwen"
+    },
+    "empty_message": "Geen taken gevonden"
+  }
+}

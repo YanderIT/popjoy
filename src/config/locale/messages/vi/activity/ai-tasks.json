@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Tiêu đề",
+    "media_type": "Loại phương tiện",
+    "provider": "Nhà cung cấp",
+    "model": "Mô hình",
+    "prompt": "Lời nhắc",
+    "options": "Tùy chọn",
+    "status": "Trạng thái",
+    "result": "Kết quả",
+    "cost_credits": "Tín dụng tiêu thụ",
+    "created_at": "Ngày tạo",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Tác vụ AI",
+    "tabs": {
+      "all": "Tất cả",
+      "music": "Âm nhạc",
+      "image": "Hình ảnh",
+      "video": "Video",
+      "audio": "Âm thanh",
+      "text": "Văn bản"
+    },
+    "buttons": {
+      "view": "Xem tác vụ",
+      "refresh": "Làm mới tác vụ"
+    },
+    "empty_message": "Không tìm thấy tác vụ"
+  }
+}

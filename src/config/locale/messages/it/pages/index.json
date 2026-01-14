@@ -1,0 +1,32 @@
+{
+  "page": {
+    "show_sections": ["hero", "products", "cta"],
+    "sections": {
+      "products": {
+        "id": "products",
+        "block": "products",
+        "title": "Collezione in evidenza",
+        "description": "Scopri giocattoli di design esclusivi e oggetti da collezione in edizione limitata."
+      },
+      "hero": {
+        "id": "hero",
+        "title": "Scopri giocattoli di design unici e oggetti da collezione",
+        "highlight_text": "unici",
+        "description": "Una collezione curata di giocattoli d'arte in edizione limitata, figure di design e oggetti da collezione esclusivi.<br/>Trova il tuo prossimo tesoro.",
+        "tip": "Quantità limitata - Una volta esaurito, è finito",
+        "buttons": [{"title": "Acquista ora", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "show_avatars": false,
+        "avatars_tip": "Unisciti a oltre 999 collezionisti in tutto il mondo",
+        "show_award": false,
+        "image": {"src": "https://picsum.photos/1920/800", "alt": "Banner hero", "width": 1920, "height": 800}
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Inizia la tua collezione oggi",
+        "description": "Scopri articoli rari ed edizioni limitate prima che siano esauriti.",
+        "buttons": [{"title": "Vedi tutto", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

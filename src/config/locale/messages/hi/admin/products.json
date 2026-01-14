@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "आईडी",
+    "name": "नाम",
+    "category": "श्रेणी",
+    "no_category": "कोई श्रेणी नहीं",
+    "description": "विवरण",
+    "image": "छवि",
+    "status": "स्थिति",
+    "sort": "क्रम",
+    "created_at": "निर्माण तिथि",
+    "updated_at": "अपडेट तिथि",
+    "sku": "SKU कोड",
+    "attributes": "गुण",
+    "price": "कीमत",
+    "original_price": "मूल कीमत",
+    "cost_price": "लागत कीमत",
+    "stock": "स्टॉक"
+  },
+  "status_options": {
+    "draft": "ड्राफ्ट",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय"
+  },
+  "list": {
+    "title": "उत्पाद",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "products": "उत्पाद"
+    },
+    "buttons": {
+      "add": "उत्पाद जोड़ें",
+      "edit": "संपादित करें",
+      "delete": "हटाएं",
+      "skus": "SKU प्रबंधित करें"
+    }
+  },
+  "add": {
+    "title": "उत्पाद जोड़ें",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "products": "उत्पाद",
+      "add": "जोड़ें"
+    },
+    "buttons": {
+      "submit": "उत्पाद जोड़ें"
+    }
+  },
+  "edit": {
+    "title": "उत्पाद संपादित करें",
+    "crumbs": {
+      "admin": "व्यवस्थापक",
+      "products": "उत्पाद",
+      "edit": "संपादित करें"
+    },
+    "buttons": {
+      "submit": "परिवर्तन सहेजें"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "व्यवस्थापक",
+        "products": "उत्पाद",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "SKU जोड़ें",
+        "edit": "संपादित करें",
+        "delete": "हटाएं"
+      }
+    },
+    "add": {
+      "title": "SKU जोड़ें",
+      "crumbs": {
+        "admin": "व्यवस्थापक",
+        "products": "उत्पाद",
+        "skus": "SKU",
+        "add": "जोड़ें"
+      },
+      "buttons": {
+        "submit": "SKU जोड़ें"
+      }
+    },
+    "edit": {
+      "title": "SKU संपादित करें",
+      "crumbs": {
+        "admin": "व्यवस्थापक",
+        "products": "उत्पाद",
+        "skus": "SKU",
+        "edit": "संपादित करें"
+      },
+      "buttons": {
+        "submit": "परिवर्तन सहेजें"
+      }
+    }
+  }
+}

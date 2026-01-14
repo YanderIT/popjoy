@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "ऑर्डर नंबर",
+    "user": "उपयोगकर्ता",
+    "amount": "राशि",
+    "product": "उत्पाद",
+    "description": "विवरण",
+    "type": "प्रकार",
+    "provider": "प्रदाता",
+    "created_at": "बनाया गया",
+    "status": "स्थिति",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "भुगतान",
+    "crumbs": {
+      "admin": "एडमिन",
+      "payments": "भुगतान"
+    },
+    "tabs": {
+      "all": "सभी",
+      "subscription": "सदस्यता",
+      "one-time": "एकबारी"
+    },
+    "filters": {
+      "status": {
+        "title": "स्थिति",
+        "options": {
+          "all": "सभी",
+          "paid": "भुगतान किया",
+          "created": "बनाया गया",
+          "failed": "विफल"
+        }
+      },
+      "provider": {
+        "title": "प्रदाता",
+        "options": {
+          "all": "सभी",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "ऑर्डर नंबर",
+        "placeholder": "ऑर्डर नंबर"
+      }
+    }
+  }
+}

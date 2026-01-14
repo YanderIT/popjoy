@@ -1,0 +1,31 @@
+{
+  "title": "गतिविधि",
+  "nav": {
+    "items": [
+      {
+        "title": "AI कार्य",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "AI चैट",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "गतिविधि",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "सेटिंग्स",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

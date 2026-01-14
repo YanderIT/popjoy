@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "title": "العنوان",
+    "description": "الوصف",
+    "status": "الحالة",
+    "sort": "الترتيب",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "permissions": "الصلاحيات",
+    "actions": "الإجراءات"
+  },
+  "list": {
+    "title": "الأدوار",
+    "crumbs": {
+      "admin": "المدير",
+      "roles": "الأدوار"
+    },
+    "buttons": {
+      "create": "إنشاء دور",
+      "edit": "تعديل الدور",
+      "edit_permissions": "تعديل الصلاحيات",
+      "delete": "حذف الدور"
+    }
+  },
+  "edit": {
+    "title": "تعديل الدور",
+    "crumbs": {
+      "admin": "المدير",
+      "roles": "الأدوار",
+      "edit": "تعديل الدور"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  },
+  "edit_permissions": {
+    "title": "تعديل الصلاحيات",
+    "crumbs": {
+      "admin": "المدير",
+      "roles": "الأدوار",
+      "edit_permissions": "تعديل الصلاحيات"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  }
+}

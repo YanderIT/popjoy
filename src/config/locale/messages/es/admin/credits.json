@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "N° de transacción",
+    "user": "Usuario",
+    "amount": "Cantidad",
+    "remaining": "Restante",
+    "type": "Tipo",
+    "scene": "Escena",
+    "description": "Descripción",
+    "created_at": "Creado el",
+    "expires_at": "Expira el",
+    "metadata": "Metadatos",
+    "action": "Acción"
+  },
+  "list": {
+    "title": "Créditos",
+    "crumbs": {
+      "admin": "Admin",
+      "credits": "Créditos"
+    },
+    "tabs": {
+      "all": "Todo",
+      "grant": "Otorgar",
+      "consume": "Consumir"
+    }
+  }
+}

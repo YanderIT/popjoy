@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Tytuł",
+    "user": "Użytkownik",
+    "status": "Status",
+    "model": "Model",
+    "provider": "Dostawca",
+    "created_at": "Utworzono",
+    "action": "Akcja"
+  },
+  "list": {
+    "title": "Czaty AI",
+    "crumbs": {
+      "admin": "Admin",
+      "chats": "Czaty AI"
+    },
+    "tabs": {
+      "all": "Wszystkie",
+      "pending": "Oczekujące",
+      "completed": "Zakończone",
+      "failed": "Nieudane"
+    },
+    "buttons": {
+      "view": "Zobacz czat",
+      "new": "Nowy czat"
+    },
+    "empty_message": "Nie znaleziono czatów"
+  }
+}

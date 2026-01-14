@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Güncelleme Günlüğü",
+    "description": "En son özellikler ve iyileştirmeler dahil ürün güncelleme günlüklerini görüntüleyin."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Güncelleme Günlüğü",
+        "description": "En son özellikler ve iyileştirmeler dahil ürün güncelleme günlüklerini görüntüleyin."
+      }
+    }
+  }
+}

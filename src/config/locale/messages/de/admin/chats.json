@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Titel",
+    "user": "Benutzer",
+    "status": "Status",
+    "model": "Modell",
+    "provider": "Anbieter",
+    "created_at": "Erstellt am",
+    "action": "Aktion"
+  },
+  "list": {
+    "title": "KI-Chats",
+    "crumbs": {
+      "admin": "Admin",
+      "chats": "KI-Chats"
+    },
+    "tabs": {
+      "all": "Alle",
+      "pending": "Ausstehend",
+      "completed": "Abgeschlossen",
+      "failed": "Fehlgeschlagen"
+    },
+    "buttons": {
+      "view": "Chat anzeigen",
+      "new": "Neuer Chat"
+    },
+    "empty_message": "Keine Chats gefunden"
+  }
+}

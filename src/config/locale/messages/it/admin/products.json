@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nome",
+    "category": "Categoria",
+    "no_category": "Nessuna categoria",
+    "description": "Descrizione",
+    "image": "Immagine",
+    "status": "Stato",
+    "sort": "Ordinamento",
+    "created_at": "Creato il",
+    "updated_at": "Aggiornato il",
+    "sku": "Codice SKU",
+    "attributes": "Attributi",
+    "price": "Prezzo",
+    "original_price": "Prezzo originale",
+    "cost_price": "Prezzo di costo",
+    "stock": "Scorte"
+  },
+  "status_options": {
+    "draft": "Bozza",
+    "active": "Attivo",
+    "inactive": "Inattivo"
+  },
+  "list": {
+    "title": "Prodotti",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Prodotti"
+    },
+    "buttons": {
+      "add": "Aggiungi prodotto",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "skus": "Gestisci SKU"
+    }
+  },
+  "add": {
+    "title": "Aggiungi prodotto",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Prodotti",
+      "add": "Aggiungi"
+    },
+    "buttons": {
+      "submit": "Aggiungi prodotto"
+    }
+  },
+  "edit": {
+    "title": "Modifica prodotto",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Prodotti",
+      "edit": "Modifica"
+    },
+    "buttons": {
+      "submit": "Salva modifiche"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Prodotti",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "Aggiungi SKU",
+        "edit": "Modifica",
+        "delete": "Elimina"
+      }
+    },
+    "add": {
+      "title": "Aggiungi SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Prodotti",
+        "skus": "SKU",
+        "add": "Aggiungi"
+      },
+      "buttons": {
+        "submit": "Aggiungi SKU"
+      }
+    },
+    "edit": {
+      "title": "Modifica SKU",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Prodotti",
+        "skus": "SKU",
+        "edit": "Modifica"
+      },
+      "buttons": {
+        "submit": "Salva modifiche"
+      }
+    }
+  }
+}

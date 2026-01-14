@@ -7,6 +7,7 @@ import { toast } from 'sonner';
 
 import { Button } from '@/shared/components/ui/button';
 import { useCart } from '@/shared/contexts/cart';
+import { usePrice } from '@/shared/hooks/use-price';
 import { cn } from '@/shared/lib/utils';
 
 interface ProductSku {
@@ -36,6 +37,7 @@ interface ProductDetailProps {
 
 export function ProductDetail({ product }: ProductDetailProps) {
   const { addItem, setDrawerOpen } = useCart();
+  const { formatPrice } = usePrice();
   const [quantity, setQuantity] = useState(1);
   const [selectedSkuId, setSelectedSkuId] = useState<string | null>(
     product.skus.length > 0 ? product.skus[0].id : null
@@ -90,13 +92,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
       setSelectedSkuId(selectedSku.id);
     }
   }, [selectedSku]);
-
-  const formatPrice = (cents: number, currency: string = 'USD') => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency,
-    }).format(cents / 100);
-  };
 
   const handleAttributeSelect = (attributeName: string, value: string) => {
     setSelectedAttributes((prev) => ({

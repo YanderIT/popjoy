@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "शीर्षक",
+    "user": "उपयोगकर्ता",
+    "status": "स्थिति",
+    "model": "मॉडल",
+    "provider": "प्रदाता",
+    "created_at": "बनाया गया",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "AI चैट",
+    "crumbs": {
+      "admin": "एडमिन",
+      "chats": "AI चैट"
+    },
+    "tabs": {
+      "all": "सभी",
+      "pending": "लंबित",
+      "completed": "पूर्ण",
+      "failed": "विफल"
+    },
+    "buttons": {
+      "view": "चैट देखें",
+      "new": "नई चैट"
+    },
+    "empty_message": "कोई चैट नहीं मिली"
+  }
+}

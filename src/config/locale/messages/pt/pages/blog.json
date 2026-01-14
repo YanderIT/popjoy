@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "Leia as funcionalidades, soluções e atualizações mais recentes do produto."
+  },
+  "page": {
+    "title": "Blog PoptoyStudio",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Blog",
+        "description": "Leia as funcionalidades, soluções e atualizações mais recentes do produto."
+      }
+    }
+  },
+  "messages": {
+    "all": "Todos",
+    "no_content": "Sem conteúdo",
+    "crumb": "Blog",
+    "toc": "Índice"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "PoptoyStudio",
+    "description": "Ontdek uniek designerspeelgoed, kunstfiguren en limited edition verzamelobjecten. Zorgvuldig samengestelde collectie voor verzamelaars wereldwijd.",
+    "keywords": "designerspeelgoed, art toys, verzamelobjecten, limited edition, figuren, PoptoyStudio"
+  },
+  "sign": {
+    "sign_in_title": "Inloggen",
+    "sign_in_description": "Log in op je account",
+    "sign_up_title": "Registreren",
+    "sign_up_description": "Maak een account aan",
+    "email_title": "E-mail",
+    "email_placeholder": "Voer je e-mail in",
+    "password_title": "Wachtwoord",
+    "password_placeholder": "Voer je wachtwoord in",
+    "forgot_password": "Wachtwoord vergeten?",
+    "or": "Of",
+    "continue": "Doorgaan",
+    "no_account": "Geen account?",
+    "already_have_account": "Heb je al een account?",
+    "email_sign_in": "Inloggen met e-mail",
+    "google_sign_in_title": "Inloggen met Google",
+    "github_sign_in_title": "Inloggen met GitHub",
+    "close_title": "Sluiten",
+    "cancel_title": "Annuleren",
+    "sign_out_title": "Uitloggen",
+    "billing_title": "Facturering",
+    "name_title": "Naam",
+    "name_placeholder": "Voer je naam in",
+    "email_verification_hint": "Gebruik een e-mailadres waartoe je toegang hebt. Je moet je e-mail verifiëren na registratie.",
+    "admin_title": "Beheersysteem",
+    "credits_title": "Credits: {credits}",
+    "verify_email_sent": "Verificatie-e-mail verzonden. Controleer je inbox.",
+    "verify_email_required": "Verifieer je e-mailadres voordat je inlogt.",
+    "resend_verification": "Verificatie-e-mail opnieuw verzenden",
+    "resend_verification_sent": "Verificatie-e-mail opnieuw verzonden. Controleer je inbox.",
+    "verify_email_page_title": "Controleer je e-mail",
+    "verify_email_page_description": "Om door te gaan, klik op de verzonden link naar",
+    "verify_email_continue": "Doorgaan",
+    "verify_email_tip": "Na verificatie, klik op \"Doorgaan\".",
+    "verify_email_not_verified_yet": "Nog niet geverifieerd. Klik eerst op de link in je e-mail.",
+    "verify_email_account_mismatch": "Ingelogd als {current}. Deze pagina wacht op {expected}.",
+    "resend_verification_countdown": "Verificatie-e-mail opnieuw verzenden ({seconds}s)",
+    "resend_verification_wait": "Wacht {seconds}s voordat je opnieuw verzendt.",
+    "back_to_sign_in": "Terug naar inloggen",
+    "promo_title": "Profiteer van onze beperkte aanbiedingen",
+    "promo_subtitle": "Bestsellers afgeprijsd!",
+    "promo_description": "En mis je $5 korting niet!"
+  },
+  "payment": {
+    "choose_payment_method": "Kies betaalmethode",
+    "choose_payment_method_description": "",
+    "cancel_title": "Annuleren"
+  },
+  "locale_detector": {
+    "title": "We hebben gedetecteerd dat je browsertaal {locale} is. Wisselen?",
+    "switch_to": "Wisselen naar {locale}"
+  }
+}

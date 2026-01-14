@@ -31,7 +31,7 @@
     },
     "show_sign": true,
     "show_theme": true,
-    "show_locale": false,
+    "show_locale": true,
     "topbanner": {
       "text": "This website is a demo site for the PoptoyStudio template. To purchase the PoptoyStudio template, please visit the <a href='https://PoptoyStudio.ai/pricing' class='text-orange-300' target='_blank'>PoptoyStudio website</a>"
     }
@@ -93,7 +93,7 @@
       ]
     },
     "show_theme": true,
-    "show_locale": false,
+    "show_locale": true,
     "show_built_with": false
   }
 }

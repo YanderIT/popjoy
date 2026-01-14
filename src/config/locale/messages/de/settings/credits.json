@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Transaktionsnr.",
+    "description": "Beschreibung",
+    "type": "Typ",
+    "scene": "Szene",
+    "credits": "Credits",
+    "expires_at": "Gültig bis",
+    "created_at": "Erstellt am",
+    "action": "Aktion"
+  },
+  "list": {
+    "title": "Credit-Verlauf",
+    "tabs": {
+      "all": "Alle",
+      "grant": "Gewährt",
+      "consume": "Verbraucht"
+    }
+  },
+  "view": {
+    "title": "Credit-Guthaben",
+    "buttons": {
+      "purchase": "Credits kaufen"
+    }
+  }
+}

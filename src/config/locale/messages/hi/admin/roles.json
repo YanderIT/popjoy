@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "आईडी",
+    "name": "नाम",
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "status": "स्थिति",
+    "sort": "क्रम",
+    "created_at": "बनाया गया",
+    "updated_at": "अपडेट किया गया",
+    "permissions": "अनुमतियाँ",
+    "actions": "कार्य"
+  },
+  "list": {
+    "title": "भूमिकाएँ",
+    "crumbs": {
+      "admin": "एडमिन",
+      "roles": "भूमिकाएँ"
+    },
+    "buttons": {
+      "create": "भूमिका बनाएं",
+      "edit": "भूमिका संपादित करें",
+      "edit_permissions": "अनुमतियाँ संपादित करें",
+      "delete": "भूमिका हटाएं"
+    }
+  },
+  "edit": {
+    "title": "भूमिका संपादित करें",
+    "crumbs": {
+      "admin": "एडमिन",
+      "roles": "भूमिकाएँ",
+      "edit": "भूमिका संपादित करें"
+    },
+    "buttons": {
+      "submit": "अपडेट करें"
+    }
+  },
+  "edit_permissions": {
+    "title": "अनुमतियाँ संपादित करें",
+    "crumbs": {
+      "admin": "एडमिन",
+      "roles": "भूमिकाएँ",
+      "edit_permissions": "अनुमतियाँ संपादित करें"
+    },
+    "buttons": {
+      "submit": "अपडेट करें"
+    }
+  }
+}

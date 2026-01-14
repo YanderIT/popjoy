@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nom",
+    "avatar": "Avatar",
+    "email": "E-mail",
+    "email_verified": "E-mail vérifié",
+    "remaining_credits": "Crédits restants",
+    "created_at": "Créé le",
+    "actions": "Actions",
+    "roles": "Rôles",
+    "ip": "IP",
+    "locale": "Langue",
+    "utm_source": "Source UTM"
+  },
+  "list": {
+    "title": "Utilisateurs",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Utilisateurs"
+    },
+    "buttons": {
+      "add": "Ajouter un utilisateur",
+      "edit": "Modifier l'utilisateur",
+      "view": "Voir l'utilisateur",
+      "delete": "Supprimer l'utilisateur",
+      "edit_roles": "Modifier les rôles",
+      "grant_credits": "Accorder des crédits"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail",
+        "placeholder": "E-mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Modifier l'utilisateur",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Utilisateurs",
+      "edit": "Modifier"
+    },
+    "buttons": {
+      "submit": "Mettre à jour"
+    }
+  },
+  "edit_roles": {
+    "title": "Modifier les rôles",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Utilisateurs",
+      "edit_roles": "Modifier les rôles"
+    },
+    "buttons": {
+      "submit": "Mettre à jour"
+    }
+  },
+  "grant_credits": {
+    "title": "Accorder des crédits",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Utilisateurs",
+      "grant_credits": "Accorder des crédits"
+    },
+    "buttons": {
+      "submit": "Accorder"
+    },
+    "fields": {
+      "credits": "Montant des crédits",
+      "valid_days": "Jours de validité des crédits",
+      "valid_days_tip": "0 signifie pas d'expiration",
+      "description": "Description de l'attribution de crédits",
+      "description_placeholder": "Attribution de crédits par l'admin"
+    }
+  }
+}

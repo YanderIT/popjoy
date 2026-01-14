@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "En son ürün özelliklerini, çözümleri ve güncellemeleri okuyun."
+  },
+  "page": {
+    "title": "PoptoyStudio Blog",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Blog",
+        "description": "En son ürün özelliklerini, çözümleri ve güncellemeleri okuyun."
+      }
+    }
+  },
+  "messages": {
+    "all": "Tümü",
+    "no_content": "İçerik yok",
+    "crumb": "Blog",
+    "toc": "İçindekiler"
+  }
+}

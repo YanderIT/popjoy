@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "category": "Kategorie",
+    "no_category": "Keine Kategorie",
+    "description": "Beschreibung",
+    "image": "Bild",
+    "status": "Status",
+    "sort": "Sortierung",
+    "created_at": "Erstellt am",
+    "updated_at": "Aktualisiert am",
+    "sku": "SKU-Code",
+    "attributes": "Attribute",
+    "price": "Preis",
+    "original_price": "Originalpreis",
+    "cost_price": "Einkaufspreis",
+    "stock": "Bestand"
+  },
+  "status_options": {
+    "draft": "Entwurf",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
+  },
+  "list": {
+    "title": "Produkte",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkte"
+    },
+    "buttons": {
+      "add": "Produkt hinzufügen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "skus": "SKUs verwalten"
+    }
+  },
+  "add": {
+    "title": "Produkt hinzufügen",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkte",
+      "add": "Hinzufügen"
+    },
+    "buttons": {
+      "submit": "Produkt hinzufügen"
+    }
+  },
+  "edit": {
+    "title": "Produkt bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "products": "Produkte",
+      "edit": "Bearbeiten"
+    },
+    "buttons": {
+      "submit": "Änderungen speichern"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKUs",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkte",
+        "skus": "SKUs"
+      },
+      "buttons": {
+        "add": "SKU hinzufügen",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+      }
+    },
+    "add": {
+      "title": "SKU hinzufügen",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkte",
+        "skus": "SKUs",
+        "add": "Hinzufügen"
+      },
+      "buttons": {
+        "submit": "SKU hinzufügen"
+      }
+    },
+    "edit": {
+      "title": "SKU bearbeiten",
+      "crumbs": {
+        "admin": "Admin",
+        "products": "Produkte",
+        "skus": "SKUs",
+        "edit": "Bearbeiten"
+      },
+      "buttons": {
+        "submit": "Änderungen speichern"
+      }
+    }
+  }
+}

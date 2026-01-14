@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Vitrin",
+    "description": "PoptoyStudio ile oluşturulan harika projeler"
+  },
+  "page": {
+    "title": "Vitrin",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "PoptoyStudio ile oluşturulan AI SaaS Girişimleri",
+        "description": "Kullanımı kolay ve hızlı lansman.",
+        "groups": [
+          {"name": "all", "title": "Tümü"},
+          {"name": "ai-chatbot", "title": "AI Sohbet Botu"},
+          {"name": "ai-image", "title": "AI Görsel"},
+          {"name": "ai-video", "title": "AI Video"},
+          {"name": "ai-audio", "title": "AI Ses"},
+          {"name": "ai-music", "title": "AI Müzik"},
+          {"name": "ai-coding", "title": "AI Kodlama"},
+          {"name": "other", "title": "Diğer"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "AI Arama Motoru", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "AI Sanal Deneme", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "AI Duvar Kağıdı Oluşturucu", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "AI Kapak Oluşturucu", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "GPTs Dizini", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "AI Müzik Çalar", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "AI Açılış Sayfası Oluşturucu", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "AI Video Oluşturucu", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "AI Podcast Oluşturucu", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

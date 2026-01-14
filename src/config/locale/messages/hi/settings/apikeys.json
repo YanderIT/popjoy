@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "title": "शीर्षक",
+    "key": "कुंजी",
+    "created_at": "बनाया गया",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "API कुंजियाँ",
+    "empty_message": "कोई API कुंजी नहीं",
+    "buttons": {
+      "add": "API कुंजी बनाएं",
+      "edit": "संपादित करें",
+      "delete": "हटाएं"
+    }
+  },
+  "add": {
+    "title": "API कुंजी बनाएं",
+    "crumbs": {
+      "apikeys": "API कुंजियाँ",
+      "add": "API कुंजी बनाएं"
+    },
+    "buttons": {
+      "submit": "बनाएं"
+    }
+  },
+  "edit": {
+    "title": "API कुंजी संपादित करें",
+    "crumbs": {
+      "apikeys": "API कुंजियाँ",
+      "edit": "API कुंजी संपादित करें"
+    },
+    "buttons": {
+      "submit": "अपडेट करें"
+    }
+  },
+  "delete": {
+    "title": "API कुंजी हटाएं",
+    "crumbs": {
+      "apikeys": "API कुंजियाँ",
+      "delete": "API कुंजी हटाएं"
+    },
+    "buttons": {
+      "submit": "हटाना पुष्टि करें"
+    }
+  }
+}

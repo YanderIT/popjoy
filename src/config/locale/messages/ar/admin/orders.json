@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "رقم الطلب",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "shipping_carrier": "شركة الشحن",
+    "tracking_number": "رقم التتبع",
+    "created_at": "تاريخ الإنشاء",
+    "shipped_at": "تاريخ الشحن",
+    "action": "الإجراء"
+  },
+  "list": {
+    "title": "الطلبات",
+    "crumbs": {
+      "admin": "المدير",
+      "orders": "الطلبات"
+    },
+    "tabs": {
+      "all": "الكل",
+      "pending_shipment": "في انتظار الشحن",
+      "shipped": "تم الشحن",
+      "delivered": "تم التوصيل"
+    },
+    "filters": {
+      "status": {
+        "title": "الحالة",
+        "options": {
+          "all": "الكل",
+          "pending_payment": "في انتظار الدفع",
+          "pending_shipment": "في انتظار الشحن",
+          "shipped": "تم الشحن",
+          "delivered": "تم التوصيل",
+          "completed": "مكتمل",
+          "canceled": "ملغي",
+          "refunded": "مسترد"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "رقم الطلب",
+        "placeholder": "البحث عن رقم الطلب"
+      }
+    }
+  },
+  "ship": {
+    "title": "شحن الطلب",
+    "description": "أدخل معلومات الشحن لهذا الطلب",
+    "carrier": "شركة الشحن",
+    "carrier_placeholder": "مثال: أرامكس، سمسا، DHL",
+    "tracking": "رقم التتبع",
+    "tracking_placeholder": "أدخل رقم التتبع",
+    "submit": "تأكيد الشحن",
+    "success": "تم شحن الطلب بنجاح",
+    "error": "فشل في شحن الطلب"
+  }
+}

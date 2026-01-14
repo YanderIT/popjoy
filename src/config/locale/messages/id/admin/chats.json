@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "title": "Judul",
+    "user": "Pengguna",
+    "status": "Status",
+    "model": "Model",
+    "provider": "Penyedia",
+    "created_at": "Dibuat Pada",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Chat AI",
+    "crumbs": {
+      "admin": "Admin",
+      "chats": "Chat AI"
+    },
+    "tabs": {
+      "all": "Semua",
+      "pending": "Tertunda",
+      "completed": "Selesai",
+      "failed": "Gagal"
+    },
+    "buttons": {
+      "view": "Lihat Chat",
+      "new": "Chat Baru"
+    },
+    "empty_message": "Tidak ada chat ditemukan"
+  }
+}

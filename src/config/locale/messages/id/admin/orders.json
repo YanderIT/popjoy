@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "No. Pesanan",
+    "user": "Pengguna",
+    "amount": "Jumlah",
+    "status": "Status",
+    "shipping_carrier": "Kurir",
+    "tracking_number": "No. Resi",
+    "created_at": "Dibuat Pada",
+    "shipped_at": "Dikirim Pada",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Pesanan",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Pesanan"
+    },
+    "tabs": {
+      "all": "Semua",
+      "pending_shipment": "Menunggu Pengiriman",
+      "shipped": "Dikirim",
+      "delivered": "Terkirim"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Semua",
+          "pending_payment": "Menunggu Pembayaran",
+          "pending_shipment": "Menunggu Pengiriman",
+          "shipped": "Dikirim",
+          "delivered": "Terkirim",
+          "completed": "Selesai",
+          "canceled": "Dibatalkan",
+          "refunded": "Dikembalikan"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "No. Pesanan",
+        "placeholder": "Cari nomor pesanan"
+      }
+    }
+  },
+  "ship": {
+    "title": "Kirim Pesanan",
+    "description": "Masukkan informasi pengiriman untuk pesanan ini",
+    "carrier": "Kurir",
+    "carrier_placeholder": "contoh: JNE, J&T, SiCepat",
+    "tracking": "Nomor Resi",
+    "tracking_placeholder": "Masukkan nomor resi",
+    "submit": "Konfirmasi Pengiriman",
+    "success": "Pesanan berhasil dikirim",
+    "error": "Gagal mengirim pesanan"
+  }
+}

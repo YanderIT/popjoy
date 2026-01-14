@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "आर्डर नंबर",
+    "user": "उपयोगकर्ता",
+    "amount": "राशि",
+    "product_name": "उत्पाद का नाम",
+    "price": "मूल्य",
+    "paid_amount": "भुगतान राशि",
+    "discount_amount": "छूट राशि",
+    "description": "विवरण",
+    "type": "प्रकार",
+    "provider": "प्रदाता",
+    "created_at": "बनाया गया",
+    "status": "स्थिति",
+    "action": "क्रिया",
+    "actions": {
+      "view_invoice": "बिल देखें"
+    }
+  },
+  "list": {
+    "title": "भुगतान",
+    "description": "अपने भुगतान देखें",
+    "tabs": {
+      "all": "सभी",
+      "one-time": "एक बार",
+      "subscription": "सदस्यता",
+      "renew": "नवीनीकरण"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "page": {
+    "show_sections": ["hero", "products", "cta"],
+    "sections": {
+      "products": {
+        "id": "products",
+        "block": "products",
+        "title": "المجموعة المميزة",
+        "description": "اكتشف ألعاب المصممين الحصرية والمقتنيات ذات الإصدار المحدود."
+      },
+      "hero": {
+        "id": "hero",
+        "title": "اكتشف ألعاب المصممين الفريدة والمقتنيات",
+        "highlight_text": "الفريدة",
+        "description": "مجموعة منسقة من ألعاب الفن ذات الإصدار المحدود، وتماثيل المصممين، والمقتنيات الحصرية.<br/>اعثر على كنزك التالي.",
+        "tip": "كمية محدودة - عند النفاد، تنتهي",
+        "buttons": [{"title": "تسوق الآن", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "show_avatars": false,
+        "avatars_tip": "انضم إلى أكثر من 999 جامع حول العالم",
+        "show_award": false,
+        "image": {"src": "https://picsum.photos/1920/800", "alt": "لافتة البطل", "width": 1920, "height": 800}
+      },
+      "cta": {
+        "id": "cta",
+        "title": "ابدأ مجموعتك اليوم",
+        "description": "اكتشف القطع النادرة والإصدارات المحدودة قبل نفادها.",
+        "buttons": [{"title": "عرض الكل", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

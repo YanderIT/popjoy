@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "İşlem No",
+    "user": "Kullanıcı",
+    "amount": "Miktar",
+    "remaining": "Kalan",
+    "type": "Tür",
+    "scene": "Sahne",
+    "description": "Açıklama",
+    "created_at": "Oluşturulma",
+    "expires_at": "Sona Erme",
+    "metadata": "Meta Veri",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "Krediler",
+    "crumbs": {
+      "admin": "Yönetici",
+      "credits": "Krediler"
+    },
+    "tabs": {
+      "all": "Tümü",
+      "grant": "Ver",
+      "consume": "Tüket"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "الإعدادات",
+  "nav": {
+    "items": [
+      {"title": "الملف الشخصي", "url": "/settings/profile", "icon": "User"},
+      {"title": "الطلبات", "url": "/shop/orders", "icon": "Package"}
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {"title": "الإعدادات", "url": "/settings", "icon": "Settings"}
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Título",
+    "media_type": "Tipo de medio",
+    "provider": "Proveedor",
+    "model": "Modelo",
+    "prompt": "Prompt",
+    "options": "Opciones",
+    "status": "Estado",
+    "result": "Resultado",
+    "cost_credits": "Créditos consumidos",
+    "created_at": "Creado el",
+    "action": "Acción"
+  },
+  "list": {
+    "title": "Tareas IA",
+    "tabs": {
+      "all": "Todo",
+      "music": "Música",
+      "image": "Imagen",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Texto"
+    },
+    "buttons": {
+      "view": "Ver tarea",
+      "refresh": "Actualizar tarea"
+    },
+    "empty_message": "No se encontraron tareas"
+  }
+}

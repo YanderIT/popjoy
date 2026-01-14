@@ -13,17 +13,12 @@ import {
   SheetTitle,
 } from '@/shared/components/ui/sheet';
 import { useCart } from '@/shared/contexts/cart';
+import { usePrice } from '@/shared/hooks/use-price';
 import { CartIcon } from './cart-icon';
 
 export function CartDrawer() {
   const { items, isLoading, removeItem, updateQuantity, getSubtotal, getCurrency, isDrawerOpen, setDrawerOpen } = useCart();
-
-  const formatPrice = (cents: number, currency: string = 'USD') => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency,
-    }).format(cents / 100);
-  };
+  const { formatPrice } = usePrice();
 
   const subtotal = getSubtotal();
   const currency = getCurrency();

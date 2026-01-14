@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "Mã giao dịch",
+    "user": "Người dùng",
+    "amount": "Số lượng",
+    "remaining": "Còn lại",
+    "type": "Loại",
+    "scene": "Cảnh",
+    "description": "Mô tả",
+    "created_at": "Ngày tạo",
+    "expires_at": "Hết hạn",
+    "metadata": "Siêu dữ liệu",
+    "action": "Hành động"
+  },
+  "list": {
+    "title": "Tín dụng",
+    "crumbs": {
+      "admin": "Quản trị",
+      "credits": "Tín dụng"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "grant": "Cấp",
+      "consume": "Tiêu thụ"
+    }
+  }
+}

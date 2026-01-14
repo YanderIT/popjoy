@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "رقم الطلب",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "product_name": "اسم المنتج",
+    "price": "السعر",
+    "paid_amount": "المبلغ المدفوع",
+    "discount_amount": "مبلغ الخصم",
+    "description": "الوصف",
+    "type": "النوع",
+    "provider": "المزود",
+    "created_at": "تاريخ الإنشاء",
+    "status": "الحالة",
+    "action": "الإجراء",
+    "actions": {
+      "view_invoice": "عرض الفاتورة"
+    }
+  },
+  "list": {
+    "title": "المدفوعات",
+    "description": "عرض مدفوعاتك",
+    "tabs": {
+      "all": "الكل",
+      "one-time": "مرة واحدة",
+      "subscription": "اشتراك",
+      "renew": "تجديد"
+    }
+  }
+}

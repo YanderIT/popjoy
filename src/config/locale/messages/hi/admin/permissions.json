@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "आईडी",
+    "code": "कोड",
+    "title": "शीर्षक",
+    "resource": "संसाधन",
+    "action": "क्रिया",
+    "description": "विवरण",
+    "created_at": "बनाया गया",
+    "updated_at": "अपडेट किया गया"
+  },
+  "list": {
+    "title": "अनुमतियाँ",
+    "crumbs": {
+      "admin": "एडमिन",
+      "permissions": "अनुमतियाँ"
+    }
+  }
+}

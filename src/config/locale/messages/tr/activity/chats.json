@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "Başlık",
+    "status": "Durum",
+    "model": "Model",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma",
+    "action": "İşlem"
+  },
+  "list": {
+    "title": "AI Sohbetleri",
+    "tabs": {
+      "all": "Tümü",
+      "pending": "Beklemede",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız"
+    },
+    "buttons": {
+      "view": "Sohbeti Görüntüle",
+      "new": "Yeni Sohbet"
+    },
+    "empty_message": "Sohbet bulunamadı"
+  }
+}

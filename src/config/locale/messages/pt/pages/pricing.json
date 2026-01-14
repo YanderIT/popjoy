@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "Preços",
+    "description": "Comece com um plano"
+  },
+  "page": {
+    "title": "Preços do PoptoyStudio",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "Preços",
+        "description": "Obtenha todas as funcionalidades do PoptoyStudio. Lance suas startups de AI SaaS rapidamente.",
+        "groups": [
+          {"name": "one-time", "title": "Pagamento único"},
+          {"name": "monthly", "title": "Mensal", "is_featured": true, "label": "economize 15%"},
+          {"name": "yearly", "title": "Anual"}
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "description": "Comece com sua primeira startup SaaS.",
+            "features_title": "Inclui",
+            "features": ["100 créditos, válido por 1 mês", "Boilerplate NextJS", "Estrutura SEO-friendly", "Pagamento com Stripe", "Armazenamento com Supabase", "Google OAuth & One-Tap Login", "Suporte i18n"],
+            "interval": "one-time", "amount": 9900, "currency": "USD", "price": "$99", "original_price": "$199", "unit": "",
+            "is_featured": false, "tip": "Pague uma vez. Construa projetos ilimitados!",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter", "product_name": "PoptoyStudio Boilerplate Starter", "credits": 100, "valid_days": 30, "group": "one-time"
+          },
+          {
+            "title": "Standard",
+            "description": "Lance rápido suas startups SaaS.",
+            "label": "Popular",
+            "features_title": "Tudo no Starter, mais",
+            "features": ["200 créditos, válido por 3 meses", "Deploy com Vercel ou Cloudflare", "Geração de Privacidade e Termos", "Integração Google Analytics", "Integração Google Search Console", "Comunidade Discord", "Suporte técnico para seu primeiro lançamento", "Atualizações vitalícias"],
+            "interval": "one-time", "amount": 19900, "currency": "USD", "price": "$199", "original_price": "$299", "unit": "",
+            "is_featured": true, "tip": "Pague uma vez. Construa projetos ilimitados!",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard", "product_name": "PoptoyStudio Boilerplate Standard", "credits": 200, "valid_days": 90, "group": "one-time"
+          },
+          {
+            "title": "Premium",
+            "description": "Lance qualquer startup de AI SaaS.",
+            "features_title": "Tudo no Standard, mais",
+            "features": ["300 créditos, válido por 1 ano", "Funções de negócio com AI", "Centro do usuário", "Sistema de créditos", "Venda de API para seu SaaS", "Sistema de administração", "Suporte técnico prioritário"],
+            "interval": "one-time", "amount": 29900, "currency": "USD", "price": "$299", "original_price": "$399", "unit": "",
+            "is_featured": false, "tip": "Pague uma vez. Construa projetos ilimitados!",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium", "product_name": "PoptoyStudio Boilerplate Premium", "credits": 300, "valid_days": 365, "group": "one-time"
+          },
+          {
+            "title": "Starter",
+            "description": "Comece com sua primeira startup SaaS.",
+            "features_title": "Inclui",
+            "features": ["100 créditos, válido por 1 mês", "Boilerplate NextJS", "Estrutura SEO-friendly", "Pagamento com Stripe", "Armazenamento com Supabase", "Google OAuth & One-Tap Login", "Suporte i18n"],
+            "interval": "month", "amount": 8900, "currency": "USD", "price": "$89", "original_price": "$99", "unit": "/ mês",
+            "is_featured": false, "tip": "Pague mensalmente. Construa projetos ilimitados!",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-monthly", "product_name": "PoptoyStudio Boilerplate Starter Monthly", "credits": 100, "valid_days": 30, "group": "monthly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "Lance rápido suas startups SaaS.",
+            "label": "Popular",
+            "features_title": "Tudo no Starter, mais",
+            "features": ["200 créditos, válido por 1 mês", "Deploy com Vercel ou Cloudflare", "Geração de Privacidade e Termos", "Integração Google Analytics", "Integração Google Search Console", "Comunidade Discord", "Suporte técnico para seu primeiro lançamento", "Atualizações vitalícias"],
+            "interval": "month", "amount": 16900, "currency": "USD", "price": "$169", "original_price": "$199", "unit": "/ mês",
+            "is_featured": true, "tip": "Pague mensalmente. Lance rápido suas startups SaaS.",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-monthly", "product_name": "PoptoyStudio Boilerplate Standard Monthly", "credits": 200, "valid_days": 30, "group": "monthly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "Lance qualquer startup de AI SaaS.",
+            "features_title": "Tudo no Standard, mais",
+            "features": ["300 créditos, válido por 1 mês", "Funções de negócio com AI", "Centro do usuário", "Sistema de créditos", "Venda de API para seu SaaS", "Sistema de administração", "Suporte técnico prioritário"],
+            "interval": "month", "amount": 24900, "currency": "USD", "price": "$249", "original_price": "$299", "unit": "/ mês",
+            "is_featured": false, "tip": "Pague mensalmente. Lance qualquer startup de AI SaaS.",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-monthly", "product_name": "PoptoyStudio Boilerplate Premium Monthly", "credits": 300, "valid_days": 30, "group": "monthly", "plan_name": "Premium"
+          },
+          {
+            "title": "Starter",
+            "description": "Comece com sua primeira startup SaaS.",
+            "features_title": "Inclui",
+            "features": ["100 créditos, válido por 1 ano", "Boilerplate NextJS", "Estrutura SEO-friendly", "Pagamento com Stripe", "Armazenamento com Supabase", "Google OAuth & One-Tap Login", "Suporte i18n"],
+            "interval": "year", "amount": 82800, "currency": "USD", "price": "$69", "original_price": "$89", "unit": "/ mês",
+            "is_featured": false, "tip": "Pague anualmente. Construa projetos ilimitados!",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "starter-yearly", "product_name": "PoptoyStudio Boilerplate Starter Annually", "credits": 1200, "valid_days": 365, "group": "yearly", "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "Lance rápido suas startups SaaS.",
+            "label": "Popular",
+            "features_title": "Tudo no Starter, mais",
+            "features": ["200 créditos, válido por 1 ano", "Deploy com Vercel ou Cloudflare", "Geração de Privacidade e Termos", "Integração Google Analytics", "Integração Google Search Console", "Comunidade Discord", "Suporte técnico para seu primeiro lançamento", "Atualizações vitalícias"],
+            "interval": "year", "amount": 154800, "currency": "USD", "price": "$129", "original_price": "$169", "unit": "/ mês",
+            "is_featured": true, "tip": "Pague anualmente. Lance rápido suas startups SaaS.",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "standard-yearly", "product_name": "PoptoyStudio Boilerplate Standard Annually", "credits": 2400, "valid_days": 365, "group": "yearly", "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "Lance qualquer startup de AI SaaS.",
+            "features_title": "Tudo no Standard, mais",
+            "features": ["300 créditos, válido por 1 ano", "Funções de negócio com AI", "Centro do usuário", "Sistema de créditos", "Venda de API para seu SaaS", "Sistema de administração", "Suporte técnico prioritário"],
+            "interval": "year", "amount": 226800, "currency": "USD", "price": "$189", "original_price": "$249", "unit": "/ mês",
+            "is_featured": false, "tip": "Pague anualmente. Lance qualquer startup de AI SaaS.",
+            "button": {"title": "Obter PoptoyStudio", "url": "/#pricing", "icon": "RiFlashlightFill"},
+            "product_id": "premium-yearly", "product_name": "PoptoyStudio Boilerplate Premium Annually", "credits": 3600, "valid_days": 365, "group": "yearly", "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Plano atual",
+    "processing": "Processando"
+  }
+}

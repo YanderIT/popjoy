@@ -1,0 +1,97 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": false,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "注文履歴",
+          "url": "/shop/orders",
+          "icon": "Package"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "このウェブサイトはPoptoyStudioテンプレートのデモサイトです。PoptoyStudioテンプレートを購入するには、<a href='https://PoptoyStudio.ai/pricing' class='text-orange-300' target='_blank'>PoptoyStudioウェブサイト</a>をご覧ください"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PoptoyStudio",
+      "description": "ユニークなデザイナートイ、アートフィギュア、限定コレクティブルの目的地。世界中のコレクター向けに厳選。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 82,
+        "height": 82
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "メール",
+          "icon": "Mail",
+          "url": "mailto:support@poptoystudio.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}

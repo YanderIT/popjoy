@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "Bestelnr.",
+    "user": "Gebruiker",
+    "amount": "Bedrag",
+    "product": "Product",
+    "description": "Beschrijving",
+    "type": "Type",
+    "provider": "Aanbieder",
+    "created_at": "Gemaakt op",
+    "status": "Status",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "Betalingen",
+    "crumbs": {
+      "admin": "Admin",
+      "payments": "Betalingen"
+    },
+    "tabs": {
+      "all": "Alle",
+      "subscription": "Abonnement",
+      "one-time": "Eenmalig"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Alle",
+          "paid": "Betaald",
+          "created": "Aangemaakt",
+          "failed": "Mislukt"
+        }
+      },
+      "provider": {
+        "title": "Aanbieder",
+        "options": {
+          "all": "Alle",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Bestelnr.",
+        "placeholder": "Bestelnr."
+      }
+    }
+  }
+}

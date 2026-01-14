@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "transaction_no": "Transactienr.",
+    "user": "Gebruiker",
+    "amount": "Bedrag",
+    "remaining": "Resterend",
+    "type": "Type",
+    "scene": "Scène",
+    "description": "Beschrijving",
+    "created_at": "Gemaakt op",
+    "expires_at": "Verloopt op",
+    "metadata": "Metadata",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "Tegoeden",
+    "crumbs": {
+      "admin": "Admin",
+      "credits": "Tegoeden"
+    },
+    "tabs": {
+      "all": "Alle",
+      "grant": "Toegekend",
+      "consume": "Verbruikt"
+    }
+  }
+}

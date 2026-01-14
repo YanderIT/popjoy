@@ -1,0 +1,99 @@
+{
+  "fields": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "category": "الفئة",
+    "no_category": "بدون فئة",
+    "description": "الوصف",
+    "image": "الصورة",
+    "status": "الحالة",
+    "sort": "الترتيب",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "sku": "رمز SKU",
+    "attributes": "السمات",
+    "price": "السعر",
+    "original_price": "السعر الأصلي",
+    "cost_price": "سعر التكلفة",
+    "stock": "المخزون"
+  },
+  "status_options": {
+    "draft": "مسودة",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "list": {
+    "title": "المنتجات",
+    "crumbs": {
+      "admin": "المدير",
+      "products": "المنتجات"
+    },
+    "buttons": {
+      "add": "إضافة منتج",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "skus": "إدارة SKU"
+    }
+  },
+  "add": {
+    "title": "إضافة منتج",
+    "crumbs": {
+      "admin": "المدير",
+      "products": "المنتجات",
+      "add": "إضافة"
+    },
+    "buttons": {
+      "submit": "إضافة المنتج"
+    }
+  },
+  "edit": {
+    "title": "تعديل المنتج",
+    "crumbs": {
+      "admin": "المدير",
+      "products": "المنتجات",
+      "edit": "تعديل"
+    },
+    "buttons": {
+      "submit": "حفظ التغييرات"
+    }
+  },
+  "skus": {
+    "list": {
+      "title": "SKU",
+      "crumbs": {
+        "admin": "المدير",
+        "products": "المنتجات",
+        "skus": "SKU"
+      },
+      "buttons": {
+        "add": "إضافة SKU",
+        "edit": "تعديل",
+        "delete": "حذف"
+      }
+    },
+    "add": {
+      "title": "إضافة SKU",
+      "crumbs": {
+        "admin": "المدير",
+        "products": "المنتجات",
+        "skus": "SKU",
+        "add": "إضافة"
+      },
+      "buttons": {
+        "submit": "إضافة SKU"
+      }
+    },
+    "edit": {
+      "title": "تعديل SKU",
+      "crumbs": {
+        "admin": "المدير",
+        "products": "المنتجات",
+        "skus": "SKU",
+        "edit": "تعديل"
+      },
+      "buttons": {
+        "submit": "حفظ التغييرات"
+      }
+    }
+  }
+}

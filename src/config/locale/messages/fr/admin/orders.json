@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "order_no": "N° commande",
+    "user": "Utilisateur",
+    "amount": "Montant",
+    "status": "Statut",
+    "shipping_carrier": "Transporteur",
+    "tracking_number": "N° suivi",
+    "created_at": "Créé le",
+    "shipped_at": "Expédié le",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Commandes",
+    "crumbs": {
+      "admin": "Admin",
+      "orders": "Commandes"
+    },
+    "tabs": {
+      "all": "Toutes",
+      "pending_shipment": "En attente d'expédition",
+      "shipped": "Expédiées",
+      "delivered": "Livrées"
+    },
+    "filters": {
+      "status": {
+        "title": "Statut",
+        "options": {
+          "all": "Tous",
+          "pending_payment": "En attente de paiement",
+          "pending_shipment": "En attente d'expédition",
+          "shipped": "Expédié",
+          "delivered": "Livré",
+          "completed": "Terminé",
+          "canceled": "Annulé",
+          "refunded": "Remboursé"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "N° commande",
+        "placeholder": "Rechercher un numéro de commande"
+      }
+    }
+  },
+  "ship": {
+    "title": "Expédier la commande",
+    "description": "Entrez les informations d'expédition pour cette commande",
+    "carrier": "Transporteur",
+    "carrier_placeholder": "ex. Colissimo, Chronopost, DHL",
+    "tracking": "Numéro de suivi",
+    "tracking_placeholder": "Entrer le numéro de suivi",
+    "submit": "Confirmer l'expédition",
+    "success": "Commande expédiée avec succès",
+    "error": "Échec de l'expédition de la commande"
+  }
+}

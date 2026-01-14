@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "सदस्यता नंबर",
+    "user": "उपयोगकर्ता",
+    "amount": "राशि",
+    "interval": "अंतराल",
+    "provider": "प्रदाता",
+    "created_at": "बनाया गया",
+    "current_period_start": "वर्तमान अवधि शुरू",
+    "current_period_end": "वर्तमान अवधि समाप्त",
+    "status": "स्थिति",
+    "description": "विवरण",
+    "action": "क्रिया"
+  },
+  "list": {
+    "title": "सदस्यताएं",
+    "crumbs": {
+      "admin": "एडमिन",
+      "subscriptions": "सदस्यताएं"
+    },
+    "tabs": {
+      "all": "सभी",
+      "month": "मासिक",
+      "year": "वार्षिक"
+    }
+  }
+}

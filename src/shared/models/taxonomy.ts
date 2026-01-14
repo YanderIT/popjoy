@@ -90,7 +90,7 @@ export async function getTaxonomies({
         status ? eq(taxonomy.status, status) : undefined
       )
     )
-    .orderBy(desc(taxonomy.createdAt), desc(taxonomy.updatedAt))
+    .orderBy(desc(taxonomy.sort), desc(taxonomy.createdAt))
     .limit(limit)
     .offset((page - 1) * limit);
 

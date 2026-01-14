@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "order_no": "No. Pesanan",
+    "user": "Pengguna",
+    "amount": "Jumlah",
+    "product": "Produk",
+    "description": "Deskripsi",
+    "type": "Tipe",
+    "provider": "Penyedia",
+    "created_at": "Dibuat Pada",
+    "status": "Status",
+    "action": "Tindakan"
+  },
+  "list": {
+    "title": "Pembayaran",
+    "crumbs": {
+      "admin": "Admin",
+      "payments": "Pembayaran"
+    },
+    "tabs": {
+      "all": "Semua",
+      "subscription": "Langganan",
+      "one-time": "Sekali Bayar"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "Semua",
+          "paid": "Dibayar",
+          "created": "Dibuat",
+          "failed": "Gagal"
+        }
+      },
+      "provider": {
+        "title": "Penyedia",
+        "options": {
+          "all": "Semua",
+          "stripe": "Stripe",
+          "creem": "Creem",
+          "lemonsqueezy": "Lemonsqueezy",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "No. Pesanan",
+        "placeholder": "No. Pesanan"
+      }
+    }
+  }
+}

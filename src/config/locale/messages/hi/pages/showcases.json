@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "शोकेस",
+    "description": "PoptoyStudio के साथ बनाई गई शानदार परियोजनाएं"
+  },
+  "page": {
+    "title": "शोकेस",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "PoptoyStudio के साथ बने AI SaaS स्टार्टअप",
+        "description": "उपयोग में आसान और तेज़ी से लॉन्च।",
+        "groups": [
+          {"name": "all", "title": "सभी"},
+          {"name": "ai-chatbot", "title": "AI चैटबॉट"},
+          {"name": "ai-image", "title": "AI इमेज"},
+          {"name": "ai-video", "title": "AI वीडियो"},
+          {"name": "ai-audio", "title": "AI ऑडियो"},
+          {"name": "ai-music", "title": "AI संगीत"},
+          {"name": "ai-coding", "title": "AI कोडिंग"},
+          {"name": "other", "title": "अन्य"}
+        ],
+        "items": [
+          {"title": "ThinkAny", "description": "AI सर्च इंजन", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/cases/7.png", "alt": "showcases"}, "group": "ai-chatbot"},
+          {"title": "HeyBeauty", "description": "AI वर्चुअल ट्राई ऑन", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/cases/5.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Wallpaper", "description": "AI वॉलपेपर जनरेटर", "url": "https://aiwallpaper.shop", "target": "_blank", "image": {"src": "/imgs/cases/1.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "AI Cover", "description": "AI कवर जनरेटर", "url": "https://aicover.design", "target": "_blank", "image": {"src": "/imgs/cases/2.png", "alt": "showcases"}, "group": "ai-image"},
+          {"title": "GPTs Works", "description": "GPTs डायरेक्टरी", "url": "https://gpts.works", "target": "_blank", "image": {"src": "/imgs/cases/3.png", "alt": "showcases"}, "group": "other"},
+          {"title": "Melodisco", "description": "AI म्यूजिक प्लेयर", "url": "https://melodis.co", "target": "_blank", "image": {"src": "/imgs/cases/4.png", "alt": "showcases"}, "group": "ai-music"},
+          {"title": "Pagen", "description": "AI लैंडिंग पेज जनरेटर", "url": "https://pagen.so", "target": "_blank", "image": {"src": "/imgs/cases/6.png", "alt": "showcases"}, "group": "ai-coding"},
+          {"title": "SoraFM", "description": "AI वीडियो जनरेटर", "url": "https://sorafm.trys.ai", "target": "_blank", "image": {"src": "/imgs/cases/8.png", "alt": "showcases"}, "group": "ai-video"},
+          {"title": "PodLM", "description": "AI पॉडकास्ट जनरेटर", "url": "https://podlm.ai", "target": "_blank", "image": {"src": "/imgs/cases/9.png", "alt": "showcases"}, "group": "ai-audio"}
+        ]
+      }
+    }
+  }
+}

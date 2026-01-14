@@ -1,0 +1,97 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PoptoyStudio",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": false,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Đơn hàng",
+          "url": "/shop/orders",
+          "icon": "Package"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "Trang web này là trang demo cho template PoptoyStudio. Để mua template PoptoyStudio, vui lòng truy cập <a href='https://PoptoyStudio.ai/pricing' class='text-orange-300' target='_blank'>trang web PoptoyStudio</a>"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PoptoyStudio",
+      "description": "Điểm đến của bạn cho đồ chơi thiết kế độc đáo, mô hình nghệ thuật và đồ sưu tầm phiên bản giới hạn. Được tuyển chọn cho các nhà sưu tầm trên toàn thế giới.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "PoptoyStudio",
+        "width": 82,
+        "height": 82
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": []
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@poptoystudio.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Chính sách bảo mật",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Điều khoản dịch vụ",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}
