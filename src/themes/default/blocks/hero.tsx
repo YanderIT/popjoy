@@ -52,17 +52,33 @@ export async function Hero({
       {section.image?.src && (
         <div className="mx-4 md:mx-8 lg:mx-16">
           <div className="relative w-full overflow-hidden rounded-2xl">
-            <Image
-              src={section.image.src}
-              alt={section.image.alt || ''}
-              width={section.image.width || 1920}
-              height={section.image.height || 800}
-              className="w-full h-auto object-cover"
-              sizes="100vw"
-              priority
-              quality={85}
-              unoptimized={section.image.src.startsWith('http')}
-            />
+            {section.image.link ? (
+              <Link href={section.image.link} className="block cursor-pointer">
+                <Image
+                  src={section.image.src}
+                  alt={section.image.alt || ''}
+                  width={section.image.width || 1920}
+                  height={section.image.height || 800}
+                  className="w-full h-auto object-cover"
+                  sizes="100vw"
+                  priority
+                  quality={75}
+                  unoptimized={section.image.src.startsWith('http')}
+                />
+              </Link>
+            ) : (
+              <Image
+                src={section.image.src}
+                alt={section.image.alt || ''}
+                width={section.image.width || 1920}
+                height={section.image.height || 800}
+                className="w-full h-auto object-cover"
+                sizes="100vw"
+                priority
+                quality={75}
+                unoptimized={section.image.src.startsWith('http')}
+              />
+            )}
           </div>
         </div>
       )}

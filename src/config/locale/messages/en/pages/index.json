@@ -18,7 +18,7 @@
         "show_avatars": false,
         "avatars_tip": "Join 999+ collectors worldwide",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "hero banner", "width": 1920, "height": 800}
+        "image": {"src": "/imgs/bg/banner.png", "alt": "hero banner", "width": 1920, "height": 800, "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"}
       },
       "cta": {
         "id": "cta",

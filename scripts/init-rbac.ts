@@ -109,6 +109,29 @@ const defaultPermissions = [
     description: 'Delete categories',
   },
 
+  // Products management
+  {
+    code: 'admin.products.read',
+    resource: 'products',
+    action: 'read',
+    title: 'Read Products',
+    description: 'View product list and details',
+  },
+  {
+    code: 'admin.products.write',
+    resource: 'products',
+    action: 'write',
+    title: 'Write Products',
+    description: 'Create and update products',
+  },
+  {
+    code: 'admin.products.delete',
+    resource: 'products',
+    action: 'delete',
+    title: 'Delete Products',
+    description: 'Delete products',
+  },
+
   // Payments management
   {
     code: 'admin.payments.read',
@@ -282,6 +305,7 @@ const defaultRoles = [
       'admin.users.*',
       'admin.posts.*',
       'admin.categories.*',
+      'admin.products.*',
       'admin.payments.*',
       'admin.subscriptions.*',
       'admin.credits.*',

@@ -27,10 +27,11 @@
         "avatars_tip": "加入全球 999+ 收藏家行列",
         "show_award": false,
         "image": {
-          "src": "https://picsum.photos/1920/800",
+          "src": "/imgs/bg/banner.png",
           "alt": "主横幅",
           "width": 1920,
-          "height": 800
+          "height": 800,
+          "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"
         }
       },
       "cta": {
