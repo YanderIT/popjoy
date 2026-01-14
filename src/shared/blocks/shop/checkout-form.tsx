@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Loader2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
 import { Button } from '@/shared/components/ui/button';
@@ -44,6 +45,7 @@ const COUNTRIES = [
 ];
 
 export function CheckoutForm() {
+  const t = useTranslations('shop');
   const router = useRouter();
   const { user, setIsShowSignModal } = useAppContext();
   const { items, getSubtotal, getCurrency, clearCart, isLoading: cartLoading } = useCart();
@@ -84,23 +86,23 @@ export function CheckoutForm() {
 
   const validateAddress = (): boolean => {
     if (!address.recipientName.trim()) {
-      toast.error('Please enter recipient name');
+      toast.error(t('checkout.validation.name_required'));
       return false;
     }
     if (!address.phone.trim()) {
-      toast.error('Please enter phone number');
+      toast.error(t('checkout.validation.phone_required'));
       return false;
     }
     if (!address.country) {
-      toast.error('Please select country');
+      toast.error(t('checkout.validation.country_required'));
       return false;
     }
     if (!address.city.trim()) {
-      toast.error('Please enter city');
+      toast.error(t('checkout.validation.city_required'));
       return false;
     }
     if (!address.street.trim()) {
-      toast.error('Please enter street address');
+      toast.error(t('checkout.validation.street_required'));
       return false;
     }
     return true;
@@ -164,7 +166,7 @@ export function CheckoutForm() {
         window.location.href = checkoutData.data.checkoutUrl;
       }
     } catch (error: any) {
-      toast.error(error.message || 'Checkout failed');
+      toast.error(error.message || t('checkout.failed'));
     } finally {
       setIsSubmitting(false);
     }
@@ -180,43 +182,43 @@ export function CheckoutForm() {
 
   return (
     <div className="container pt-24 pb-8 md:pt-28 md:pb-12">
-      <h1 className="mb-8 text-2xl font-bold md:text-3xl">Checkout</h1>
+      <h1 className="mb-8 text-2xl font-bold md:text-3xl">{t('checkout.title')}</h1>
 
       <div className="grid gap-8 lg:grid-cols-2">
         {/* Shipping Address Form */}
         <div className="space-y-6">
           <div>
-            <h2 className="mb-4 text-lg font-semibold">Shipping Address</h2>
+            <h2 className="mb-4 text-lg font-semibold">{t('checkout.shipping_address')}</h2>
             <div className="space-y-4 rounded-lg border p-6">
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-2">
-                  <Label htmlFor="recipientName">Recipient Name *</Label>
+                  <Label htmlFor="recipientName">{t('checkout.recipient_name')} *</Label>
                   <Input
                     id="recipientName"
                     value={address.recipientName}
                     onChange={(e) => handleInputChange('recipientName', e.target.value)}
-                    placeholder="Full name"
+                    placeholder={t('checkout.placeholders.name')}
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Phone *</Label>
+                  <Label htmlFor="phone">{t('checkout.phone')} *</Label>
                   <Input
                     id="phone"
                     value={address.phone}
                     onChange={(e) => handleInputChange('phone', e.target.value)}
-                    placeholder="+1 234 567 8900"
+                    placeholder={t('checkout.placeholders.phone')}
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="country">Country *</Label>
+                <Label htmlFor="country">{t('checkout.country')} *</Label>
                 <Select
                   value={address.country}
                   onValueChange={(value) => handleInputChange('country', value)}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select country" />
+                    <SelectValue placeholder={t('checkout.select_country')} />
                   </SelectTrigger>
                   <SelectContent>
                     {COUNTRIES.map((country) => (
@@ -230,42 +232,42 @@ export function CheckoutForm() {
 
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-2">
-                  <Label htmlFor="state">State / Province</Label>
+                  <Label htmlFor="state">{t('checkout.state')}</Label>
                   <Input
                     id="state"
                     value={address.state}
                     onChange={(e) => handleInputChange('state', e.target.value)}
-                    placeholder="State or province"
+                    placeholder={t('checkout.placeholders.state')}
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="city">City *</Label>
+                  <Label htmlFor="city">{t('checkout.city')} *</Label>
                   <Input
                     id="city"
                     value={address.city}
                     onChange={(e) => handleInputChange('city', e.target.value)}
-                    placeholder="City"
+                    placeholder={t('checkout.placeholders.city')}
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="street">Street Address *</Label>
+                <Label htmlFor="street">{t('checkout.street')} *</Label>
                 <Input
                   id="street"
                   value={address.street}
                   onChange={(e) => handleInputChange('street', e.target.value)}
-                  placeholder="Street address, apartment, suite, etc."
+                  placeholder={t('checkout.street_placeholder')}
                 />
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="postalCode">Postal Code</Label>
+                <Label htmlFor="postalCode">{t('checkout.postal_code')}</Label>
                 <Input
                   id="postalCode"
                   value={address.postalCode}
                   onChange={(e) => handleInputChange('postalCode', e.target.value)}
-                  placeholder="Postal code"
+                  placeholder={t('checkout.placeholders.postal_code')}
                 />
               </div>
             </div>
@@ -274,7 +276,7 @@ export function CheckoutForm() {
 
         {/* Order Summary */}
         <div>
-          <h2 className="mb-4 text-lg font-semibold">Order Summary</h2>
+          <h2 className="mb-4 text-lg font-semibold">{t('checkout.order_summary')}</h2>
           <div className="rounded-lg border p-6">
             <div className="space-y-4">
               {items.map((item) => (
@@ -292,7 +294,7 @@ export function CheckoutForm() {
                     <p className="text-xs text-muted-foreground">
                       {Object.values(item.skuAttributes).join(' / ')}
                     </p>
-                    <p className="text-xs text-muted-foreground">Qty: {item.quantity}</p>
+                    <p className="text-xs text-muted-foreground">{t('checkout.qty', { quantity: item.quantity })}</p>
                   </div>
                   <div className="text-sm font-medium">
                     {formatPrice(item.price * item.quantity, item.currency)}
@@ -303,15 +305,15 @@ export function CheckoutForm() {
 
             <div className="mt-6 space-y-2 border-t pt-4">
               <div className="flex justify-between text-sm">
-                <span>Subtotal</span>
+                <span>{t('checkout.subtotal')}</span>
                 <span>{formatPrice(subtotal, currency)}</span>
               </div>
               <div className="flex justify-between text-sm">
-                <span>Shipping</span>
-                <span>{shipping === 0 ? 'Free' : formatPrice(shipping, currency)}</span>
+                <span>{t('checkout.shipping')}</span>
+                <span>{shipping === 0 ? t('checkout.free') : formatPrice(shipping, currency)}</span>
               </div>
               <div className="flex justify-between border-t pt-2 text-base font-semibold">
-                <span>Total</span>
+                <span>{t('checkout.total')}</span>
                 <span>{formatPrice(total, currency)}</span>
               </div>
             </div>
@@ -325,17 +327,17 @@ export function CheckoutForm() {
               {isSubmitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Processing...
+                  {t('checkout.processing')}
                 </>
               ) : user ? (
-                'Place Order'
+                t('checkout.place_order')
               ) : (
-                'Sign in to Checkout'
+                t('checkout.sign_in_to_checkout')
               )}
             </Button>
 
             <p className="mt-4 text-center text-xs text-muted-foreground">
-              By placing your order, you agree to our Terms of Service and Privacy Policy.
+              {t('checkout.terms_notice')}
             </p>
           </div>
         </div>

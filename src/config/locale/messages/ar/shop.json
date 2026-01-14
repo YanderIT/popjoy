@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "أضف إلى السلة",
+    "added": "تمت الإضافة!",
+    "quantity": "الكمية",
+    "in_stock": "متوفر",
+    "out_of_stock": "غير متوفر",
+    "only_left": "متبقي {count} فقط",
+    "sale": "تخفيض",
+    "select_option": "الرجاء اختيار خيار",
+    "insufficient_stock": "المخزون غير كافٍ",
+    "options_count": "{count} خيارات",
+    "colors_count": "{count} ألوان"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلة التسوق فارغة",
+    "continue_shopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "shipping_note": "يتم حساب الشحن عند الدفع",
+    "checkout": "إتمام الشراء",
+    "aria_label": "سلة التسوق",
+    "each": "{price} للقطعة"
+  },
+  "checkout": {
+    "title": "الدفع",
+    "description": "أكمل عملية الشراء",
+    "shipping_address": "عنوان الشحن",
+    "recipient_name": "اسم المستلم",
+    "phone": "الهاتف",
+    "country": "البلد",
+    "select_country": "اختر البلد",
+    "state": "المنطقة / المحافظة",
+    "city": "المدينة",
+    "street": "العنوان",
+    "street_placeholder": "الشارع، رقم المبنى، الشقة، إلخ.",
+    "postal_code": "الرمز البريدي",
+    "order_summary": "ملخص الطلب",
+    "qty": "الكمية: {quantity}",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "free": "مجاني",
+    "total": "الإجمالي",
+    "place_order": "تأكيد الطلب",
+    "processing": "جاري المعالجة...",
+    "sign_in_to_checkout": "تسجيل الدخول للدفع",
+    "terms_notice": "بتقديم طلبك، فإنك توافق على شروط الخدمة وسياسة الخصوصية.",
+    "failed": "فشل الدفع",
+    "validation": {
+      "name_required": "الرجاء إدخال اسم المستلم",
+      "phone_required": "الرجاء إدخال رقم الهاتف",
+      "country_required": "الرجاء اختيار البلد",
+      "city_required": "الرجاء إدخال المدينة",
+      "street_required": "الرجاء إدخال العنوان"
+    },
+    "placeholders": {
+      "name": "الاسم الكامل",
+      "phone": "+966 50 123 4567",
+      "state": "المنطقة أو المحافظة",
+      "city": "المدينة",
+      "postal_code": "الرمز البريدي"
+    }
+  },
+  "order": {
+    "title": "طلباتي",
+    "description": "عرض سجل الطلبات",
+    "order_placed": "تم تقديم الطلب!",
+    "thank_you": "شكراً لطلبك. ستتلقى رسالة تأكيد بالبريد الإلكتروني قريباً.",
+    "order_number": "طلب #{orderNo}",
+    "placed_on": "تم الطلب في {date}",
+    "items": "المنتجات",
+    "items_count": "المنتجات ({count})",
+    "sku": "رمز المنتج: {sku}",
+    "shipping_address": "عنوان الشحن",
+    "tracking": "التتبع: {number}",
+    "carrier": "شركة الشحن",
+    "tracking_number": "رقم التتبع",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "discount": "الخصم",
+    "total": "الإجمالي",
+    "paid": "مدفوع",
+    "no_orders": "لا توجد طلبات بعد",
+    "no_orders_desc": "عند تقديم طلب، سيظهر هنا.",
+    "start_shopping": "ابدأ التسوق",
+    "continue_shopping": "متابعة التسوق",
+    "copied": "تم النسخ إلى الحافظة",
+    "shipped": "تم الشحن",
+    "delivered": "تم التوصيل",
+    "status": {
+      "pending": "في انتظار الدفع",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التوصيل",
+      "completed": "مكتمل",
+      "canceled": "ملغي",
+      "refunded": "مسترد"
+    }
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page_of": "صفحة {page} من {total}"
+  },
+  "common": {
+    "view_all": "عرض جميع المنتجات",
+    "no_products": "لا توجد منتجات متاحة حالياً.",
+    "featured_collection": "مجموعة مميزة",
+    "featured_description": "اكتشف ألعابنا الحصرية من المصممين والمقتنيات ذات الإصدار المحدود."
+  }
+}

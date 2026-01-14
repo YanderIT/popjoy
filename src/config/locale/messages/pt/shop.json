@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Adicionar ao carrinho",
+    "added": "Adicionado!",
+    "quantity": "Quantidade",
+    "in_stock": "Em estoque",
+    "out_of_stock": "Esgotado",
+    "only_left": "Apenas {count} restantes",
+    "sale": "PROMOÇÃO",
+    "select_option": "Por favor selecione uma opção",
+    "insufficient_stock": "Estoque insuficiente",
+    "options_count": "{count} opções",
+    "colors_count": "{count} cores"
+  },
+  "cart": {
+    "title": "Carrinho de compras",
+    "empty": "Seu carrinho está vazio",
+    "continue_shopping": "Continuar comprando",
+    "subtotal": "Subtotal",
+    "shipping_note": "Frete calculado no checkout",
+    "checkout": "Finalizar compra",
+    "aria_label": "Carrinho de compras",
+    "each": "{price} cada"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "description": "Complete sua compra",
+    "shipping_address": "Endereço de entrega",
+    "recipient_name": "Nome do destinatário",
+    "phone": "Telefone",
+    "country": "País",
+    "select_country": "Selecionar país",
+    "state": "Estado",
+    "city": "Cidade",
+    "street": "Endereço",
+    "street_placeholder": "Rua, número, apartamento, etc.",
+    "postal_code": "CEP",
+    "order_summary": "Resumo do pedido",
+    "qty": "Qtd: {quantity}",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "free": "Grátis",
+    "total": "Total",
+    "place_order": "Fazer pedido",
+    "processing": "Processando...",
+    "sign_in_to_checkout": "Entrar para finalizar",
+    "terms_notice": "Ao fazer seu pedido, você concorda com nossos Termos de Serviço e Política de Privacidade.",
+    "failed": "Falha no checkout",
+    "validation": {
+      "name_required": "Por favor insira o nome do destinatário",
+      "phone_required": "Por favor insira o número de telefone",
+      "country_required": "Por favor selecione um país",
+      "city_required": "Por favor insira a cidade",
+      "street_required": "Por favor insira o endereço"
+    },
+    "placeholders": {
+      "name": "Nome completo",
+      "phone": "+55 11 91234 5678",
+      "state": "Estado",
+      "city": "Cidade",
+      "postal_code": "CEP"
+    }
+  },
+  "order": {
+    "title": "Meus pedidos",
+    "description": "Ver histórico de pedidos",
+    "order_placed": "Pedido realizado!",
+    "thank_you": "Obrigado pelo seu pedido. Você receberá um e-mail de confirmação em breve.",
+    "order_number": "Pedido #{orderNo}",
+    "placed_on": "Realizado em {date}",
+    "items": "Itens",
+    "items_count": "Itens ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Endereço de entrega",
+    "tracking": "Rastreamento: {number}",
+    "carrier": "Transportadora",
+    "tracking_number": "Número de rastreamento",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "discount": "Desconto",
+    "total": "Total",
+    "paid": "Pago",
+    "no_orders": "Nenhum pedido ainda",
+    "no_orders_desc": "Quando você fizer um pedido, ele aparecerá aqui.",
+    "start_shopping": "Começar a comprar",
+    "continue_shopping": "Continuar comprando",
+    "copied": "Copiado para a área de transferência",
+    "shipped": "Enviado",
+    "delivered": "Entregue",
+    "status": {
+      "pending": "Aguardando pagamento",
+      "processing": "Processando",
+      "shipped": "Enviado",
+      "delivered": "Entregue",
+      "completed": "Concluído",
+      "canceled": "Cancelado",
+      "refunded": "Reembolsado"
+    }
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Próximo",
+    "page_of": "Página {page} de {total}"
+  },
+  "common": {
+    "view_all": "Ver todos os produtos",
+    "no_products": "Nenhum produto disponível no momento.",
+    "featured_collection": "Coleção em destaque",
+    "featured_description": "Descubra nossos brinquedos de designer exclusivos e colecionáveis de edição limitada."
+  }
+}

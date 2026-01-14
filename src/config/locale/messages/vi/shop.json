@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Thêm vào giỏ",
+    "added": "Đã thêm!",
+    "quantity": "Số lượng",
+    "in_stock": "Còn hàng",
+    "out_of_stock": "Hết hàng",
+    "only_left": "Chỉ còn {count}",
+    "sale": "GIẢM GIÁ",
+    "select_option": "Vui lòng chọn một tùy chọn",
+    "insufficient_stock": "Không đủ hàng",
+    "options_count": "{count} tùy chọn",
+    "colors_count": "{count} màu"
+  },
+  "cart": {
+    "title": "Giỏ hàng",
+    "empty": "Giỏ hàng trống",
+    "continue_shopping": "Tiếp tục mua sắm",
+    "subtotal": "Tạm tính",
+    "shipping_note": "Phí vận chuyển được tính khi thanh toán",
+    "checkout": "Thanh toán",
+    "aria_label": "Giỏ hàng",
+    "each": "{price}/cái"
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "description": "Hoàn tất mua hàng",
+    "shipping_address": "Địa chỉ giao hàng",
+    "recipient_name": "Tên người nhận",
+    "phone": "Điện thoại",
+    "country": "Quốc gia",
+    "select_country": "Chọn quốc gia",
+    "state": "Tỉnh / Thành phố",
+    "city": "Quận / Huyện",
+    "street": "Địa chỉ",
+    "street_placeholder": "Số nhà, tên đường, phường/xã, v.v.",
+    "postal_code": "Mã bưu điện",
+    "order_summary": "Tóm tắt đơn hàng",
+    "qty": "SL: {quantity}",
+    "subtotal": "Tạm tính",
+    "shipping": "Vận chuyển",
+    "free": "Miễn phí",
+    "total": "Tổng cộng",
+    "place_order": "Đặt hàng",
+    "processing": "Đang xử lý...",
+    "sign_in_to_checkout": "Đăng nhập để thanh toán",
+    "terms_notice": "Khi đặt hàng, bạn đồng ý với Điều khoản dịch vụ và Chính sách bảo mật.",
+    "failed": "Thanh toán thất bại",
+    "validation": {
+      "name_required": "Vui lòng nhập tên người nhận",
+      "phone_required": "Vui lòng nhập số điện thoại",
+      "country_required": "Vui lòng chọn quốc gia",
+      "city_required": "Vui lòng nhập thành phố",
+      "street_required": "Vui lòng nhập địa chỉ"
+    },
+    "placeholders": {
+      "name": "Họ và tên",
+      "phone": "+84 91 234 5678",
+      "state": "Tỉnh hoặc thành phố",
+      "city": "Quận hoặc huyện",
+      "postal_code": "Mã bưu điện"
+    }
+  },
+  "order": {
+    "title": "Đơn hàng của tôi",
+    "description": "Xem lịch sử đơn hàng",
+    "order_placed": "Đặt hàng thành công!",
+    "thank_you": "Cảm ơn bạn đã đặt hàng. Bạn sẽ nhận được email xác nhận ngay.",
+    "order_number": "Đơn hàng #{orderNo}",
+    "placed_on": "Đặt ngày {date}",
+    "items": "Sản phẩm",
+    "items_count": "Sản phẩm ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Địa chỉ giao hàng",
+    "tracking": "Theo dõi: {number}",
+    "carrier": "Đơn vị vận chuyển",
+    "tracking_number": "Mã vận đơn",
+    "subtotal": "Tạm tính",
+    "shipping": "Vận chuyển",
+    "discount": "Giảm giá",
+    "total": "Tổng cộng",
+    "paid": "Đã thanh toán",
+    "no_orders": "Chưa có đơn hàng",
+    "no_orders_desc": "Khi bạn đặt hàng, đơn hàng sẽ hiển thị ở đây.",
+    "start_shopping": "Bắt đầu mua sắm",
+    "continue_shopping": "Tiếp tục mua sắm",
+    "copied": "Đã sao chép",
+    "shipped": "Đã gửi",
+    "delivered": "Đã giao",
+    "status": {
+      "pending": "Chờ thanh toán",
+      "processing": "Đang xử lý",
+      "shipped": "Đã gửi",
+      "delivered": "Đã giao",
+      "completed": "Hoàn thành",
+      "canceled": "Đã hủy",
+      "refunded": "Đã hoàn tiền"
+    }
+  },
+  "pagination": {
+    "previous": "Trước",
+    "next": "Sau",
+    "page_of": "Trang {page} / {total}"
+  },
+  "common": {
+    "view_all": "Xem tất cả sản phẩm",
+    "no_products": "Hiện không có sản phẩm nào.",
+    "featured_collection": "Bộ sưu tập nổi bật",
+    "featured_description": "Khám phá đồ chơi thiết kế độc quyền và sưu tầm phiên bản giới hạn."
+  }
+}

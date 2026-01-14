@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "เพิ่มลงตะกร้า",
+    "added": "เพิ่มแล้ว!",
+    "quantity": "จำนวน",
+    "in_stock": "มีสินค้า",
+    "out_of_stock": "สินค้าหมด",
+    "only_left": "เหลือเพียง {count} ชิ้น",
+    "sale": "ลดราคา",
+    "select_option": "กรุณาเลือกตัวเลือก",
+    "insufficient_stock": "สินค้าไม่เพียงพอ",
+    "options_count": "{count} ตัวเลือก",
+    "colors_count": "{count} สี"
+  },
+  "cart": {
+    "title": "ตะกร้าสินค้า",
+    "empty": "ตะกร้าของคุณว่างเปล่า",
+    "continue_shopping": "ช้อปปิ้งต่อ",
+    "subtotal": "ยอดรวม",
+    "shipping_note": "ค่าจัดส่งคำนวณเมื่อชำระเงิน",
+    "checkout": "ดำเนินการชำระเงิน",
+    "aria_label": "ตะกร้าสินค้า",
+    "each": "{price}/ชิ้น"
+  },
+  "checkout": {
+    "title": "ชำระเงิน",
+    "description": "เสร็จสิ้นการสั่งซื้อ",
+    "shipping_address": "ที่อยู่จัดส่ง",
+    "recipient_name": "ชื่อผู้รับ",
+    "phone": "โทรศัพท์",
+    "country": "ประเทศ",
+    "select_country": "เลือกประเทศ",
+    "state": "จังหวัด",
+    "city": "เมือง",
+    "street": "ที่อยู่",
+    "street_placeholder": "ที่อยู่ ห้อง อาคาร ฯลฯ",
+    "postal_code": "รหัสไปรษณีย์",
+    "order_summary": "สรุปคำสั่งซื้อ",
+    "qty": "จำนวน: {quantity}",
+    "subtotal": "ยอดรวม",
+    "shipping": "ค่าจัดส่ง",
+    "free": "ฟรี",
+    "total": "รวมทั้งหมด",
+    "place_order": "สั่งซื้อ",
+    "processing": "กำลังดำเนินการ...",
+    "sign_in_to_checkout": "เข้าสู่ระบบเพื่อชำระเงิน",
+    "terms_notice": "การสั่งซื้อถือว่าคุณยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัว",
+    "failed": "การชำระเงินล้มเหลว",
+    "validation": {
+      "name_required": "กรุณากรอกชื่อผู้รับ",
+      "phone_required": "กรุณากรอกหมายเลขโทรศัพท์",
+      "country_required": "กรุณาเลือกประเทศ",
+      "city_required": "กรุณากรอกเมือง",
+      "street_required": "กรุณากรอกที่อยู่"
+    },
+    "placeholders": {
+      "name": "ชื่อ-นามสกุล",
+      "phone": "+66 81 234 5678",
+      "state": "จังหวัด",
+      "city": "เมือง",
+      "postal_code": "รหัสไปรษณีย์"
+    }
+  },
+  "order": {
+    "title": "คำสั่งซื้อของฉัน",
+    "description": "ดูประวัติการสั่งซื้อ",
+    "order_placed": "สั่งซื้อเรียบร้อย!",
+    "thank_you": "ขอบคุณสำหรับการสั่งซื้อ คุณจะได้รับอีเมลยืนยันเร็วๆ นี้",
+    "order_number": "คำสั่งซื้อ #{orderNo}",
+    "placed_on": "สั่งเมื่อ {date}",
+    "items": "สินค้า",
+    "items_count": "สินค้า ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "ที่อยู่จัดส่ง",
+    "tracking": "ติดตาม: {number}",
+    "carrier": "ผู้ให้บริการขนส่ง",
+    "tracking_number": "หมายเลขติดตาม",
+    "subtotal": "ยอดรวม",
+    "shipping": "ค่าจัดส่ง",
+    "discount": "ส่วนลด",
+    "total": "รวมทั้งหมด",
+    "paid": "ชำระแล้ว",
+    "no_orders": "ยังไม่มีคำสั่งซื้อ",
+    "no_orders_desc": "เมื่อคุณสั่งซื้อ จะแสดงที่นี่",
+    "start_shopping": "เริ่มช้อปปิ้ง",
+    "continue_shopping": "ช้อปปิ้งต่อ",
+    "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+    "shipped": "จัดส่งแล้ว",
+    "delivered": "ส่งถึงแล้ว",
+    "status": {
+      "pending": "รอการชำระเงิน",
+      "processing": "กำลังดำเนินการ",
+      "shipped": "จัดส่งแล้ว",
+      "delivered": "ส่งถึงแล้ว",
+      "completed": "เสร็จสิ้น",
+      "canceled": "ยกเลิก",
+      "refunded": "คืนเงินแล้ว"
+    }
+  },
+  "pagination": {
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "page_of": "หน้า {page} จาก {total}"
+  },
+  "common": {
+    "view_all": "ดูสินค้าทั้งหมด",
+    "no_products": "ไม่มีสินค้าในขณะนี้",
+    "featured_collection": "คอลเลกชันแนะนำ",
+    "featured_description": "ค้นพบของเล่นดีไซเนอร์สุดพิเศษและของสะสมรุ่นลิมิเต็ด"
+  }
+}

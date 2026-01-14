@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "В корзину",
+    "added": "Добавлено!",
+    "quantity": "Количество",
+    "in_stock": "В наличии",
+    "out_of_stock": "Нет в наличии",
+    "only_left": "Осталось {count} шт.",
+    "sale": "СКИДКА",
+    "select_option": "Пожалуйста, выберите вариант",
+    "insufficient_stock": "Недостаточно товара",
+    "options_count": "{count} вариантов",
+    "colors_count": "{count} цветов"
+  },
+  "cart": {
+    "title": "Корзина",
+    "empty": "Ваша корзина пуста",
+    "continue_shopping": "Продолжить покупки",
+    "subtotal": "Подытог",
+    "shipping_note": "Доставка рассчитывается при оформлении",
+    "checkout": "Оформить заказ",
+    "aria_label": "Корзина",
+    "each": "{price} за шт."
+  },
+  "checkout": {
+    "title": "Оформление заказа",
+    "description": "Завершите покупку",
+    "shipping_address": "Адрес доставки",
+    "recipient_name": "Имя получателя",
+    "phone": "Телефон",
+    "country": "Страна",
+    "select_country": "Выберите страну",
+    "state": "Область / Регион",
+    "city": "Город",
+    "street": "Адрес",
+    "street_placeholder": "Улица, дом, квартира и т.д.",
+    "postal_code": "Почтовый индекс",
+    "order_summary": "Сводка заказа",
+    "qty": "Кол-во: {quantity}",
+    "subtotal": "Подытог",
+    "shipping": "Доставка",
+    "free": "Бесплатно",
+    "total": "Итого",
+    "place_order": "Оформить заказ",
+    "processing": "Обработка...",
+    "sign_in_to_checkout": "Войти для оформления",
+    "terms_notice": "Оформляя заказ, вы соглашаетесь с нашими Условиями использования и Политикой конфиденциальности.",
+    "failed": "Ошибка оформления",
+    "validation": {
+      "name_required": "Введите имя получателя",
+      "phone_required": "Введите номер телефона",
+      "country_required": "Выберите страну",
+      "city_required": "Введите город",
+      "street_required": "Введите адрес"
+    },
+    "placeholders": {
+      "name": "Полное имя",
+      "phone": "+7 123 456 7890",
+      "state": "Область или регион",
+      "city": "Город",
+      "postal_code": "Почтовый индекс"
+    }
+  },
+  "order": {
+    "title": "Мои заказы",
+    "description": "История заказов",
+    "order_placed": "Заказ оформлен!",
+    "thank_you": "Спасибо за заказ. Вы получите письмо с подтверждением.",
+    "order_number": "Заказ #{orderNo}",
+    "placed_on": "Оформлен {date}",
+    "items": "Товары",
+    "items_count": "Товары ({count})",
+    "sku": "Артикул: {sku}",
+    "shipping_address": "Адрес доставки",
+    "tracking": "Отслеживание: {number}",
+    "carrier": "Перевозчик",
+    "tracking_number": "Номер отслеживания",
+    "subtotal": "Подытог",
+    "shipping": "Доставка",
+    "discount": "Скидка",
+    "total": "Итого",
+    "paid": "Оплачено",
+    "no_orders": "Заказов пока нет",
+    "no_orders_desc": "Когда вы оформите заказ, он появится здесь.",
+    "start_shopping": "Начать покупки",
+    "continue_shopping": "Продолжить покупки",
+    "copied": "Скопировано в буфер обмена",
+    "shipped": "Отправлен",
+    "delivered": "Доставлен",
+    "status": {
+      "pending": "Ожидает оплаты",
+      "processing": "В обработке",
+      "shipped": "Отправлен",
+      "delivered": "Доставлен",
+      "completed": "Завершён",
+      "canceled": "Отменён",
+      "refunded": "Возвращён"
+    }
+  },
+  "pagination": {
+    "previous": "Назад",
+    "next": "Далее",
+    "page_of": "Страница {page} из {total}"
+  },
+  "common": {
+    "view_all": "Все товары",
+    "no_products": "Товары временно недоступны.",
+    "featured_collection": "Избранная коллекция",
+    "featured_description": "Откройте для себя эксклюзивные дизайнерские игрушки и лимитированные коллекционные предметы."
+  }
+}

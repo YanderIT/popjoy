@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Tambah ke Keranjang",
+    "added": "Ditambahkan!",
+    "quantity": "Jumlah",
+    "in_stock": "Tersedia",
+    "out_of_stock": "Habis",
+    "only_left": "Tersisa {count}",
+    "sale": "DISKON",
+    "select_option": "Silakan pilih opsi",
+    "insufficient_stock": "Stok tidak cukup",
+    "options_count": "{count} opsi",
+    "colors_count": "{count} warna"
+  },
+  "cart": {
+    "title": "Keranjang Belanja",
+    "empty": "Keranjang Anda kosong",
+    "continue_shopping": "Lanjutkan Belanja",
+    "subtotal": "Subtotal",
+    "shipping_note": "Ongkir dihitung saat checkout",
+    "checkout": "Checkout",
+    "aria_label": "Keranjang belanja",
+    "each": "{price}/pcs"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "description": "Selesaikan pembelian Anda",
+    "shipping_address": "Alamat Pengiriman",
+    "recipient_name": "Nama Penerima",
+    "phone": "Telepon",
+    "country": "Negara",
+    "select_country": "Pilih negara",
+    "state": "Provinsi",
+    "city": "Kota",
+    "street": "Alamat",
+    "street_placeholder": "Alamat jalan, apartemen, unit, dll.",
+    "postal_code": "Kode Pos",
+    "order_summary": "Ringkasan Pesanan",
+    "qty": "Qty: {quantity}",
+    "subtotal": "Subtotal",
+    "shipping": "Pengiriman",
+    "free": "Gratis",
+    "total": "Total",
+    "place_order": "Buat Pesanan",
+    "processing": "Memproses...",
+    "sign_in_to_checkout": "Masuk untuk Checkout",
+    "terms_notice": "Dengan memesan, Anda menyetujui Ketentuan Layanan dan Kebijakan Privasi kami.",
+    "failed": "Checkout gagal",
+    "validation": {
+      "name_required": "Masukkan nama penerima",
+      "phone_required": "Masukkan nomor telepon",
+      "country_required": "Pilih negara",
+      "city_required": "Masukkan kota",
+      "street_required": "Masukkan alamat"
+    },
+    "placeholders": {
+      "name": "Nama lengkap",
+      "phone": "+62 812 3456 7890",
+      "state": "Provinsi",
+      "city": "Kota",
+      "postal_code": "Kode pos"
+    }
+  },
+  "order": {
+    "title": "Pesanan Saya",
+    "description": "Lihat riwayat pesanan",
+    "order_placed": "Pesanan Dibuat!",
+    "thank_you": "Terima kasih atas pesanan Anda. Anda akan menerima email konfirmasi segera.",
+    "order_number": "Pesanan #{orderNo}",
+    "placed_on": "Dipesan pada {date}",
+    "items": "Item",
+    "items_count": "Item ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Alamat Pengiriman",
+    "tracking": "Pelacakan: {number}",
+    "carrier": "Kurir",
+    "tracking_number": "Nomor Resi",
+    "subtotal": "Subtotal",
+    "shipping": "Pengiriman",
+    "discount": "Diskon",
+    "total": "Total",
+    "paid": "Dibayar",
+    "no_orders": "Belum ada pesanan",
+    "no_orders_desc": "Saat Anda memesan, pesanan akan muncul di sini.",
+    "start_shopping": "Mulai Belanja",
+    "continue_shopping": "Lanjutkan Belanja",
+    "copied": "Disalin ke clipboard",
+    "shipped": "Dikirim",
+    "delivered": "Terkirim",
+    "status": {
+      "pending": "Menunggu Pembayaran",
+      "processing": "Diproses",
+      "shipped": "Dikirim",
+      "delivered": "Terkirim",
+      "completed": "Selesai",
+      "canceled": "Dibatalkan",
+      "refunded": "Dikembalikan"
+    }
+  },
+  "pagination": {
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya",
+    "page_of": "Halaman {page} dari {total}"
+  },
+  "common": {
+    "view_all": "Lihat Semua Produk",
+    "no_products": "Tidak ada produk tersedia saat ini.",
+    "featured_collection": "Koleksi Unggulan",
+    "featured_description": "Temukan mainan desainer eksklusif dan koleksi edisi terbatas kami."
+  }
+}

@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle, Package, Truck } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
 
@@ -39,17 +40,28 @@ interface OrderConfirmationProps {
   isSuccess?: boolean;
 }
 
-const STATUS_LABELS: Record<string, { label: string; color: string }> = {
-  pending_payment: { label: 'Pending Payment', color: 'text-yellow-600' },
-  pending_shipment: { label: 'Processing', color: 'text-blue-600' },
-  shipped: { label: 'Shipped', color: 'text-purple-600' },
-  delivered: { label: 'Delivered', color: 'text-green-600' },
-  completed: { label: 'Completed', color: 'text-green-600' },
-  canceled: { label: 'Canceled', color: 'text-red-600' },
-  refunded: { label: 'Refunded', color: 'text-gray-600' },
+const STATUS_COLORS: Record<string, string> = {
+  pending_payment: 'text-yellow-600',
+  pending_shipment: 'text-blue-600',
+  shipped: 'text-purple-600',
+  delivered: 'text-green-600',
+  completed: 'text-green-600',
+  canceled: 'text-red-600',
+  refunded: 'text-gray-600',
+};
+
+const STATUS_KEYS: Record<string, string> = {
+  pending_payment: 'pending',
+  pending_shipment: 'processing',
+  shipped: 'shipped',
+  delivered: 'delivered',
+  completed: 'completed',
+  canceled: 'canceled',
+  refunded: 'refunded',
 };
 
 export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) {
+  const t = useTranslations('shop');
   const formatPrice = (cents: number, currency: string = 'USD') => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -76,7 +88,9 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
   };
 
   const shippingAddress = parseAddress(order.shippingAddress);
-  const statusInfo = STATUS_LABELS[order.status] || { label: order.status, color: 'text-gray-600' };
+  const statusKey = STATUS_KEYS[order.status] || order.status;
+  const statusColor = STATUS_COLORS[order.status] || 'text-gray-600';
+  const statusLabel = t(`order.status.${statusKey}`);
 
   return (
     <div className="container pt-24 pb-8 md:pt-28 md:pb-12">
@@ -85,9 +99,9 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
           <div className="mb-4 rounded-full bg-green-100 p-4">
             <CheckCircle className="h-12 w-12 text-green-600" />
           </div>
-          <h1 className="text-2xl font-bold md:text-3xl">Order Placed!</h1>
+          <h1 className="text-2xl font-bold md:text-3xl">{t('order.order_placed')}</h1>
           <p className="mt-2 text-muted-foreground">
-            Thank you for your order. You will receive an email confirmation shortly.
+            {t('order.thank_you')}
           </p>
         </div>
       )}
@@ -98,18 +112,18 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
           <div className="border-b p-6">
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
-                <h2 className="text-lg font-semibold">Order #{order.orderNo}</h2>
+                <h2 className="text-lg font-semibold">{t('order.order_number', { orderNo: order.orderNo })}</h2>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Placed on {formatDate(order.createdAt)}
+                  {t('order.placed_on', { date: formatDate(order.createdAt) })}
                 </p>
               </div>
               <div className="text-right">
-                <span className={`font-medium ${statusInfo.color}`}>
-                  {statusInfo.label}
+                <span className={`font-medium ${statusColor}`}>
+                  {statusLabel}
                 </span>
                 {order.trackingNumber && (
                   <p className="mt-1 text-sm text-muted-foreground">
-                    Tracking: {order.trackingNumber}
+                    {t('order.tracking', { number: order.trackingNumber })}
                   </p>
                 )}
               </div>
@@ -120,7 +134,7 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
           <div className="border-b p-6">
             <h3 className="mb-4 flex items-center gap-2 font-medium">
               <Package className="h-5 w-5" />
-              Items ({order.items.length})
+              {t('order.items_count', { count: order.items.length })}
             </h3>
             <div className="space-y-4">
               {order.items.map((item) => (
@@ -135,7 +149,7 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
                   </div>
                   <div className="flex-1">
                     <h4 className="font-medium">{item.productName}</h4>
-                    <p className="text-sm text-muted-foreground">SKU: {item.productSku}</p>
+                    <p className="text-sm text-muted-foreground">{t('order.sku', { sku: item.productSku })}</p>
                     <p className="text-sm text-muted-foreground">
                       {formatPrice(item.unitPrice, item.currency)} x {item.quantity}
                     </p>
@@ -153,7 +167,7 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
             <div className="border-b p-6">
               <h3 className="mb-4 flex items-center gap-2 font-medium">
                 <Truck className="h-5 w-5" />
-                Shipping Address
+                {t('order.shipping_address')}
               </h3>
               <div className="text-sm text-muted-foreground">
                 <p className="font-medium text-foreground">{shippingAddress.recipientName}</p>
@@ -171,33 +185,33 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
 
           {/* Order Summary */}
           <div className="p-6">
-            <h3 className="mb-4 font-medium">Order Summary</h3>
+            <h3 className="mb-4 font-medium">{t('checkout.order_summary')}</h3>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
-                <span className="text-muted-foreground">Subtotal</span>
+                <span className="text-muted-foreground">{t('order.subtotal')}</span>
                 <span>{formatPrice(order.subtotalAmount, order.currency)}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-muted-foreground">Shipping</span>
+                <span className="text-muted-foreground">{t('order.shipping')}</span>
                 <span>
                   {order.shippingAmount === 0
-                    ? 'Free'
+                    ? t('checkout.free')
                     : formatPrice(order.shippingAmount, order.currency)}
                 </span>
               </div>
               {order.discountAmount > 0 && (
                 <div className="flex justify-between text-green-600">
-                  <span>Discount</span>
+                  <span>{t('order.discount')}</span>
                   <span>-{formatPrice(order.discountAmount, order.currency)}</span>
                 </div>
               )}
               <div className="flex justify-between border-t pt-2 text-base font-semibold">
-                <span>Total</span>
+                <span>{t('order.total')}</span>
                 <span>{formatPrice(order.totalAmount, order.currency)}</span>
               </div>
               {order.paidAmount && (
                 <div className="flex justify-between text-sm text-muted-foreground">
-                  <span>Paid</span>
+                  <span>{t('order.paid')}</span>
                   <span>{formatPrice(order.paidAmount, order.currency)}</span>
                 </div>
               )}
@@ -207,7 +221,7 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
 
         <div className="mt-8 flex justify-center gap-4">
           <Button variant="outline" asChild>
-            <Link href="/">Continue Shopping</Link>
+            <Link href="/">{t('order.continue_shopping')}</Link>
           </Button>
         </div>
       </div>

@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Añadir al carrito",
+    "added": "¡Añadido!",
+    "quantity": "Cantidad",
+    "in_stock": "En stock",
+    "out_of_stock": "Agotado",
+    "only_left": "Solo quedan {count}",
+    "sale": "OFERTA",
+    "select_option": "Por favor seleccione una opción",
+    "insufficient_stock": "Stock insuficiente",
+    "options_count": "{count} opciones",
+    "colors_count": "{count} colores"
+  },
+  "cart": {
+    "title": "Carrito de compras",
+    "empty": "Tu carrito está vacío",
+    "continue_shopping": "Seguir comprando",
+    "subtotal": "Subtotal",
+    "shipping_note": "Envío calculado en el checkout",
+    "checkout": "Finalizar compra",
+    "aria_label": "Carrito de compras",
+    "each": "{price} c/u"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "description": "Completa tu compra",
+    "shipping_address": "Dirección de envío",
+    "recipient_name": "Nombre del destinatario",
+    "phone": "Teléfono",
+    "country": "País",
+    "select_country": "Seleccionar país",
+    "state": "Estado / Provincia",
+    "city": "Ciudad",
+    "street": "Dirección",
+    "street_placeholder": "Calle, número, apartamento, etc.",
+    "postal_code": "Código postal",
+    "order_summary": "Resumen del pedido",
+    "qty": "Cant: {quantity}",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "free": "Gratis",
+    "total": "Total",
+    "place_order": "Realizar pedido",
+    "processing": "Procesando...",
+    "sign_in_to_checkout": "Iniciar sesión para comprar",
+    "terms_notice": "Al realizar tu pedido, aceptas nuestros Términos de servicio y Política de privacidad.",
+    "failed": "Error en el checkout",
+    "validation": {
+      "name_required": "Por favor ingresa el nombre del destinatario",
+      "phone_required": "Por favor ingresa el número de teléfono",
+      "country_required": "Por favor selecciona un país",
+      "city_required": "Por favor ingresa la ciudad",
+      "street_required": "Por favor ingresa la dirección"
+    },
+    "placeholders": {
+      "name": "Nombre completo",
+      "phone": "+34 612 345 678",
+      "state": "Estado o provincia",
+      "city": "Ciudad",
+      "postal_code": "Código postal"
+    }
+  },
+  "order": {
+    "title": "Mis pedidos",
+    "description": "Ver historial de pedidos",
+    "order_placed": "¡Pedido realizado!",
+    "thank_you": "Gracias por tu pedido. Recibirás un correo de confirmación pronto.",
+    "order_number": "Pedido #{orderNo}",
+    "placed_on": "Realizado el {date}",
+    "items": "Artículos",
+    "items_count": "Artículos ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Dirección de envío",
+    "tracking": "Seguimiento: {number}",
+    "carrier": "Transportista",
+    "tracking_number": "Número de seguimiento",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "discount": "Descuento",
+    "total": "Total",
+    "paid": "Pagado",
+    "no_orders": "Sin pedidos todavía",
+    "no_orders_desc": "Cuando realices un pedido, aparecerá aquí.",
+    "start_shopping": "Empezar a comprar",
+    "continue_shopping": "Seguir comprando",
+    "copied": "Copiado al portapapeles",
+    "shipped": "Enviado",
+    "delivered": "Entregado",
+    "status": {
+      "pending": "Pendiente de pago",
+      "processing": "Procesando",
+      "shipped": "Enviado",
+      "delivered": "Entregado",
+      "completed": "Completado",
+      "canceled": "Cancelado",
+      "refunded": "Reembolsado"
+    }
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page_of": "Página {page} de {total}"
+  },
+  "common": {
+    "view_all": "Ver todos los productos",
+    "no_products": "No hay productos disponibles en este momento.",
+    "featured_collection": "Colección destacada",
+    "featured_description": "Descubre nuestros exclusivos juguetes de diseñador y coleccionables de edición limitada."
+  }
+}

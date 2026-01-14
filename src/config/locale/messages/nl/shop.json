@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "In winkelwagen",
+    "added": "Toegevoegd!",
+    "quantity": "Aantal",
+    "in_stock": "Op voorraad",
+    "out_of_stock": "Uitverkocht",
+    "only_left": "Nog {count} over",
+    "sale": "UITVERKOOP",
+    "select_option": "Selecteer een optie",
+    "insufficient_stock": "Onvoldoende voorraad",
+    "options_count": "{count} opties",
+    "colors_count": "{count} kleuren"
+  },
+  "cart": {
+    "title": "Winkelwagen",
+    "empty": "Je winkelwagen is leeg",
+    "continue_shopping": "Verder winkelen",
+    "subtotal": "Subtotaal",
+    "shipping_note": "Verzendkosten worden berekend bij het afrekenen",
+    "checkout": "Afrekenen",
+    "aria_label": "Winkelwagen",
+    "each": "{price} per stuk"
+  },
+  "checkout": {
+    "title": "Afrekenen",
+    "description": "Voltooi je aankoop",
+    "shipping_address": "Bezorgadres",
+    "recipient_name": "Naam ontvanger",
+    "phone": "Telefoon",
+    "country": "Land",
+    "select_country": "Selecteer land",
+    "state": "Provincie",
+    "city": "Stad",
+    "street": "Adres",
+    "street_placeholder": "Straat, huisnummer, appartement, etc.",
+    "postal_code": "Postcode",
+    "order_summary": "Besteloverzicht",
+    "qty": "Aantal: {quantity}",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "free": "Gratis",
+    "total": "Totaal",
+    "place_order": "Bestelling plaatsen",
+    "processing": "Verwerken...",
+    "sign_in_to_checkout": "Inloggen om af te rekenen",
+    "terms_notice": "Door je bestelling te plaatsen, ga je akkoord met onze Algemene voorwaarden en Privacybeleid.",
+    "failed": "Afrekenen mislukt",
+    "validation": {
+      "name_required": "Voer de naam van de ontvanger in",
+      "phone_required": "Voer het telefoonnummer in",
+      "country_required": "Selecteer een land",
+      "city_required": "Voer de stad in",
+      "street_required": "Voer het adres in"
+    },
+    "placeholders": {
+      "name": "Volledige naam",
+      "phone": "+31 6 12345678",
+      "state": "Provincie",
+      "city": "Stad",
+      "postal_code": "Postcode"
+    }
+  },
+  "order": {
+    "title": "Mijn bestellingen",
+    "description": "Bekijk je bestelgeschiedenis",
+    "order_placed": "Bestelling geplaatst!",
+    "thank_you": "Bedankt voor je bestelling. Je ontvangt binnenkort een bevestigingsmail.",
+    "order_number": "Bestelling #{orderNo}",
+    "placed_on": "Geplaatst op {date}",
+    "items": "Artikelen",
+    "items_count": "Artikelen ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Bezorgadres",
+    "tracking": "Tracking: {number}",
+    "carrier": "Vervoerder",
+    "tracking_number": "Trackingnummer",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "discount": "Korting",
+    "total": "Totaal",
+    "paid": "Betaald",
+    "no_orders": "Nog geen bestellingen",
+    "no_orders_desc": "Wanneer je een bestelling plaatst, verschijnt deze hier.",
+    "start_shopping": "Begin met winkelen",
+    "continue_shopping": "Verder winkelen",
+    "copied": "Gekopieerd naar klembord",
+    "shipped": "Verzonden",
+    "delivered": "Afgeleverd",
+    "status": {
+      "pending": "Wachten op betaling",
+      "processing": "In verwerking",
+      "shipped": "Verzonden",
+      "delivered": "Afgeleverd",
+      "completed": "Voltooid",
+      "canceled": "Geannuleerd",
+      "refunded": "Terugbetaald"
+    }
+  },
+  "pagination": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "page_of": "Pagina {page} van {total}"
+  },
+  "common": {
+    "view_all": "Bekijk alle producten",
+    "no_products": "Momenteel geen producten beschikbaar.",
+    "featured_collection": "Uitgelichte collectie",
+    "featured_description": "Ontdek onze exclusieve designer speelgoed en limited edition verzamelobjecten."
+  }
+}

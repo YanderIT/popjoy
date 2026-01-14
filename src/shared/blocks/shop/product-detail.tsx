@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import { Minus, Plus, ShoppingCart, Check } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
 import { Button } from '@/shared/components/ui/button';
@@ -36,6 +37,7 @@ interface ProductDetailProps {
 }
 
 export function ProductDetail({ product }: ProductDetailProps) {
+  const t = useTranslations('shop');
   const { addItem, setDrawerOpen } = useCart();
   const { formatPrice } = usePrice();
   const [quantity, setQuantity] = useState(1);
@@ -103,12 +105,12 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
   const handleAddToCart = () => {
     if (!selectedSku) {
-      toast.error('Please select an option');
+      toast.error(t('product.select_option'));
       return;
     }
 
     if (selectedSku.stock < quantity) {
-      toast.error('Insufficient stock');
+      toast.error(t('product.insufficient_stock'));
       return;
     }
 
@@ -150,7 +152,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
           />
           {selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price && (
             <div className="absolute left-4 top-4 rounded-full bg-red-500 px-3 py-1 text-sm font-semibold text-white">
-              SALE
+              {t('product.sale')}
             </div>
           )}
         </div>
@@ -213,18 +215,18 @@ export function ProductDetail({ product }: ProductDetailProps) {
               {selectedSku.stock > 0 ? (
                 <span className="text-sm text-green-600">
                   {selectedSku.stock > 10
-                    ? 'In Stock'
-                    : `Only ${selectedSku.stock} left`}
+                    ? t('product.in_stock')
+                    : t('product.only_left', { count: selectedSku.stock })}
                 </span>
               ) : (
-                <span className="text-sm text-red-500">Out of Stock</span>
+                <span className="text-sm text-red-500">{t('product.out_of_stock')}</span>
               )}
             </div>
           )}
 
           {/* Quantity Selector */}
           <div className="mt-6">
-            <label className="mb-2 block text-sm font-medium">Quantity</label>
+            <label className="mb-2 block text-sm font-medium">{t('product.quantity')}</label>
             <div className="flex items-center gap-3">
               <Button
                 variant="outline"
@@ -256,7 +258,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
             disabled={!selectedSku || selectedSku.stock === 0 || isAdding}
           >
             <ShoppingCart className="h-5 w-5" />
-            {isAdding ? 'Added!' : 'Add to Cart'}
+            {isAdding ? t('product.added') : t('product.add_to_cart')}
           </Button>
         </div>
       </div>

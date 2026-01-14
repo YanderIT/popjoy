@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Sepete Ekle",
+    "added": "Eklendi!",
+    "quantity": "Miktar",
+    "in_stock": "Stokta",
+    "out_of_stock": "Tükendi",
+    "only_left": "Sadece {count} kaldı",
+    "sale": "İNDİRİM",
+    "select_option": "Lütfen bir seçenek seçin",
+    "insufficient_stock": "Yetersiz stok",
+    "options_count": "{count} seçenek",
+    "colors_count": "{count} renk"
+  },
+  "cart": {
+    "title": "Alışveriş Sepeti",
+    "empty": "Sepetiniz boş",
+    "continue_shopping": "Alışverişe Devam Et",
+    "subtotal": "Ara Toplam",
+    "shipping_note": "Kargo ücreti ödeme sırasında hesaplanır",
+    "checkout": "Ödeme Yap",
+    "aria_label": "Alışveriş sepeti",
+    "each": "{price} adet"
+  },
+  "checkout": {
+    "title": "Ödeme",
+    "description": "Satın alma işlemini tamamla",
+    "shipping_address": "Teslimat Adresi",
+    "recipient_name": "Alıcı Adı",
+    "phone": "Telefon",
+    "country": "Ülke",
+    "select_country": "Ülke seçin",
+    "state": "İl / Bölge",
+    "city": "Şehir",
+    "street": "Adres",
+    "street_placeholder": "Sokak adresi, daire, kat vb.",
+    "postal_code": "Posta Kodu",
+    "order_summary": "Sipariş Özeti",
+    "qty": "Adet: {quantity}",
+    "subtotal": "Ara Toplam",
+    "shipping": "Kargo",
+    "free": "Ücretsiz",
+    "total": "Toplam",
+    "place_order": "Sipariş Ver",
+    "processing": "İşleniyor...",
+    "sign_in_to_checkout": "Ödeme için Giriş Yap",
+    "terms_notice": "Sipariş vererek Kullanım Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz.",
+    "failed": "Ödeme başarısız",
+    "validation": {
+      "name_required": "Lütfen alıcı adını girin",
+      "phone_required": "Lütfen telefon numarasını girin",
+      "country_required": "Lütfen ülke seçin",
+      "city_required": "Lütfen şehir girin",
+      "street_required": "Lütfen adres girin"
+    },
+    "placeholders": {
+      "name": "Ad Soyad",
+      "phone": "+90 532 123 4567",
+      "state": "İl veya bölge",
+      "city": "Şehir",
+      "postal_code": "Posta kodu"
+    }
+  },
+  "order": {
+    "title": "Siparişlerim",
+    "description": "Sipariş geçmişini görüntüle",
+    "order_placed": "Sipariş Verildi!",
+    "thank_you": "Siparişiniz için teşekkür ederiz. Onay e-postası yakında gönderilecektir.",
+    "order_number": "Sipariş #{orderNo}",
+    "placed_on": "{date} tarihinde verildi",
+    "items": "Ürünler",
+    "items_count": "Ürünler ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Teslimat Adresi",
+    "tracking": "Takip: {number}",
+    "carrier": "Kargo Firması",
+    "tracking_number": "Takip Numarası",
+    "subtotal": "Ara Toplam",
+    "shipping": "Kargo",
+    "discount": "İndirim",
+    "total": "Toplam",
+    "paid": "Ödendi",
+    "no_orders": "Henüz sipariş yok",
+    "no_orders_desc": "Sipariş verdiğinizde burada görünecektir.",
+    "start_shopping": "Alışverişe Başla",
+    "continue_shopping": "Alışverişe Devam Et",
+    "copied": "Panoya kopyalandı",
+    "shipped": "Kargoya Verildi",
+    "delivered": "Teslim Edildi",
+    "status": {
+      "pending": "Ödeme Bekleniyor",
+      "processing": "İşleniyor",
+      "shipped": "Kargoya Verildi",
+      "delivered": "Teslim Edildi",
+      "completed": "Tamamlandı",
+      "canceled": "İptal Edildi",
+      "refunded": "İade Edildi"
+    }
+  },
+  "pagination": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "page_of": "Sayfa {page} / {total}"
+  },
+  "common": {
+    "view_all": "Tüm Ürünleri Görüntüle",
+    "no_products": "Şu anda mevcut ürün bulunmamaktadır.",
+    "featured_collection": "Öne Çıkan Koleksiyon",
+    "featured_description": "Özel tasarım oyuncaklarımızı ve sınırlı sayıda koleksiyon ürünlerimizi keşfedin."
+  }
+}

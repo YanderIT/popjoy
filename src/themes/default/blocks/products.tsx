@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ShoppingCart } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
 import { Card, CardContent } from '@/shared/components/ui/card';
@@ -41,6 +42,7 @@ export function Products({
   section: Section;
   className?: string;
 }) {
+  const t = useTranslations('shop');
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const { formatPrice } = usePrice();
@@ -103,10 +105,10 @@ export function Products({
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
           <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
-            {section.title || 'Featured Collection'}
+            {section.title || t('common.featured_collection')}
           </h2>
           <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
-            {section.description || 'Discover our exclusive designer toys and limited edition collectibles.'}
+            {section.description || t('common.featured_description')}
           </p>
         </motion.div>
 
@@ -155,12 +157,12 @@ export function Products({
                       </motion.div>
                       {product.skus.some(s => s.originalPrice && s.originalPrice > s.price) && (
                         <div className="absolute left-3 top-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
-                          SALE
+                          {t('product.sale')}
                         </div>
                       )}
                       {getSkuCount(product) > 1 && (
                         <div className="absolute right-3 top-3 rounded-full bg-zinc-900/80 px-2 py-1 text-xs font-medium text-white">
-                          {getSkuCount(product)} colors
+                          {t('product.colors_count', { count: getSkuCount(product) })}
                         </div>
                       )}
                     </div>
@@ -174,7 +176,7 @@ export function Products({
                         size="lg"
                       >
                         <ShoppingCart className="h-4 w-4" />
-                        Add to Cart
+                        {t('product.add_to_cart')}
                       </Button>
                     </CardContent>
                   </Card>
@@ -189,7 +191,7 @@ export function Products({
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            No products available at the moment.
+            {t('common.no_products')}
           </motion.div>
         )}
 
@@ -202,7 +204,7 @@ export function Products({
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <Button variant="outline" size="lg" asChild>
-              <a href="/shop">View All Products</a>
+              <a href="/shop">{t('common.view_all')}</a>
             </Button>
           </motion.div>
         )}

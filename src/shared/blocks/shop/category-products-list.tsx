@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ShoppingCart } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
 import { Card, CardContent } from '@/shared/components/ui/card';
@@ -57,6 +58,7 @@ export function CategoryProductsList({
   limit,
   noProductsMessage,
 }: CategoryProductsListProps) {
+  const t = useTranslations('shop');
   const { formatPrice } = usePrice();
   const totalPages = Math.ceil(total / limit);
 
@@ -161,12 +163,12 @@ export function CategoryProductsList({
                           (s) => s.originalPrice && s.originalPrice > s.price
                         ) && (
                           <div className="absolute left-3 top-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
-                            SALE
+                            {t('product.sale')}
                           </div>
                         )}
                         {product.skus.length > 1 && (
                           <div className="absolute right-3 top-3 rounded-full bg-zinc-900/80 px-2 py-1 text-xs font-medium text-white">
-                            {product.skus.length} options
+                            {t('product.options_count', { count: product.skus.length })}
                           </div>
                         )}
                       </div>
@@ -180,7 +182,7 @@ export function CategoryProductsList({
                           size="lg"
                         >
                           <ShoppingCart className="h-4 w-4" />
-                          Add to Cart
+                          {t('product.add_to_cart')}
                         </Button>
                       </CardContent>
                     </Card>
@@ -201,17 +203,17 @@ export function CategoryProductsList({
                   <Link
                     href={`${currentCategory.url}?page=${page - 1}`}
                   >
-                    <Button variant="outline">Previous</Button>
+                    <Button variant="outline">{t('pagination.previous')}</Button>
                   </Link>
                 )}
                 <span className="flex items-center px-4 text-sm text-muted-foreground">
-                  Page {page} of {totalPages}
+                  {t('pagination.page_of', { page, total: totalPages })}
                 </span>
                 {page < totalPages && (
                   <Link
                     href={`${currentCategory.url}?page=${page + 1}`}
                   >
-                    <Button variant="outline">Next</Button>
+                    <Button variant="outline">{t('pagination.next')}</Button>
                   </Link>
                 )}
               </motion.div>
@@ -225,7 +227,7 @@ export function CategoryProductsList({
           >
             <p className="text-lg">{noProductsMessage}</p>
             <Link href="/shop" className="mt-4 inline-block">
-              <Button variant="outline">View All Products</Button>
+              <Button variant="outline">{t('common.view_all')}</Button>
             </Link>
           </motion.div>
         )}

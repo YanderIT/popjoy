@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "カートに追加",
+    "added": "追加しました！",
+    "quantity": "数量",
+    "in_stock": "在庫あり",
+    "out_of_stock": "在庫切れ",
+    "only_left": "残り {count} 点",
+    "sale": "セール",
+    "select_option": "オプションを選択してください",
+    "insufficient_stock": "在庫不足",
+    "options_count": "{count} オプション",
+    "colors_count": "{count} 色"
+  },
+  "cart": {
+    "title": "ショッピングカート",
+    "empty": "カートは空です",
+    "continue_shopping": "買い物を続ける",
+    "subtotal": "小計",
+    "shipping_note": "送料は決済時に計算されます",
+    "checkout": "レジに進む",
+    "aria_label": "ショッピングカート",
+    "each": "{price}/個"
+  },
+  "checkout": {
+    "title": "決済",
+    "description": "購入を完了する",
+    "shipping_address": "配送先住所",
+    "recipient_name": "受取人名",
+    "phone": "電話番号",
+    "country": "国",
+    "select_country": "国を選択",
+    "state": "都道府県",
+    "city": "市区町村",
+    "street": "番地・建物名",
+    "street_placeholder": "番地、アパート、部屋番号など",
+    "postal_code": "郵便番号",
+    "order_summary": "注文概要",
+    "qty": "数量: {quantity}",
+    "subtotal": "小計",
+    "shipping": "送料",
+    "free": "無料",
+    "total": "合計",
+    "place_order": "注文を確定",
+    "processing": "処理中...",
+    "sign_in_to_checkout": "ログインして決済",
+    "terms_notice": "注文を確定することで、利用規約とプライバシーポリシーに同意したものとみなされます。",
+    "failed": "決済に失敗しました",
+    "validation": {
+      "name_required": "受取人名を入力してください",
+      "phone_required": "電話番号を入力してください",
+      "country_required": "国を選択してください",
+      "city_required": "市区町村を入力してください",
+      "street_required": "番地を入力してください"
+    },
+    "placeholders": {
+      "name": "氏名",
+      "phone": "+81 90 1234 5678",
+      "state": "都道府県",
+      "city": "市区町村",
+      "postal_code": "郵便番号"
+    }
+  },
+  "order": {
+    "title": "注文履歴",
+    "description": "注文履歴を確認",
+    "order_placed": "注文完了！",
+    "thank_you": "ご注文ありがとうございます。確認メールをお送りします。",
+    "order_number": "注文番号 #{orderNo}",
+    "placed_on": "注文日: {date}",
+    "items": "商品",
+    "items_count": "商品 ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "配送先住所",
+    "tracking": "追跡番号: {number}",
+    "carrier": "配送業者",
+    "tracking_number": "追跡番号",
+    "subtotal": "小計",
+    "shipping": "送料",
+    "discount": "割引",
+    "total": "合計",
+    "paid": "支払い済み",
+    "no_orders": "注文履歴がありません",
+    "no_orders_desc": "注文すると、ここに表示されます。",
+    "start_shopping": "買い物を始める",
+    "continue_shopping": "買い物を続ける",
+    "copied": "クリップボードにコピーしました",
+    "shipped": "発送済み",
+    "delivered": "配達完了",
+    "status": {
+      "pending": "支払い待ち",
+      "processing": "処理中",
+      "shipped": "発送済み",
+      "delivered": "配達完了",
+      "completed": "完了",
+      "canceled": "キャンセル",
+      "refunded": "返金済み"
+    }
+  },
+  "pagination": {
+    "previous": "前へ",
+    "next": "次へ",
+    "page_of": "{page} / {total} ページ"
+  },
+  "common": {
+    "view_all": "すべての商品を見る",
+    "no_products": "現在商品がありません。",
+    "featured_collection": "注目コレクション",
+    "featured_description": "限定デザイナートイやコレクターズアイテムをお届けします。"
+  }
+}

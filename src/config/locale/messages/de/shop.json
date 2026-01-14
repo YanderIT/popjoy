@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "In den Warenkorb",
+    "added": "Hinzugefügt!",
+    "quantity": "Menge",
+    "in_stock": "Auf Lager",
+    "out_of_stock": "Nicht verfügbar",
+    "only_left": "Nur noch {count} übrig",
+    "sale": "SALE",
+    "select_option": "Bitte wählen Sie eine Option",
+    "insufficient_stock": "Nicht genügend Lagerbestand",
+    "options_count": "{count} Optionen",
+    "colors_count": "{count} Farben"
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "continue_shopping": "Weiter einkaufen",
+    "subtotal": "Zwischensumme",
+    "shipping_note": "Versandkosten werden an der Kasse berechnet",
+    "checkout": "Zur Kasse",
+    "aria_label": "Warenkorb",
+    "each": "{price} pro Stück"
+  },
+  "checkout": {
+    "title": "Kasse",
+    "description": "Kauf abschließen",
+    "shipping_address": "Lieferadresse",
+    "recipient_name": "Empfängername",
+    "phone": "Telefon",
+    "country": "Land",
+    "select_country": "Land auswählen",
+    "state": "Bundesland",
+    "city": "Stadt",
+    "street": "Straße",
+    "street_placeholder": "Straße, Hausnummer, Wohnung usw.",
+    "postal_code": "Postleitzahl",
+    "order_summary": "Bestellübersicht",
+    "qty": "Menge: {quantity}",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "free": "Kostenlos",
+    "total": "Gesamt",
+    "place_order": "Bestellung aufgeben",
+    "processing": "Wird bearbeitet...",
+    "sign_in_to_checkout": "Anmelden zum Bestellen",
+    "terms_notice": "Mit Ihrer Bestellung stimmen Sie unseren AGB und der Datenschutzerklärung zu.",
+    "failed": "Bestellung fehlgeschlagen",
+    "validation": {
+      "name_required": "Bitte geben Sie den Empfängernamen ein",
+      "phone_required": "Bitte geben Sie die Telefonnummer ein",
+      "country_required": "Bitte wählen Sie ein Land",
+      "city_required": "Bitte geben Sie die Stadt ein",
+      "street_required": "Bitte geben Sie die Straße ein"
+    },
+    "placeholders": {
+      "name": "Vollständiger Name",
+      "phone": "+49 123 456 7890",
+      "state": "Bundesland",
+      "city": "Stadt",
+      "postal_code": "Postleitzahl"
+    }
+  },
+  "order": {
+    "title": "Meine Bestellungen",
+    "description": "Bestellverlauf anzeigen",
+    "order_placed": "Bestellung aufgegeben!",
+    "thank_you": "Vielen Dank für Ihre Bestellung. Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+    "order_number": "Bestellnummer #{orderNo}",
+    "placed_on": "Bestellt am {date}",
+    "items": "Artikel",
+    "items_count": "Artikel ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Lieferadresse",
+    "tracking": "Sendungsverfolgung: {number}",
+    "carrier": "Versanddienstleister",
+    "tracking_number": "Sendungsnummer",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "discount": "Rabatt",
+    "total": "Gesamt",
+    "paid": "Bezahlt",
+    "no_orders": "Noch keine Bestellungen",
+    "no_orders_desc": "Wenn Sie eine Bestellung aufgeben, wird sie hier angezeigt.",
+    "start_shopping": "Jetzt einkaufen",
+    "continue_shopping": "Weiter einkaufen",
+    "copied": "In die Zwischenablage kopiert",
+    "shipped": "Versendet",
+    "delivered": "Zugestellt",
+    "status": {
+      "pending": "Zahlung ausstehend",
+      "processing": "In Bearbeitung",
+      "shipped": "Versendet",
+      "delivered": "Zugestellt",
+      "completed": "Abgeschlossen",
+      "canceled": "Storniert",
+      "refunded": "Erstattet"
+    }
+  },
+  "pagination": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "page_of": "Seite {page} von {total}"
+  },
+  "common": {
+    "view_all": "Alle Produkte anzeigen",
+    "no_products": "Derzeit keine Produkte verfügbar.",
+    "featured_collection": "Ausgewählte Kollektion",
+    "featured_description": "Entdecken Sie unsere exklusiven Designer-Spielzeuge und limitierten Sammlerstücke."
+  }
+}

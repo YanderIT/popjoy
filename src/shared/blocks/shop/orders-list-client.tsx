@@ -1,6 +1,7 @@
 'use client';
 
 import { Copy, MapPin, Package, Truck } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
 import {
@@ -12,17 +13,24 @@ import {
 import { Button } from '@/shared/components/ui/button';
 import { ShopOrderWithItems } from '@/shared/models/shopOrder';
 
-const STATUS_LABELS: Record<string, { label: string; color: string }> = {
-  pending_payment: {
-    label: 'Pending Payment',
-    color: 'text-yellow-600 bg-yellow-50',
-  },
-  pending_shipment: { label: 'Processing', color: 'text-blue-600 bg-blue-50' },
-  shipped: { label: 'Shipped', color: 'text-purple-600 bg-purple-50' },
-  delivered: { label: 'Delivered', color: 'text-green-600 bg-green-50' },
-  completed: { label: 'Completed', color: 'text-green-600 bg-green-50' },
-  canceled: { label: 'Canceled', color: 'text-red-600 bg-red-50' },
-  refunded: { label: 'Refunded', color: 'text-gray-600 bg-gray-50' },
+const STATUS_COLORS: Record<string, string> = {
+  pending_payment: 'text-yellow-600 bg-yellow-50',
+  pending_shipment: 'text-blue-600 bg-blue-50',
+  shipped: 'text-purple-600 bg-purple-50',
+  delivered: 'text-green-600 bg-green-50',
+  completed: 'text-green-600 bg-green-50',
+  canceled: 'text-red-600 bg-red-50',
+  refunded: 'text-gray-600 bg-gray-50',
+};
+
+const STATUS_KEYS: Record<string, string> = {
+  pending_payment: 'pending',
+  pending_shipment: 'processing',
+  shipped: 'shipped',
+  delivered: 'delivered',
+  completed: 'completed',
+  canceled: 'canceled',
+  refunded: 'refunded',
 };
 
 interface OrdersListClientProps {
@@ -30,6 +38,8 @@ interface OrdersListClientProps {
 }
 
 export function OrdersListClient({ orders }: OrdersListClientProps) {
+  const t = useTranslations('shop');
+
   const formatPrice = (cents: number, currency: string = 'USD') => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -57,16 +67,14 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
-    toast.success('Copied to clipboard');
+    toast.success(t('order.copied'));
   };
 
   return (
     <Accordion type="single" collapsible className="space-y-2">
       {orders.map((order) => {
-        const statusInfo = STATUS_LABELS[order.status] || {
-          label: order.status,
-          color: 'text-gray-600 bg-gray-50',
-        };
+        const statusKey = STATUS_KEYS[order.status] || order.status;
+        const statusColor = STATUS_COLORS[order.status] || 'text-gray-600 bg-gray-50';
         const address = parseAddress(order.shippingAddress);
 
         return (
@@ -78,16 +86,16 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
             <AccordionTrigger className="hover:no-underline">
               <div className="flex w-full flex-wrap items-center justify-between gap-4 pr-4">
                 <div className="text-left">
-                  <p className="font-medium">Order #{order.orderNo}</p>
+                  <p className="font-medium">{t('order.order_number', { orderNo: order.orderNo })}</p>
                   <p className="mt-1 text-sm text-muted-foreground">
                     {formatDate(order.createdAt)}
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <span
-                    className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${statusInfo.color}`}
+                    className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${statusColor}`}
                   >
-                    {statusInfo.label}
+                    {t(`order.status.${statusKey}`)}
                   </span>
                   <p className="font-semibold">
                     {formatPrice(order.totalAmount, order.currency)}
@@ -101,7 +109,7 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                 <div>
                   <h4 className="mb-2 flex items-center gap-2 text-sm font-medium">
                     <Package className="h-4 w-4" />
-                    Items
+                    {t('order.items')}
                   </h4>
                   <div className="space-y-2">
                     {order.items.map((item) => (
@@ -138,14 +146,14 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                   <div>
                     <h4 className="mb-2 flex items-center gap-2 text-sm font-medium">
                       <Truck className="h-4 w-4" />
-                      Shipping
+                      {t('order.shipping')}
                     </h4>
                     <div className="rounded-md bg-muted/50 p-3">
                       <div className="flex flex-wrap items-center gap-4">
                         {order.shippingCarrier && (
                           <div>
                             <p className="text-xs text-muted-foreground">
-                              Carrier
+                              {t('order.carrier')}
                             </p>
                             <p className="text-sm font-medium">
                               {order.shippingCarrier}
@@ -156,7 +164,7 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                           <div className="flex items-center gap-2">
                             <div>
                               <p className="text-xs text-muted-foreground">
-                                Tracking Number
+                                {t('order.tracking_number')}
                               </p>
                               <p className="text-sm font-medium">
                                 {order.trackingNumber}
@@ -177,7 +185,7 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                         {order.shippedAt && (
                           <div>
                             <p className="text-xs text-muted-foreground">
-                              Shipped
+                              {t('order.shipped')}
                             </p>
                             <p className="text-sm font-medium">
                               {formatDate(order.shippedAt)}
@@ -187,7 +195,7 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                         {order.deliveredAt && (
                           <div>
                             <p className="text-xs text-muted-foreground">
-                              Delivered
+                              {t('order.delivered')}
                             </p>
                             <p className="text-sm font-medium">
                               {formatDate(order.deliveredAt)}
@@ -204,7 +212,7 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                   <div>
                     <h4 className="mb-2 flex items-center gap-2 text-sm font-medium">
                       <MapPin className="h-4 w-4" />
-                      Shipping Address
+                      {t('order.shipping_address')}
                     </h4>
                     <div className="rounded-md bg-muted/50 p-3 text-sm">
                       <p className="font-medium">{address.recipientName}</p>
@@ -223,14 +231,14 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                 {/* Order Summary */}
                 <div className="border-t pt-3">
                   <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Subtotal</span>
+                    <span className="text-muted-foreground">{t('order.subtotal')}</span>
                     <span>
                       {formatPrice(order.subtotalAmount, order.currency)}
                     </span>
                   </div>
                   {order.shippingAmount > 0 && (
                     <div className="flex justify-between text-sm">
-                      <span className="text-muted-foreground">Shipping</span>
+                      <span className="text-muted-foreground">{t('order.shipping')}</span>
                       <span>
                         {formatPrice(order.shippingAmount, order.currency)}
                       </span>
@@ -238,14 +246,14 @@ export function OrdersListClient({ orders }: OrdersListClientProps) {
                   )}
                   {order.discountAmount > 0 && (
                     <div className="flex justify-between text-sm text-green-600">
-                      <span>Discount</span>
+                      <span>{t('order.discount')}</span>
                       <span>
                         -{formatPrice(order.discountAmount, order.currency)}
                       </span>
                     </div>
                   )}
                   <div className="mt-1 flex justify-between font-medium">
-                    <span>Total</span>
+                    <span>{t('order.total')}</span>
                     <span>
                       {formatPrice(order.totalAmount, order.currency)}
                     </span>

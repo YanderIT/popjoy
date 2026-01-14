@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "added": "Ajouté !",
+    "quantity": "Quantité",
+    "in_stock": "En stock",
+    "out_of_stock": "Rupture de stock",
+    "only_left": "Plus que {count} en stock",
+    "sale": "PROMO",
+    "select_option": "Veuillez sélectionner une option",
+    "insufficient_stock": "Stock insuffisant",
+    "options_count": "{count} options",
+    "colors_count": "{count} couleurs"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide",
+    "continue_shopping": "Continuer les achats",
+    "subtotal": "Sous-total",
+    "shipping_note": "Frais de livraison calculés à la caisse",
+    "checkout": "Commander",
+    "aria_label": "Panier",
+    "each": "{price} l'unité"
+  },
+  "checkout": {
+    "title": "Paiement",
+    "description": "Finaliser votre achat",
+    "shipping_address": "Adresse de livraison",
+    "recipient_name": "Nom du destinataire",
+    "phone": "Téléphone",
+    "country": "Pays",
+    "select_country": "Sélectionner un pays",
+    "state": "Région / Province",
+    "city": "Ville",
+    "street": "Adresse",
+    "street_placeholder": "Adresse, appartement, suite, etc.",
+    "postal_code": "Code postal",
+    "order_summary": "Récapitulatif de commande",
+    "qty": "Qté : {quantity}",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuit",
+    "total": "Total",
+    "place_order": "Passer la commande",
+    "processing": "Traitement en cours...",
+    "sign_in_to_checkout": "Se connecter pour commander",
+    "terms_notice": "En passant votre commande, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.",
+    "failed": "Échec du paiement",
+    "validation": {
+      "name_required": "Veuillez entrer le nom du destinataire",
+      "phone_required": "Veuillez entrer le numéro de téléphone",
+      "country_required": "Veuillez sélectionner un pays",
+      "city_required": "Veuillez entrer la ville",
+      "street_required": "Veuillez entrer l'adresse"
+    },
+    "placeholders": {
+      "name": "Nom complet",
+      "phone": "+33 1 23 45 67 89",
+      "state": "Région ou province",
+      "city": "Ville",
+      "postal_code": "Code postal"
+    }
+  },
+  "order": {
+    "title": "Mes commandes",
+    "description": "Voir l'historique des commandes",
+    "order_placed": "Commande passée !",
+    "thank_you": "Merci pour votre commande. Vous recevrez bientôt un e-mail de confirmation.",
+    "order_number": "Commande #{orderNo}",
+    "placed_on": "Passée le {date}",
+    "items": "Articles",
+    "items_count": "Articles ({count})",
+    "sku": "SKU : {sku}",
+    "shipping_address": "Adresse de livraison",
+    "tracking": "Suivi : {number}",
+    "carrier": "Transporteur",
+    "tracking_number": "Numéro de suivi",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "discount": "Réduction",
+    "total": "Total",
+    "paid": "Payé",
+    "no_orders": "Aucune commande",
+    "no_orders_desc": "Vos commandes apparaîtront ici.",
+    "start_shopping": "Commencer les achats",
+    "continue_shopping": "Continuer les achats",
+    "copied": "Copié dans le presse-papiers",
+    "shipped": "Expédié",
+    "delivered": "Livré",
+    "status": {
+      "pending": "En attente de paiement",
+      "processing": "En cours de traitement",
+      "shipped": "Expédié",
+      "delivered": "Livré",
+      "completed": "Terminé",
+      "canceled": "Annulé",
+      "refunded": "Remboursé"
+    }
+  },
+  "pagination": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page_of": "Page {page} sur {total}"
+  },
+  "common": {
+    "view_all": "Voir tous les produits",
+    "no_products": "Aucun produit disponible pour le moment.",
+    "featured_collection": "Collection vedette",
+    "featured_description": "Découvrez nos jouets design exclusifs et nos éditions limitées de collection."
+  }
+}

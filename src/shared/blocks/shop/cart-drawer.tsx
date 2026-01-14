@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Minus, Plus, ShoppingCart, Trash2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
 import {
@@ -17,6 +18,7 @@ import { usePrice } from '@/shared/hooks/use-price';
 import { CartIcon } from './cart-icon';
 
 export function CartDrawer() {
+  const t = useTranslations('shop');
   const { items, isLoading, removeItem, updateQuantity, getSubtotal, getCurrency, isDrawerOpen, setDrawerOpen } = useCart();
   const { formatPrice } = usePrice();
 
@@ -32,7 +34,7 @@ export function CartDrawer() {
           <SheetHeader>
             <SheetTitle className="flex items-center gap-2">
               <ShoppingCart className="h-5 w-5" />
-              Shopping Cart
+              {t('cart.title')}
             </SheetTitle>
           </SheetHeader>
 
@@ -43,9 +45,9 @@ export function CartDrawer() {
           ) : items.length === 0 ? (
             <div className="flex flex-1 flex-col items-center justify-center gap-4 text-muted-foreground">
               <ShoppingCart className="h-16 w-16 opacity-50" />
-              <p>Your cart is empty</p>
+              <p>{t('cart.empty')}</p>
               <Button variant="outline" onClick={() => setDrawerOpen(false)}>
-                Continue Shopping
+                {t('cart.continue_shopping')}
               </Button>
             </div>
           ) : (
@@ -117,7 +119,7 @@ export function CartDrawer() {
                             </p>
                             {item.quantity > 1 && (
                               <p className="text-xs text-muted-foreground">
-                                {formatPrice(item.price, item.currency)} each
+                                {t('cart.each', { price: formatPrice(item.price, item.currency) })}
                               </p>
                             )}
                           </div>
@@ -131,11 +133,11 @@ export function CartDrawer() {
               <SheetFooter className="border-t pt-4">
                 <div className="w-full space-y-4">
                   <div className="flex items-center justify-between text-base font-medium">
-                    <span>Subtotal</span>
+                    <span>{t('cart.subtotal')}</span>
                     <span>{formatPrice(subtotal, currency)}</span>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Shipping calculated at checkout
+                    {t('cart.shipping_note')}
                   </p>
                   <Button
                     className="w-full"
@@ -143,7 +145,7 @@ export function CartDrawer() {
                     asChild
                     onClick={() => setDrawerOpen(false)}
                   >
-                    <Link href="/checkout">Checkout</Link>
+                    <Link href="/checkout">{t('cart.checkout')}</Link>
                   </Button>
                 </div>
               </SheetFooter>

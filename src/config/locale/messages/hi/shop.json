@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "कार्ट में डालें",
+    "added": "जोड़ा गया!",
+    "quantity": "मात्रा",
+    "in_stock": "स्टॉक में",
+    "out_of_stock": "स्टॉक में नहीं",
+    "only_left": "केवल {count} बचे",
+    "sale": "सेल",
+    "select_option": "कृपया एक विकल्प चुनें",
+    "insufficient_stock": "अपर्याप्त स्टॉक",
+    "options_count": "{count} विकल्प",
+    "colors_count": "{count} रंग"
+  },
+  "cart": {
+    "title": "शॉपिंग कार्ट",
+    "empty": "आपका कार्ट खाली है",
+    "continue_shopping": "खरीदारी जारी रखें",
+    "subtotal": "उप-योग",
+    "shipping_note": "शिपिंग चेकआउट पर गणना की जाएगी",
+    "checkout": "चेकआउट",
+    "aria_label": "शॉपिंग कार्ट",
+    "each": "{price} प्रति"
+  },
+  "checkout": {
+    "title": "चेकआउट",
+    "description": "अपनी खरीदारी पूरी करें",
+    "shipping_address": "शिपिंग पता",
+    "recipient_name": "प्राप्तकर्ता का नाम",
+    "phone": "फोन",
+    "country": "देश",
+    "select_country": "देश चुनें",
+    "state": "राज्य / प्रांत",
+    "city": "शहर",
+    "street": "पता",
+    "street_placeholder": "सड़क का पता, अपार्टमेंट, सुइट, आदि।",
+    "postal_code": "पिन कोड",
+    "order_summary": "ऑर्डर सारांश",
+    "qty": "मात्रा: {quantity}",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "free": "मुफ्त",
+    "total": "कुल",
+    "place_order": "ऑर्डर दें",
+    "processing": "प्रोसेसिंग...",
+    "sign_in_to_checkout": "चेकआउट के लिए साइन इन करें",
+    "terms_notice": "ऑर्डर देकर, आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत हैं।",
+    "failed": "चेकआउट विफल",
+    "validation": {
+      "name_required": "कृपया प्राप्तकर्ता का नाम दर्ज करें",
+      "phone_required": "कृपया फोन नंबर दर्ज करें",
+      "country_required": "कृपया देश चुनें",
+      "city_required": "कृपया शहर दर्ज करें",
+      "street_required": "कृपया पता दर्ज करें"
+    },
+    "placeholders": {
+      "name": "पूरा नाम",
+      "phone": "+91 98765 43210",
+      "state": "राज्य या प्रांत",
+      "city": "शहर",
+      "postal_code": "पिन कोड"
+    }
+  },
+  "order": {
+    "title": "मेरे ऑर्डर",
+    "description": "ऑर्डर इतिहास देखें",
+    "order_placed": "ऑर्डर दिया गया!",
+    "thank_you": "आपके ऑर्डर के लिए धन्यवाद। आपको जल्द ही पुष्टि ईमेल मिलेगी।",
+    "order_number": "ऑर्डर #{orderNo}",
+    "placed_on": "{date} को दिया गया",
+    "items": "आइटम",
+    "items_count": "आइटम ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "शिपिंग पता",
+    "tracking": "ट्रैकिंग: {number}",
+    "carrier": "कैरियर",
+    "tracking_number": "ट्रैकिंग नंबर",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "discount": "छूट",
+    "total": "कुल",
+    "paid": "भुगतान किया",
+    "no_orders": "अभी कोई ऑर्डर नहीं",
+    "no_orders_desc": "जब आप ऑर्डर देंगे, वह यहाँ दिखाई देगा।",
+    "start_shopping": "खरीदारी शुरू करें",
+    "continue_shopping": "खरीदारी जारी रखें",
+    "copied": "क्लिपबोर्ड पर कॉपी किया गया",
+    "shipped": "शिप किया गया",
+    "delivered": "डिलीवर किया गया",
+    "status": {
+      "pending": "भुगतान लंबित",
+      "processing": "प्रोसेसिंग",
+      "shipped": "शिप किया गया",
+      "delivered": "डिलीवर किया गया",
+      "completed": "पूर्ण",
+      "canceled": "रद्द",
+      "refunded": "रिफंड किया गया"
+    }
+  },
+  "pagination": {
+    "previous": "पिछला",
+    "next": "अगला",
+    "page_of": "पृष्ठ {page} का {total}"
+  },
+  "common": {
+    "view_all": "सभी उत्पाद देखें",
+    "no_products": "वर्तमान में कोई उत्पाद उपलब्ध नहीं है।",
+    "featured_collection": "फीचर्ड कलेक्शन",
+    "featured_description": "हमारे विशेष डिजाइनर खिलौने और सीमित संस्करण संग्रहणीय खोजें।"
+  }
+}

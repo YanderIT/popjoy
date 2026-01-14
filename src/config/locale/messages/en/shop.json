@@ -1,0 +1,111 @@
+{
+  "product": {
+    "add_to_cart": "Add to Cart",
+    "added": "Added!",
+    "quantity": "Quantity",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "only_left": "Only {count} left",
+    "sale": "SALE",
+    "select_option": "Please select an option",
+    "insufficient_stock": "Insufficient stock",
+    "options_count": "{count} options",
+    "colors_count": "{count} colors"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continue_shopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping_note": "Shipping calculated at checkout",
+    "checkout": "Checkout",
+    "aria_label": "Shopping cart",
+    "each": "{price} each"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "description": "Complete your purchase",
+    "shipping_address": "Shipping Address",
+    "recipient_name": "Recipient Name",
+    "phone": "Phone",
+    "country": "Country",
+    "select_country": "Select country",
+    "state": "State / Province",
+    "city": "City",
+    "street": "Street Address",
+    "street_placeholder": "Street address, apartment, suite, etc.",
+    "postal_code": "Postal Code",
+    "order_summary": "Order Summary",
+    "qty": "Qty: {quantity}",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "total": "Total",
+    "place_order": "Place Order",
+    "processing": "Processing...",
+    "sign_in_to_checkout": "Sign in to Checkout",
+    "terms_notice": "By placing your order, you agree to our Terms of Service and Privacy Policy.",
+    "failed": "Checkout failed",
+    "validation": {
+      "name_required": "Please enter recipient name",
+      "phone_required": "Please enter phone number",
+      "country_required": "Please select country",
+      "city_required": "Please enter city",
+      "street_required": "Please enter street address"
+    },
+    "placeholders": {
+      "name": "Full name",
+      "phone": "+1 234 567 8900",
+      "state": "State or province",
+      "city": "City",
+      "postal_code": "Postal code"
+    }
+  },
+  "order": {
+    "title": "My Orders",
+    "description": "View your order history",
+    "order_placed": "Order Placed!",
+    "thank_you": "Thank you for your order. You will receive an email confirmation shortly.",
+    "order_number": "Order #{orderNo}",
+    "placed_on": "Placed on {date}",
+    "items": "Items",
+    "items_count": "Items ({count})",
+    "sku": "SKU: {sku}",
+    "shipping_address": "Shipping Address",
+    "tracking": "Tracking: {number}",
+    "carrier": "Carrier",
+    "tracking_number": "Tracking Number",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "discount": "Discount",
+    "total": "Total",
+    "paid": "Paid",
+    "no_orders": "No orders yet",
+    "no_orders_desc": "When you place an order, it will appear here.",
+    "start_shopping": "Start Shopping",
+    "continue_shopping": "Continue Shopping",
+    "copied": "Copied to clipboard",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "status": {
+      "pending": "Pending Payment",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "completed": "Completed",
+      "canceled": "Canceled",
+      "refunded": "Refunded"
+    }
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page_of": "Page {page} of {total}"
+  },
+  "common": {
+    "view_all": "View All Products",
+    "no_products": "No products available at the moment.",
+    "featured_collection": "Featured Collection",
+    "featured_description": "Discover our exclusive designer toys and limited edition collectibles."
+  }
+}
