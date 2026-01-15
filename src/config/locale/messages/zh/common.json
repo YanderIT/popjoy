@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "PoptoyStudio 模板二",
-    "description": "PoptoyStudio 是用于构建 AI SaaS 创业项目的 NextJS 脚手架。提供丰富模板和组件，助您快速上线产品。",
-    "keywords": "PoptoyStudio, PoptoyStudio-boilerplate, PoptoyStudio-template-two-demo"
+    "title": "PoptoyStudio",
+    "description": "发现独特的设计师玩具、艺术手办和限量版收藏品。为全球收藏家精选的系列。",
+    "keywords": "设计师玩具, 艺术玩具, 收藏品, 限量版, 手办, PoptoyStudio"
   },
   "sign": {
     "sign_in_title": "登录",

@@ -5,6 +5,7 @@ import { Empty } from '@/shared/blocks/common';
 import { Header, Main, MainHeader } from '@/shared/blocks/dashboard';
 import { FormCard } from '@/shared/blocks/form';
 import { getUuid } from '@/shared/lib/hash';
+import { unitToCents } from '@/shared/lib/price';
 import {
   createProductSku,
   findProductById,
@@ -63,20 +64,20 @@ export default async function SkuAddPage({
         name: 'price',
         type: 'number',
         title: t('fields.price'),
-        tip: 'Price in cents (e.g. 9999 = $99.99)',
+        tip: 'Price (e.g. 99.99)',
         validation: { required: true },
       },
       {
         name: 'originalPrice',
         type: 'number',
         title: t('fields.original_price'),
-        tip: 'Original price in cents (leave empty if no discount)',
+        tip: 'Original price (leave empty if no discount)',
       },
       {
         name: 'costPrice',
         type: 'number',
         title: t('fields.cost_price'),
-        tip: 'Cost price in cents',
+        tip: 'Cost price',
       },
       {
         name: 'stock',
@@ -117,12 +118,12 @@ export default async function SkuAddPage({
 
         const sku = data.get('sku') as string;
         const attributes = data.get('attributes') as string;
-        const price = parseInt(data.get('price') as string) || 0;
+        const price = unitToCents(parseFloat(data.get('price') as string) || 0);
         const originalPrice = data.get('originalPrice')
-          ? parseInt(data.get('originalPrice') as string)
+          ? unitToCents(parseFloat(data.get('originalPrice') as string))
           : null;
         const costPrice = data.get('costPrice')
-          ? parseInt(data.get('costPrice') as string)
+          ? unitToCents(parseFloat(data.get('costPrice') as string))
           : null;
         const stock = parseInt(data.get('stock') as string) || 0;
         const image = data.get('image') as string;
