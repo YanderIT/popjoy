@@ -32,8 +32,8 @@ export default function PaymentPage() {
 
         const data = await response.json();
 
-        if (!response.ok || data.error) {
-          setError(data.error || 'Payment processing failed');
+        if (!response.ok || data.code !== 0) {
+          setError(data.message || 'Payment processing failed');
           setIsProcessing(false);
           return;
         }
