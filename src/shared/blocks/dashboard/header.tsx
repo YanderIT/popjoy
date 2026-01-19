@@ -84,7 +84,7 @@ export function Header({
             </div>
           )}
           {show_theme && <ThemeToggler />}
-          {show_locale !== false && <LocaleSelector type="button" />}
+          {show_locale !== false && <LocaleSelector />}
         </div>
       </div>
     </header>

@@ -8,6 +8,16 @@
         "icon": "User"
       },
       {
+        "title": "Addresses",
+        "url": "/settings/addresses",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Payment Methods",
+        "url": "/settings/payment-methods",
+        "icon": "CreditCard"
+      },
+      {
         "title": "Orders",
         "url": "/shop/orders",
         "icon": "Package"

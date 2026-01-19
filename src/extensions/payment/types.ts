@@ -228,6 +228,34 @@ export interface PaymentBilling {
 }
 
 /**
+ * Saved payment method card info
+ */
+export interface PaymentMethodCard {
+  brand: string;
+  last4: string;
+  expMonth: number;
+  expYear: number;
+}
+
+/**
+ * Saved payment method interface
+ */
+export interface SavedPaymentMethod {
+  id: string;
+  type: string;
+  card: PaymentMethodCard;
+  isDefault: boolean;
+  createdAt: Date;
+}
+
+/**
+ * Setup intent for adding new payment method
+ */
+export interface SetupIntent {
+  clientSecret: string;
+}
+
+/**
  * Payment configs interface
  */
 export interface PaymentConfigs {

@@ -10,6 +10,8 @@ import { toast } from 'sonner';
 import { Button } from '@/shared/components/ui/button';
 import { Input } from '@/shared/components/ui/input';
 import { Label } from '@/shared/components/ui/label';
+import { Badge } from '@/shared/components/ui/badge';
+import { RadioGroup, RadioGroupItem } from '@/shared/components/ui/radio-group';
 import {
   Select,
   SelectContent,
@@ -29,6 +31,20 @@ interface ShippingAddress {
   city: string;
   street: string;
   postalCode: string;
+}
+
+interface SavedAddress {
+  id: string;
+  recipientName: string;
+  phone: string;
+  country: string;
+  state: string | null;
+  city: string;
+  district: string | null;
+  street: string;
+  postalCode: string | null;
+  label: string | null;
+  isDefault: boolean;
 }
 
 const COUNTRIES = [
@@ -51,6 +67,9 @@ export function CheckoutForm() {
   const { items, getSubtotal, getCurrency, clearCart, isLoading: cartLoading } = useCart();
   const { formatPrice } = usePrice();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [savedAddresses, setSavedAddresses] = useState<SavedAddress[]>([]);
+  const [selectedAddressId, setSelectedAddressId] = useState<string>('new');
+  const [addressLoading, setAddressLoading] = useState(true);
   const [address, setAddress] = useState<ShippingAddress>({
     recipientName: '',
     phone: '',
@@ -73,15 +92,79 @@ export function CheckoutForm() {
     }
   }, [cartLoading, items.length, router]);
 
-  // Pre-fill name from user
+  // Load saved addresses when user is logged in
   useEffect(() => {
-    if (user?.name && !address.recipientName) {
+    if (user) {
+      setAddressLoading(true);
+      fetch('/api/user/address')
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.code === 0 && data.data.addresses.length > 0) {
+            setSavedAddresses(data.data.addresses);
+            // Auto-select default address
+            const defaultAddr = data.data.addresses.find((a: SavedAddress) => a.isDefault);
+            if (defaultAddr) {
+              setSelectedAddressId(defaultAddr.id);
+              setAddress({
+                recipientName: defaultAddr.recipientName,
+                phone: defaultAddr.phone,
+                country: defaultAddr.country,
+                state: defaultAddr.state || '',
+                city: defaultAddr.city,
+                street: defaultAddr.street,
+                postalCode: defaultAddr.postalCode || '',
+              });
+            }
+          }
+        })
+        .catch((err) => {
+          console.error('Failed to load addresses:', err);
+        })
+        .finally(() => setAddressLoading(false));
+    } else {
+      setAddressLoading(false);
+    }
+  }, [user]);
+
+  // Pre-fill name from user (only when entering new address)
+  useEffect(() => {
+    if (user?.name && !address.recipientName && selectedAddressId === 'new') {
       setAddress((prev) => ({ ...prev, recipientName: user.name }));
     }
-  }, [user?.name]);
+  }, [user?.name, selectedAddressId]);
 
   const handleInputChange = (field: keyof ShippingAddress, value: string) => {
     setAddress((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const handleAddressSelect = (addressId: string) => {
+    setSelectedAddressId(addressId);
+    if (addressId === 'new') {
+      // Clear form for new address entry
+      setAddress({
+        recipientName: user?.name || '',
+        phone: '',
+        country: 'US',
+        state: '',
+        city: '',
+        street: '',
+        postalCode: '',
+      });
+    } else {
+      // Fill form with selected saved address
+      const addr = savedAddresses.find((a) => a.id === addressId);
+      if (addr) {
+        setAddress({
+          recipientName: addr.recipientName,
+          phone: addr.phone,
+          country: addr.country,
+          state: addr.state || '',
+          city: addr.city,
+          street: addr.street,
+          postalCode: addr.postalCode || '',
+        });
+      }
+    }
   };
 
   const validateAddress = (): boolean => {
@@ -189,6 +272,63 @@ export function CheckoutForm() {
         <div className="space-y-6">
           <div>
             <h2 className="mb-4 text-lg font-semibold">{t('checkout.shipping_address')}</h2>
+
+            {/* Saved Address Selector */}
+            {user && addressLoading && (
+              <div className="mb-4 flex items-center justify-center rounded-lg border p-6">
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                <span className="text-sm text-muted-foreground">{t('checkout.loading_addresses')}</span>
+              </div>
+            )}
+
+            {user && !addressLoading && savedAddresses.length > 0 && (
+              <div className="mb-4">
+                <RadioGroup value={selectedAddressId} onValueChange={handleAddressSelect}>
+                  {savedAddresses.map((addr) => (
+                    <div
+                      key={addr.id}
+                      className={`flex cursor-pointer items-start space-x-3 rounded-lg border p-4 transition-colors hover:bg-muted/50 ${
+                        selectedAddressId === addr.id ? 'border-primary bg-muted/30' : ''
+                      }`}
+                      onClick={() => handleAddressSelect(addr.id)}
+                    >
+                      <RadioGroupItem value={addr.id} id={addr.id} className="mt-1" />
+                      <div className="flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium">{addr.recipientName}</span>
+                          <span className="text-muted-foreground">-</span>
+                          <span className="text-muted-foreground">{addr.phone}</span>
+                          {addr.isDefault && (
+                            <Badge variant="secondary" className="ml-1">
+                              {t('checkout.default_badge')}
+                            </Badge>
+                          )}
+                        </div>
+                        <div className="mt-1 text-sm text-muted-foreground">
+                          {addr.street}, {addr.city}
+                          {addr.state ? `, ${addr.state}` : ''}, {addr.country}
+                          {addr.postalCode ? ` ${addr.postalCode}` : ''}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  <div
+                    className={`flex cursor-pointer items-center space-x-3 rounded-lg border p-4 transition-colors hover:bg-muted/50 ${
+                      selectedAddressId === 'new' ? 'border-primary bg-muted/30' : ''
+                    }`}
+                    onClick={() => handleAddressSelect('new')}
+                  >
+                    <RadioGroupItem value="new" id="new-address" />
+                    <Label htmlFor="new-address" className="cursor-pointer font-medium">
+                      {t('checkout.enter_new_address')}
+                    </Label>
+                  </div>
+                </RadioGroup>
+              </div>
+            )}
+
+            {/* Address Form - shown when entering new address or no saved addresses */}
+            {(selectedAddressId === 'new' || savedAddresses.length === 0) && !addressLoading && (
             <div className="space-y-4 rounded-lg border p-6">
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-2">
@@ -271,6 +411,7 @@ export function CheckoutForm() {
                 />
               </div>
             </div>
+            )}
           </div>
         </div>
 

@@ -53,28 +53,28 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/your-app-name",
+          "title": "Facebook",
+          "icon": "RiFacebookFill",
+          "url": "https://facebook.com/your-page",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "Github",
-          "url": "https://github.com/your-app-name",
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/your-page",
           "target": "_blank"
         },
         {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/your-app-name",
+          "title": "WhatsApp",
+          "icon": "RiWhatsappFill",
+          "url": "https://wa.me/your-number",
           "target": "_blank"
         },
         {
-          "title": "อีเมล",
-          "icon": "Mail",
-          "url": "mailto:support@poptoystudio.com",
-          "target": "_self"
+          "title": "TikTok",
+          "icon": "RiTiktokFill",
+          "url": "https://tiktok.com/@your-page",
+          "target": "_blank"
         }
       ]
     },

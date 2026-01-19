@@ -1,0 +1,64 @@
+{
+  "fields": {
+    "recipient_name": "收件人姓名",
+    "phone": "电话号码",
+    "country": "国家",
+    "state": "省/州",
+    "city": "城市",
+    "district": "区/县",
+    "street": "街道地址",
+    "postal_code": "邮政编码",
+    "label": "标签",
+    "is_default": "默认地址",
+    "full_address": "地址",
+    "created_at": "创建时间",
+    "action": "操作"
+  },
+  "labels": {
+    "home": "家",
+    "office": "公司",
+    "other": "其他"
+  },
+  "list": {
+    "title": "我的地址",
+    "empty_message": "暂无地址",
+    "default_badge": "默认",
+    "buttons": {
+      "add": "添加地址",
+      "edit": "编辑",
+      "delete": "删除",
+      "set_default": "设为默认"
+    }
+  },
+  "add": {
+    "title": "添加地址",
+    "crumbs": {
+      "addresses": "地址",
+      "add": "添加地址"
+    },
+    "buttons": {
+      "submit": "添加地址"
+    }
+  },
+  "edit": {
+    "title": "编辑地址",
+    "crumbs": {
+      "addresses": "地址",
+      "edit": "编辑地址"
+    },
+    "buttons": {
+      "submit": "保存更改"
+    }
+  },
+  "delete": {
+    "title": "删除地址",
+    "description": "确定要删除这个地址吗？此操作无法撤销。",
+    "crumbs": {
+      "addresses": "地址",
+      "delete": "删除地址"
+    },
+    "buttons": {
+      "submit": "确认删除"
+    }
+  }
+}

@@ -32,7 +32,7 @@ export async function Hero({
         <nav className="flex flex-wrap items-center justify-center gap-4 md:gap-8 py-4">
           <Link
             href="/shop"
-            className="text-foreground/70 hover:text-foreground text-sm md:text-base font-medium transition-colors"
+            className="text-foreground/70 hover:text-foreground text-lg md:text-xl font-semibold transition-colors"
           >
             All Designs
           </Link>
@@ -40,7 +40,7 @@ export async function Hero({
             <Link
               key={category.id}
               href={`/shop/category/${category.slug}`}
-              className="text-foreground/70 hover:text-foreground text-sm md:text-base font-medium transition-colors"
+              className="text-foreground/70 hover:text-foreground text-lg md:text-xl font-semibold transition-colors"
             >
               {category.title}
             </Link>

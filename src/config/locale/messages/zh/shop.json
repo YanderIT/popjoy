@@ -59,7 +59,13 @@
       "state": "省份或州",
       "city": "城市",
       "postal_code": "邮政编码"
-    }
+    },
+    "saved_addresses": "已保存的地址",
+    "select_address": "选择收货地址",
+    "enter_new_address": "输入新地址",
+    "no_saved_addresses": "暂无保存的地址",
+    "default_badge": "默认",
+    "loading_addresses": "加载地址中..."
   },
   "order": {
     "title": "我的订单",

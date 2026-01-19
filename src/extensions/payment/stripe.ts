@@ -16,6 +16,8 @@ import {
   type PaymentOrder,
   type PaymentProvider,
   type PaymentSession,
+  type SavedPaymentMethod,
+  type SetupIntent,
 } from './types';
 
 /**
@@ -360,6 +362,113 @@ export class StripeProvider implements PaymentProvider {
       }
 
       return await this.buildPaymentSessionFromSubscription(subscription);
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  /**
+   * Get customer's saved payment methods
+   */
+  async getPaymentMethods({
+    customerId,
+  }: {
+    customerId: string;
+  }): Promise<SavedPaymentMethod[]> {
+    try {
+      if (!customerId) {
+        throw new Error('customerId is required');
+      }
+
+      const paymentMethods = await this.client.paymentMethods.list({
+        customer: customerId,
+        type: 'card',
+      });
+
+      const customer = await this.client.customers.retrieve(customerId);
+      const defaultPmId =
+        (customer as Stripe.Customer).invoice_settings?.default_payment_method;
+
+      return paymentMethods.data.map((pm) => ({
+        id: pm.id,
+        type: pm.type,
+        card: {
+          brand: pm.card?.brand || '',
+          last4: pm.card?.last4 || '',
+          expMonth: pm.card?.exp_month || 0,
+          expYear: pm.card?.exp_year || 0,
+        },
+        isDefault: pm.id === defaultPmId,
+        createdAt: new Date(pm.created * 1000),
+      }));
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  /**
+   * Detach (remove) a payment method from customer
+   */
+  async detachPaymentMethod({
+    paymentMethodId,
+  }: {
+    paymentMethodId: string;
+  }): Promise<void> {
+    try {
+      if (!paymentMethodId) {
+        throw new Error('paymentMethodId is required');
+      }
+
+      await this.client.paymentMethods.detach(paymentMethodId);
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  /**
+   * Set default payment method for customer
+   */
+  async setDefaultPaymentMethod({
+    customerId,
+    paymentMethodId,
+  }: {
+    customerId: string;
+    paymentMethodId: string;
+  }): Promise<void> {
+    try {
+      if (!customerId || !paymentMethodId) {
+        throw new Error('customerId and paymentMethodId are required');
+      }
+
+      await this.client.customers.update(customerId, {
+        invoice_settings: { default_payment_method: paymentMethodId },
+      });
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  /**
+   * Create a SetupIntent for adding a new payment method
+   */
+  async createSetupIntent({
+    customerId,
+  }: {
+    customerId: string;
+  }): Promise<SetupIntent> {
+    try {
+      if (!customerId) {
+        throw new Error('customerId is required');
+      }
+
+      const setupIntent = await this.client.setupIntents.create({
+        customer: customerId,
+        payment_method_types: ['card'],
+      });
+
+      return {
+        clientSecret: setupIntent.client_secret || '',
+      };
     } catch (error) {
       throw error;
     }

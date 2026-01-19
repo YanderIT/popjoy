@@ -1,0 +1,38 @@
+{
+  "title": "Payment Methods",
+  "description": "Manage your saved payment methods for faster checkout.",
+  "empty_message": "No payment methods saved yet. Add a payment method by completing a purchase.",
+  "default_badge": "Default",
+  "expires": "Expires",
+  "card_ending": "ending in",
+  "buttons": {
+    "add": "Add Payment Method",
+    "delete": "Remove",
+    "set_default": "Set as Default"
+  },
+  "add": {
+    "title": "Add Payment Method",
+    "description": "Add a new card to your account.",
+    "buttons": {
+      "submit": "Add Card",
+      "cancel": "Cancel"
+    }
+  },
+  "delete": {
+    "title": "Remove Payment Method",
+    "description": "Are you sure you want to remove this payment method?",
+    "buttons": {
+      "submit": "Remove",
+      "cancel": "Cancel"
+    }
+  },
+  "messages": {
+    "delete_success": "Payment method removed successfully",
+    "delete_error": "Failed to remove payment method",
+    "set_default_success": "Default payment method updated",
+    "set_default_error": "Failed to update default payment method",
+    "add_success": "Payment method added successfully",
+    "add_error": "Failed to add payment method",
+    "no_customer": "Please make a purchase first to save payment methods."
+  }
+}

@@ -155,11 +155,6 @@ export function Products({
                           className="object-cover"
                         />
                       </motion.div>
-                      {product.skus.some(s => s.originalPrice && s.originalPrice > s.price) && (
-                        <div className="absolute left-3 top-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
-                          {t('product.sale')}
-                        </div>
-                      )}
                       {getSkuCount(product) > 1 && (
                         <div className="absolute right-3 top-3 rounded-full bg-zinc-900/80 px-2 py-1 text-xs font-medium text-white">
                           {t('product.colors_count', { count: getSkuCount(product) })}

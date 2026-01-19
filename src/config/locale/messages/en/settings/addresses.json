@@ -1,0 +1,64 @@
+{
+  "fields": {
+    "recipient_name": "Recipient Name",
+    "phone": "Phone Number",
+    "country": "Country",
+    "state": "State/Province",
+    "city": "City",
+    "district": "District",
+    "street": "Street Address",
+    "postal_code": "Postal Code",
+    "label": "Label",
+    "is_default": "Default Address",
+    "full_address": "Address",
+    "created_at": "Created At",
+    "action": "Action"
+  },
+  "labels": {
+    "home": "Home",
+    "office": "Office",
+    "other": "Other"
+  },
+  "list": {
+    "title": "My Addresses",
+    "empty_message": "No addresses yet",
+    "default_badge": "Default",
+    "buttons": {
+      "add": "Add Address",
+      "edit": "Edit",
+      "delete": "Delete",
+      "set_default": "Set as Default"
+    }
+  },
+  "add": {
+    "title": "Add Address",
+    "crumbs": {
+      "addresses": "Addresses",
+      "add": "Add Address"
+    },
+    "buttons": {
+      "submit": "Add Address"
+    }
+  },
+  "edit": {
+    "title": "Edit Address",
+    "crumbs": {
+      "addresses": "Addresses",
+      "edit": "Edit Address"
+    },
+    "buttons": {
+      "submit": "Save Changes"
+    }
+  },
+  "delete": {
+    "title": "Delete Address",
+    "description": "Are you sure you want to delete this address? This action cannot be undone.",
+    "crumbs": {
+      "addresses": "Addresses",
+      "delete": "Delete Address"
+    },
+    "buttons": {
+      "submit": "Confirm Delete"
+    }
+  }
+}

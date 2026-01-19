@@ -59,7 +59,13 @@
       "state": "State or province",
       "city": "City",
       "postal_code": "Postal code"
-    }
+    },
+    "saved_addresses": "Saved Addresses",
+    "select_address": "Select a shipping address",
+    "enter_new_address": "Enter new address",
+    "no_saved_addresses": "No saved addresses",
+    "default_badge": "Default",
+    "loading_addresses": "Loading addresses..."
   },
   "order": {
     "title": "My Orders",

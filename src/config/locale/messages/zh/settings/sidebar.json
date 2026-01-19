@@ -8,6 +8,16 @@
         "icon": "User"
       },
       {
+        "title": "地址管理",
+        "url": "/settings/addresses",
+        "icon": "MapPin"
+      },
+      {
+        "title": "支付方式",
+        "url": "/settings/payment-methods",
+        "icon": "CreditCard"
+      },
+      {
         "title": "订单",
         "url": "/shop/orders",
         "icon": "Package"
