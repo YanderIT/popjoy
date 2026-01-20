@@ -160,6 +160,11 @@ export function Products({
                           {t('product.colors_count', { count: getSkuCount(product) })}
                         </div>
                       )}
+                      {product.skus.some(s => s.originalPrice && s.originalPrice > s.price) && (
+                        <div className="absolute right-3 bottom-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
+                          {t('product.sale')}
+                        </div>
+                      )}
                     </div>
                     <CardContent className="p-5">
                       <h3 className="mb-2 truncate text-lg font-semibold text-zinc-900 dark:text-zinc-100">

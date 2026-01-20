@@ -1,7 +1,7 @@
 import { desc, eq, or, isNotNull } from 'drizzle-orm';
 
 import { db } from '@/core/db';
-import { order, subscription } from '@/config/db/schema';
+import { order, shopOrder, subscription } from '@/config/db/schema';
 import { StripeProvider } from '@/extensions/payment';
 import { respData, respErr, respOk } from '@/shared/lib/resp';
 import { getAllConfigs } from '@/shared/models/config';
@@ -35,7 +35,19 @@ async function getStripeCustomerId(userId: string): Promise<string | null> {
     .orderBy(desc(order.createdAt))
     .limit(1);
 
-  return ord?.paymentUserId || null;
+  if (ord?.paymentUserId) {
+    return ord.paymentUserId;
+  }
+
+  // Then check shop orders
+  const [shopOrd] = await db()
+    .select({ paymentUserId: shopOrder.paymentUserId })
+    .from(shopOrder)
+    .where(eq(shopOrder.userId, userId))
+    .orderBy(desc(shopOrder.createdAt))
+    .limit(1);
+
+  return shopOrd?.paymentUserId || null;
 }
 
 /**

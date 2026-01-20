@@ -189,6 +189,13 @@ export async function getSettingGroups() {
       tab: 'analytics',
     },
     {
+      name: 'meta_pixel',
+      title: t('groups.meta_pixel'),
+      description:
+        'custom your <a href="https://www.facebook.com/business/tools/meta-pixel" class="text-primary" target="_blank">Meta Pixel</a> settings',
+      tab: 'analytics',
+    },
+    {
       name: 'resend',
       title: t('groups.resend'),
       description: 'custom your resend settings',
@@ -644,6 +651,14 @@ export async function getSettings() {
       type: 'switch',
       value: 'false',
       group: 'vercel_analytics',
+      tab: 'analytics',
+    },
+    {
+      name: 'meta_pixel_id',
+      title: 'Meta Pixel ID',
+      type: 'text',
+      placeholder: '',
+      group: 'meta_pixel',
       tab: 'analytics',
     },
     {

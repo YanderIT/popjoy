@@ -4,6 +4,7 @@ import { Link } from '@/core/i18n/navigation';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
 import { getTaxonomies, TaxonomyType } from '@/shared/models/taxonomy';
+import { BannerCarousel } from './banner-carousel';
 
 export async function Hero({
   section,
@@ -49,7 +50,11 @@ export async function Hero({
       </div>
 
       {/* Full-width Banner */}
-      {section.image?.src && (
+      {section.images && section.images.length > 0 ? (
+        <div className="mx-4 md:mx-8 lg:mx-16">
+          <BannerCarousel images={section.images} />
+        </div>
+      ) : section.image?.src && (
         <div className="mx-4 md:mx-8 lg:mx-16">
           <div className="relative w-full overflow-hidden rounded-2xl">
             {section.image.link ? (

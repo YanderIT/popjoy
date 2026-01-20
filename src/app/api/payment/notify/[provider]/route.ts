@@ -88,6 +88,7 @@ export async function POST(
         await updateShopOrder(shopOrderRecord.id, {
           status: ShopOrderStatus.PENDING_SHIPMENT,
           paidAt: new Date(),
+          paymentUserId: session.paymentInfo?.paymentUserId,
         });
         log('updated shop order status');
       } else {

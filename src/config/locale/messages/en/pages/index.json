@@ -18,7 +18,10 @@
         "show_avatars": false,
         "avatars_tip": "Join 999+ collectors worldwide",
         "show_award": false,
-        "image": {"src": "/imgs/bg/banner.png", "alt": "hero banner", "width": 1920, "height": 800, "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"}
+        "images": [
+          {"src": "/imgs/bg/banner.png", "alt": "hero banner", "width": 1920, "height": 800, "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"},
+          {"src": "/imgs/bg/cover2.png", "alt": "hero banner 2", "width": 1920, "height": 800, "link": "/shop/25343e0d-bf6f-48e0-87e9-31a8c8924e2c"}
+        ]
       },
       "cta": {
         "id": "cta",

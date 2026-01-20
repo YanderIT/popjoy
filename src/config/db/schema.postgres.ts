@@ -681,6 +681,7 @@ export const shopOrder = table(
     paymentOrderId: text('payment_order_id'),
     paymentProvider: text('payment_provider'),
     paidAt: timestamp('paid_at'),
+    paymentUserId: text('payment_user_id'), // Stripe customer ID
     // Other
     discountCode: text('discount_code'),
     buyerNote: text('buyer_note'),

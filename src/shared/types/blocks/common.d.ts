@@ -7,6 +7,7 @@ export interface Image {
   width?: number;
   height?: number;
   className?: string;
+  link?: string;
 }
 
 // brand props for brand component, contains logo and brand title

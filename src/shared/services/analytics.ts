@@ -2,6 +2,7 @@ import {
   AnalyticsManager,
   ClarityAnalyticsProvider,
   GoogleAnalyticsProvider,
+  MetaPixelAnalyticsProvider,
   OpenPanelAnalyticsProvider,
   PlausibleAnalyticsProvider,
   VercelAnalyticsProvider,
@@ -50,6 +51,13 @@ export function getAnalyticsManagerWithConfigs(configs: Configs) {
   // vercel analytics
   if (configs.vercel_analytics_enabled === 'true') {
     analytics.addProvider(new VercelAnalyticsProvider({ mode: 'auto' }));
+  }
+
+  // meta pixel
+  if (configs.meta_pixel_id) {
+    analytics.addProvider(
+      new MetaPixelAnalyticsProvider({ pixelId: configs.meta_pixel_id })
+    );
   }
 
   return analytics;
