@@ -53,12 +53,11 @@ export function getAnalyticsManagerWithConfigs(configs: Configs) {
     analytics.addProvider(new VercelAnalyticsProvider({ mode: 'auto' }));
   }
 
-  // meta pixel
-  if (configs.meta_pixel_id) {
-    analytics.addProvider(
-      new MetaPixelAnalyticsProvider({ pixelId: configs.meta_pixel_id })
-    );
-  }
+  // meta pixel - 硬编码
+  const META_PIXEL_ID = '1790362864992132';
+  analytics.addProvider(
+    new MetaPixelAnalyticsProvider({ pixelId: META_PIXEL_ID })
+  );
 
   return analytics;
 }
