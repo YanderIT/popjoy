@@ -8,6 +8,7 @@
     "sections": {
       "hero": {
         "id": "about-hero",
+        "block": "cta",
         "title": "关于我们",
         "description": "我们是您寻找时尚、可定制 Labubu 永生花盒的最佳选择——可爱与奢华的完美结合。<br/><br/>每个花盒都采用优质永生花和独特的 Labubu 设计制作，非常适合送礼或装饰您的空间。此外，我们保持价格亲民，全店优惠不容错过。<br/><br/>我们致力于为您带来独特、持久且让您微笑的礼物。",
         "show_avatars": false,
