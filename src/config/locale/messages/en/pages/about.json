@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "About Us",
+    "description": "Your go-to spot for trendy, customizable Labubu Eternal Flower Boxes"
+  },
+  "page": {
+    "show_sections": ["hero"],
+    "sections": {
+      "hero": {
+        "id": "about-hero",
+        "title": "About Us",
+        "description": "We're your go-to spot for trendy, customizable Labubu Eternal Flower Boxes—where cuteness meets luxury.<br/><br/>Every box is made with premium preserved flowers and unique Labubu designs, perfect for gifting or sprucing up your space. Plus, we keep our prices friendly with storewide deals you won't want to miss.<br/><br/>We're here to bring you gifts that stand out, last forever, and make you smile.",
+        "show_avatars": false,
+        "show_award": false
+      }
+    }
+  }
+}

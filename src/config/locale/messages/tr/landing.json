@@ -55,25 +55,25 @@
         {
           "title": "Facebook",
           "icon": "RiFacebookFill",
-          "url": "https://facebook.com/your-page",
+          "url": "https://www.facebook.com/share/1CHyFqXEBy/?mibextid=wwXIfr",
           "target": "_blank"
         },
         {
           "title": "Instagram",
           "icon": "RiInstagramFill",
-          "url": "https://instagram.com/your-page",
+          "url": "https://www.instagram.com/poptoystudio1?igsh=b3k3d3RtMDUzNnB2&utm_source=qr",
           "target": "_blank"
         },
         {
           "title": "WhatsApp",
           "icon": "RiWhatsappFill",
-          "url": "https://wa.me/your-number",
+          "url": "https://chat.whatsapp.com/DWA6ImL6Yqu2mT9FVckPDE",
           "target": "_blank"
         },
         {
           "title": "TikTok",
           "icon": "RiTiktokFill",
-          "url": "https://tiktok.com/@your-page",
+          "url": "https://www.tiktok.com/@poptoystudio1?_r=1&_t=ZT-92tE0WDEZH4",
           "target": "_blank"
         }
       ]
@@ -87,6 +87,14 @@
         {
           "title": "Hizmet Şartları",
           "url": "/terms-of-service"
+        },
+        {
+          "title": "Kargo Politikası",
+          "url": "/shipping-policy"
+        },
+        {
+          "title": "İade Politikası",
+          "url": "/return-policy"
         }
       ]
     },

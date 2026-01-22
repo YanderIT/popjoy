@@ -97,5 +97,6 @@ export const localeMessagesPaths = [
   'pages/blog',
   'pages/updates',
   'pages/shop',
+  'pages/about',
   'shop',
 ];
