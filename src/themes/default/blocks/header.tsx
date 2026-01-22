@@ -262,24 +262,25 @@ export function Header({ header }: { header: HeaderType }) {
         >
           <div className="container">
             <div className="relative flex flex-wrap items-center justify-between lg:py-5">
-              <div className="flex justify-between gap-8 max-lg:h-14 max-lg:w-full max-lg:border-b">
+              <div className="flex items-center gap-8 max-lg:h-14 max-lg:flex-1 max-lg:border-b">
                 {/* Brand Logo */}
                 {header.brand && <BrandLogo brand={header.brand} />}
 
                 {/* Desktop Navigation Menu */}
                 {isLarge && <NavMenu />}
-                {/* Hamburger menu button for mobile navigation */}
-                <button
-                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                  aria-label={
-                    isMobileMenuOpen == true ? 'Close Menu' : 'Open Menu'
-                  }
-                  className="relative z-20 -m-2.5 -mr-3 block cursor-pointer p-2.5 lg:hidden"
-                >
-                  <Menu className="m-auto size-5 duration-200 in-data-[state=active]:scale-0 in-data-[state=active]:rotate-180 in-data-[state=active]:opacity-0" />
-                  <X className="absolute inset-0 m-auto size-5 scale-0 -rotate-180 opacity-0 duration-200 in-data-[state=active]:scale-100 in-data-[state=active]:rotate-0 in-data-[state=active]:opacity-100" />
-                </button>
               </div>
+
+              {/* Hamburger menu button for mobile navigation */}
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                aria-label={
+                  isMobileMenuOpen == true ? 'Close Menu' : 'Open Menu'
+                }
+                className="relative z-20 -m-2.5 -mr-3 block cursor-pointer p-2.5 max-lg:h-14 max-lg:border-b lg:hidden"
+              >
+                <Menu className="m-auto size-5 duration-200 in-data-[state=active]:scale-0 in-data-[state=active]:rotate-180 in-data-[state=active]:opacity-0" />
+                <X className="absolute inset-0 m-auto size-5 scale-0 -rotate-180 opacity-0 duration-200 in-data-[state=active]:scale-100 in-data-[state=active]:rotate-0 in-data-[state=active]:opacity-100" />
+              </button>
 
               {/* Show mobile menu if needed */}
               {!isLarge && isMobileMenuOpen && (
