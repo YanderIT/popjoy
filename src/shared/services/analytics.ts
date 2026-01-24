@@ -1,6 +1,7 @@
 import {
   AnalyticsManager,
   ClarityAnalyticsProvider,
+  GoogleAdsProvider,
   GoogleAnalyticsProvider,
   MetaPixelAnalyticsProvider,
   OpenPanelAnalyticsProvider,
@@ -57,6 +58,12 @@ export function getAnalyticsManagerWithConfigs(configs: Configs) {
   const META_PIXEL_ID = '1790362864992132';
   analytics.addProvider(
     new MetaPixelAnalyticsProvider({ pixelId: META_PIXEL_ID })
+  );
+
+  // google ads - 硬编码
+  const GOOGLE_ADS_CONVERSION_ID = 'AW-17869068634';
+  analytics.addProvider(
+    new GoogleAdsProvider({ conversionId: GOOGLE_ADS_CONVERSION_ID })
   );
 
   return analytics;

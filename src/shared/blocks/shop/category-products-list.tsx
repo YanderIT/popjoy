@@ -8,6 +8,7 @@ import { useTranslations } from 'next-intl';
 
 import { Button } from '@/shared/components/ui/button';
 import { Card, CardContent } from '@/shared/components/ui/card';
+import { CategoryNav } from '@/shared/components/category-nav';
 import { usePrice } from '@/shared/hooks/use-price';
 import { cn } from '@/shared/lib/utils';
 
@@ -71,8 +72,8 @@ export function CategoryProductsList({
     );
 
     return (
-      <div className="mb-4 flex items-baseline gap-2">
-        <span className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+      <div className="mb-2 md:mb-4 flex items-baseline gap-1 md:gap-2">
+        <span className="text-sm md:text-xl font-bold text-zinc-900 dark:text-zinc-100">
           {hasRange
             ? `${formatPrice(product.minPrice, product.currency)} - ${formatPrice(product.maxPrice!, product.currency)}`
             : formatPrice(product.minPrice, product.currency)}
@@ -87,11 +88,11 @@ export function CategoryProductsList({
   };
 
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-4 md:py-24">
       <div className="container">
         {/* Header */}
         <motion.div
-          className="mb-8 text-center"
+          className="hidden md:block mb-8 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
@@ -106,32 +107,23 @@ export function CategoryProductsList({
 
         {/* Category Navigation */}
         <motion.div
-          className="mb-12 flex flex-wrap justify-center gap-2"
+          className="mb-4 md:mb-12"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          {categories.map((cat) => (
-            <Link key={cat.id} href={cat.url}>
-              <Button
-                variant={cat.id === currentCategory.id ? 'default' : 'outline'}
-                size="sm"
-                className={cn(
-                  'rounded-full',
-                  cat.id === currentCategory.id &&
-                    'bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900'
-                )}
-              >
-                {cat.title}
-              </Button>
-            </Link>
-          ))}
+          <CategoryNav
+            categories={categories}
+            currentCategoryId={currentCategory.id}
+            variant="button"
+            threshold={5}
+          />
         </motion.div>
 
         {/* Products Grid */}
         {products.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-2 gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {products.map((product, index) => (
                 <motion.div
                   key={product.id}
@@ -172,16 +164,16 @@ export function CategoryProductsList({
                           </div>
                         )}
                       </div>
-                      <CardContent className="p-5">
-                        <h3 className="mb-2 truncate text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                      <CardContent className="p-2 md:p-5">
+                        <h3 className="mb-1 md:mb-2 truncate text-sm md:text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                           {product.name}
                         </h3>
                         {renderPrice(product)}
                         <Button
-                          className="w-full gap-2 bg-zinc-900 font-medium text-white transition-all hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
-                          size="lg"
+                          className="w-full gap-1 md:gap-2 h-8 md:h-10 text-xs md:text-sm bg-zinc-900 font-medium text-white transition-all hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+                          size="sm"
                         >
-                          <ShoppingCart className="h-4 w-4" />
+                          <ShoppingCart className="h-3 w-3 md:h-4 md:w-4" />
                           {t('product.add_to_cart')}
                         </Button>
                       </CardContent>

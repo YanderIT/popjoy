@@ -55,5 +55,9 @@
   "locale_detector": {
     "title": "We detected your browser language is {locale}. Switch to it?",
     "switch_to": "Switch to {locale}"
+  },
+  "category_nav": {
+    "more": "+{count} more",
+    "collapse": "Collapse"
   }
 }

@@ -5,6 +5,7 @@ import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
 import { getTaxonomies, TaxonomyType } from '@/shared/models/taxonomy';
 import { BannerCarousel } from './banner-carousel';
+import { CategoryNav } from '@/shared/components/category-nav';
 
 export async function Hero({
   section,
@@ -29,24 +30,14 @@ export async function Hero({
       )}
     >
       {/* Category Navigation */}
-      <div className="mx-auto max-w-6xl px-4 mb-6">
-        <nav className="flex flex-wrap items-center justify-center gap-4 md:gap-8 py-4">
-          <Link
-            href="/shop"
-            className="text-foreground/70 hover:text-foreground text-lg md:text-xl font-semibold transition-colors"
-          >
-            All Designs
-          </Link>
-          {categories.map((category) => (
-            <Link
-              key={category.id}
-              href={`/shop/category/${category.slug}`}
-              className="text-foreground/70 hover:text-foreground text-lg md:text-xl font-semibold transition-colors"
-            >
-              {category.title}
-            </Link>
-          ))}
-        </nav>
+      <div className="mx-auto max-w-6xl px-4 mb-6 py-4">
+        <CategoryNav
+          categories={categories}
+          variant="link"
+          threshold={5}
+          allLabel="All Designs"
+          allUrl="/shop"
+        />
       </div>
 
       {/* Full-width Banner */}

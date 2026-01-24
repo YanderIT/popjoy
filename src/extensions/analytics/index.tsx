@@ -62,6 +62,7 @@ export class AnalyticsManager {
 }
 
 export * from './google-analytics';
+export * from './google-ads';
 export * from './clarity';
 export * from './plausible';
 export * from './open-panel';

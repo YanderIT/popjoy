@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle, Package, Truck } from 'lucide-react';
@@ -91,6 +92,18 @@ export function OrderConfirmation({ order, isSuccess }: OrderConfirmationProps) 
   const statusKey = STATUS_KEYS[order.status] || order.status;
   const statusColor = STATUS_COLORS[order.status] || 'text-gray-600';
   const statusLabel = t(`order.status.${statusKey}`);
+
+  // Google Ads conversion tracking
+  useEffect(() => {
+    if (isSuccess && typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-17869068634/Mb_OCMCzgeIbENqy0chC',
+        value: order.totalAmount / 100,
+        currency: order.currency,
+        transaction_id: order.orderNo,
+      });
+    }
+  }, [isSuccess, order.totalAmount, order.currency, order.orderNo]);
 
   return (
     <div className="container pt-24 pb-8 md:pt-28 md:pb-12">

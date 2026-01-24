@@ -71,8 +71,8 @@ export function Products({
     const hasDiscount = product.skus.some(s => s.originalPrice && s.originalPrice > s.price);
 
     return (
-      <div className="mb-4 flex items-baseline gap-2">
-        <span className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+      <div className="mb-2 md:mb-4 flex items-baseline gap-1 md:gap-2">
+        <span className="text-sm md:text-xl font-bold text-zinc-900 dark:text-zinc-100">
           {hasRange
             ? `${formatPrice(product.minPrice, product.currency)} - ${formatPrice(product.maxPrice!, product.currency)}`
             : formatPrice(product.minPrice, product.currency)
@@ -94,11 +94,11 @@ export function Products({
   return (
     <section
       id={section.id || 'products'}
-      className={cn('py-16 md:py-24', section.className, className)}
+      className={cn('py-4 md:py-24', section.className, className)}
     >
       <div className="container">
         <motion.div
-          className="mb-12 text-center"
+          className="hidden md:block mb-12 text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -113,7 +113,7 @@ export function Products({
         </motion.div>
 
         {loading ? (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[...Array(6)].map((_, i) => (
               <Card key={i} className="overflow-hidden">
                 <Skeleton className="aspect-square w-full" />
@@ -126,7 +126,7 @@ export function Products({
             ))}
           </div>
         ) : products.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
             {products.map((product, index) => (
               <motion.div
                 key={product.id}
@@ -166,16 +166,16 @@ export function Products({
                         </div>
                       )}
                     </div>
-                    <CardContent className="p-5">
-                      <h3 className="mb-2 truncate text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                    <CardContent className="p-2 md:p-5">
+                      <h3 className="mb-1 md:mb-2 truncate text-sm md:text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                         {product.name}
                       </h3>
                       {renderPrice(product)}
                       <Button
-                        className="w-full gap-2 bg-zinc-900 font-medium text-white transition-all hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
-                        size="lg"
+                        className="w-full gap-1 md:gap-2 h-8 md:h-10 text-xs md:text-sm bg-zinc-900 font-medium text-white transition-all hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+                        size="sm"
                       >
-                        <ShoppingCart className="h-4 w-4" />
+                        <ShoppingCart className="h-3 w-3 md:h-4 md:w-4" />
                         {t('product.add_to_cart')}
                       </Button>
                     </CardContent>

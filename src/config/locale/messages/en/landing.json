@@ -17,6 +17,11 @@
           "title": "About Us",
           "url": "/about",
           "target": "_self"
+        },
+        {
+          "title": "Contact Us",
+          "url": "/contact-us",
+          "target": "_self"
         }
       ]
     },
