@@ -30,10 +30,10 @@ export async function Hero({
       )}
     >
       {/* Category Navigation */}
-      <div className="mx-auto max-w-6xl px-4 mb-6 py-4">
+      <div className="mx-auto max-w-6xl px-4 mb-2 md:mb-6 py-4">
         <CategoryNav
           categories={categories}
-          variant="link"
+          variant="button"
           threshold={5}
           allLabel="All Designs"
           allUrl="/shop"

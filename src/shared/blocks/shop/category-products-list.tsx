@@ -88,7 +88,7 @@ export function CategoryProductsList({
   };
 
   return (
-    <section className="py-4 md:py-24">
+    <section className="pt-20 pb-4 md:pt-24 md:pb-24">
       <div className="container">
         {/* Header */}
         <motion.div
