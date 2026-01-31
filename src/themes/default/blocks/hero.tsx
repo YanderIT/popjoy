@@ -24,7 +24,7 @@ export async function Hero({
     <section
       id={section.id}
       className={cn(
-        `pt-24 pb-8 md:pt-32 md:pb-8`,
+        `pt-16 pb-8 md:pt-32 md:pb-16`,
         section.className,
         className
       )}
