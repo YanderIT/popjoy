@@ -1,0 +1,65 @@
+{
+  "fields": {
+    "id": "ID",
+    "title": "Title",
+    "image": "Image",
+    "alt": "Alt Text",
+    "width": "Width",
+    "height": "Height",
+    "link": "Link URL",
+    "target": "Open In",
+    "position": "Position",
+    "status": "Status",
+    "sort": "Sort Order",
+    "created_at": "Created At",
+    "updated_at": "Updated At"
+  },
+  "status_options": {
+    "draft": "Draft",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "position_options": {
+    "hero": "Hero Section",
+    "promo": "Promotional",
+    "sidebar": "Sidebar"
+  },
+  "target_options": {
+    "_self": "Same Window",
+    "_blank": "New Window"
+  },
+  "list": {
+    "title": "Banners",
+    "crumbs": {
+      "admin": "Admin",
+      "banners": "Banners"
+    },
+    "buttons": {
+      "add": "Add Banner",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "add": {
+    "title": "Add Banner",
+    "crumbs": {
+      "admin": "Admin",
+      "banners": "Banners",
+      "add": "Add"
+    },
+    "buttons": {
+      "submit": "Add Banner"
+    }
+  },
+  "edit": {
+    "title": "Edit Banner",
+    "crumbs": {
+      "admin": "Admin",
+      "banners": "Banners",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Save Changes"
+    }
+  }
+}

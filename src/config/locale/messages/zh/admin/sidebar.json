@@ -49,6 +49,11 @@
               "title": "文章",
               "icon": "FileText",
               "url": "/admin/posts"
+            },
+            {
+              "title": "横幅",
+              "icon": "Image",
+              "url": "/admin/banners"
             }
           ]
         },

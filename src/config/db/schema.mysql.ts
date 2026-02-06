@@ -515,3 +515,35 @@ export const chatMessage = table(
     index('idx_chat_message_user_id').on(table.userId, table.status),
   ]
 );
+
+// ============================================
+// Banner Module
+// ============================================
+
+export const banner = table(
+  'banner',
+  {
+    id: varchar191('id').primaryKey(),
+    title: varchar('title', { length: 255 }), // Admin title (optional)
+    image: text('image').notNull(), // Image URL
+    alt: varchar('alt', { length: 255 }), // Alt text
+    width: int('width').default(1920),
+    height: int('height').default(800),
+    link: text('link'), // Click redirect link
+    target: varchar('target', { length: 20 }).default('_self'), // _self | _blank
+    position: varchar('position', { length: 50 }).notNull().default('hero'), // Position identifier
+    status: varchar('status', { length: 50 }).notNull(), // draft | active | inactive
+    sort: int('sort').default(0).notNull(),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at').defaultNow().onUpdateNow().notNull(),
+    deletedAt: timestamp('deleted_at'),
+  },
+  (table) => [
+    // Composite: Query banners by position and status, ordered by sort
+    index('idx_banner_position_status_sort').on(
+      table.position,
+      table.status,
+      table.sort
+    ),
+  ]
+);

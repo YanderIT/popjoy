@@ -1,0 +1,65 @@
+{
+  "fields": {
+    "id": "ID",
+    "title": "标题",
+    "image": "图片",
+    "alt": "替代文本",
+    "width": "宽度",
+    "height": "高度",
+    "link": "链接地址",
+    "target": "打开方式",
+    "position": "位置",
+    "status": "状态",
+    "sort": "排序",
+    "created_at": "创建时间",
+    "updated_at": "更新时间"
+  },
+  "status_options": {
+    "draft": "草稿",
+    "active": "已激活",
+    "inactive": "未激活"
+  },
+  "position_options": {
+    "hero": "首页横幅",
+    "promo": "促销区域",
+    "sidebar": "侧边栏"
+  },
+  "target_options": {
+    "_self": "当前窗口",
+    "_blank": "新窗口"
+  },
+  "list": {
+    "title": "横幅管理",
+    "crumbs": {
+      "admin": "管理",
+      "banners": "横幅"
+    },
+    "buttons": {
+      "add": "添加横幅",
+      "edit": "编辑",
+      "delete": "删除"
+    }
+  },
+  "add": {
+    "title": "添加横幅",
+    "crumbs": {
+      "admin": "管理",
+      "banners": "横幅",
+      "add": "添加"
+    },
+    "buttons": {
+      "submit": "添加横幅"
+    }
+  },
+  "edit": {
+    "title": "编辑横幅",
+    "crumbs": {
+      "admin": "管理",
+      "banners": "横幅",
+      "edit": "编辑"
+    },
+    "buttons": {
+      "submit": "保存更改"
+    }
+  }
+}

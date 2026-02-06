@@ -3,7 +3,9 @@ import Image from 'next/image';
 import { Link } from '@/core/i18n/navigation';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
+import { Image as ImageType } from '@/shared/types/blocks/common';
 import { getTaxonomies, TaxonomyType } from '@/shared/models/taxonomy';
+import { getActiveBanners, BannerPosition } from '@/shared/models/banner';
 import { BannerCarousel } from './banner-carousel';
 import { CategoryNav } from '@/shared/components/category-nav';
 
@@ -19,6 +21,21 @@ export async function Hero({
     type: TaxonomyType.CATEGORY,
     limit: 10,
   });
+
+  // Fetch active banners from database
+  const dbBanners = await getActiveBanners(BannerPosition.HERO, 10);
+
+  // Convert database banners to ImageType format
+  const bannerImages: ImageType[] = dbBanners.map((b) => ({
+    src: b.image,
+    alt: b.alt || '',
+    width: b.width || 1920,
+    height: b.height || 800,
+    link: b.link || undefined,
+  }));
+
+  // Use database banners if available, otherwise fall back to section.images
+  const displayImages = bannerImages.length > 0 ? bannerImages : section.images;
 
   return (
     <section
@@ -41,9 +58,9 @@ export async function Hero({
       </div>
 
       {/* Full-width Banner */}
-      {section.images && section.images.length > 0 ? (
+      {displayImages && displayImages.length > 0 ? (
         <div className="mx-4 md:mx-8 lg:mx-16">
-          <BannerCarousel images={section.images} />
+          <BannerCarousel images={displayImages} />
         </div>
       ) : section.image?.src && (
         <div className="mx-4 md:mx-8 lg:mx-16">

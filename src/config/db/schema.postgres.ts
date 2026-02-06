@@ -737,3 +737,38 @@ export const shopOrderItem = table(
     index('idx_shop_order_item_product').on(table.productId),
   ]
 );
+
+// ============================================
+// Banner Module
+// ============================================
+
+export const banner = table(
+  'banner',
+  {
+    id: text('id').primaryKey(),
+    title: text('title'), // Admin title (optional)
+    image: text('image').notNull(), // Image URL
+    alt: text('alt'), // Alt text
+    width: integer('width').default(1920),
+    height: integer('height').default(800),
+    link: text('link'), // Click redirect link
+    target: text('target').default('_self'), // _self | _blank
+    position: text('position').notNull().default('hero'), // Position identifier: hero, promo, sidebar
+    status: text('status').notNull(), // draft | active | inactive
+    sort: integer('sort').default(0).notNull(),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at')
+      .defaultNow()
+      .$onUpdate(() => /* @__PURE__ */ new Date())
+      .notNull(),
+    deletedAt: timestamp('deleted_at'),
+  },
+  (table) => [
+    // Composite: Query banners by position and status, ordered by sort
+    index('idx_banner_position_status_sort').on(
+      table.position,
+      table.status,
+      table.sort
+    ),
+  ]
+);

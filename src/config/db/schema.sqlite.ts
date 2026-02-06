@@ -600,3 +600,40 @@ export const chatMessage = table(
     index('idx_chat_message_user_id').on(table.userId, table.status),
   ]
 );
+
+// ============================================
+// Banner Module
+// ============================================
+
+export const banner = table(
+  'banner',
+  {
+    id: text('id').primaryKey(),
+    title: text('title'), // Admin title (optional)
+    image: text('image').notNull(), // Image URL
+    alt: text('alt'), // Alt text
+    width: integer('width').default(1920),
+    height: integer('height').default(800),
+    link: text('link'), // Click redirect link
+    target: text('target').default('_self'), // _self | _blank
+    position: text('position').notNull().default('hero'), // Position identifier
+    status: text('status').notNull(), // draft | active | inactive
+    sort: integer('sort').default(0).notNull(),
+    createdAt: integer('created_at', { mode: 'timestamp_ms' })
+      .default(sqliteNowMs)
+      .notNull(),
+    updatedAt: integer('updated_at', { mode: 'timestamp_ms' })
+      .default(sqliteNowMs)
+      .$onUpdate(() => /* @__PURE__ */ new Date())
+      .notNull(),
+    deletedAt: integer('deleted_at', { mode: 'timestamp_ms' }),
+  },
+  (table) => [
+    // Composite: Query banners by position and status, ordered by sort
+    index('idx_banner_position_status_sort').on(
+      table.position,
+      table.status,
+      table.sort
+    ),
+  ]
+);

@@ -90,6 +90,7 @@ export const localeMessagesPaths = [
   'admin/subscriptions',
   'admin/credits',
   'admin/settings',
+  'admin/banners',
   'activity/sidebar',
   'pages/index',
   'pages/pricing',
