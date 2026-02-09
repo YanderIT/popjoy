@@ -49,6 +49,11 @@ export interface Header extends Section {
   className?: string;
 }
 
+export interface PaymentIcon {
+  name: string;
+  src: string;
+}
+
 // footer props for footer component
 export interface Footer extends Section {
   id?: string;
@@ -57,6 +62,7 @@ export interface Footer extends Section {
   copyright?: string;
   social?: SocialNav;
   agreement?: AgreementNav;
+  payment_icons?: PaymentIcon[];
   show_theme?: boolean;
   show_locale?: boolean;
   show_built_with?: boolean;

@@ -60,7 +60,7 @@ export function CategoryProductsList({
   noProductsMessage,
 }: CategoryProductsListProps) {
   const t = useTranslations('shop');
-  const { formatPrice } = usePrice();
+  const { formatPrice, getDiscountBadge } = usePrice();
   const totalPages = Math.ceil(total / limit);
 
   const renderPrice = (product: Product) => {
@@ -70,17 +70,33 @@ export function CategoryProductsList({
     const hasDiscount = product.skus.some(
       (s) => s.originalPrice && s.originalPrice > s.price
     );
+    const discountBadge =
+      hasDiscount && !hasRange && product.skus[0]?.originalPrice
+        ? getDiscountBadge(product.skus[0].originalPrice, product.skus[0].price)
+        : null;
 
     return (
-      <div className="mb-2 md:mb-4 flex items-baseline gap-1 md:gap-2">
-        <span className="text-sm md:text-xl font-bold text-zinc-900 dark:text-zinc-100">
+      <div className="mb-2 md:mb-4 flex items-center gap-1 md:gap-2 flex-wrap">
+        <span
+          className={cn(
+            'text-sm md:text-xl font-bold',
+            hasDiscount
+              ? 'text-red-500'
+              : 'text-zinc-900 dark:text-zinc-100'
+          )}
+        >
           {hasRange
             ? `${formatPrice(product.minPrice, product.currency)} - ${formatPrice(product.maxPrice!, product.currency)}`
             : formatPrice(product.minPrice, product.currency)}
         </span>
         {hasDiscount && !hasRange && product.skus[0]?.originalPrice && (
-          <span className="text-sm text-zinc-400 line-through">
+          <span className="text-xs md:text-sm text-zinc-400 line-through">
             {formatPrice(product.skus[0].originalPrice, product.currency)}
+          </span>
+        )}
+        {discountBadge && (
+          <span className="rounded bg-red-500/10 px-1.5 py-0.5 text-[10px] md:text-xs font-bold text-red-500">
+            {discountBadge}
           </span>
         )}
       </div>
@@ -151,13 +167,19 @@ export function CategoryProductsList({
                             className="object-cover"
                           />
                         </motion.div>
-                        {product.skus.some(
-                          (s) => s.originalPrice && s.originalPrice > s.price
-                        ) && (
-                          <div className="absolute left-3 top-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
-                            {t('product.sale')}
-                          </div>
-                        )}
+                        {(() => {
+                          const discountSku = product.skus.find(
+                            (s) => s.originalPrice && s.originalPrice > s.price
+                          );
+                          if (!discountSku?.originalPrice) return null;
+                          const badge = getDiscountBadge(discountSku.originalPrice, discountSku.price);
+                          if (!badge) return null;
+                          return (
+                            <div className="absolute left-2 top-2 md:left-3 md:top-3 rounded-lg bg-gradient-to-r from-red-500 to-rose-600 px-2.5 py-1 md:px-3 md:py-1.5 text-sm md:text-base font-bold text-white shadow-lg">
+                              {badge}
+                            </div>
+                          );
+                        })()}
                         {product.skus.length > 1 && (
                           <div className="absolute right-3 top-3 rounded-full bg-zinc-900/80 px-2 py-1 text-xs font-medium text-white">
                             {t('product.options_count', { count: product.skus.length })}

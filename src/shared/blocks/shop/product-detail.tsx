@@ -39,7 +39,7 @@ interface ProductDetailProps {
 export function ProductDetail({ product }: ProductDetailProps) {
   const t = useTranslations('shop');
   const { addItem, setDrawerOpen } = useCart();
-  const { formatPrice } = usePrice();
+  const { formatPrice, getDiscountBadge } = usePrice();
   const [quantity, setQuantity] = useState(1);
   const [selectedSkuId, setSelectedSkuId] = useState<string | null>(
     product.skus.length > 0 ? product.skus[0].id : null
@@ -151,8 +151,8 @@ export function ProductDetail({ product }: ProductDetailProps) {
             priority
           />
           {selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price && (
-            <div className="absolute left-4 top-4 rounded-full bg-red-500 px-3 py-1 text-sm font-semibold text-white">
-              {t('product.sale')}
+            <div className="absolute left-4 top-4 rounded-lg bg-gradient-to-r from-red-500 to-rose-600 px-4 py-2 text-lg font-bold text-white shadow-lg">
+              {getDiscountBadge(selectedSku.originalPrice, selectedSku.price)}
             </div>
           )}
         </div>
@@ -166,18 +166,37 @@ export function ProductDetail({ product }: ProductDetailProps) {
           )}
 
           {/* Price */}
-          <div className="mt-6 flex items-baseline gap-3">
-            <span className="text-3xl font-bold">
-              {selectedSku
-                ? formatPrice(selectedSku.price, product.currency)
-                : product.minPrice
-                  ? formatPrice(product.minPrice, product.currency)
-                  : 'N/A'}
-            </span>
-            {selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price && (
-              <span className="text-xl text-muted-foreground line-through">
-                {formatPrice(selectedSku.originalPrice, product.currency)}
+          <div className="mt-6">
+            <div className="flex items-center gap-3">
+              <span
+                className={cn(
+                  'text-3xl font-bold',
+                  selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price
+                    ? 'text-red-500'
+                    : ''
+                )}
+              >
+                {selectedSku
+                  ? formatPrice(selectedSku.price, product.currency)
+                  : product.minPrice
+                    ? formatPrice(product.minPrice, product.currency)
+                    : 'N/A'}
               </span>
+              {selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price && (
+                <>
+                  <span className="text-xl text-muted-foreground line-through">
+                    {formatPrice(selectedSku.originalPrice, product.currency)}
+                  </span>
+                  <span className="rounded-md bg-red-500/10 px-2 py-1 text-sm font-bold text-red-500">
+                    {getDiscountBadge(selectedSku.originalPrice, selectedSku.price)}
+                  </span>
+                </>
+              )}
+            </div>
+            {selectedSku?.originalPrice && selectedSku.originalPrice > selectedSku.price && (
+              <p className="mt-1 text-sm font-medium text-green-600">
+                Save {formatPrice(selectedSku.originalPrice - selectedSku.price, product.currency)}
+              </p>
             )}
           </div>
 

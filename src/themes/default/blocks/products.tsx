@@ -161,7 +161,7 @@ export function Products({
                         </div>
                       )}
                       {product.skus.some(s => s.originalPrice && s.originalPrice > s.price) && (
-                        <div className="absolute right-3 bottom-3 rounded-full bg-red-500 px-2 py-1 text-xs font-semibold text-white">
+                        <div className="absolute right-2 bottom-2 md:right-3 md:bottom-3 rounded-lg bg-gradient-to-r from-red-500 to-rose-600 px-3 py-1.5 md:px-4 md:py-2 text-base md:text-lg font-bold text-white shadow-lg">
                           {t('product.sale')}
                         </div>
                       )}

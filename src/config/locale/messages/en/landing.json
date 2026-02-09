@@ -111,6 +111,15 @@
     },
     "show_theme": true,
     "show_locale": true,
-    "show_built_with": false
+    "show_built_with": false,
+    "payment_icons": [
+      { "name": "Visa", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/cards/visa.svg" },
+      { "name": "Mastercard", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/cards/mastercard.svg" },
+      { "name": "American Express", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/cards/american-express.svg" },
+      { "name": "Apple Pay", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/wallets/apple-pay.svg" },
+      { "name": "Google Pay", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/wallets/google-pay.svg" },
+      { "name": "PayPal", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/apm/paypal.svg" },
+      { "name": "UnionPay", "src": "https://cdn.jsdelivr.net/gh/datatrans/payment-logos/assets/cards/unionpay.svg" }
+    ]
   }
 }

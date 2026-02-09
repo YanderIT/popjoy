@@ -85,12 +85,15 @@ export function CheckoutForm() {
   const total = subtotal + shipping;
   const currency = getCurrency();
 
-  // Redirect if no items
+  // Track whether checkout is in progress to prevent redirect during payment
+  const [isCheckingOut, setIsCheckingOut] = useState(false);
+
+  // Redirect if no items (but not during active checkout/payment redirect)
   useEffect(() => {
-    if (!cartLoading && items.length === 0) {
+    if (!cartLoading && items.length === 0 && !isSubmitting && !isCheckingOut) {
       router.push('/');
     }
-  }, [cartLoading, items.length, router]);
+  }, [cartLoading, items.length, router, isSubmitting, isCheckingOut]);
 
   // Load saved addresses when user is logged in
   useEffect(() => {
@@ -241,13 +244,19 @@ export function CheckoutForm() {
         throw new Error(checkoutData.message);
       }
 
-      // Clear cart after successful order creation
-      clearCart();
+      // Mark checkout as in progress before clearing cart
+      // This prevents the useEffect from redirecting to '/' when cart becomes empty
+      setIsCheckingOut(true);
 
-      // Redirect to Stripe checkout
+      // Redirect to Stripe checkout first, then clear cart
       if (checkoutData.data.checkoutUrl) {
+        clearCart();
         window.location.href = checkoutData.data.checkoutUrl;
+        return; // Stop execution — page is navigating away
       }
+
+      // If no checkoutUrl returned, clear cart anyway
+      clearCart();
     } catch (error: any) {
       toast.error(error.message || t('checkout.failed'));
     } finally {

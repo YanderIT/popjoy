@@ -67,6 +67,23 @@ export function Footer({ footer }: { footer: FooterType }) {
           aria-hidden
           className="h-px min-w-0 [background-image:linear-gradient(90deg,var(--color-foreground)_1px,transparent_1px)] bg-[length:6px_1px] bg-repeat-x opacity-25"
         />
+        {footer.payment_icons && footer.payment_icons.length > 0 && (
+          <div className="flex min-w-0 flex-wrap items-center justify-center gap-2 sm:justify-end">
+            {footer.payment_icons.map((icon, index) => (
+              <div
+                key={index}
+                className="flex h-8 w-12 items-center justify-center rounded border bg-white p-1"
+              >
+                <img
+                  src={icon.src}
+                  alt={icon.name}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        )}
+
         <div className="flex min-w-0 flex-wrap justify-between gap-8">
           {footer.copyright ? (
             <p
