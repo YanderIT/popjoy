@@ -71,9 +71,9 @@ export default async function ShopPage({
 
   const { page: pageParam } = await searchParams;
   const page = parseInt(pageParam || '1', 10);
-  const limit = 12;
+  const limit = 999;
 
-  // Get all active products
+  // Get all active products (no limit on shop page)
   const { products: productsData, total } = await getProductsWithSkus({
     status: ProductStatus.ACTIVE,
     page,
@@ -102,6 +102,14 @@ export default async function ShopPage({
     url: `/shop/category/${cat.slug}`,
   }));
   categories.unshift(currentCategory);
+  // Add Home link before All
+  const tCommon = await getTranslations('common');
+  categories.unshift({
+    id: 'home',
+    slug: 'home',
+    title: tCommon('home'),
+    url: '/',
+  });
 
   // Build products
   const products: CategoryProduct[] = productsData.map((p: ProductWithSkus) => ({

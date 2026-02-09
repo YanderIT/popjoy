@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { revalidatePath } from 'next/cache';
 
 import { PERMISSIONS, requirePermission } from '@/core/rbac';
 import { Empty } from '@/shared/blocks/common';
@@ -147,6 +148,10 @@ export default async function BannerEditPage({
         if (!result) {
           throw new Error('update banner failed');
         }
+
+        // Revalidate landing page cache so banner changes appear immediately
+        revalidatePath('/');
+        revalidatePath('/[locale]', 'page');
 
         return {
           status: 'success',

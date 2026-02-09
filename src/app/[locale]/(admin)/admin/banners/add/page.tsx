@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { revalidatePath } from 'next/cache';
 
 import { PERMISSIONS, requirePermission } from '@/core/rbac';
 import { Header, Main, MainHeader } from '@/shared/blocks/dashboard';
@@ -143,6 +144,9 @@ export default async function BannerAddPage({
         if (!result) {
           throw new Error('add banner failed');
         }
+
+        revalidatePath('/');
+        revalidatePath('/[locale]', 'page');
 
         return {
           status: 'success',

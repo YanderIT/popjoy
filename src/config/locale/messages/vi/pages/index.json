@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "độc đáo",
         "description": "Bộ sưu tập được tuyển chọn gồm đồ chơi nghệ thuật phiên bản giới hạn, tượng thiết kế và đồ sưu tầm độc quyền.<br/>Tìm kho báu tiếp theo của bạn.",
         "tip": "Số lượng có hạn - Hết là hết",
-        "buttons": [{"title": "Mua ngay", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Mua ngay",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Tham gia cùng 999+ nhà sưu tầm trên toàn thế giới",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "Banner hero", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "Banner hero",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "Bắt đầu bộ sưu tập của bạn hôm nay",
         "description": "Khám phá vật phẩm hiếm và phiên bản giới hạn trước khi hết hàng.",
-        "buttons": [{"title": "Xem tất cả", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Xem tất cả",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

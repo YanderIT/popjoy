@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "unikalne",
         "description": "Wyselekcjonowana kolekcja limitowanych zabawek artystycznych, designerskich figurek i ekskluzywnych przedmiotów kolekcjonerskich.<br/>Znajdź swój następny skarb.",
         "tip": "Ograniczona ilość - Gdy się skończy, to koniec",
-        "buttons": [{"title": "Kup teraz", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Kup teraz",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Dołącz do 999+ kolekcjonerów na całym świecie",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "Baner główny", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "Baner główny",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "Rozpocznij swoją kolekcję dziś",
         "description": "Odkryj rzadkie przedmioty i limitowane edycje, zanim się skończą.",
-        "buttons": [{"title": "Zobacz wszystko", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Zobacz wszystko",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

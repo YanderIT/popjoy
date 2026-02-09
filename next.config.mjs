@@ -60,6 +60,9 @@ const nextConfig = {
     reactCompiler: true,
     // Disable mdxRs for Vercel deployment compatibility with fumadocs-mdx
     ...(process.env.VERCEL ? {} : { mdxRs: true }),
+    serverActions: {
+      bodySizeLimit: '20mb',
+    },
   },
 };
 

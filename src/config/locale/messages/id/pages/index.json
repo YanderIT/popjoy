@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "Unik",
         "description": "Koleksi kurasi mainan seni edisi terbatas, figur desainer, dan koleksi eksklusif.<br/>Temukan harta karun Anda berikutnya.",
         "tip": "Jumlah terbatas - Habis berarti habis",
-        "buttons": [{"title": "Belanja Sekarang", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Belanja Sekarang",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Bergabung dengan 999+ kolektor di seluruh dunia",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "Banner Hero", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "Banner Hero",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "Mulai koleksi Anda hari ini",
         "description": "Temukan item langka dan edisi terbatas sebelum kehabisan.",
-        "buttons": [{"title": "Lihat semua", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Lihat semua",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

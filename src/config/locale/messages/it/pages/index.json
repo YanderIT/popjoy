@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "unici",
         "description": "Una collezione curata di giocattoli d'arte in edizione limitata, figure di design e oggetti da collezione esclusivi.<br/>Trova il tuo prossimo tesoro.",
         "tip": "Quantità limitata - Una volta esaurito, è finito",
-        "buttons": [{"title": "Acquista ora", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Acquista ora",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Unisciti a oltre 999 collezionisti in tutto il mondo",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "Banner hero", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "Banner hero",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "Inizia la tua collezione oggi",
         "description": "Scopri articoli rari ed edizioni limitate prima che siano esauriti.",
-        "buttons": [{"title": "Vedi tutto", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Vedi tutto",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "यूनीक",
         "description": "लिमिटेड एडिशन आर्ट टॉयज, डिज़ाइनर फिगर्स और एक्सक्लूसिव कलेक्टिबल्स का क्यूरेटेड संग्रह।<br/>अपना अगला खज़ाना खोजें।",
         "tip": "सीमित मात्रा - खत्म होने पर खत्म",
-        "buttons": [{"title": "अभी खरीदें", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "अभी खरीदें",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "दुनिया भर के 999+ कलेक्टर्स से जुड़ें",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "हीरो बैनर", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "हीरो बैनर",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "आज ही अपना संग्रह शुरू करें",
         "description": "स्टॉक खत्म होने से पहले दुर्लभ आइटम्स और लिमिटेड एडिशन खोजें।",
-        "buttons": [{"title": "सभी देखें", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "सभी देखें",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

@@ -60,6 +60,29 @@ const COUNTRIES = [
   { code: 'SG', name: 'Singapore' },
 ];
 
+function showPaymentRedirectOverlay() {
+  // Create a full-page overlay to prevent flash of homepage during AB站 redirect
+  const overlay = document.createElement('div');
+  overlay.id = 'payment-redirect-overlay';
+  overlay.style.cssText = `
+    position: fixed; inset: 0; z-index: 99999;
+    background: white; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+  `;
+  overlay.innerHTML = `
+    <div style="text-align: center;">
+      <div style="width: 48px; height: 48px; border: 3px solid #e5e7eb; border-top-color: #3b82f6;
+        border-radius: 50%; animation: oc-spin 0.8s linear infinite; margin: 0 auto 16px;"></div>
+      <h2 style="font-size: 18px; font-weight: 600; color: #1f2937; margin-bottom: 8px;">
+        Redirecting to payment...
+      </h2>
+      <p style="font-size: 14px; color: #6b7280;">Please wait, do not close this page.</p>
+    </div>
+    <style>@keyframes oc-spin { to { transform: rotate(360deg); } }</style>
+  `;
+  document.body.appendChild(overlay);
+}
+
 export function CheckoutForm() {
   const t = useTranslations('shop');
   const router = useRouter();
@@ -91,7 +114,11 @@ export function CheckoutForm() {
   // Redirect if no items (but not during active checkout/payment redirect)
   useEffect(() => {
     if (!cartLoading && items.length === 0 && !isSubmitting && !isCheckingOut) {
-      router.push('/');
+      // Small delay to avoid redirect race with payment redirect
+      const timer = setTimeout(() => {
+        if (!isCheckingOut) router.push('/');
+      }, 500);
+      return () => clearTimeout(timer);
     }
   }, [cartLoading, items.length, router, isSubmitting, isCheckingOut]);
 
@@ -244,13 +271,20 @@ export function CheckoutForm() {
         throw new Error(checkoutData.message);
       }
 
-      // Mark checkout as in progress before clearing cart
+      // Mark checkout as in progress before anything else
       // This prevents the useEffect from redirecting to '/' when cart becomes empty
       setIsCheckingOut(true);
 
-      // Redirect to Stripe checkout first, then clear cart
       if (checkoutData.data.checkoutUrl) {
+        // Clear cart before redirect
         clearCart();
+
+        // If redirecting to payment site (AB站), show a full-page loading overlay
+        // to avoid the flash of homepage
+        if (checkoutData.data.redirectToPaymentSite) {
+          showPaymentRedirectOverlay();
+        }
+
         window.location.href = checkoutData.data.checkoutUrl;
         return; // Stop execution — page is navigating away
       }

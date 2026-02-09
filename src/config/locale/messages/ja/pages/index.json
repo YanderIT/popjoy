@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "ユニーク",
         "description": "限定アートトイ、デザイナーフィギュア、エクスクルーシブコレクティブルの厳選コレクション。<br/>次の宝物を見つけよう。",
         "tip": "数量限定 - 売り切れたら終了です",
-        "buttons": [{"title": "今すぐ購入", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "今すぐ購入",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "世界中の999人以上のコレクターが参加",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "ヒーローバナー", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "ヒーローバナー",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "今日からコレクションを始めよう",
         "description": "売り切れる前にレアアイテムと限定版を発見。",
-        "buttons": [{"title": "すべてを見る", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "すべてを見る",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

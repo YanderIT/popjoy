@@ -134,9 +134,11 @@ export class R2Provider implements StorageProvider {
       const response = await client.fetch(request);
 
       if (!response.ok) {
+        const errorBody = await response.text().catch(() => '');
+        console.error(`[R2] Upload failed: ${response.status} ${response.statusText}`, errorBody);
         return {
           success: false,
-          error: `Upload failed: ${response.statusText}`,
+          error: `Upload failed with status ${response.status}: ${response.statusText}. ${errorBody}`,
           provider: this.name,
         };
       }

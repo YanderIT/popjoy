@@ -1,12 +1,16 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
         "block": "products",
         "title": "Featured Collection",
-        "description": "Discover our exclusive designer toys and limited edition collectibles."
+        "description": "Discover our exclusive designer toys and limited edition collectibles. (Free shipping on orders over $75)"
       },
       "hero": {
         "id": "hero",
@@ -14,20 +18,47 @@
         "highlight_text": "Unique",
         "description": "Curated collection of limited edition art toys, designer figures, and exclusive collectibles.<br/>Find your next treasure.",
         "tip": "Limited quantities - Once they're gone, they're gone",
-        "buttons": [{"title": "Shop Now", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Shop Now",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Join 999+ collectors worldwide",
         "show_award": false,
         "images": [
-          {"src": "/imgs/bg/cover2.png", "alt": "hero banner 2", "width": 1920, "height": 800, "link": "/shop/25343e0d-bf6f-48e0-87e9-31a8c8924e2c"},
-          {"src": "/imgs/bg/banner.png", "alt": "hero banner", "width": 1920, "height": 800, "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"}
+          {
+            "src": "/imgs/bg/cover2.png",
+            "alt": "hero banner 2",
+            "width": 1920,
+            "height": 800,
+            "link": "/shop/25343e0d-bf6f-48e0-87e9-31a8c8924e2c"
+          },
+          {
+            "src": "/imgs/bg/banner.png",
+            "alt": "hero banner",
+            "width": 1920,
+            "height": 800,
+            "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"
+          }
         ]
       },
       "cta": {
         "id": "cta",
         "title": "Start Your Collection Today",
         "description": "Discover rare finds and limited editions before they sell out.",
-        "buttons": [{"title": "Browse All", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Browse All",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

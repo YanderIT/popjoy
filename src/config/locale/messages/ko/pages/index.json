@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "유니크한",
         "description": "한정판 아트 토이, 디자이너 피규어, 독점 컬렉터블의 엄선된 컬렉션.<br/>다음 보물을 찾아보세요.",
         "tip": "수량 한정 - 품절되면 끝입니다",
-        "buttons": [{"title": "지금 쇼핑하기", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "지금 쇼핑하기",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "전 세계 999명 이상의 컬렉터와 함께",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "히어로 배너", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "히어로 배너",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "오늘 컬렉션을 시작하세요",
         "description": "품절되기 전에 희귀 아이템과 한정판을 발견하세요.",
-        "buttons": [{"title": "모두 보기", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "모두 보기",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

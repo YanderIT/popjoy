@@ -43,9 +43,62 @@ const formatBytes = (bytes?: number) => {
   return `${mb.toFixed(2)} MB`;
 };
 
+const MAX_UPLOAD_BYTES = 4 * 1024 * 1024; // 4MB - Vercel serverless limit
+
+const compressImage = async (file: File): Promise<File> => {
+  // Skip non-compressible formats or small files
+  if (file.size <= MAX_UPLOAD_BYTES) return file;
+  if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) return file;
+
+  return new Promise((resolve) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      const canvas = document.createElement('canvas');
+
+      // Scale down if very large
+      let { width, height } = img;
+      const maxDim = 2048;
+      if (width > maxDim || height > maxDim) {
+        const ratio = Math.min(maxDim / width, maxDim / height);
+        width = Math.round(width * ratio);
+        height = Math.round(height * ratio);
+      }
+
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d')!;
+      ctx.drawImage(img, 0, 0, width, height);
+
+      // Try decreasing quality until under limit
+      let quality = 0.85;
+      const tryCompress = () => {
+        canvas.toBlob(
+          (blob) => {
+            if (!blob) { resolve(file); return; }
+            if (blob.size <= MAX_UPLOAD_BYTES || quality <= 0.3) {
+              resolve(new File([blob], file.name, { type: 'image/jpeg' }));
+            } else {
+              quality -= 0.1;
+              tryCompress();
+            }
+          },
+          'image/jpeg',
+          quality
+        );
+      };
+      tryCompress();
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); resolve(file); };
+    img.src = url;
+  });
+};
+
 const uploadImageFile = async (file: File) => {
+  const compressed = await compressImage(file);
   const formData = new FormData();
-  formData.append('files', file);
+  formData.append('files', compressed);
 
   const response = await fetch('/api/storage/upload-image', {
     method: 'POST',

@@ -1,12 +1,16 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
         "block": "products",
         "title": "精选系列",
-        "description": "探索我们独家设计师玩具和限量版收藏品。"
+        "description": "探索我们独家设计师玩具和限量版收藏品。（满75美金包邮）"
       },
       "hero": {
         "id": "hero",
@@ -27,8 +31,20 @@
         "avatars_tip": "加入全球 999+ 收藏家行列",
         "show_award": false,
         "images": [
-          {"src": "/imgs/bg/cover2.png", "alt": "主横幅 2", "width": 1920, "height": 800, "link": "/shop/25343e0d-bf6f-48e0-87e9-31a8c8924e2c"},
-          {"src": "/imgs/bg/banner.png", "alt": "主横幅", "width": 1920, "height": 800, "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"}
+          {
+            "src": "/imgs/bg/cover2.png",
+            "alt": "主横幅 2",
+            "width": 1920,
+            "height": 800,
+            "link": "/shop/25343e0d-bf6f-48e0-87e9-31a8c8924e2c"
+          },
+          {
+            "src": "/imgs/bg/banner.png",
+            "alt": "主横幅",
+            "width": 1920,
+            "height": 800,
+            "link": "/shop/707ee36a-1481-440e-8760-5ad131a63d7f"
+          }
         ]
       },
       "cta": {
@@ -38,7 +54,7 @@
         "buttons": [
           {
             "title": "浏览全部",
-            "url": "#products",
+            "url": "/shop",
             "target": "_self",
             "icon": "Zap"
           }

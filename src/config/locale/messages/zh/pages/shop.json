@@ -9,7 +9,7 @@
       "products": {
         "id": "products",
         "title": "全部商品",
-        "description": "探索我们的独家设计师玩具和限量版收藏品。"
+        "description": "探索我们的独家设计师玩具和限量版收藏品。（满75美金包邮）"
       }
     }
   },
@@ -18,6 +18,7 @@
     "no_products": "该分类下暂无商品。",
     "products_count": "{count} 件商品",
     "add_to_cart": "加入购物车",
-    "view_all": "查看全部商品"
+    "view_all": "查看全部商品",
+    "home": "首页"
   }
 }

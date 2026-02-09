@@ -29,7 +29,7 @@ export function SignInForm({
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { configs } = useAppContext();
+  const { configs, setIsShowSignModal } = useAppContext();
 
   const isGoogleAuthEnabled = configs.google_auth_enabled === 'true';
   const isGithubAuthEnabled = configs.github_auth_enabled === 'true';
@@ -192,7 +192,7 @@ export function SignInForm({
         <div className="flex w-full justify-center border-t py-4">
           <p className="text-center text-xs text-neutral-500">
             {t('no_account')}
-            <Link href="/sign-up" className="underline">
+            <Link href="/sign-up" className="underline" onClick={() => setIsShowSignModal(false)}>
               <span className="cursor-pointer dark:text-white/70">
                 {t('sign_up_title')}
               </span>

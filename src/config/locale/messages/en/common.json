@@ -59,5 +59,6 @@
   "category_nav": {
     "more": "+{count} more",
     "collapse": "Collapse"
-  }
+  },
+  "home": "Home"
 }

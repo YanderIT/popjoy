@@ -125,6 +125,14 @@ export default async function CategoryShopPage({
     title: t('messages.all'),
     url: '/shop',
   });
+  // Add Home link before All
+  const tCommon = await getTranslations('common');
+  categories.unshift({
+    id: 'home',
+    slug: 'home',
+    title: tCommon('home'),
+    url: '/',
+  });
 
   // Build products
   const products: CategoryProduct[] = productsData.map((p: ProductWithSkus) => ({

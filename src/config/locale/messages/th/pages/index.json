@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "ไม่เหมือนใคร",
         "description": "คอลเลกชันคัดสรรของของเล่นศิลปะลิมิเต็ดเอดิชัน ฟิกเกอร์ดีไซเนอร์ และของสะสมสุดพิเศษ<br/>ค้นหาสมบัติชิ้นต่อไปของคุณ",
         "tip": "จำนวนจำกัด - หมดแล้วหมดเลย",
-        "buttons": [{"title": "ช้อปเลย", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "ช้อปเลย",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "เข้าร่วมกับนักสะสมกว่า 999 คนทั่วโลก",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "แบนเนอร์ฮีโร่", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "แบนเนอร์ฮีโร่",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "เริ่มคอลเลกชันของคุณวันนี้",
         "description": "ค้นพบไอเท็มหายากและลิมิเต็ดเอดิชันก่อนที่จะหมด",
-        "buttons": [{"title": "ดูทั้งหมด", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "ดูทั้งหมด",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }

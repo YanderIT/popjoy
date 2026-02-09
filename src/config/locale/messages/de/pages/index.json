@@ -1,6 +1,10 @@
 {
   "page": {
-    "show_sections": ["hero", "products", "cta"],
+    "show_sections": [
+      "hero",
+      "products",
+      "cta"
+    ],
     "sections": {
       "products": {
         "id": "products",
@@ -14,17 +18,37 @@
         "highlight_text": "einzigartige",
         "description": "Eine kuratierte Sammlung von limitierten Kunstspielzeugen, Designer-Figuren und exklusiven Sammlerstücken.<br/>Finden Sie Ihren nächsten Schatz.",
         "tip": "Limitierte Auflage - Wenn ausverkauft, dann ausverkauft",
-        "buttons": [{"title": "Jetzt einkaufen", "icon": "Zap", "url": "#products", "target": "_self", "variant": "default"}],
+        "buttons": [
+          {
+            "title": "Jetzt einkaufen",
+            "icon": "Zap",
+            "url": "#products",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
         "show_avatars": false,
         "avatars_tip": "Schließen Sie sich 999+ Sammlern weltweit an",
         "show_award": false,
-        "image": {"src": "https://picsum.photos/1920/800", "alt": "Hero-Banner", "width": 1920, "height": 800}
+        "image": {
+          "src": "https://picsum.photos/1920/800",
+          "alt": "Hero-Banner",
+          "width": 1920,
+          "height": 800
+        }
       },
       "cta": {
         "id": "cta",
         "title": "Starten Sie heute Ihre Sammlung",
         "description": "Entdecken Sie seltene Artikel und limitierte Auflagen, bevor sie ausverkauft sind.",
-        "buttons": [{"title": "Alle ansehen", "url": "#products", "target": "_self", "icon": "Zap"}],
+        "buttons": [
+          {
+            "title": "Alle ansehen",
+            "url": "/shop",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
         "className": "bg-muted"
       }
     }
