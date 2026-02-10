@@ -97,6 +97,7 @@ export function Products({
       className={cn('py-4 md:py-24', section.className, className)}
     >
       <div className="container">
+        {/* Desktop: full title + description */}
         <motion.div
           className="hidden md:block mb-12 text-center"
           initial={{ opacity: 0, y: 20 }}
@@ -111,6 +112,12 @@ export function Products({
             {section.description || t('common.featured_description')}
           </p>
         </motion.div>
+        {/* Mobile: description only */}
+        {section.description && (
+          <p className="md:hidden mb-3 text-center text-xs text-muted-foreground">
+            {section.description}
+          </p>
+        )}
 
         {loading ? (
           <div className="grid grid-cols-2 gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3">

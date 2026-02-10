@@ -103,6 +103,13 @@ export function CategoryProductsList({
           </p>
         </motion.div>
 
+        {/* Mobile: description only */}
+        {description && (
+          <p className="md:hidden mb-3 text-center text-xs text-muted-foreground">
+            {description}
+          </p>
+        )}
+
         {/* Category Navigation */}
         <motion.div
           className="mb-4 md:mb-12"
