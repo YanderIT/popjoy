@@ -233,6 +233,35 @@ export function CheckoutForm() {
     setIsSubmitting(true);
 
     try {
+      // Step 0: Save new address if user entered a new one
+      if (selectedAddressId === 'new') {
+        try {
+          const saveRes = await fetch('/api/user/address', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              recipientName: address.recipientName,
+              phone: address.phone,
+              country: address.country,
+              state: address.state || null,
+              city: address.city,
+              street: address.street,
+              postalCode: address.postalCode || null,
+              isDefault: savedAddresses.length === 0, // default if first address
+            }),
+          });
+          const saveData = await saveRes.json();
+          if (saveData.code === 0 && saveData.data?.id) {
+            // Update local state so it's available if user comes back
+            setSavedAddresses((prev) => [...prev, saveData.data]);
+            setSelectedAddressId(saveData.data.id);
+          }
+        } catch (e) {
+          // Don't block checkout if address save fails
+          console.error('Failed to save address:', e);
+        }
+      }
+
       // Step 1: Create shop order
       const orderRes = await fetch('/api/shop/order', {
         method: 'POST',
