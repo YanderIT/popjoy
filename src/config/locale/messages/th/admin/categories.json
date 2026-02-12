@@ -17,7 +17,9 @@
       "add": "เพิ่มหมวดหมู่",
       "edit": "แก้ไขหมวดหมู่",
       "view": "ดูหมวดหมู่",
-      "delete": "ลบหมวดหมู่"
+      "delete": "ลบหมวดหมู่",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "ทั้งหมด",
@@ -25,6 +27,10 @@
       "pending": "รอดำเนินการ",
       "draft": "ฉบับร่าง",
       "archived": "เก็บถาวร"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

@@ -17,7 +17,9 @@
       "add": "श्रेणी जोड़ें",
       "edit": "श्रेणी संपादित करें",
       "view": "श्रेणी देखें",
-      "delete": "श्रेणी हटाएं"
+      "delete": "श्रेणी हटाएं",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "सभी",
@@ -25,6 +27,10 @@
       "pending": "लंबित",
       "draft": "ड्राफ्ट",
       "archived": "संग्रहीत"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

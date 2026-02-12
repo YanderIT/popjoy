@@ -12,6 +12,8 @@ import {
 import { Button, Crumb } from '@/shared/types/blocks/common';
 import { type Table } from '@/shared/types/blocks/table';
 
+import { deleteCategoryAction } from './actions';
+
 export default async function CategoriesPage({
   params,
   searchParams,
@@ -70,6 +72,10 @@ export default async function CategoriesPage({
         name: 'action',
         title: '',
         type: 'dropdown',
+        metadata: {
+          cancelText: t('list.buttons.cancel'),
+          confirmText: t('list.buttons.confirm'),
+        },
         callback: (item: Taxonomy) => {
           return [
             {
@@ -77,6 +83,18 @@ export default async function CategoriesPage({
               title: t('list.buttons.edit'),
               icon: 'RiEditLine',
               url: `/admin/categories/${item.id}/edit`,
+            },
+            {
+              id: 'delete',
+              title: t('list.buttons.delete'),
+              icon: 'RiDeleteBinLine',
+              variant: 'destructive',
+              itemId: item.id,
+              onAction: deleteCategoryAction,
+              confirm: {
+                title: t('list.delete_confirm.title'),
+                description: t('list.delete_confirm.description'),
+              },
             },
           ];
         },

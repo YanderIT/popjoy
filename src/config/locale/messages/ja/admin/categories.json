@@ -17,7 +17,9 @@
       "add": "カテゴリーを追加",
       "edit": "カテゴリーを編集",
       "view": "カテゴリーを表示",
-      "delete": "カテゴリーを削除"
+      "delete": "カテゴリーを削除",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "すべて",
@@ -25,6 +27,10 @@
       "pending": "保留中",
       "draft": "下書き",
       "archived": "アーカイブ"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

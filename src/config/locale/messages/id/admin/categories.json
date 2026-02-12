@@ -17,7 +17,9 @@
       "add": "Tambah Kategori",
       "edit": "Edit Kategori",
       "view": "Lihat Kategori",
-      "delete": "Hapus Kategori"
+      "delete": "Hapus Kategori",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "Semua",
@@ -25,6 +27,10 @@
       "pending": "Tertunda",
       "draft": "Draf",
       "archived": "Diarsipkan"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

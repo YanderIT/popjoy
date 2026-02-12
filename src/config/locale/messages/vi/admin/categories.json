@@ -17,7 +17,9 @@
       "add": "Thêm danh mục",
       "edit": "Sửa danh mục",
       "view": "Xem danh mục",
-      "delete": "Xóa danh mục"
+      "delete": "Xóa danh mục",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "Tất cả",
@@ -25,6 +27,10 @@
       "pending": "Đang chờ",
       "draft": "Bản nháp",
       "archived": "Đã lưu trữ"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

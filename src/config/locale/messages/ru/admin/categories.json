@@ -17,7 +17,9 @@
       "add": "Добавить категорию",
       "edit": "Редактировать категорию",
       "view": "Просмотр категории",
-      "delete": "Удалить категорию"
+      "delete": "Удалить категорию",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "Все",
@@ -25,6 +27,10 @@
       "pending": "Ожидает",
       "draft": "Черновик",
       "archived": "В архиве"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {

@@ -17,7 +17,9 @@
       "add": "Aggiungi categoria",
       "edit": "Modifica categoria",
       "view": "Visualizza categoria",
-      "delete": "Elimina categoria"
+      "delete": "Elimina categoria",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "tabs": {
       "all": "Tutto",
@@ -25,6 +27,10 @@
       "pending": "In attesa",
       "draft": "Bozza",
       "archived": "Archiviato"
+    },
+    "delete_confirm": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone."
     }
   },
   "add": {
