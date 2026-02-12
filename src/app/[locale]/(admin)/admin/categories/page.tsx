@@ -6,6 +6,7 @@ import { TableCard } from '@/shared/blocks/table';
 import {
   getTaxonomies,
   getTaxonomiesCount,
+  TaxonomyStatus,
   TaxonomyType,
   type Taxonomy,
 } from '@/shared/models/taxonomy';
@@ -44,9 +45,11 @@ export default async function CategoriesPage({
 
   const total = await getTaxonomiesCount({
     type: TaxonomyType.CATEGORY,
+    status: TaxonomyStatus.PUBLISHED,
   });
   const data = await getTaxonomies({
     type: TaxonomyType.CATEGORY,
+    status: TaxonomyStatus.PUBLISHED,
     page,
     limit,
   });
